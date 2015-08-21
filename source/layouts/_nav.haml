@@ -1,0 +1,24 @@
+.contain-to-grid.nav-wrapper
+  %nav.top-bar{'data-topbar' => '', :role => 'navigation'}
+    %ul.title-area
+      %li.name
+        %h1
+          %a{href: '/'}= data.config.title
+      %li.toggle-topbar.menu-icon
+        %a{href: '#'}
+          %span
+    - if data.config.social.twitter
+      %ul.left.twitter
+        %li
+          %a.twitter{href: "http://twitter.com/#{data.config.social.twitter}", target: '_blank'}
+            %i.fi-social-twitter
+
+    %section.top-bar-section
+      / Right Nav Section
+      %ul.right
+        %li
+          %a{href: '/articles'} Articles
+        %li
+          %a{href: '/photos'} Photos
+        %li
+          %a{href: '/about'} About

@@ -1,0 +1,20 @@
+{
+  "name": "adamfortuna.com",
+  "version": "0.0.1",
+  "authors": [
+    "Adam Fortuna <adam@fortuna.name>"
+  ],
+  "license": "MIT",
+  "homepage": "http://adamfortuna.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "foundation-icon-fonts": "*"
+  }
+}
