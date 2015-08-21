@@ -1,7 +1,0 @@
----
-title: Japan
-date: 2015-08-17 02:20 UTC
-tags: Trip, Personal
----
-
-Some text here.

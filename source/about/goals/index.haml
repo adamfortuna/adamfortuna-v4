@@ -1,7 +1,9 @@
 ---
 title: Goals
+layout: about
 ---
 
+= partial 'about/breadcrumbs', locals: { current: 'Goals' }
 
 .row
   .large-12.columns
@@ -14,18 +16,19 @@ title: Goals
     %li Familiar with React.js
     %li Familiar with Foundation
     %li
-      Familiar with Neo4j
+      %strike Familiar with Neo4j
       %span.is-completed 2015
     %li
       %strike Teach a course at Code School
-      %span
-        %a{href: '/japan'} 2012 - Rspec
-        ,
-        %a{href: '/japan'} 2013 - Try jQuery
-        ,
-        %a{href: '/japan'} 2014 - Warming Up With Ember.js
-        ,
-        %a{href: '/japan'} 2015 - Blasting Off With Bootstrap
+      %ul
+        %li
+          %a{href: '/japan'} 2013 - Try jQuery
+        %li
+          %a{href: '/japan'} 2014 - Warming Up With Ember.js
+        %li
+          %a{href: '/japan'} 2015 - Blasting Off With Bootstrap
+        %li
+          PHP/MySQL? Foundation? D3? Angular 2?
     %li
       %strike Speak at a Major Conference
       %span.is-completed

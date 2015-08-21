@@ -1,18 +1,38 @@
 ---
 title: About
+layout: about
 ---
 
-.row
-  .large-12.columns
-    %h1 About page
-    %ul
-      %li
-        %a{href: '/about/goals'} Goals
-      %li
-        %a{href: '/about/orlando'} Orlando
-      %li
-        %a{href: '/about/tools'} Tools I Use
-      %li
-        %a{href: '/about/books'} Books
-      %li
-        %a{href: '/about/codeschool'} Code School
+= partial 'shared/title' do
+  %h1 About page
+
+= partial 'shared/content' do
+  %p
+    Hey there. I’m Adam Fortuna, a developer living in Orlando, Florida who codes mostly in the Ruby/JavaScript world.
+    This site is a collection of whatever I'm interested in -- from dev posts to photos to random thoughts.
+    Here’s a few areas of interest that inspire what I write about.
+
+  %h2 Random Things
+  %ul
+    %li
+      %a{href: '/about/goals'} Goals
+    %li
+      %a{href: '/about/orlando'} Orlando
+    %li
+      %a{href: '/about/tools'} Tools I Use
+    %li
+      %a{href: '/about/books'} Books
+    %li
+      %a{href: '/about/codeschool'} Code School
+
+  %h2 More Randomness
+  %ul
+    %li Loves trying new restaurants and food trucks
+    %li Have a cute girlfriend and dog
+    %li Mac obsessed geek
+    %li Casual console and arcade gamer
+    %li Beginning gardener
+    %li Home beer brewer
+    %li Sci-fi, fantasy and anime and general movie fan
+    %li Big Sci-fi book reader
+    %li CrossFit member

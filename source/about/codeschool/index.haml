@@ -1,7 +1,16 @@
 ---
 title: Code School
+layout: about
 ---
-  
-.row
-  .large-12.columns
-    %h1 Code School
+
+= partial 'about/breadcrumbs', locals: { current: 'Code School' }
+
+%h1 Code School
+%p
+  In 2011, I decided to quit my job without a new one lined up. As luck would have it, I fell into a job with a number old coworkers of mine and other developers I knew from the
+  = link_to 'Orlando Ruby User Group', 'http://www.meetup.com/Orlando-Ruby/'
+  who had recently launched
+  = link_to 'Rails For Zombies', 'http://railsforzombies.org/'
+  \. This went so well that they decided to take it a step farther and start this site called
+  = link_to 'Code School', 'https://www.codeschool.com/'
+  \. I stopped by their office for an in person beta test of a new product they were launched and ended up staying.

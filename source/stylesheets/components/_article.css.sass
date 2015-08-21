@@ -1,0 +1,15 @@
+article
+  h2
+    font-size: 26px
+    margin: 1em 0 .5em
+    position: relative
+
+  .content
+    clear: both
+    color: #404851
+
+    p, ul
+      clear: both
+      @include grid-row
+      >
+        @include grid-column($columns: 8, $offset: 2, $last-column: true, $collapse: true)

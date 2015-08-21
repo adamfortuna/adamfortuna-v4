@@ -1,0 +1,29 @@
+@keyframes shimmy {
+  0%, 30%, 70%, 100% {
+    transform: rotate(0deg);
+  }
+  40% { transform: rotate(20deg); }
+  50% { transform: rotate(-20deg); }
+  60% { transform: rotate(20deg); }
+}
+
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.animated {
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -ms-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -moz-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}

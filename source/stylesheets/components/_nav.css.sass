@@ -1,15 +1,40 @@
 .nav-wrapper
-  border-top: 4px solid $darker-blue
+  border-top: 5px solid $darker-blue
+
   .title-area
-    a
-      &:hover
-        color: $white
+    h1
+      a
+        transition: color 0.4s
+        &:hover
+          color: $white
   .twitter
-    left: -18px
+    left: -15px
     position: relative
-    font-size: 20px
+    font-size: 22px
 
     a
       color: $lighter-blue
+      position: relative
       &:hover
         color: $white
+        span
+          visibility: visible
+          opacity: 1
+          left: 22px
+      span
+        position: absolute
+        font-size: rem-calc(14)
+        visibility: hidden
+        opacity: 0
+        transition: 0.3s
+        top: 3px
+        left: 16px
+  .links
+    a
+      position: relative
+      transition: color 0.4s, background-color 0.4s
+      &:hover
+        i
+          animation: shimmy 1.6s ease-in-out infinite
+      i
+        padding-right: 3px

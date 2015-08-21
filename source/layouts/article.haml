@@ -1,0 +1,13 @@
+= wrap_layout :layout do
+  %article
+    = partial 'shared/title' do
+      %h1= current_article.title
+      %span.meta
+        Written
+        = current_article.date.strftime('%B %e, %Y')
+        in
+        = current_article.tags.join(', ')
+    .row
+      = partial 'shared/author'
+      .medium-8.columns.medium-offset-2
+        = yield

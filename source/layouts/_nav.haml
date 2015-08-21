@@ -1,4 +1,4 @@
-.contain-to-grid.nav-wrapper
+.nav-wrapper
   %nav.top-bar{'data-topbar' => '', :role => 'navigation'}
     %ul.title-area
       %li.name
@@ -12,13 +12,19 @@
         %li
           %a.twitter{href: "http://twitter.com/#{data.config.social.twitter}", target: '_blank'}
             %i.fi-social-twitter
+            %span @adamfortuna
 
     %section.top-bar-section
-      / Right Nav Section
-      %ul.right
+      %ul.right.links
         %li
-          %a{href: '/articles'} Articles
+          %a{href: '/about'}
+            %i.fi-torso
+            About
         %li
-          %a{href: '/photos'} Photos
+          %a{href: '/articles'}
+            %i.fi-book
+            Articles
         %li
-          %a{href: '/about'} About
+          %a{href: '/photos'}
+            %i.fi-camera
+            Photos

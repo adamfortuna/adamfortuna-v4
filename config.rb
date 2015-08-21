@@ -31,17 +31,17 @@ end
 # ====================================
 activate :blog do |blog|
   blog.name = 'articles'
-  blog.layout = 'article_layout'
   blog.prefix = 'articles'
   blog.permalink = '{title}'
 end
+page "articles/*", :layout => :article
+page "articles", :layout => :layout
 
 # ====================================
 #   Photos
 # ====================================
 activate :blog do |blog|
   blog.name = 'photos'
-  blog.layout = 'photo_layout'
   blog.prefix = 'photos'
   blog.permalink = '{title}'
 end
@@ -68,6 +68,13 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :fonts_dir, 'fonts'
+
+
+set :markdown_engine, :kramdown
+set :markdown, :layout_engine => :haml,
+               :tables        => true,
+               :autolink      => true,
+               :smartypants   => true
 
 # ====================================
 #   Build Configuration
