@@ -1,3 +1,5 @@
+require 'lib/kramdown'
+
 # ====================================
 #   Compass
 # ====================================
@@ -45,6 +47,8 @@ activate :blog do |blog|
   blog.prefix = 'photos'
   blog.permalink = '{title}'
 end
+page "photos/*", :layout => :photo
+page "photos", :layout => :layout
 
 # ====================================
 #   Helpers
@@ -71,10 +75,14 @@ set :fonts_dir, 'fonts'
 
 
 set :markdown_engine, :kramdown
-set :markdown, :layout_engine => :haml,
-               :tables        => true,
-               :autolink      => true,
-               :smartypants   => true
+set :markdown, :input              => 'AFM',
+               :layout_engine      => :haml,
+               :tables             => true,
+               :autolink           => true,
+               :smartypants        => true,
+               :gh_blockcode       => true,
+               :fenced_code_blocks => true,
+               :af_gallery         => true
 
 # ====================================
 #   Build Configuration

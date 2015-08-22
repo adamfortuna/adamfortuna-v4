@@ -3,6 +3,45 @@ title: Tools
 layout: about
 ---
 
+= partial 'shared/title' do
+  %h1 Tools I Use
+  %p.subtitle Hardware, Software and for Fun
+
 = partial 'about/breadcrumbs', locals: { current: 'Tools I Use' }
 
-%h1 Tools
+= partial 'shared/content' do
+  %h2 Hardware
+  %p I do all of my development on a Macbook Pro (10,1) Retina, Mid 2012. Even at 3 years old, this laptop is the best computer I've ever owned.
+  %p
+    %b LAPTOP
+
+  %h3 Camera
+  %p
+    In 2014, I decided it was finally time to get a good camera. After lots of research, I settled on the
+    = succeed "." do
+      %a{ href: 'http://www.amazon.com/Fujifilm-Mirrorless-Digital-3-0-Inch-Resistant/dp/B00HYAL88W'} Fuji XT-1
+    What I love about this camera is that everything has a manual dial on the top, making it amazing for learning and experimentation. It's also weather resistant, which means it can get mildly wet and undergo temperature changes like a champ.
+  %p
+    %b CAMERA
+
+  %p
+    I got a little carried away learning about different lenses, exposure and anything I've been able to get my hands on related to photography. This has caused me to pick up much more gear than I really need. Here's the damage so far:
+  %p
+    %b LENSES
+  %ul
+    %li Fujifilm 23mm f/1.4 Lens
+    %li Fujifilm 27mm f/2.8 Lens
+    %li Fujifilm 56mm f/1.2 Lens
+    %li Fujifilm 18-135 f/3.5-5.6 Weather Resistant Lens
+  %p So far, the 23mm lens has been been my go-to for great wide shots when walking around. The 18-135 has been the most used for being able to frame and learn. And the 56mm has been great for portraits, night shooting and experimenting with bokeh.
+
+  %h2 Software
+
+  %h3 Programming
+  %ul
+    %li Atom
+
+
+  %h3 Services
+  %ul
+    %li Slack

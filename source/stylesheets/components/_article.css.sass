@@ -4,12 +4,19 @@ article
     margin: 1em 0 .5em
     position: relative
 
-  .content
-    clear: both
-    color: #404851
 
-    p, ul
-      clear: both
-      @include grid-row
-      >
-        @include grid-column($columns: 8, $offset: 2, $last-column: true, $collapse: true)
+  .wrap--p,
+  .wrap--h2,
+  .wrap--h3,
+  .wrap--ul
+    clear: both
+    @include grid-row
+    > p,
+    > ul,
+    > h2,
+    > h3
+      @include grid-column($columns: 8, $offset: 2, $last-column: true, $collapse: true)
+
+  .wrap--gallery
+    clear: both
+    @include grid-row

@@ -1,7 +1,0 @@
----
-title: Rome
-date: 2015-08-10 02:20 UTC
-tags: Trip, Personal
----
-
-Some text here about rome.
