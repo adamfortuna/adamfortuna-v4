@@ -37,7 +37,16 @@ In 2008 I made the switch from Windows (Vista) to Mac OS X (Snow Leopard at the 
 
 ### Programming
 
-* Google Chrome
+@left
+![Google Chrome](/images/tools/chrome.png)
+@
+
+### Google Chrome
+
+So useful
+
+
+
 * Atom
 * Terminal
 

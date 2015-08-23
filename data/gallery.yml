@@ -2,47 +2,46 @@ url: http://localhost:4567
 galleries: data/galleries/**/*.yml
 
 versions:
-  compressed:
+  full:
     commands:
-      - resize: "2500>x2500>"
-      - quality: "90"
-  thumbs:
+      resize: "2500>x2500>"
+      quality: "90"
+  col-3:
+    default:
+      height: 244
+      width: 273
+      crop: true
     commands:
-      - thumbnail: "100x100^"
-      - crop: "100x100-0x0"
-  resized:
+      gravity: center
+  col-4:
+    default:
+      height: 244
+      width: 370
+      crop: true
     commands:
-      - resize: "1170x100^"
-  col-6-tall:
+      gravity: center
+  col-5:
+    default:
+      height: 244
+      width: 468
+      crop: true
     commands:
-      - resize: "585x"
-      - gravity: center
-      - crop: "x975^-0x0"
+      gravity: center
+  col-6:
+    default:
+      height: 350
+      width: 565
+      crop: true
+    commands:
+      gravity: center
+  col-9:
+    default:
+      height: 244
+      width: 890
+      crop: true
+    commands:
+      gravity: center
   col-12:
     commands:
-      - resize: "1170x100^"
-      - quality: "90"
-  col-9:
-    commands:
-      - resize: "878x100^"
-      - gravity: center
-      - crop: "890x244-0x0"
-  col-6:
-    commands:
-      - thumbnail: "585x100^"
-      - crop: "597x350-0x0"
-  col-5:
-    commands:
-      - resize: "487^x300"
-      - gravity: center
-      - crop: "488x244-0x0"
-  col-4:
-    commands:
-      - resize: "x300"
-      - gravity: center
-      - crop: "395x244-0x0"
-  col-3:
-    commands:
-      - resize: "487^x300"
-      - gravity: center
-      - crop: "285x244-0x0"
+      resize: "1170x100^"
+      quality: "90"

@@ -11,8 +11,9 @@ module Kramdown
 
       def initialize(source, options)
         super
-        @block_parsers.insert(0, :gallery)
         @block_parsers.insert(0, :inline_gallery)
+        @block_parsers.insert(0, :gallery)
+        @block_parsers.insert(0, :side)
       end
 
       # A Gallery object
@@ -26,9 +27,9 @@ module Kramdown
         if gallery = @src.check(self.class::GALLERY_MATCH)
           @src.pos += @src.matched_size
           start_line_number = @src.current_line_number
-          content = gallery.match(self.class::GALLERY_MATCH)[1]
+          content = @src[1]
           gallery_options = YAML.load(content)
-          add_gallery(gallery_options)
+          add_gallery({ gallery: gallery_options})
         else
           false
         end
@@ -59,6 +60,24 @@ module Kramdown
         @tree.children << el
         true
       end
+
+      SIDE_START = /^@(left|right)\n/
+      SIDE_MATCH = /^@(left|right)\n(.*?)^@\n/m
+      define_parser(:side, SIDE_START)
+      def parse_side
+        if @src.check(self.class::SIDE_MATCH)
+          @src.pos += @src.matched_size
+          start_line_number = @src.current_line_number
+
+
+          content = Kramdown::Document.new(@src[2], input: 'AFM').to_html
+          el = new_block_el(:side, {direction: @src[1], content: content}, nil, :category => :block, :location => @src.current_line_number)
+          @tree.children << el
+          true
+        else
+          false
+        end
+      end
     end
   end
 end
@@ -70,7 +89,7 @@ module Middleman
     class MiddlemanKramdownHTML < ::Kramdown::Converter::Html
       def convert_p(el, indent)
         content = inner(el, indent)
-        %(<div class='wrap--p'><p>#{content}</p></div>)
+        %(<section class='wrap--p'><p>#{content}</p></section>)
       end
 
       def convert_header(el, indent)
@@ -82,7 +101,7 @@ module Middleman
         level = output_header_level(el.options[:level])
         content = format_as_block_html("h#{level}", attr, inner(el, indent), indent)
 
-        %(<div class='wrap--h#{level}'>#{content}</div>)
+        %(<section class='wrap--h#{level}'>#{content}</section>)
       end
 
       def convert_ul(el, indent)
@@ -95,22 +114,23 @@ module Middleman
           format_as_indented_block_html(el.type, el.attr, inner(el, indent), indent)
         end
 
-        %(<div class='wrap--#{el.type}'>#{content}</div>)
+        %(<section class='wrap--#{el.type}'>#{content}</section>)
       end
 
       def convert_gallery(el, indent)
         el.value = el.value.with_indifferent_access
-        files = el.value.is_a?(Array) ? el.value : el.value[:gallery]
+        items = el.value.is_a?(Array) ? el.value : el.value[:gallery]
+        path = el.value[:path]
 
-        content = files.collect do |image|
-          image = image.with_indifferent_access
-          column_class = image[:version] ? "large-#{columns_for_version(image[:version])} medium-#{columns_for_version(image[:version])} columns" : ''
-          src = image[:src] ? image[:src] : url_for_image(el.value[:path], image)
+        content = items.collect do |gallery_item|
+          gallery_item = gallery_item.with_indifferent_access
+          gallery_item['files'] ? generate_row(path, gallery_item) : generate_image(path, gallery_item)
+        end
+        %(<section class='gallery'>#{content.join("\n")}</section>)
+      end
 
-          "<li class='#{column_class}'><img src='#{src}' alt='#{image[:alt]}' /></li>"
-        end.join("\n")
-
-        %(<div class='wrap--gallery'><ul class='gallery no-bullet large-12'>#{content}</ul></div>)
+      def convert_side(el, indent)
+        %(<section class='pull-#{el.value[:direction]}'>#{el.value[:content]}</section>)
       end
 
       def columns_for_version(version)
@@ -118,13 +138,50 @@ module Middleman
       end
 
       def version_file image
-        image[:file].gsub(/\.([^\.]+)$/, '-'+image[:version]+'.\1')
+        if image[:version] == 'full'
+          image[:file].gsub(/\.([^\.]+)$/, '-compressed.\1')
+        else
+          image[:file].gsub(/\.([^\.]+)$/, '-'+image[:version]+'.\1')
+        end
       end
 
       def url_for_image path, image
         path = File.join('galleries', path, 'resized', version_file(image))
         "http://localhost:4000/#{path}"
       end
+
+      def src_for path, image
+        src = image[:src] ? image[:src] : url_for_image(path, image)
+      end
+
+      def column_class_for image
+        if image[:version] == 'full'
+          return 'full'
+        else
+          columns = columns_for_version(image[:version])
+          return "large-#{columns} medium-#{columns} columns"
+        end
+      end
+
+      def generate_image path, image
+        src = src_for(path, image)
+        <<-PIC
+          <picture class='#{column_class_for(image)}'>
+           <source srcset="#{src}" media="(min-width: 600px)">
+           <img src="#{src}" alt="#{image[:alt]}">
+          </picture>
+        PIC
+      end
+
+      def generate_row path, row
+        items = row[:files].collect do |file|
+          file = file.with_indifferent_access
+          generate_image(path, file)
+        end
+
+        %(<div class='row'>#{items.join("\n")}</div>)
+      end
+
     end
   end
 end
