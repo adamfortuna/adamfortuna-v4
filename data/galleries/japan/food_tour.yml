@@ -1,0 +1,49 @@
+---
+- file: tempura.jpg
+  version: col-12
+  alt: A few of the tempura options available. Not the crispy you see in the west, but a softer with a cod batter.
+- file: croquette.jpg
+  version: col-3
+  alt: Freshly fried croquette. I chose squash as my flavor.
+- file: tempura_stand.jpg
+  version: col-5
+  alt: A view of the tempura stand. Alone on a street with a small crowd.
+- file: bonito.jpg
+  version: col-4
+  alt: Bonito (dried, fermented fish) at a bonito store.
+- file: pancackes_and_takoyaki.jpg
+  version: col-12
+  alt: Freshly made stuffed pancakes and takoyaki.
+- file: 30_watermelon.jpg
+  version: col-4
+  alt: $30 for a watermelon seems a bit expensive.
+- file: sampler_plate.jpg
+  version: col-5
+  alt: A sampler plate of various Japanese staples.
+- file: sweet_potato_pancake.jpg
+  version: col-3
+  alt: I went with the sweet potato pancake. Marilyn had the sakura stuffed version.
+- file: egg_stuffed_with_eel.jpg
+  version: col-6
+  alt: Egg omlet stuffed with eel.
+- file: sushi_plate.jpg
+  version: col-6
+  alt: Small sampler from the fish vendor. The squid coated my mouth in a way different from any squid I've tried.
+- file: fish_vendor.jpg
+  version: col-12
+  alt: All fish was trucked in this morning.
+- file: pickels.jpg
+  version: col-4
+  alt: Kyoto is famous for its pickles.
+- file: tea_sweet_rice.jpg
+  version: col-5
+  alt: Roasted green tea and green tea sweets.
+- file: characters.jpg
+  version: col-3
+  alt: Japan loves their characters. These were the characters for the market we were in.
+- file: teahouse_hallway.jpg
+  version: col-6-tall
+  alt: Hallway outside of the teahouse.
+- file: tea_boxes.jpg
+  version: col-6-tall
+  alt: 100 year old boxes for storing tea.

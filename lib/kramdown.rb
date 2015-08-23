@@ -4,12 +4,15 @@ require 'yaml'
 module Kramdown
   module Parser
     class AFM < Kramdown::Parser::GFM
-      GALLERY_START = /^@gallery/
+      GALLERY_START = /^@gallery\n/
       GALLERY_MATCH = /^@gallery\n(.*?)^@\n/m
+
+      INLINE_GALLERY = /^@gallery\s+(.*?)\s*?\n/
 
       def initialize(source, options)
         super
         @block_parsers.insert(0, :gallery)
+        @block_parsers.insert(0, :inline_gallery)
       end
 
       # A Gallery object
@@ -25,16 +28,37 @@ module Kramdown
           start_line_number = @src.current_line_number
           content = gallery.match(self.class::GALLERY_MATCH)[1]
           gallery_options = YAML.load(content)
-
-          # Create a new `ul` for this gallery
-          el = new_block_el(:gallery, gallery_options, nil, :category => :block, :location => @src.current_line_number)
-          @tree.children << el
-          true
+          add_gallery(gallery_options)
         else
           false
         end
       end
       define_parser(:gallery, GALLERY_START)
+
+      def parse_inline_gallery
+        if gallery = @src.check(self.class::INLINE_GALLERY)
+          @src.pos += @src.matched_size
+          start_line_number = @src.current_line_number
+
+          file_name = @src[1]
+          path = File.join(Dir.pwd, 'data', 'galleries', @src[1]) + ".yml"
+          content = File.read(path)
+          gallery_options = YAML.load(content)
+
+          # Create a new `ul` for this gallery
+          add_gallery({ path: @src[1], gallery: gallery_options})
+        else
+          false
+        end
+      end
+      define_parser(:inline_gallery, INLINE_GALLERY)
+
+
+      def add_gallery gallery
+        el = new_block_el(:gallery, gallery, nil, :category => :block, :location => @src.current_line_number)
+        @tree.children << el
+        true
+      end
     end
   end
 end
@@ -75,10 +99,31 @@ module Middleman
       end
 
       def convert_gallery(el, indent)
-        content = el.value.collect do |image|
-          "<li><img src='#{image['src']}' alt='#{image['alt']}' /></li>"
-        end
-        %(<div class='wrap--gallery'><ul class='large-12'>#{content.join('\n')}</ul></div>)
+        el.value = el.value.with_indifferent_access
+        files = el.value.is_a?(Array) ? el.value : el.value[:gallery]
+
+        content = files.collect do |image|
+          image = image.with_indifferent_access
+          column_class = image[:version] ? "large-#{columns_for_version(image[:version])} medium-#{columns_for_version(image[:version])} columns" : ''
+          src = image[:src] ? image[:src] : url_for_image(el.value[:path], image)
+
+          "<li class='#{column_class}'><img src='#{src}' alt='#{image[:alt]}' /></li>"
+        end.join("\n")
+
+        %(<div class='wrap--gallery'><ul class='gallery no-bullet large-12'>#{content}</ul></div>)
+      end
+
+      def columns_for_version(version)
+        version.gsub('col-', '').gsub('-tall', '')
+      end
+
+      def version_file image
+        image[:file].gsub(/\.([^\.]+)$/, '-'+image[:version]+'.\1')
+      end
+
+      def url_for_image path, image
+        path = File.join('galleries', path, 'resized', version_file(image))
+        "http://localhost:4000/#{path}"
       end
     end
   end

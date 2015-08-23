@@ -1,9 +1,11 @@
+- year = nil
 .row
-  .large-12
-
-    - blog('photos').articles[0...5].each do |article|
-      %article
-        %h1
-          %a{:href => article.url}= article.title
-          %time= article.date.strftime('%b %e %Y')
-        = article.summary
+  - blog('photos').articles.each do |article|
+    - if year != article.date.year
+      - year = article.date.year
+      .year.small-2.medium-3
+        %h2.small-1.columns= year
+    %article.small-10.small-offset-2.medium-6.medium-offset-3.columns.clearfix
+      %h1
+        %a{:href => article.url}= article.title
+      %time= article.date.strftime('%b %e %Y')

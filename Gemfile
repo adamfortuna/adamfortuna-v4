@@ -8,8 +8,12 @@ gem 'middleman-blog'
 
 
 # Windows does not come with time zone data
-gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
+gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 gem 'haml'
-
 gem 'pry'
+
+# Gallery
+gem 'rake', '~> 0.9'
+gem 'fastimage'
+gem 'mini_magick'

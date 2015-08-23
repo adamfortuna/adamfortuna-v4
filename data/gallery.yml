@@ -1,0 +1,48 @@
+url: http://localhost:4567
+galleries: data/galleries/**/*.yml
+
+versions:
+  compressed:
+    commands:
+      - resize: "2500>x2500>"
+      - quality: "90"
+  thumbs:
+    commands:
+      - thumbnail: "100x100^"
+      - crop: "100x100-0x0"
+  resized:
+    commands:
+      - resize: "1170x100^"
+  col-6-tall:
+    commands:
+      - resize: "585x"
+      - gravity: center
+      - crop: "x975^-0x0"
+  col-12:
+    commands:
+      - resize: "1170x100^"
+      - quality: "90"
+  col-9:
+    commands:
+      - resize: "878x100^"
+      - gravity: center
+      - crop: "890x244-0x0"
+  col-6:
+    commands:
+      - thumbnail: "585x100^"
+      - crop: "597x350-0x0"
+  col-5:
+    commands:
+      - resize: "487^x300"
+      - gravity: center
+      - crop: "488x244-0x0"
+  col-4:
+    commands:
+      - resize: "x300"
+      - gravity: center
+      - crop: "395x244-0x0"
+  col-3:
+    commands:
+      - resize: "487^x300"
+      - gravity: center
+      - crop: "285x244-0x0"

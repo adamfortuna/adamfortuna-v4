@@ -9,6 +9,7 @@
 
 # Ignore the build directory
 /build
+/galleries
 
 # Ignore cache
 /.sass-cache
