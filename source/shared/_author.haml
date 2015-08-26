@@ -1,14 +1,16 @@
-.medium-2.columns.right.author.pull-right
+.author.pull-right
   %img{src: "/images/adam-fortuna.png", alt: "Adam Fortuna"}
   %p
     Adam Fortuna is a developer who lives in
-    = link_to 'Orlando, FL', '/about/orlando'
-    \.
+    = succeed '.' do
+      = link_to 'Orlando, FL', '/about/orlando'
     I work at
-    = link_to 'Code School', '/about/codeschool'
-    , listen to a lot of
-    = link_to 'audiobooks', '/about/audiobooks'
-    , set way too many
+    = succeed ',' do
+      = link_to 'Code School', '/about/codeschool'
+    listen to a lot of
+    = succeed ',' do
+      = link_to 'audiobooks', '/about/audiobooks'
+    sets way too many
     = link_to 'goals', '/about/goals'
     and
     = link_to 'tweet', 'http://twitter.com/adamfortuna'

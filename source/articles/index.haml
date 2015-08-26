@@ -1,11 +1,33 @@
+= partial 'shared/title' do
+  %h1 Articles
+  %p.subtitle
+    Personal in
+    = succeed "," do
+      %span.category--personal blue
+    technical in
+    = succeed "." do
+      %span.category--technical green
+
 - year = nil
-.row
-  - blog('articles').articles.each do |article|
-    - if year != article.date.year
+- blog('articles').articles.each do |article|
+  - if year != article.date.year
+    .row.for-year
       - year = article.date.year
-      .year.small-2.medium-3
-        %h2.small-1.columns= year
-    %article.small-10.small-offset-2.medium-6.medium-offset-3.columns.clearfix
-      %h1
-        %a{:href => article.url}= article.title
-      %time= article.date.strftime('%b %e %Y')
+      .medium-2.columns.medium-offset-1
+        %h1.year= year
+      .articles--list.medium-9.columns
+        - blog('articles').articles.each do |article|
+          - if article.date.year == year
+            .row{ class: article_classes(article) }
+              %a.medium-12.columns{:href => article.url}
+                %span.article-title= article.title
+                %p.meta
+                  %span.tags
+                    - if article.tags.length > 1
+                      Tagged with
+                      = succeed '.' do
+                        = tags_for_article(article.tags)
+                  %time
+                    Written on
+                    = succeed "." do
+                      = article.date.strftime('%B %e %Y')

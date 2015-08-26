@@ -3,19 +3,55 @@ article
     font-size: 26px
     margin: 1em 0 .5em
     position: relative
+  .row
+    position: relative
 
+    > .wrap,
+    > .highlight
+      @include grid-row
+      > p,
+      > ul,
+      > h2,
+      > h3,
+      > h4,
+      > blockquote,
+        @include grid-column($columns: 8, $offset: 2, $last-column: true, $collapse: true)
+      table
+        @include grid-column($columns: 10, $offset: 1, $last-column: true, $collapse: true)
 
-  > .wrap--p,
-  > .wrap--h2,
-  > .wrap--h3,
-  > .wrap--ul
-    clear: both
+      > blockquote
+        .wrap
+          margin: 0
+          max-width: auto
+          width: auto
+          p
+            width: auto
+            margin-left: 2em !important
+
+  > .wrap
     @include grid-row
     > p,
     > ul,
     > h2,
-    > h3
+    > h3,
+    > h4,
+    > blockquote
       @include grid-column($columns: 8, $offset: 2, $last-column: true, $collapse: true)
+
+    > blockquote
+      .wrap
+        margin: 0
+        max-width: auto
+        width: auto
+        p
+          width: auto
+          margin-left: 2em !important
+
+  ul,
+  ol
+    list-style-position: inside
+    p
+      margin-bottom: 0
 
   .wrap--gallery
     clear: both

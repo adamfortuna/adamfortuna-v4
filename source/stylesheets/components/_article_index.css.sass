@@ -1,0 +1,39 @@
+.title
+  .category--technical
+    font-weight: bold
+    color: lighten($text-color-professional, 20%)
+  .category--personal
+    font-weight: bold
+    color: lighten($text-color-personal, 50%)
+
+.for-year
+  margin-bottom: 1em
+
+.articles--list
+  .row
+    margin-bottom: 10px
+    a
+      font-weight: bold
+      border: 1px solid $white
+      border-radius: 5px
+      transition: 0.3s
+      padding: 1em 1em 0.5em 1em
+      line-height: 1.8em
+      .article-title
+        font-size: 2.4em
+      .meta
+        color: #999
+        font-size: 0.9em
+        margin: 0
+    &.article-tag--personal
+      a
+        color: $text-color-personal
+        &:hover
+          background-color: lighten($text-color-personal, 50%)
+          color: darken($text-color-personal, 10%)
+    &.article-tag--technical
+      a
+        color: $text-color-professional
+        &:hover
+          background-color: lighten($text-color-professional, 20%)
+          color: darken($text-color-professional, 20%)

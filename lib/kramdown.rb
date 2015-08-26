@@ -13,7 +13,7 @@ module Kramdown
         super
         @block_parsers.insert(0, :inline_gallery)
         @block_parsers.insert(0, :gallery)
-        @block_parsers.insert(0, :side)
+        @block_parsers.insert(0, :pull)
       end
 
       # A Gallery object
@@ -61,23 +61,23 @@ module Kramdown
         true
       end
 
-      SIDE_START = /^@(left|right)\n/
-      SIDE_MATCH = /^@(left|right)\n(.*?)^@\n/m
-      define_parser(:side, SIDE_START)
-      def parse_side
-        if @src.check(self.class::SIDE_MATCH)
+      PULL_START = /^@pull/
+      PULL_MATCH = /^@pull\s+([a-z]+)\n(.*?)^@\n/m
+      def parse_pull
+        if @src.check(self.class::PULL_MATCH)
           @src.pos += @src.matched_size
           start_line_number = @src.current_line_number
 
 
           content = Kramdown::Document.new(@src[2], input: 'AFM').to_html
-          el = new_block_el(:side, {direction: @src[1], content: content}, nil, :category => :block, :location => @src.current_line_number)
+          el = new_block_el(:pull, {direction: @src[1], content: content}, nil, :category => :block, :location => @src.current_line_number)
           @tree.children << el
           true
         else
           false
         end
       end
+      define_parser(:pull, PULL_START)
     end
   end
 end
@@ -89,7 +89,12 @@ module Middleman
     class MiddlemanKramdownHTML < ::Kramdown::Converter::Html
       def convert_p(el, indent)
         content = inner(el, indent)
-        %(<section class='wrap--p'><p>#{content}</p></section>)
+        %(<section class='wrap'><p>#{content}</p></section>)
+      end
+
+      def convert_blockquote(el, indent)
+        content = format_as_indented_block_html(el.type, el.attr, inner(el, indent), indent)
+        %(<section class='wrap'>#{content}</section>)
       end
 
       def convert_header(el, indent)
@@ -101,7 +106,7 @@ module Middleman
         level = output_header_level(el.options[:level])
         content = format_as_block_html("h#{level}", attr, inner(el, indent), indent)
 
-        %(<section class='wrap--h#{level}'>#{content}</section>)
+        %(<section class='wrap wrap--h#{level}'>#{content}</section>)
       end
 
       def convert_ul(el, indent)
@@ -114,7 +119,7 @@ module Middleman
           format_as_indented_block_html(el.type, el.attr, inner(el, indent), indent)
         end
 
-        %(<section class='wrap--#{el.type}'>#{content}</section>)
+        %(<section class='wrap'>#{content}</section>)
       end
 
       def convert_gallery(el, indent)
@@ -129,8 +134,8 @@ module Middleman
         %(<section class='gallery'>#{content.join("\n")}</section>)
       end
 
-      def convert_side(el, indent)
-        %(<section class='pull-#{el.value[:direction]}'>#{el.value[:content]}</section>)
+      def convert_pull(el, indent)
+        %(<div class='pull-#{el.value[:direction]}'>#{el.value[:content]}</div>)
       end
 
       def columns_for_version(version)
@@ -139,7 +144,7 @@ module Middleman
 
       def version_file image
         if image[:version] == 'full'
-          image[:file].gsub(/\.([^\.]+)$/, '-compressed.\1')
+          image[:file].gsub(/\.([^\.]+)$/, '-full.\1')
         else
           image[:file].gsub(/\.([^\.]+)$/, '-'+image[:version]+'.\1')
         end

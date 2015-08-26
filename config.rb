@@ -34,7 +34,7 @@ end
 activate :blog do |blog|
   blog.name = 'articles'
   blog.prefix = 'articles'
-  blog.permalink = '{title}'
+  blog.permalink = '{permalink}'
 end
 page "articles/*", :layout => :article
 page "articles", :layout => :layout
@@ -73,7 +73,7 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :fonts_dir, 'fonts'
 
-
+set :haml, { ugly: true }
 set :markdown_engine, :kramdown
 set :markdown, :input              => 'AFM',
                :layout_engine      => :haml,
@@ -83,6 +83,8 @@ set :markdown, :input              => 'AFM',
                :gh_blockcode       => true,
                :fenced_code_blocks => true,
                :af_gallery         => true
+
+activate :syntax, :line_numbers => true
 
 # ====================================
 #   Build Configuration

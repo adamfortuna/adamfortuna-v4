@@ -5,7 +5,7 @@ gem 'middleman-autoprefixer'
 gem 'middleman-livereload'
 gem 'middleman-minify-html'
 gem 'middleman-blog'
-
+gem 'middleman-syntax'
 
 # Windows does not come with time zone data
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]

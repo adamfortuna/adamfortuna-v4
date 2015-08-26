@@ -9,5 +9,6 @@
         = current_article.tags.join(', ')
     .row
       = partial 'shared/author'
-      .medium-8.columns.medium-offset-2
-        = yield
+
+    .row
+      = yield
