@@ -1,4 +1,16 @@
-%header.title
-  .row
-    .medium-10.columns.medium-offset-2
-      = yield
+- offset ||= 2
+- columns = 12 - offset
+
+- if (defined? image) && image
+  - content_for :pageClasses, 'has-title-image'
+
+  %header.image.title{ style: "background: url(#{image}) no-repeat top center; min-height: #{height}px;" }
+    .wrap{ style: "min-height: #{height}px;" }
+      .row
+        .columns{ class: "medium-#{columns} medium-offset-#{offset}"}
+          = yield
+- else
+  %header.title
+    .row
+      .columns{ class: "medium-#{columns} medium-offset-#{offset}"}
+        = yield

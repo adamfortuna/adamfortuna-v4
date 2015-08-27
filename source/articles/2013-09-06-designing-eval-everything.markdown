@@ -6,6 +6,8 @@ tags: Technical, Design
 permalink: designing-eval-everything
 ---
 
+_Update: This post was originally published on evaleverything.com, a now retired blog I created to host my technology posts. The content has since been moved here._
+
 I'm not a designer. My last attempt at design was my [personal blog][] ([screenshot for posterity][]), which is far from a masterpiece. When starting this blog, I decided it was time to put some of what I've learned from the design talent at [Code School][] to use and see if my eye had improved.
 
 ## Octopress
@@ -15,11 +17,11 @@ First step was going with [Octopress][] and by extension [Jekyll][]. My last blo
 Rather than starting from the default theme and making tweaks, I everything away and started writing the HTML and Sass from scratch, which is something Octopress makes incredibly easy.
 
 
-{% pullside left %}
-![Assembling Sass](/images/posts/designing-eval-everything/sass.png){: .icon}
-{% endpullside %}
-
 ## Sass
+
+@pull left
+![Assembling Sass](http://localhost:4000/galleries/articles/designing-eval-everything/sass.png){: .icon}
+@
 
 Sass is the language of choice for the designers at Code School. Specifically the sass style syntax, not the scss style. Code School and each course we do uses Sass, which has slowly built up my confidence in the subject.
 
@@ -29,31 +31,31 @@ I dug into the Ruby Sass gem to help build out the technical side of our Sass co
 
 [Nick Walsh][] and [Drew Barontini][] put together [MVCSS][] which we use on all projects through [Envy Labs][] and Code School. Here's how they describe MVCSS:
 
-{% blockquote MVCSS http://mvcss.github.io/ %}
-MVCSS is a Sass-based CSS architecture for creating predictable and maintainable application style.
-{% endblockquote %}
+
+> MVCSS is a Sass-based CSS architecture for creating predictable and maintainable application style.
+<a href='http://mvcss.github.io/'>MVCSS</a>
 
 MVCSS is less of framework that you use, and more of a way of organizing your files and markup in a predictable manner. Although I'm not following all of the guidelines, the ones I am following do make things easier to maintain.
 
-{% pullside left %}
-![Fundamentals of Design](/images/posts/designing-eval-everything/design.png){: .icon}
-{% endpullside %}
-
 ## Fundamentals of Design
+
+@pull left
+![Fundamentals of Design](http://localhost:4000/galleries/articles/designing-eval-everything/design.png){: .icon}
+@
 
 In early August, Code School released a very different type of course called [Fundamentals of Design][] taught by [Tim Dikun][]. This course hammers in 3 specific topics: typography, color and layout. Like most developers (and most people), I can view a design and have a reaction that it's good or off somehow. Usually though, I have no idea why it is off, or what I could do to improve it. That's where this course fit in -- providing a bit of background on the topic.
 
-{% pullside right %}
+@pull right
 This site uses the [Droid Sans](http://www.google.com/fonts/specimen/Droid+Sans) font.
-{% endpullside %}
+@
 
 For instance, I've never put much effort into choosing fonts. After going through this course I had a bit more confidence in choosing a font that might better match the content. I settled on [Droid Sans], one of the fonts mentioned in the course, and available for free on Google Fonts. It is apparently a **Humanist Sans Serif** font, which according to the course, is great for government or educational applications (I'll try to stay educational).
 
 ## Ruby
 
-{% pullside right %}
+@pull right
 Want to see how these little pullouts are done? [View the plugin](https://github.com/adamfortuna/evaleverything.com/blob/source/plugins/pullside.rb).
-{% endpullside %}
+@
 
 It's not design, but a little ruby goes a long ways to filling in the gaps. It's dead simple to write plugins that will tie into the Markdown templating to add a bit of style if needed, like with the side pullouts used here. There are a bunch of others bundled with Octopress that are all basic Ruby and easy to understand if you want to see how something is formed.
 
@@ -68,9 +70,9 @@ For the most part, Bootstrap is used only for the layout at this point. Ideally 
 
 ## Write Your First 3 Posts
 
-{% pullside left %}
+@pull left
 Things like this will standout if you design around your content.
-{% endpullside %}
+@
 
 For me it was impossible to know everything I needed from a design standpoint until writing a few posts. I started out with some sample filler text, but quickly realized it was missing a number of features.
 
@@ -97,7 +99,7 @@ This will create the `@media` query needed for this setup. I'm sure as I rip out
 
 
 [personal blog]:http://blog.adamfortuna.com/
-[screenshot for posterity]:/images/posts/designing-eval-everything/blog-adamfortuna-com.png
+[screenshot for posterity]:http://localhost:4000/galleries/articles/designing-eval-everything/blog-adamfortuna-com.png
 [Code School]:http://codeschool.com
 [Octopress]: http://octopress.org/
 [Jekyll]:http://github.com/mojombo/jekyll

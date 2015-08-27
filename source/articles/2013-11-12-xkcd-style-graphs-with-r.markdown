@@ -11,9 +11,9 @@ Even still, the data set was amazing -- over a hundred thousand people participa
 
 ## Getting Started with R
 
-{% pullside left %}
-![Try R](/images/codeschool/try-r.png){: .icon}
-{% endpullside %}
+@pull left
+![Try R](http://localhost:4000/galleries/codeschool/try-r.png){: .icon}
+@
 
 I got my introduction to R when writing the JavaScript/HTML front-end for Code Schools [Try R](http://tryr.codeschool.com) course. [Jay McGavren](https://twitter.com/jaymcgavren) did an amazing job on the content. I still laugh thinking about finding the mean number of limbs in a group of pirates who had obviously been through some hard times.
 
@@ -21,9 +21,9 @@ Try R is still one of my favorite Code School courses. It's free, and only takes
 
 ## (Re)Learnings Statistics
 
-{% pullside right %}
+@pull right
 Coursera has some amazing courses on statistics.
-{% endpullside %}
+@
 
 Like most people, I took some statistics in college, but don't use too much of it on a daily basis. Lucky for me, [Coursera](http://coursera.org/) has some amazing stats classes. The one I ended up going through was called [Statistics: Making Sense of Data](https://class.coursera.org/introstats-001/class), which hit close to what I was wanting to learn.
 
@@ -67,11 +67,11 @@ boxplot(Score~Experience, range=0,  main='WOD 13.1 By Experience (Women)')
 
 This pulled up an easy to understand Boxplot.
 
-{% pullside right %}
+@pull right
 Statistical proof I'm bad at CrossFit
-{% endpullside %}
+@
 
-![Experience](/images/xkcd-style-graphs-with-r/experience.png)
+![Experience](http://localhost:4000/galleries/articles/xkcd-style-graphs-with-r/experience.png)
 
 Each vertical box represents what 50% of the popuplation on that vertical achieved, with the line inside the boxplot representing the median for that segment. Seeing as how I'd been CrossFitting for 1-2 years, and only scored 100 on this workout, I was sad to see my score was in the bottom 25% for my group. I knew I had to look deeper to see how I compared.
 
@@ -149,7 +149,7 @@ p + xkcdaxis(xrange,yrange) +
 
 Running this in the R console, generates a pretty slick graph:
 
-![Experience](/images/xkcd-style-graphs-with-r/xkcd.png)
+![Experience](http://localhost:4000/galleries/articles/xkcd-style-graphs-with-r/xkcd.png)
 
 Even if I don't see myself creating loads of XKCD style graphs, getting one made was a lot of fun.
 If you're curious what else you can do with the XKCD library, check out the [documentation](http://cran.r-project.org/web/packages/xkcd/vignettes/xkcd-intro.pdf).

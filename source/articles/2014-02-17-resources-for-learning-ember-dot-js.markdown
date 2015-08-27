@@ -43,7 +43,7 @@ I'm a sucker for screencasts. I learned Ruby on Rails almost entirely by watchin
 Pluralsite (formerly Peepcode) has a pair of Ember.js videos which I watched early on when I was learning Ember.
 
 @pull right
-![Fire Up Ember.js](http://localhost:4000/galleries/resources-for-learning-ember-dot-js/peepcode-emberjs-cover.png)
+![Fire Up Ember.js](http://localhost:4000/galleries/articles/resources-for-learning-ember-dot-js/peepcode-emberjs-cover.png)
 @
 
 #### Fire Up Ember.js
@@ -79,7 +79,7 @@ The [Heretical Guide to Ember JS](http://gilesbowkett.blogspot.co.uk/2013/06/her
 ### Ember.js in Action
 
 @pull left
-![Ember.js in Action](http://localhost:4000/galleries/resources-for-learning-ember-dot-js/ember_in_action.jpg){: .icon}
+![Ember.js in Action](http://localhost:4000/galleries/articles/resources-for-learning-ember-dot-js/ember_in_action.jpg){: .icon}
 @
 
 

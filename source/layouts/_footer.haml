@@ -1,5 +1,27 @@
 %footer
   .row
-    .large-3.columns
+    .medium-offset-2.medium-3.columns
       %h2 About
-      %p Personal blog for Adam Fortuna, a web developer living in Orlando, FL. I Program, CrossFit, play ping pong and ultimate frisbee and love trying new food.
+      %p
+        Personal blog for Adam Fortuna, a web developer living in
+        = succeed '.' do
+          %a{href: '/about/orlando'} Orlando, FL
+        I Program,
+        = succeed ',' do
+          %a{href: '/articles/crossfit'} CrossFit
+        play ping pong and ultimate frisbee and love trying new food.
+    .medium-1.medium-offset-1.columns.end
+      %h2 Links
+      %ul.no-bullet
+        %li
+          %a{ href: '/photos'} About
+        %li
+          %a{ href: '/articles'} Articles
+        %li
+          %a{ href: '/photos'} Photos
+    .medium-2.medium-offset-1.columns.end
+      %h2 Contact
+      %p
+        Want to get in touch? The best way is to message me on
+        = succeed '.' do
+          %a{ href: 'http://twitter.com/adamfortuna' } Twitter

@@ -6,21 +6,17 @@ permalink: response-streams-with-rails-4
 tags: Technical, Code School, Ruby, Rails, Redis
 ---
 
-If you're on the fence about updating an older application to use Rails 4, the addition of `ActionController::Live` might be helpful in making your decision a little easier. It enables keeping a connection open to your server, which can then respond with partial updates with ease. This bridges one of the bigger gaps that causes people to choose [node.js][] over Rails for projects.
+If you're on the fence about updating an older application to use Rails 4, the addition of `ActionController::Live` might be helpful in making your decision a little easier. It enables keeping a connection open to your server, which can then respond with partial updates with ease. This bridges one of the bigger gaps that causes people to choose [node.js](http://nodejs.org/) over Rails for projects.
 
 ## A Basic Redis Connection
 
-{% pullside right %}
+@pull right
 If you're looking for an intro, read Aarons post.
-{% endpullside %}
+@
 
-Aaron Patterson wrote a great post about [Live Streaming in Rails][], over a year ago, but the interface is mostly the same today. That post is still a good starting point for `ActionController::Live`.
+Aaron Patterson wrote a great post about [Live Streaming in Rails](http://tenderlovemaking.com/2012/07/30/is-it-live.html), over a year ago, but the interface is mostly the same today. That post is still a good starting point for `ActionController::Live`.
 
-I first ran into the subject when working on Code School's [Rails 4: Zombie Outlaws][] course where the last level is all about streaming, with a mention towards the end about using it in cooperation with Redis. The example we show in that
-
-{% pullside left code %}
-If you connected to this endpoint in a browser, it'd load forever and occasionally send back responses to the browser
-{% endpullside %}
+I first ran into the subject when working on Code School's [Rails 4: Zombie Outlaws](http://rails4.codeschool.com/) course where the last level is all about streaming, with a mention towards the end about using it in cooperation with Redis. If you connected to this endpoint in a browser, it'd load forever and occasionally send back responses to the browser
 
 ```ruby
 class ActivitiesController < ApplicationController
@@ -47,7 +43,7 @@ end
 Here's a quick recap of what's going on:
 
 
-* We're using [Puma][] which allows for concurrent connections to the server.
+* We're using [Puma](https://github.com/puma/puma) which allows for concurrent connections to the server.
 * We create a new connection to Redis. This is important because when we call `psubscribe`, that connection is locked, and can't do anything else.
 * Use `psubscribe` to subscribe to all messages for this user by using an expression. Elsewhere in the application, we are `publish`ing messages to this same channel.
 * When a message is received, it's passed down to the client. In this case we're passing down JSON.
@@ -58,11 +54,11 @@ Here's a quick recap of what's going on:
 
 If you wrote the above code and opened up that action in a browser, it would actually work fine -- until you tried to load the page again. At that point there would be two connections open from the servers standpoint, but only one active. This is due to the fact that the server doesn't know that the client disconnected.
 
-{% pullside right code %}
+@pull right
 Good discussion at github/rails on this issue
-{% endpullside %}
+@
 
-That `IOError` error isn't triggered when the client disconnects as you might expect, but instead when the server attempts to write to the `response.stream` only to find that it is no longer active. Turns out this is a [well discussed problem][] That leaves us with a few options on how to test if the client has disconnected:
+That `IOError` error isn't triggered when the client disconnects as you might expect, but instead when the server attempts to write to the `response.stream` only to find that it is no longer active. Turns out this is a [well discussed problem](https://github.com/rails/rails/issues/10989) That leaves us with a few options on how to test if the client has disconnected:
 
 * Have the server connection timeout every minute or so. (If you're on Heroku, my guess is this will automatically happen)
 * Ping the client every few seconds to see if they are still there.
@@ -70,12 +66,7 @@ That `IOError` error isn't triggered when the client disconnects as you might ex
 
 ## A Working Solution
 
-I ran into a [StackOverflow][] post on this exact topic, which lead to _a_ working solution for this.
-
-
-{% pullside left code %}
-This solution follows the "ping" method.
-{% endpullside %}
+I ran into a [StackOverflow](http://stackoverflow.com/questions/14268690/actioncontrollerlive-is-it-possible-to-check-if-connection-is-still-alive) post on this exact topic, which lead to _a_ working solution for this. This solution follows the "ping" method.
 
 ```ruby
 class ActivitiesController < ApplicationController
@@ -122,12 +113,4 @@ If you set this up to run in a `before` filter, and do any database communicatio
 
 ## Update
 
-For an example of how this technique is used, read the post on [Teaching iOS 7 at Code School](/2013/10/04/teaching-ios-7-at-codeschool/). This post details the user experience that can be achieved using response streams.
-
-
-[node.js]: http://nodejs.org/
-[Live Streaming in Rails]: http://tenderlovemaking.com/2012/07/30/is-it-live.html
-[Rails 4: Zombie Outlaws]: http://rails4.codeschool.com/
-[well discussed problem]: https://github.com/rails/rails/issues/10989
-[Puma]: https://github.com/puma/puma
-[StackOverflow]: http://stackoverflow.com/questions/14268690/actioncontrollerlive-is-it-possible-to-check-if-connection-is-still-alive
+For an example of how this technique is used, read the post on [Teaching iOS 7 at Code School](/articles/teaching-ios7-at-codeschool/). This post details the user experience that can be achieved using response streams.

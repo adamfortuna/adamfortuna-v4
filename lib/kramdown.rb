@@ -121,6 +121,7 @@ module Middleman
 
         %(<section class='wrap'>#{content}</section>)
       end
+      alias :convert_ol :convert_ul
 
       def convert_gallery(el, indent)
         el.value = el.value.with_indifferent_access

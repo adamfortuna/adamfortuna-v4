@@ -1,8 +1,7 @@
 ---
-layout: post
 title: 2013 Year in Review
 permalink: 2013-year-in-review
-comments: true
+date: 01/01/2014
 tags: Personal, Goals
 ---
 
@@ -21,9 +20,9 @@ I didn't travel all that much this year. The biggest trips were Rails Conf and W
 
 The most random event this year was Distant Worlds. Marilyn and I were discussing "What musical acts would you absolutely love to see that you haven't?" and I mentioned Nobuo Uematsu, the composer behind the Final Fantasy games. After looking to see if he had a tour coming up, there was one in Miami 2 months out. Considering he's only performed in the US 10 times in 10+ years, we really lucked out!
 
-{% pullside right %}
+@pull right
 If you like movies, I'd encourage you to create a [Letterboxd](http://letterboxd.com/) account and friend me!
-{% endpullside %}
+@
 
 * Saw a [load of movies](http://letterboxd.com/adamfortuna/year/2013/), my favorites for the year being: Somm, Gravity and Stoker
 * Went to the Florida Film Festival Premiere, followed by seeing a number of awesome movies
@@ -49,9 +48,9 @@ If you like movies, I'd encourage you to create a [Letterboxd](http://letterboxd
 * Ran in a [Warrior Dash](https://twitter.com/adamfortuna/status/297775932167553024) outside of Orlando with a few friends. Muddy and cold, but a load of fun
 * Running around Lake Eola in downtown Orlando after work occasionally when not too hot out
 
-{% pullside right %}
+@pull right
 The FitBit is awesome, but it doesn't understand how much I hate wall balls.
-{% endpullside %}
+@
 
 * Got a FitBit for Christmas, with the hope of monitoring my sleep patterns and general fitness. When I keep track of things, they generally get better.
 
@@ -59,9 +58,9 @@ The FitBit is awesome, but it doesn't understand how much I hate wall balls.
 
 Worked at [Envy Labs](http://envylabs.com) entirely on [Code School](http://codeschool.com) all year long. My main focus has been on putting out awesome courses and trying to improve education through technology.
 
-{% pullside right %}
+@pull right
 Work mantra: always ask "What Would Bret Victor Do?"
-{% endpullside %}
+@
 
 * Changed job titles to "Technical Director at Code School", whatever that means.
 * Helped released a ton of Code School courses over the last year. A total of 17 went out in 2013
@@ -73,9 +72,9 @@ Work mantra: always ask "What Would Bret Victor Do?"
 
 I tend to remember amazing meals far longer than I probably should. Here's a few that stand out.
 
-{% pullside right %}
+@pull right
 Having coffee at Victoria & Alberts is a magical experience.
-{% endpullside %}
+@
 
 * Went to [Victoria & Alberts](http://victoria-alberts.com/) restaurant with Marilyn for our Anniversary
 * Had a great birthday dinner with Cask and Larder with Marilyn, my Dad and Paige
@@ -88,9 +87,9 @@ Having coffee at Victoria & Alberts is a magical experience.
 
 ## Personal
 
-{% pullside right %}
+@pull right
 Seriously, the little girl in the Piano lesson after mine is soo much better than me.
-{% endpullside %}
+@
 
 * Bought an electric piano and started taking lessons every week. Still not very good, but making progress
 * Cleaned out and organized the garage and attic to where we actually know where things are

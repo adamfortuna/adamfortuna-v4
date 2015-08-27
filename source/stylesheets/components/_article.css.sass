@@ -1,3 +1,10 @@
+.article--technical
+  article
+    a
+      color: $text-color-professional-dark !important
+      &:hover
+        color: $text-color-professional-hover !important
+
 article
   h2
     font-size: 26px
@@ -11,13 +18,14 @@ article
       @include grid-row
       > p,
       > ul,
+      > ol,
       > h2,
       > h3,
       > h4,
       > blockquote,
-        @include grid-column($columns: 8, $offset: 2, $last-column: true, $collapse: true)
+        @include grid-column($columns: 7, $offset: 2, $last-column: true, $collapse: true)
       table
-        @include grid-column($columns: 10, $offset: 1, $last-column: true, $collapse: true)
+        @include grid-column($columns: 7, $offset: 2, $last-column: true, $collapse: true)
 
       > blockquote
         .wrap
@@ -32,6 +40,7 @@ article
     @include grid-row
     > p,
     > ul,
+    > ol,
     > h2,
     > h3,
     > h4,

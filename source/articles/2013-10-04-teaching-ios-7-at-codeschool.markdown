@@ -13,27 +13,21 @@ This week we released the result of that experience.
 
 Up to this point, every Code School course has used an in browser editor. This simple interaction makes sense for learning a new topic from scratch. You don't need to install anything on your local system, and you can see what it's like to develop in a sandbox. After you've learned the ropes, you want a taste of programming in the real world. [Eric Allam](https://twitter.com/eallam) thought there could be a better way to pull this off.
 
-<div class='pull-left'>
-  <p>
-    <img src='http://localhost:4000/galleries/codeschool/core-ios-7.png' class='icon' />
-  </p>
-</div>
+@pull left
+![Core iOS 7](http://localhost:4000/galleries/codeschool/core-ios-7.png)
+@
 
 [Core iOS 7](http://ios7.codeschool.com) goes a different path. After watching a video on a topic, you'll be prompted to download a zip file. Unzip this file and you'll have an entire Xcode project, with a unique identifier in it that Code School uses to identify you. In this project you complete a series of tasks, then run the tests in Xcode. The results of which are sent to the course, and you see the results in your browser.
 
 The easiest way to see how this all fits together is the 10 second video Eric created for the [Code School Blog](http://blog.codeschool.com/post/62915764253/introducing-core-ios-7).
 
-<div class='pull-right'>
-  <p>
-    For a more elaborate take on this course, check out the Eric's post on the
-    <a href='http://blog.codeschool.com/post/62915764253/introducing-core-ios-7'> Code School Blog</a>.
-  </p>
-</div>
-
+@pull right
+For a more elaborate take on this course, check out the Eric's post on the [Code School Blog](http://blog.codeschool.com/post/62915764253/introducing-core-ios-7).
+@
 
 <div class='row'>
-  <div class='medium-8 medium-offset-2 columns'>
-    <iframe src="//player.vimeo.com/video/75897272" width="100%" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <div class='medium-7 medium-offset-2 columns'>
+    <iframe src="//player.vimeo.com/video/75897272" width="100%" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
   </div>
 </div>
 
