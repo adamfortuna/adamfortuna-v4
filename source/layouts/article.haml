@@ -12,3 +12,4 @@
     .row
       = partial 'shared/author'
       = yield
+      = partial 'shared/comments', locals: { commentable: current_article }
