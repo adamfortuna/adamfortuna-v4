@@ -152,8 +152,7 @@ module Middleman
       end
 
       def url_for_image path, image
-        path = File.join('galleries', path, 'resized', version_file(image))
-        "http://localhost:4000/#{path}"
+        File.join('/', 'images', 'galleries', path, 'resized', version_file(image))
       end
 
       def src_for path, image

@@ -20,7 +20,7 @@ Rather than starting from the default theme and making tweaks, I everything away
 ## Sass
 
 @pull left
-![Assembling Sass](http://localhost:4000/galleries/articles/designing-eval-everything/sass.png){: .icon}
+![Assembling Sass](/images/galleries/articles/designing-eval-everything/sass.png){: .icon}
 @
 
 Sass is the language of choice for the designers at Code School. Specifically the sass style syntax, not the scss style. Code School and each course we do uses Sass, which has slowly built up my confidence in the subject.
@@ -40,7 +40,7 @@ MVCSS is less of framework that you use, and more of a way of organizing your fi
 ## Fundamentals of Design
 
 @pull left
-![Fundamentals of Design](http://localhost:4000/galleries/articles/designing-eval-everything/design.png){: .icon}
+![Fundamentals of Design](/images/galleries/articles/designing-eval-everything/design.png){: .icon}
 @
 
 In early August, Code School released a very different type of course called [Fundamentals of Design][] taught by [Tim Dikun][]. This course hammers in 3 specific topics: typography, color and layout. Like most developers (and most people), I can view a design and have a reaction that it's good or off somehow. Usually though, I have no idea why it is off, or what I could do to improve it. That's where this course fit in -- providing a bit of background on the topic.
@@ -99,7 +99,7 @@ This will create the `@media` query needed for this setup. I'm sure as I rip out
 
 
 [personal blog]:http://blog.adamfortuna.com/
-[screenshot for posterity]:http://localhost:4000/galleries/articles/designing-eval-everything/blog-adamfortuna-com.png
+[screenshot for posterity]:/images/galleries/articles/designing-eval-everything/blog-adamfortuna-com.png
 [Code School]:http://codeschool.com
 [Octopress]: http://octopress.org/
 [Jekyll]:http://github.com/mojombo/jekyll

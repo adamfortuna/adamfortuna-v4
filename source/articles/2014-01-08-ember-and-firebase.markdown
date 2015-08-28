@@ -8,7 +8,7 @@ tags: Technical, Javascript
 About 6 months ago I started learning Ember.js. The first few months I was spent reading the [Ember.js Guides](http://emberjs.com/guides/) (which are amazing by the day), and going through every screencast I could find. We had some Ember projects at work, but the main reason for learning it was to overcome some of the limitations and code clutter that was starting to present itself in more advanced Backbone.js applications.
 
 @pull left
-![Warming Up With Ember.js](http://localhost:4000/galleries/codeschool/ember.png){: .icon}
+![Warming Up With Ember.js](/images/galleries/codeschool/ember.png){: .icon}
 @
 
 Eventually, I lucked into being able to write the content of Code Schools December course, [Warming Up With Ember.js](https://www.codeschool.com/courses/warming-up-with-emberjs). In writing the content, I became very familiar with the core fundamentals of an Ember.js Application, but still hadn't built one that used any kind of server component.
@@ -24,7 +24,7 @@ Ideally, I wanted to build something that I could use to show what I've been rea
 ## Firebase
 
 @pull left
-![Firebase](http://localhost:4000/galleries/logos/firebase.png){: .icon}
+![Firebase](/images/galleries/logos/firebase.png){: .icon}
 @
 
 That's where [Firebase](https://www.firebase.com/) comes in. Firebase advertises itself first and foremost as an API for building realtime applications. For my use case that's not important, but what is important is covered nicely by Firebase.

@@ -3,7 +3,7 @@ title: "2 Years of CrossFit"
 date: 2013-11-01 12:04
 permalink: crossfit
 tags: Personal, Self Improvement
-header: http://localhost:4000/galleries/articles/2-years-of-crossfit/gym.png
+header: /images/galleries/articles/2-years-of-crossfit/gym.png
 header-height: 400
 ---
 
@@ -24,7 +24,7 @@ Box: Term for a local CrossFit affiliate
 So let's say you want to try out CrossFit. What should you expect? Well, after joining a local box, there's a period where you're learning an entire new vocabulary and trying new movements every week. I started slow, at only 2 days a week. 2 days a week is better than 0, and getting a sustainable routine is an important step.
 
 @gallery
-- src: http://localhost:4000/galleries/articles/2-years-of-crossfit/gym.png
+- src: /images/galleries/articles/2-years-of-crossfit/gym.png
   alt: Inside CrossFit Kings Point
   version: full
 @
@@ -32,7 +32,7 @@ So let's say you want to try out CrossFit. What should you expect? Well, after j
 ### Your First Day
 
 @pull left
-![CrossFit Kings Point](http://localhost:4000/galleries/articles/2-years-of-crossfit/kingspoint.png){: .icon}
+![CrossFit Kings Point](/images/galleries/articles/2-years-of-crossfit/kingspoint.png){: .icon}
 @
 
 [CrossFit Kings Point][] and most CrossFit gyms start people off with some type of "On Ramp" program. The way it currently works is you come in for your initial workout and you're paired with a trainer in a small class, possibly even alone, and taken through all the exercises for the day. A typical workout might look something like this:

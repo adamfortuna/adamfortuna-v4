@@ -12,7 +12,7 @@ Even still, the data set was amazing -- over a hundred thousand people participa
 ## Getting Started with R
 
 @pull left
-![Try R](http://localhost:4000/galleries/codeschool/try-r.png){: .icon}
+![Try R](/images/galleries/codeschool/try-r.png){: .icon}
 @
 
 I got my introduction to R when writing the JavaScript/HTML front-end for Code Schools [Try R](http://tryr.codeschool.com) course. [Jay McGavren](https://twitter.com/jaymcgavren) did an amazing job on the content. I still laugh thinking about finding the mean number of limbs in a group of pirates who had obviously been through some hard times.
@@ -71,7 +71,7 @@ This pulled up an easy to understand Boxplot.
 Statistical proof I'm bad at CrossFit
 @
 
-![Experience](http://localhost:4000/galleries/articles/xkcd-style-graphs-with-r/experience.png)
+![Experience](/images/galleries/articles/xkcd-style-graphs-with-r/experience.png)
 
 Each vertical box represents what 50% of the popuplation on that vertical achieved, with the line inside the boxplot representing the median for that segment. Seeing as how I'd been CrossFitting for 1-2 years, and only scored 100 on this workout, I was sad to see my score was in the bottom 25% for my group. I knew I had to look deeper to see how I compared.
 
@@ -149,7 +149,7 @@ p + xkcdaxis(xrange,yrange) +
 
 Running this in the R console, generates a pretty slick graph:
 
-![Experience](http://localhost:4000/galleries/articles/xkcd-style-graphs-with-r/xkcd.png)
+![Experience](/images/galleries/articles/xkcd-style-graphs-with-r/xkcd.png)
 
 Even if I don't see myself creating loads of XKCD style graphs, getting one made was a lot of fun.
 If you're curious what else you can do with the XKCD library, check out the [documentation](http://cran.r-project.org/web/packages/xkcd/vignettes/xkcd-intro.pdf).

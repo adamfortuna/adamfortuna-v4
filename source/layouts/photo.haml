@@ -7,4 +7,8 @@
         = current_article.date.strftime('%B %e, %Y')
         in
         = current_article.tags.join(', ')
+
+    -# .row
+    -#   .medium-1.medium-offset-11.end.columns
+    -#     = partial 'shared/author'
     = yield

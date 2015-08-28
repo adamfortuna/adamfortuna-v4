@@ -1,0 +1,10 @@
+.photos
+  .pull-right,
+  .pull-left
+    width: auto
+
+  article
+    .wrap, > .highlight
+      @include grid-row
+      > p, > ul, > ol, > h2, > h3, > h4, > blockquote, table
+        @include grid-column($columns: 8, $offset: 2, $last-column: true, $collapse: true)

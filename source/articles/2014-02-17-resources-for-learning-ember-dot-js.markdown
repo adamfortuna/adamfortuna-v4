@@ -12,7 +12,7 @@ While the subject of learning Ember.js is still fresh my mind, I wanted to share
 ## Warming Up With Ember.js
 
 @pull left
-![Warming Up With Ember.js](http://localhost:4000/galleries/codeschool/ember.png){: .icon}
+![Warming Up With Ember.js](/images/galleries/codeschool/ember.png){: .icon}
 @
 
 I'll start at the end. This isn't what I used to learn Ember.js, but it is the result of everything I learned. In December of 2013, Code School released [Warming Up With Ember.js](https://www.codeschool.com/courses/warming-up-with-emberjs), a course which teaches Ember.js from scratch. It features over 100 minutes of video, with about as much time also doing in browser challenges. It's the result of much research, discussion and incorporates feedback from many people to create what I think is the best way to get started using Ember.js. It's the resource I wanted going in.
@@ -23,7 +23,7 @@ I lucked into being able to write the content of the course, in that I got to im
 ## Ember.js Main Site
 
 @pull left
-![Ember.js](http://localhost:4000/galleries/logos/ember.png){: .icon}
+![Ember.js](/images/galleries/logos/ember.png){: .icon}
 @
 
 After downloading the library from the [Emberjs.com](http://emberjs.com/), reading over some of the examples on the homepage helps understand what you can do with Ember. It might be too complicated to understand if you're just getting started, but going through the guides will help that.
@@ -43,7 +43,7 @@ I'm a sucker for screencasts. I learned Ruby on Rails almost entirely by watchin
 Pluralsite (formerly Peepcode) has a pair of Ember.js videos which I watched early on when I was learning Ember.
 
 @pull right
-![Fire Up Ember.js](http://localhost:4000/galleries/articles/resources-for-learning-ember-dot-js/peepcode-emberjs-cover.png)
+![Fire Up Ember.js](/images/galleries/articles/resources-for-learning-ember-dot-js/peepcode-emberjs-cover.png)
 @
 
 #### Fire Up Ember.js
@@ -79,7 +79,7 @@ The [Heretical Guide to Ember JS](http://gilesbowkett.blogspot.co.uk/2013/06/her
 ### Ember.js in Action
 
 @pull left
-![Ember.js in Action](http://localhost:4000/galleries/articles/resources-for-learning-ember-dot-js/ember_in_action.jpg){: .icon}
+![Ember.js in Action](/images/galleries/articles/resources-for-learning-ember-dot-js/ember_in_action.jpg){: .icon}
 @
 
 

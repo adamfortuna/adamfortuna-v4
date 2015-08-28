@@ -57,14 +57,14 @@ When the message is shown, there are also a few events that we can tie into for 
 Here's a few examples of how these notifications look in different browsers.
 
 @pull left
-![Safari](http://localhost:4000/galleries/icons/safari.png){: .icon}
+![Safari](/images/galleries/icons/safari.png){: .icon}
 @
 
 ### Safari
 
 For Safari notifications, you won't be able to provide an icon unfortunately. Instead it'll always use the Safari icon. It will also show the hostname where the notification came from though, which is unique to Safari.
 
-![Safari Notification](http://localhost:4000/galleries/articles/native-javascript-notifications/safari-notification-small.png)
+![Safari Notification](/images/galleries/articles/native-javascript-notifications/safari-notification-small.png)
 
 One of the nice parts of this notification is that it will sync up with your other notifications. For instance, if you have one notification from Xcode and another from a website, they'll show up stacked rather than on top of each other.
 
@@ -72,7 +72,7 @@ One of the nice parts of this notification is that it will sync up with your oth
 
 Not exactly a JavaScript implementation, but worth noting that notifications in Mavericks behave much differently than HTML 5 notifications. They more closely resemble iOS notifications, where you're pushing to Apple's servers, and they're pushing to the end user.
 
-![Mavericks Notification](http://localhost:4000/galleries/articles/native-javascript-notifications/mavericks-notification-small.png)
+![Mavericks Notification](/images/galleries/articles/native-javascript-notifications/mavericks-notification-small.png)
 
 The addition of a custom icon here is definitely a plus. This alert is from a [Safari Push Notification Demo](http://kandutech.net/) which should only work if you're running Safari in Mavericks. If you clicked on that alert, you'd get taken to a page that describes how it works:
 
@@ -81,7 +81,7 @@ The addition of a custom icon here is definitely a plus. This alert is from a [S
 
 
 @pull left
-![Chrome](http://localhost:4000/galleries/icons/chrome.png){: .icon}
+![Chrome](/images/galleries/icons/chrome.png){: .icon}
 @
 
 ### Chrome
@@ -92,12 +92,12 @@ Chrome notifications show up square, which stands out from the rounded look of O
 Chromes notifications are significantly larger than Notification Center.
 @
 
-![Chrome Notification](http://localhost:4000/galleries/articles/native-javascript-notifications/chrome-notification-small.png)
+![Chrome Notification](/images/galleries/articles/native-javascript-notifications/chrome-notification-small.png)
 
 Unlike Safari notifications, this will stay up until it is dismissed.
 
 @pull left
-![Firefox](http://localhost:4000/galleries/icons/firefox.png){: .icon}
+![Firefox](/images/galleries/icons/firefox.png){: .icon}
 @
 
 ### Firefox
@@ -108,10 +108,10 @@ The Firefox notification would be prettiest out of the box, but the entire body 
 Why is the body a link Firefox? WHY?
 @
 
-![Firefox Notification](http://localhost:4000/galleries/articles/native-javascript-notifications/firefox-notification-small.png)
+![Firefox Notification](/images/galleries/articles/native-javascript-notifications/firefox-notification-small.png)
 
 @pull left
-![Chrome](http://localhost:4000/galleries/icons/ie.png){: .icon}
+![Chrome](/images/galleries/icons/ie.png){: .icon}
 @
 
 ### Windows

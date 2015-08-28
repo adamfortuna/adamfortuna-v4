@@ -2,16 +2,38 @@
 title: Goals
 layout: about
 ---
+= partial 'shared/title' do
+  %h1 Goals
+  %p.meta Some people say I'm a little goal oriented
+  = partial 'about/breadcrumbs', locals: { current: 'Goals' }
 
-= partial 'about/breadcrumbs', locals: { current: 'Goals' }
+= partial 'shared/content' do
+  %p
+    For a long time I've been writing down goals. I think it started with new
+    years resolutions, then it became monthly resolutions. Lately I've been
+    doing monthly goals where I list out my top 25 goals and organize them by
+    priority, then pick a few to tackle for the month. On the first of any
+    month, I'll probably be doing this.
 
-.row
-  .large-12.columns
-    %h1 Goals
-
-.row
   %h2 Professional
-  %ul
+  %p Mostly programming related goals.
+  %ul.no-bullet
+    %li
+      Teach a course at Code School each year
+      %ul.no-bullet
+        %li
+          2013 -
+          = succeed ',' do
+            %a.is-completed{href: '/japan'} Try jQuery
+          %a.is-completed{href: '/japan'} jQuery: The Return Flight
+        %li
+          2014 -
+          %a.is-completed{href: '/japan'} Warming Up With Ember.js
+        %li
+          2015 -
+          %a.is-completed{href: '/japan'} Blasting Off With Bootstrap
+        %li
+          Next - PHP/MySQL? Foundation? D3? Angular 2?
     %li Familiar with ES2015
     %li Familiar with React.js
     %li Familiar with Foundation
@@ -19,20 +41,8 @@ layout: about
       %strike Familiar with Neo4j
       %span.is-completed 2015
     %li
-      %strike Teach a course at Code School
-      %ul
-        %li
-          %a{href: '/japan'} 2013 - Try jQuery
-        %li
-          %a{href: '/japan'} 2014 - Warming Up With Ember.js
-        %li
-          %a{href: '/japan'} 2015 - Blasting Off With Bootstrap
-        %li
-          PHP/MySQL? Foundation? D3? Angular 2?
-    %li
       %strike Speak at a Major Conference
-      %span.is-completed
-        Spoke at JSConf 2014
+      %span.is-completed Spoke at JSConf 2014
     %li
       %strike Familiar with Angular.js
       %span.is-completed 2014
@@ -56,72 +66,145 @@ layout: about
       %span.is-completed 2008
     %li
       %strike Speak at a usergroup
-.row
-  %h2 Travel
-  %ul
-    %li
-      Visit all 50 states
-      %span.is-inprogress 40 states down, 10 to go!
-    %li Stay in a different country for a month
-    %li Visit Thailand
-    %li Visit Singapore
-    %li Visit China
-    %li Visit Taiwan
-    %li Visit Iceland
-    %li Visit Vancouver
-    %li
-      %strike Visit Japan
-      %span.is-completed
-        %a{href: '/photos/japan'} 2 Week Trip in March/April 2014
-    %li
-      %strike Visit Rome
-      %span.is-completed
-        %a{href: '/photos/rome'} Visited in January 2015
+      %span.is-completed 2006
 
-.row
-  %h2 Media
-  %ul
-    %li Read 100 books in a year
+  %h2 Travel
+  %ul.no-bullet
+    %li Stay in a different country for a month
+    %li Stay in a different country for a year
     %li
-      Read all of NPR's top 100 Sci-Fi/Fantasy
+      Americas
+      %ul
+        %li Visit Vancouver
+        %li
+          Visit all 50 states
+          %span.is-inprogress 40 states down, 10 to go!
+        %li
+          %strike Visit Montreal
+          %span.is-completed
+            %a{href: '/photos/montreal'} Visited in August 2015
+        %li
+          %strike Visit Chicago
+          %span.is-completed
+            %a{href: '/photos/chicago'} Visited in June 2014
+        %li
+          %strike Visit New York
+          %span.is-completed Visited in December 2011
+    %li
+      Asia
+      %ul.no-bullet
+        %li Visit Thailand
+        %li Visit Singapore
+        %li Visit China
+        %li Visit Taiwan
+        %li Visit Korea
+        %li Visit India
+        %li Visit Vietnam
+        %li
+          %strike Visit Japan
+          %span.is-completed
+            %a{href: '/photos/japan'} 2 Week Trip in March/April 2014
+    %li
+      Europe
+      %ul.no-bullet
+        %li Visit Iceland
+        %li Visit Germany
+        %li
+          %strike Visit Italy
+          %span.is-completed
+            %a{href: '/photos/rome'} Visited in January 2015
+        %li
+          %strike Visit France & Paris
+          %span.is-completed Visited in December 2012
+        %li
+          %strike Visit the UK & London
+          %span.is-completed Visited in December 2012
+        %li
+          %strike Visit Amsterdam
+          %span.is-completed Visited in December 2012
+
+  %h2 Media
+  %ul.no-bullet
+    %li
+      Read all the books
+      %ul.no-bullet
+        %li
+          Read 75 books in a year
+          %span.is-inprogress 51 so far in in 2015
+          %span.is-completed 25 books in a year
+        %li
+          Read 25 books in a year
+          %span.is-completed 45 in 2013
+          %span.is-completed 44 in 2014
+    %li
+      Read all of
+      %a{href: 'http://www.npr.org/2011/08/11/139085843/your-picks-top-100-science-fiction-fantasy-books'} NPR's top 100 Sci-Fi/Fantasy Books
       %span.is-inprogress 43 down!
     %li
-      Watch the top 250 Movies on the IMDB/RottenTomatoes cross movie list
+      Watch the top 250 Movies on the
+      %a{href: 'https://docs.google.com/spreadsheets/d/1w10kro-jJ_3ACkVuaEBfKc5vTv9WY_RJ_QPHk7PPUAI/edit?usp=sharing'} IMDB/RottenTomatoes cross movie list
       %span.is-inprogress 116 down!
 
-
-
-.row
   %h2 Fitness
-  %ul
+  %ul.no-bullet
     %li
-      Back Squat twice my weight (150lb)
-      %ul
-        %li.is-completed 200 - July 2012
-        %li.is-completed 225 - November, 2013
-        %li.is-completed 250 - May, 2014
-        %li.is-inprogress 275
+      %strong Back Squat
+      %ul.no-bullet
+        %li
+          %span.is-completed 200 - July 2012
+        %li
+          %span.is-completed 225 - November, 2013
+        %li
+          %span.is-completed 250 - May, 2014
+        %li
+          %span.is-inprogress 275
+        %li
+          %span.is-inprogress Goal: 300 (twice my weight)
     %li
-      Snatch my bodyweight (150lb)
-      %ul
-        %li.is-inprogress 125
+      %strong Snatch
+      %ul.no-bullet
+        %li
+          %span.is-completed 125 - August 2015
+        %li
+          %span.is-inprogress Goal: 150 (bodyweight)
     %li
-      Clean and Jerk
-      %ul
-        %li.is-completed 175 - July 2015
-        %li.is-inprogress 200
+      %strong Clean and Jerk
+      %ul.no-bullet
+        %li
+          %span.is-completed 175 - July 2015
+        %li
+          %span.is-inprogress 200
+        %li
+          %span.is-inprogress Goal: 225 (1.5x bodyweight)
     %li
-      Ring Muscle Ups
-      %ul
-        %li.is-completed First kipping in October, 2013.
-        %li.is-inprogress Strict Muscle Up
+      %strong Ring Muscle Ups
+      %ul.no-bullet
+        %li
+          %span.is-completed First kipping in October, 2013.
+        %li
+          %span.is-inprogress Strict muscle up
     %li
-      Bar Muscle Ups
-      %ul
-        %li.is-completed One in October, 2013.
-        %li.is-inprogress Strict Muscle Up
+      %strong Bar Muscle Ups
+      %ul.no-bullet
+        %li
+          %span.is-completed One in October, 2013.
+        %li
+          %span.is-inprogress Strict ,uscle up
     %li
-      Run a Mile
-      %ul
-        %li.is-completed Under 7 Minutes
-        %li.is-inprogress Under 6 minutes
+      %strong Run a Mile
+      %ul.no-bullet
+        %li
+          %span.is-completed Under 7 Minutes
+        %li
+          %span.is-inprogress Under 6 minutes
+    %li
+      %strong Handstand Walks
+      %ul.no-bullet
+        %li
+          %span.is-completed 6m walk
+        %li
+          %span.is-completed 1 minute hold
+        %li
+          %span.is-inprogress 5 minute hold
+        %li
+          %span.is-inprogress 50m walk!

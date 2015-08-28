@@ -14,7 +14,7 @@ This week we released the result of that experience.
 Up to this point, every Code School course has used an in browser editor. This simple interaction makes sense for learning a new topic from scratch. You don't need to install anything on your local system, and you can see what it's like to develop in a sandbox. After you've learned the ropes, you want a taste of programming in the real world. [Eric Allam](https://twitter.com/eallam) thought there could be a better way to pull this off.
 
 @pull left
-![Core iOS 7](http://localhost:4000/galleries/codeschool/core-ios-7.png)
+![Core iOS 7](/images/galleries/codeschool/core-ios-7.png)
 @
 
 [Core iOS 7](http://ios7.codeschool.com) goes a different path. After watching a video on a topic, you'll be prompted to download a zip file. Unzip this file and you'll have an entire Xcode project, with a unique identifier in it that Code School uses to identify you. In this project you complete a series of tasks, then run the tests in Xcode. The results of which are sent to the course, and you see the results in your browser.
