@@ -1,8 +1,9 @@
 ---
 - file: tempura.jpg
-  version: full
+  version: col-12
   alt: A few of the tempura options available. Not the crispy you see in the west, but a softer with a cod batter.
-- height: 244
+- options:
+    height: 244
   files:
     - file: croquette.jpg
       version: col-3
@@ -13,12 +14,14 @@
     - file: bonito.jpg
       version: col-4
       alt: Bonito (dried, fermented fish) at a bonito store.
-- height: 900
+- options:
+    height: 900
   files:
     - file: pancackes_and_takoyaki.jpg
       version: col-12
       alt: Freshly made stuffed pancakes and takoyaki.
-- height: 244
+- options:
+    height: 244
   files:
     - file: 30_watermelon.jpg
       version: col-4
@@ -29,7 +32,8 @@
     - file: sweet_potato_pancake.jpg
       version: col-3
       alt: I went with the sweet potato pancake. Marilyn had the sakura stuffed version.
-- height: 350
+- options:
+    height: 350
   files:
     - file: egg_stuffed_with_eel.jpg
       version: col-6
@@ -38,9 +42,10 @@
       version: col-6
       alt: Small sampler from the fish vendor. The squid coated my mouth in a way different from any squid I've tried.
 - file: fish_vendor.jpg
-  version: full
+  version: col-12
   alt: All fish was trucked in this morning.
-- height: 400
+- options:
+    height: 400
   files:
     - file: pickels.jpg
       version: col-4
@@ -51,7 +56,8 @@
     - file: characters.jpg
       version: col-3
       alt: Japan loves their characters. These were the characters for the market we were in.
-- height: 975
+- options:
+    height: 975
   files:
     - file: teahouse_hallway.jpg
       version: col-6

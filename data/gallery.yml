@@ -2,45 +2,33 @@ galleries: data/galleries/**/*.yml
 
 versions:
   full:
-    commands:
-      resize: "2500>x2500>"
-      quality: "90"
+    resize: "2500>x2500>"
+    quality: "90"
   col-3:
-    default:
-      height: 244
-      width: 273
-      crop: true
-    commands:
-      gravity: center
+    height: 244
+    width: 273
+    crop: true
+    gravity: center
   col-4:
-    default:
-      height: 244
-      width: 370
-      crop: true
-    commands:
-      gravity: center
+    height: 244
+    width: 370
+    crop: true
+    gravity: center
   col-5:
-    default:
-      height: 244
-      width: 468
-      crop: true
-    commands:
-      gravity: center
+    height: 244
+    width: 468
+    crop: true
+    gravity: center
   col-6:
-    default:
-      height: 350
-      width: 565
-      crop: true
-    commands:
-      gravity: center
+    height: 350
+    width: 565
+    crop: true
+    gravity: center
   col-9:
-    default:
-      height: 244
-      width: 890
-      crop: true
-    commands:
-      gravity: center
+    height: 244
+    width: 890
+    crop: true
+    gravity: center
   col-12:
-    commands:
-      resize: "1170x100^"
-      quality: "90"
+    width: 1170
+    quality: "90"

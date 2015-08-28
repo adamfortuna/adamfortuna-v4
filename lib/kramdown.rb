@@ -123,6 +123,10 @@ module Middleman
       end
       alias :convert_ol :convert_ul
 
+      def convert_pull(el, indent)
+        %(<div class='pull-#{el.value[:direction]}'>#{el.value[:content]}</div>)
+      end
+
       def convert_gallery(el, indent)
         el.value = el.value.with_indifferent_access
         items = el.value.is_a?(Array) ? el.value : el.value[:gallery]
@@ -130,58 +134,19 @@ module Middleman
 
         content = items.collect do |gallery_item|
           gallery_item = gallery_item.with_indifferent_access
-          gallery_item['files'] ? generate_row(path, gallery_item) : generate_image(path, gallery_item)
+          if gallery_item['files']
+            # This is a row of images
+            generate_row(path, gallery_item)
+          else
+            ::Gallery::Photo.new(gallery_item, path, gallery_item[:options]).to_html
+          end
         end
         %(<section class='gallery'>#{content.join("\n")}</section>)
       end
 
-      def convert_pull(el, indent)
-        %(<div class='pull-#{el.value[:direction]}'>#{el.value[:content]}</div>)
-      end
-
-      def columns_for_version(version)
-        version.gsub('col-', '').gsub('-tall', '')
-      end
-
-      def version_file image
-        if image[:version] == 'full'
-          image[:file].gsub(/\.([^\.]+)$/, '-full.\1')
-        else
-          image[:file].gsub(/\.([^\.]+)$/, '-'+image[:version]+'.\1')
-        end
-      end
-
-      def url_for_image path, image
-        File.join('/', 'images', 'galleries', path, 'resized', version_file(image))
-      end
-
-      def src_for path, image
-        src = image[:src] ? image[:src] : url_for_image(path, image)
-      end
-
-      def column_class_for image
-        if image[:version] == 'full'
-          return 'full'
-        else
-          columns = columns_for_version(image[:version])
-          return "large-#{columns} medium-#{columns} columns"
-        end
-      end
-
-      def generate_image path, image
-        src = src_for(path, image)
-        <<-PIC
-          <picture class='#{column_class_for(image)}'>
-           <source srcset="#{src}" media="(min-width: 600px)">
-           <img src="#{src}" alt="#{image[:alt]}">
-          </picture>
-        PIC
-      end
-
       def generate_row path, row
-        items = row[:files].collect do |file|
-          file = file.with_indifferent_access
-          generate_image(path, file)
+        items = row[:files].collect do |image|
+          ::Gallery::Photo.new(image, path, row[:options]).to_html
         end
 
         %(<div class='row'>#{items.join("\n")}</div>)
