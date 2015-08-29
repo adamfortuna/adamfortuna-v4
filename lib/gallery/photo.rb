@@ -1,13 +1,17 @@
 require 'mini_magick'
 module Gallery
   class Photo
-    attr_accessor :image, :path, :options
+    attr_accessor :image, :path, :options, :gallery
 
-    def initialize image, path, options = {}
+    def initialize image, path, options = {}, gallery = nil
       @image = image.with_indifferent_access
       @path = path
-      @options = PhotoOptions.new((options || {}).merge(global_options))
-      write_image unless image_exists?
+      @gallery = gallery
+      gallery_options = options || {}
+      image_options = image[:options] || {}
+      combined_options = global_options.merge(gallery_options).merge(image_options)
+      @options = PhotoOptions.new(combined_options)
+      write_image if !image_exists? || image_out_of_date?
     end
 
     def to_html
@@ -28,7 +32,7 @@ module Gallery
     end
 
     def global_options
-      @global_options ||= Gallery.options['versions'][image[:version]] || {}
+      @global_options ||= ::Gallery.options['versions'][image[:version]] || {}
     end
 
     def alt
@@ -43,9 +47,18 @@ module Gallery
       File.exists?(destination_path)
     end
 
+    def image_out_of_date?
+      return true if !gallery
+      gallery.updated_at > File.mtime(destination_path)
+    end
+
     def write_image
       return false unless File.exists?(source_path)
       puts "Writing new image!"
+
+      puts "Creating folder at #{destination_folder}"
+      FileUtils.mkdir_p(destination_folder)
+
       image_file = ::MiniMagick::Image.open(source_path)
 
       commands = {}
@@ -122,6 +135,10 @@ module Gallery
 
     def destination_path
       File.join('galleries', path, 'resized', version_file)
+    end
+
+    def destination_folder
+      File.join('galleries', path, 'resized')
     end
 
     def url_for_image

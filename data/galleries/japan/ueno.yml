@@ -1,43 +1,48 @@
 ---
 - file: blossom_boats.jpg
   alt: Cherry Blossoms and swan boats.
-  version: col-12
-- file: us.jpg
-  alt: Us with the blossoms.
-  version: col-6
-- file: lake.jpg
-  alt: View of the lake.
-  version: col-6
-- file: blossom.jpg
-  alt: Blossoms
-  version: col-4
-- file: tori.jpg
-  alt: Gate with blossoms.
-  version: col-5
-- file: blossoms2.jpg
-  alt: Blossoms
-  version: col-3
+  version: full
+- files:
+  - file: us.jpg
+    alt: Us with the blossoms.
+    version: col-6
+  - file: lake.jpg
+    alt: View of the lake.
+    version: col-6
+- files:
+  - file: blossom.jpg
+    alt: Blossoms
+    version: col-4
+  - file: tori.jpg
+    alt: Gate with blossoms.
+    version: col-5
+  - file: blossoms2.jpg
+    alt: Blossoms
+    version: col-3
 - file: birds.jpg
   alt: Feeding the birds.
-  version: col-12
-- file: lunch.jpg
-  alt: Business men and women out for lunch.
-  version: col-6
-- file: shrine.jpg
-  alt: View of the shrine and stands
-  version: col-6
-- file: rose.jpg
-  alt: Rose Bush.
-  version: col-4
-- file: blossoms.jpg
-  alt: Blossoms
-  version: col-4
-- file: boat.jpg
-  alt: Boats
-  version: col-4
-- file: blossoms3.jpg
-  alt: Blossoms
-  version: col-6
-- file: boats.jpg
-  alt: Boats
-  version: col-6
+  version: full
+- files:
+  - file: lunch.jpg
+    alt: Business men and women out for lunch.
+    version: col-6
+  - file: shrine.jpg
+    alt: View of the shrine and stands
+    version: col-6
+- files:
+  - file: rose.jpg
+    alt: Rose Bush.
+    version: col-4
+  - file: blossoms.jpg
+    alt: Blossoms
+    version: col-4
+  - file: boat.jpg
+    alt: Boats
+    version: col-4
+- files:
+  - file: blossoms3.jpg
+    alt: Blossoms
+    version: col-6
+  - file: boats.jpg
+    alt: Boats
+    version: col-6

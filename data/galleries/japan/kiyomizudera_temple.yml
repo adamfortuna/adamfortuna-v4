@@ -2,51 +2,56 @@
 - file: temple.jpg
   alt: A look at the main temple.
   version: col-12
-- file: look_from_top.jpg
-  alt: Store view from the top.
-  version: col-4
-- file: marilyn_entrance.jpg
-  alt: Marilyn by the entrance to the shrine.
-  version: col-5
-- file: blossom_entrance.jpg
-  alt: A blooming plum blossom greets visitors.
-  version: col-3
-- file: laputa.jpg
-  alt: A robot soldier planter.
-  version: col-3
-- file: ghibli_store.jpg
-  alt: A look at the Ghibli store.
-  version: col-5
-- file: storefronts.jpg
-  alt: Stores on the route up.
-  version: col-4
+- files:
+  - file: look_from_top.jpg
+    alt: Store view from the top.
+    version: col-4
+  - file: marilyn_entrance.jpg
+    alt: Marilyn by the entrance to the shrine.
+    version: col-5
+  - file: blossom_entrance.jpg
+    alt: A blooming plum blossom greets visitors.
+    version: col-3
+- files:
+  - file: laputa.jpg
+    alt: A robot soldier planter.
+    version: col-3
+  - file: ghibli_store.jpg
+    alt: A look at the Ghibli store.
+    version: col-5
+  - file: storefronts.jpg
+    alt: Stores on the route up.
+    version: col-4
 - file: pagoda.jpg
   alt: A beautiful pagoda.
   version: col-12
-- file: adam_temple.jpg
-  alt: Me with a view of the temple.
-  version: col-6
-- file: marilyn_temple.jpg
-  alt: Marilyn with a view of the temple.
-  version: col-6
-- file: stones.jpg
-  alt: Stones along the side of the path.
-  version: col-4
-- file: temple_view.jpg
-  alt: Hundreds of feet up, the temple looks like it sits on the trees.
-  version: col-4
-- file: winding_path.jpg
-  alt: Winding path down the mountain.
-  version: col-4
+- files:
+  - file: adam_temple.jpg
+    alt: Me with a view of the temple.
+    version: col-6
+  - file: marilyn_temple.jpg
+    alt: Marilyn with a view of the temple.
+    version: col-6
+- files:
+  - file: stones.jpg
+    alt: Stones along the side of the path.
+    version: col-4
+  - file: temple_view.jpg
+    alt: Hundreds of feet up, the temple looks like it sits on the trees.
+    version: col-4
+  - file: winding_path.jpg
+    alt: Winding path down the mountain.
+    version: col-4
 - file: water.jpg
   alt: People of all shapes and sizes sampling the water.
   version: col-12
-- file: cream_puff.jpg
-  alt: A sakura filled cream puff.
-  version: col-4
-- file: teahouse.jpg
-  alt: Stopping for tea on the way down.
-  version: col-5
-- file: tempura_sweetpotato.jpg
-  alt: Sweet potato and pumpkin tempura.
-  version: col-3
+- files:
+  - file: cream_puff.jpg
+    alt: A sakura filled cream puff.
+    version: col-4
+  - file: teahouse.jpg
+    alt: Stopping for tea on the way down.
+    version: col-5
+  - file: tempura_sweetpotato.jpg
+    alt: Sweet potato and pumpkin tempura.
+    version: col-3

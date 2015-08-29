@@ -1,16 +1,18 @@
 ---
-- file: rail_pass.jpg
-  version: col-9
-  alt: Our Japan Rail pass vouchers were easy to exchange at the Narita airport.
-- file: jr_humor.jpg
-  alt: They have a sense of humor at the JR station.
-  version: col-3
-- file: 711_atm.jpg
-  alt: 7-11 ATMs are the of a few that can be used with overseas accounts. You can also use Chase ATMs.
-  version: col-3
-- file: narita_airport_adam.jpg
-  alt: Adam waiting in line to get rail passes.
-  version: col-5
-- file: gyodun_bowl.jpg
-  alt: Our $5 dinner at midnight the day we arrived. A rice bowl with chicken and rice with a small bowl of soup with thick noodles.
-  version: col-4
+- files:
+  - file: rail_pass.jpg
+    version: col-9
+    alt: Our Japan Rail pass vouchers were easy to exchange at the Narita airport.
+  - file: jr_humor.jpg
+    alt: They have a sense of humor at the JR station.
+    version: col-3
+- files:
+  - file: 711_atm.jpg
+    alt: 7-11 ATMs are the of a few that can be used with overseas accounts. You can also use Chase ATMs.
+    version: col-3
+  - file: narita_airport_adam.jpg
+    alt: Adam waiting in line to get rail passes.
+    version: col-5
+  - file: gyodun_bowl.jpg
+    alt: Our $5 dinner at midnight the day we arrived. A rice bowl with chicken and rice with a small bowl of soup with thick noodles.
+    version: col-4

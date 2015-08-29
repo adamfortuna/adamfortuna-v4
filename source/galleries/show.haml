@@ -1,0 +1,22 @@
+---
+title: Gallery
+layout: gallery
+---
+
+- gallery = Gallery::Gallery.new(path)
+
+= partial 'shared/title' do
+  %h1
+    Gallery
+    = gallery.name
+  %p.meta= "Photos: #{gallery.photos_count}"
+
+.row
+  .medium-8.medium-offset-2.end
+    %p Werner Gluck, the young guard, was a Dresden boy. He had never been in the slaughter house before, so he wasn’t sure where the kitchen was. He was tall and weak like Billy, might have been a younger brother of his.
+
+= gallery.to_html
+
+.row
+  .medium-8.medium-offset-2.end
+    %p Werner Gluck, the young guard, was a Dresden boy. He had never been in the slaughter house before, so he wasn’t sure where the kitchen was. He was tall and weak like Billy, might have been a younger brother of his.

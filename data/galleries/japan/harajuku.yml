@@ -2,24 +2,26 @@
 - file: harajuku.jpg
   alt: A busy pedestrian street.
   version: col-12
-- file: mall_garden.jpg
-  alt: A shiny mall entrance and rooftop garden.
-  version: col-3
-- file: coffee.jpg
-  alt:  Koichi showing off the coffee maker
-  version: col-4
-- file: tontatsu.jpg
-  alt: Delicious Tonkatsu curry.
-  version: col-5
+- files:
+  - file: mall_garden.jpg
+    alt: A shiny mall entrance and rooftop garden.
+    version: col-3
+  - file: coffee.jpg
+    alt:  Koichi showing off the coffee maker
+    version: col-4
+  - file: tontatsu.jpg
+    alt: Delicious Tonkatsu curry.
+    version: col-5
 - file: crepe.jpg
   alt: Delicious crepes, worth the wait.
   version: col-12
-- file: group.jpg
-  alt: The lunch group!
-  version: col-5
-- file: booking.jpg
-  alt: Booking.com office.
-  version: col-3
-- file: adam_crepe.jpg
-  alt: Adam eating his crepe.
-  version: col-4
+- files:
+  - file: group.jpg
+    alt: The lunch group!
+    version: col-5
+  - file: booking.jpg
+    alt: Booking.com office.
+    version: col-3
+  - file: adam_crepe.jpg
+    alt: Adam eating his crepe.
+    version: col-4

@@ -1,7 +1,8 @@
 ---
-- file: tempura.jpg
-  version: col-12
-  alt: A few of the tempura options available. Not the crispy you see in the west, but a softer with a cod batter.
+- files:
+  - file: tempura.jpg
+    version: col-12
+    alt: A few of the tempura options available. Not the crispy you see in the west, but a softer with a cod batter.
 - options:
     height: 244
   files:

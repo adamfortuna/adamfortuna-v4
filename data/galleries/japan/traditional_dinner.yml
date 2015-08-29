@@ -2,21 +2,23 @@
 - file: sake.jpg
   alt: Pick a sake!
   version: col-12
-- file: view.jpg
-  alt: View from my seat on the roof of the building.
-  version: col-3
-- file: uni.jpg
-  alt: Creamy uni.
-  version: col-4
-- file: fish.jpg
-  alt: Delicious snapper.
-  version: col-5
-- file: dessert1.jpg
-  alt: Ice cream, puffed rice and more.
-  version: col-4
-- file: dessert2.jpg
-  alt: Delicious dessert.
-  version: col-4
-- file: bathroom.jpg
-  alt: Use their slippers to go to the bathroom.
-  version: col-4
+- files:
+  - file: view.jpg
+    alt: View from my seat on the roof of the building.
+    version: col-3
+  - file: uni.jpg
+    alt: Creamy uni.
+    version: col-4
+  - file: fish.jpg
+    alt: Delicious snapper.
+    version: col-5
+- files:
+  - file: dessert1.jpg
+    alt: Ice cream, puffed rice and more.
+    version: col-4
+  - file: dessert2.jpg
+    alt: Delicious dessert.
+    version: col-4
+  - file: bathroom.jpg
+    alt: Use their slippers to go to the bathroom.
+    version: col-4

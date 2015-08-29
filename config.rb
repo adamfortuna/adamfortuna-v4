@@ -1,4 +1,5 @@
 require 'lib/gallery'
+require 'lib/gallery/gallery'
 require 'lib/gallery/photo'
 require 'lib/gallery/photo_options'
 require 'lib/kramdown'
@@ -24,7 +25,7 @@ end
 
 activate :automatic_image_sizes
 activate :directory_indexes
-activate :livereload
+# activate :livereload
 
 activate :autoprefixer do |config|
   config.browsers = ['last 2 versions', 'Explorer >= 10']
@@ -52,6 +53,15 @@ activate :blog do |blog|
 end
 page "photos/*", :layout => :photo
 page "photos", :layout => :layout
+
+# ====================================
+#   Galleries
+# ====================================
+Dir[data.gallery.galleries].each do |gallery|
+  path = gallery.gsub('data/galleries/', '').gsub('.yml', '')
+  proxy "/galleries/#{path}", "/galleries/show.html", ignore: true, locals: { path: gallery }
+end
+proxy '/galleries', '/galleries/index.html'
 
 # ====================================
 #   Helpers
@@ -98,4 +108,9 @@ configure :build do
   activate :minify_html
   activate :minify_javascript
   activate :relative_assets
+end
+
+
+configure :development do
+  set :debug_assets, true
 end

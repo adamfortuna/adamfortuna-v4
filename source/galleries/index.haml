@@ -1,0 +1,15 @@
+---
+title: Galleries
+---
+
+= partial 'shared/title' do
+  %h1 Galleries
+  %p.meta Internal page for listing galleries
+
+= partial 'shared/content' do
+  %ul
+    - Dir[data.gallery.galleries].each do |path|
+      - gallery = Gallery::Gallery.new(path)
+      %li
+        %a{ href: "/galleries/#{gallery.permalink}"}= gallery.name
+        %span= "(#{gallery.photos_count})"

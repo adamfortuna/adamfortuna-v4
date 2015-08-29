@@ -1,14 +1,14 @@
 ---
 - file: plum_blossom_tree.jpg
   alt: A huge and beautiful plum blossom tree.
-  version: col-12
+  version: full
 - files:
-    - file: marilyn_plum_blossom.jpg
-      alt: Marilyn under the plum blossoms.
-      version: col-6
-    - file: adam_plum_blossom.jpg
-      alt: Adam under the plum blossoms.
-      version: col-6
+  - file: marilyn_plum_blossom.jpg
+    alt: Marilyn under the plum blossoms.
+    version: col-6
+  - file: adam_plum_blossom.jpg
+    alt: Adam under the plum blossoms.
+    version: col-6
 - files:
   - file: moss.jpg
     alt: Moss working its way into a tree.

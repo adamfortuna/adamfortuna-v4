@@ -1,31 +1,35 @@
 ---
-- file: sat_dinner_fish.jpg
-  alt: Succulent fish.
-  version: col-6
-- file: sat_dinner_sushi.jpg
-  alt:  Sushi plate.
-  version: col-6
-- file: sat_dinner_salad.jpg
-  alt: Seafood salad.
-  version: col-4
-- file: sat_dinner_sushi_rolls.jpg
-  alt: Sushi wrapped in persimmon leaves.
-  version: col-5
-- file: sat_dinner_soup.jpg
-  alt: Miso Soup
-  version: col-3
-- file: sat_dinner_tempura.jpg
-  alt: Tempura.
-  version: col-3
-- file: sat_dinner_crabs.jpg
-  alt: Delicious crab with butter.
-  version: col-5
-- file: sat_dinner_meat.jpg
-  alt: Fresh cooked meat.
-  version: col-4
-- file: sat_dinner_blowfish.jpg
-  alt: Blowfish and tofu.
-  version: col-6
-- file: sat_dinner_dessert.jpg
-  alt: A sakura jelly and fresh fruit.
-  version: col-6
+- files:
+  - file: sat_dinner_fish.jpg
+    alt: Succulent fish.
+    version: col-6
+  - file: sat_dinner_sushi.jpg
+    alt:  Sushi plate.
+    version: col-6
+- files:
+  - file: sat_dinner_salad.jpg
+    alt: Seafood salad.
+    version: col-4
+  - file: sat_dinner_sushi_rolls.jpg
+    alt: Sushi wrapped in persimmon leaves.
+    version: col-5
+  - file: sat_dinner_soup.jpg
+    alt: Miso Soup
+    version: col-3
+- files:
+  - file: sat_dinner_tempura.jpg
+    alt: Tempura.
+    version: col-3
+  - file: sat_dinner_crabs.jpg
+    alt: Delicious crab with butter.
+    version: col-5
+  - file: sat_dinner_meat.jpg
+    alt: Fresh cooked meat.
+    version: col-4
+- files:
+  - file: sat_dinner_blowfish.jpg
+    alt: Blowfish and tofu.
+    version: col-6
+  - file: sat_dinner_dessert.jpg
+    alt: A sakura jelly and fresh fruit.
+    version: col-6

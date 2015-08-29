@@ -1,31 +1,36 @@
 ---
 - file: fresh_sushi.jpg
   alt: Omakasu sushi.
-  version: col-12
-- file: phone_booth.jpg
-  alt: A phone booth.
-  version: col-3
-- file: lines.jpg
-  alt: Lines to all of the sushi shops.
-  version: col-5
-- file: shrine.jpg
-  alt: Shine nestled in the fish market.
-  version: col-4
-- file: oyster.jpg
-  alt: Largest oyster I've ever seen.
-  version: col-5
-- file: fresh_oysters.jpg
-  alt: Some fresh oysters from the market.
-  version: col-4
-- file: pigeon.jpg
-  alt: Pigeon sign.
-  version: col-3
-- file: fish_head.jpg
-  alt: 2 foot large fish head.
-  version: col-4
-- file: goods.jpg
-  alt: Pickeles and other things for sale.
-  version: col-4
-- file: desserts.jpg
-  alt: Various desserts for sale.
-  version: col-4
+  version: full
+- files:
+  - file: phone_booth.jpg
+    alt: A phone booth.
+    version: col-3
+  - file: lines.jpg
+    alt: Lines to all of the sushi shops.
+    version: col-5
+  - file: shrine.jpg
+    alt: Shine nestled in the fish market.
+    version: col-4
+- files:
+  - file: oyster.jpg
+    alt: Largest oyster I've ever seen.
+    version: col-5
+  - file: fresh_oysters.jpg
+    alt: Some fresh oysters from the market.
+    version: col-4
+  - file: pigeon.jpg
+    alt: Pigeon sign.
+    version: col-3
+    options:
+      gravity: north
+- files:
+  - file: fish_head.jpg
+    alt: 2 foot large fish head.
+    version: col-4
+  - file: goods.jpg
+    alt: Pickeles and other things for sale.
+    version: col-4
+  - file: desserts.jpg
+    alt: Various desserts for sale.
+    version: col-4

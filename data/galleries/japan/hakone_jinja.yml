@@ -2,18 +2,20 @@
 - file: entrance.jpg
   alt: Tall, welcoming tori.
   version: col-12
-- file: path.jpg
-  alt: The path up to the shrine.
-  version: col-4
-- file: courtyard.jpg
-  alt: The courtyard around the shrine
-  version: col-5
-- file: cyprus.jpg
-  alt: A cyprus tree.
-  version: col-3
-- file: fountain.jpg
-  alt: Fountain for cleansing decorated with dragons.
-  version: col-6
-- file: guardian.jpg
-  alt: Moss covered guardian.
-  version: col-6
+- files:
+  - file: path.jpg
+    alt: The path up to the shrine.
+    version: col-4
+  - file: courtyard.jpg
+    alt: The courtyard around the shrine
+    version: col-5
+  - file: cyprus.jpg
+    alt: A cyprus tree.
+    version: col-3
+- files:
+  - file: fountain.jpg
+    alt: Fountain for cleansing decorated with dragons.
+    version: col-6
+  - file: guardian.jpg
+    alt: Moss covered guardian.
+    version: col-6

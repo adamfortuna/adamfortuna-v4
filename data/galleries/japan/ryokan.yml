@@ -2,25 +2,29 @@
 - file: mikawaya.jpg
   alt: The entrance to Mikawaya Ryokan.
   version: col-12
-- file: entrance.jpg
-  alt: The main room, where we ate and slept one night.
-  version: col-6-tall
-  col-6-tall: 585x780
-- file: view.jpg
-  alt: The main view from the room.
-  version: col-6-tall
-- file: overlook.jpg
-  alt: Two pairs of chairs, each with a view.
-  version: col-5
-- file: beds.jpg
-  alt: Traditional beds if you prefer them over the futons.
-  version: col-4
-- file: bathroom.jpg
-  alt: You're supposed to walk around your room in socks, but if you use the bathroom then use slippers.
-  version: col-3
-- file: beer.jpg
-  alt: A local Hakone red ale we picked up.
-  version: col-6
-- file: bath.jpg
-  alt: Our mineral bath with its always flowing water.
-  version: col-6
+- options:
+    height: 780
+  files:
+  - file: entrance.jpg
+    alt: The main room, where we ate and slept one night.
+    version: col-6
+  - file: view.jpg
+    alt: The main view from the room.
+    version: col-6
+- files:
+  - file: overlook.jpg
+    alt: Two pairs of chairs, each with a view.
+    version: col-5
+  - file: beds.jpg
+    alt: Traditional beds if you prefer them over the futons.
+    version: col-4
+  - file: bathroom.jpg
+    alt: You're supposed to walk around your room in socks, but if you use the bathroom then use slippers.
+    version: col-3
+- files:
+  - file: beer.jpg
+    alt: A local Hakone red ale we picked up.
+    version: col-6
+  - file: bath.jpg
+    alt: Our mineral bath with its always flowing water.
+    version: col-6
