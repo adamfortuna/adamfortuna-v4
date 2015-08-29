@@ -1,11 +1,29 @@
-- year = nil
+---
+title: Photos
+---
+
+= partial 'shared/title', locals: { offset: 1 }  do
+  %h1 Photos
+  %p.meta
+    I've started trying to take more photos. Major travel photo stories on are
+    on the left, smaller photo sets for events are on the right.
+
 .row
-  - blog('photos').articles.each do |article|
-    - if year != article.date.year
-      - year = article.date.year
-      .year.small-2.medium-3
-        %h2.small-1.columns= year
-    %article.small-10.small-offset-2.medium-6.medium-offset-3.columns.clearfix
-      %h1
-        %a{:href => article.url}= article.title
-      %time= article.date.strftime('%b %e %Y')
+  .medium-10.medium-offset-1.columns
+    %ul.no-bullet.photos-list.travel
+      - blog('photos').articles.each do |article|
+        - if article.tags.include? "Travel"
+          %li
+            = partial 'photos/travel', locals: { article: article }
+
+.row
+  %ul.medium-10.medium-offset-1.columns.no-bullet.photos-list.asides
+    - blog('photos').articles.each do |article|
+      - if !article.tags.include? "Travel"
+        %li.medium-4
+          %a{:href => article.url }
+            %img{ src: article.data['poster'], alt: article.title }
+            .cover
+            .meta
+              %p.article--title= article.title
+              %p= article.date.strftime('%B %Y')

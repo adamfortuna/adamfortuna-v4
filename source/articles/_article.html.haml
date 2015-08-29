@@ -1,0 +1,13 @@
+.row{ class: article_classes(article) }
+  %a.medium-12.columns{:href => article.url}
+    %span.article-title= article.title
+    %p.meta
+      %span.tags
+        - if article.tags.length > 1
+          Tagged with
+          = succeed '.' do
+            = tags_for_article(article.tags)
+      %time
+        Written on
+        = succeed "." do
+          = article.date.strftime('%B %e %Y')

@@ -1,0 +1,64 @@
+$title-color: darken($white, 6%)
+$subtitle-color: darken($white, 12%)
+
+.photos-list
+  li
+    margin-bottom: .6em
+    a
+      border: 1px solid #eee
+      display: block
+      position: relative
+      &:hover
+        .cover
+          background-color: rgba(1,1,1,0.4)
+      img.bg
+        position: absolute
+        top: 0
+      .cover
+        position: absolute
+        top: 0
+        height: 100%
+        width: 100%
+      .meta
+        position: absolute
+        margin: 0
+        bottom: 0
+        width: 100%
+        background-color: rgba(1,1,1,0.4)
+        p
+          color: $subtitle-color
+          padding: 0
+          margin: 0
+          &.article--title
+            color: $title-color
+        .stats
+          color: $title-color
+          font-size: 0.8em
+          span
+            margin-left: 1em
+            i
+              margin-right: 0.2em
+
+
+.article--title
+  font-weight: bold
+  font-size: 1.2em
+
+.photos-list
+  &.travel
+    li
+      a
+        .meta
+          padding-bottom: 0.4em
+          p
+            font-size: .8em
+            &.article--title
+              font-size: 1.6em
+.photos-list
+  &.asides
+    .meta
+      padding: 0.4em 0.8em
+      p
+        &.article--title
+          font-size: 1em
+        font-size: .8em

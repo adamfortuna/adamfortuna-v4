@@ -2,13 +2,19 @@
 - file: todaiji.jpg
   alt: Todai-ji temple.
   version: full
-- files:
+- options:
+    height: 400
+  files:
   - file: marilyn_door.jpg
     alt: Marilyn seeing how huge the door is.
     version: col-3
-  - file: opening_gate.jpg
-    alt: The opening gate to the temple.
+    options:
+      gravity: north
+  - file: guardian.jpg
+    alt: Temple Guardian.
     version: col-5
+    options:
+      gravity: north
   - file: squeeze.jpg
     alt: Its good luck to squeeze though this support beam.
     version: col-4
@@ -16,9 +22,11 @@
   - file: large_buddha.jpg
     alt: The huge buddha inside Todaiji temple.
     version: col-4
-  - file: guardian.jpg
-    alt: Temple Guardian.
+  - file: opening_gate.jpg
+    alt: The opening gate to the temple.
     version: col-5
   - file: gold_buddha.jpg
     alt: A huge gold buddha.
     version: col-3
+    options:
+      gravity: east
