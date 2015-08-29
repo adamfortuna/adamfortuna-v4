@@ -11,15 +11,17 @@ module Gallery
       image_options = image[:options] || {}
       combined_options = global_options.merge(gallery_options).merge(image_options)
       @options = PhotoOptions.new(combined_options)
-      write_image if !image_exists? || image_out_of_date?
+      write_images if !images_exists? || image_out_of_date?
     end
 
     def to_html
       html = <<-PIC
-        <picture class='#{column_class_for}'>
-          <source srcset="#{src}" media="(min-width: 600px)">
-          <img src="#{src}" alt="#{alt}">
-        </picture>
+        <a href='#{full_src}' class='#{column_class_for}'>
+          <picture>
+            <source srcset="#{src}" media="(min-width: 600px)">
+            <img src="#{src}" alt="#{alt}">
+          </picture>
+        </a>
       PIC
       if columns_count == 12
         html = <<-PIC
@@ -43,8 +45,12 @@ module Gallery
       @src ||= image[:src] ? image[:src] : url_for_image
     end
 
-    def image_exists?
-      File.exists?(destination_path)
+    def full_src
+      @full_src ||= image[:src] ? image[:src] : full_url_for_image
+    end
+
+    def images_exists?
+      File.exists?(destination_path) && File.exists?(full_destination_path)
     end
 
     def image_out_of_date?
@@ -52,11 +58,24 @@ module Gallery
       gallery.updated_at > File.mtime(destination_path)
     end
 
-    def write_image
+    def write_images
       return false unless File.exists?(source_path)
-      puts "Writing new image!"
+      write_resized_image
+      write_processed_image
+    end
 
-      puts "Creating folder at #{destination_folder}"
+    def write_resized_image
+      FileUtils.mkdir_p(full_destination_folder)
+      image_file = ::MiniMagick::Image.open(source_path)
+      image_file.combine_options do |i|
+        i.resize "2500>x2500>"
+        i.quality "90"
+      end
+      puts "Writing resized image to #{full_destination_path}"
+      image_file.write full_destination_path
+    end
+
+    def write_processed_image
       FileUtils.mkdir_p(destination_folder)
 
       image_file = ::MiniMagick::Image.open(source_path)
@@ -71,7 +90,7 @@ module Gallery
         end
       end
 
-      puts "Writing image to #{destination_path}"
+      puts "Writing processed image to #{destination_path}"
       image_file.write destination_path
     end
 
@@ -134,15 +153,27 @@ module Gallery
     end
 
     def destination_path
-      File.join('galleries', path, 'resized', version_file)
+      File.join('galleries', path, 'processed', version_file)
     end
 
     def destination_folder
+      File.join('galleries', path, 'processed')
+    end
+
+    def full_destination_path
+      File.join('galleries', path, 'resized', image[:file])
+    end
+
+    def full_destination_folder
       File.join('galleries', path, 'resized')
     end
 
     def url_for_image
-      File.join('/', 'images', 'galleries', path, 'resized', version_file)
+      File.join('/', 'images', 'galleries', path, 'processed', version_file)
+    end
+
+    def full_url_for_image
+      File.join('/', 'images', 'galleries', path, 'resized', image[:file])
     end
 
     def version_file
