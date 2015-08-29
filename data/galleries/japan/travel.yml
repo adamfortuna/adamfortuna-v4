@@ -3,6 +3,8 @@
   - file: rail_pass.jpg
     version: col-9
     alt: Our Japan Rail pass vouchers were easy to exchange at the Narita airport.
+    options:
+      gravity: north
   - file: jr_humor.jpg
     alt: They have a sense of humor at the JR station.
     version: col-3
@@ -13,6 +15,8 @@
   - file: narita_airport_adam.jpg
     alt: Adam waiting in line to get rail passes.
     version: col-5
+    options:
+      gravity: north
   - file: gyodun_bowl.jpg
     alt: Our $5 dinner at midnight the day we arrived. A rice bowl with chicken and rice with a small bowl of soup with thick noodles.
     version: col-4

@@ -28,7 +28,7 @@ module Gallery
       @commands = {}
 
       options.each_pair do |option, value|
-        if [true, false].include?(value) && WHITELIST_COMMANDS.include?(option.to_s)
+        if ![true, false].include?(value) && WHITELIST_COMMANDS.include?(option.to_s)
           @commands[option.to_sym] = value
         end
       end

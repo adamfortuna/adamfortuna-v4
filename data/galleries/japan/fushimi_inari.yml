@@ -1,7 +1,7 @@
 ---
 - file: us_at_split_paths.jpg
   alt: Marilyn and I where the torii split. It's funny to think how many people were lining up to take photos at this location.
-  version: col-12
+  version: full
 - files:
   - file: entrance.jpg
     alt: The huge torii at the entrance to the shrine.
@@ -24,7 +24,7 @@
     version: col-6
 - file: shrine_prayers.jpg
   alt: Complete the fox face!
-  version: col-12
+  version: full
 - files:
   - file: getting_dark.jpg
     alt: All the way up the mountain as things start to get dark.

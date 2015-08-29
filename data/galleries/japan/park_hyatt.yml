@@ -1,7 +1,7 @@
 ---
 - file: menus.jpg
   alt: Sitting down for cocktails.
-  version: col-12
+  version: full
 - files:
   - file: adam.jpg
     alt: Adam with a cocktail.

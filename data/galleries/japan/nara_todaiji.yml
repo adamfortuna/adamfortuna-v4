@@ -1,7 +1,7 @@
 ---
 - file: todaiji.jpg
   alt: Todai-ji temple.
-  version: col-12
+  version: full
 - files:
   - file: marilyn_door.jpg
     alt: Marilyn seeing how huge the door is.

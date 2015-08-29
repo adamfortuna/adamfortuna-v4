@@ -24,7 +24,7 @@
     version: col-4
 - file: pagoda.jpg
   alt: A beautiful pagoda.
-  version: col-12
+  version: full
 - files:
   - file: adam_temple.jpg
     alt: Me with a view of the temple.

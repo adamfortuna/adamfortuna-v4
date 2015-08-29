@@ -68,7 +68,7 @@ module Gallery
       FileUtils.mkdir_p(full_destination_folder)
       image_file = ::MiniMagick::Image.open(source_path)
       image_file.combine_options do |i|
-        i.resize "2500>x2500>"
+        i.resize "3000>x3000>"
         i.quality "90"
       end
       puts "Writing resized image to #{full_destination_path}"
@@ -82,7 +82,7 @@ module Gallery
 
       commands = {}
       commands = crop_commands_for(image_file) if options.crop?
-      commands.merge(options.commands)
+      commands.merge!(options.commands)
 
       image_file.combine_options do |c|
         commands.each_pair do |command, value|
@@ -182,6 +182,8 @@ module Gallery
       else
         image[:file].gsub(/\.([^\.]+)$/, '-'+image[:version]+'.\1')
       end
+    rescue Exception => e
+      puts "Could not determine a version for image #{image}"
     end
 
     def columns_count

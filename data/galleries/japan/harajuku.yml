@@ -14,7 +14,7 @@
     version: col-5
 - file: crepe.jpg
   alt: Delicious crepes, worth the wait.
-  version: col-12
+  version: full
 - files:
   - file: group.jpg
     alt: The lunch group!

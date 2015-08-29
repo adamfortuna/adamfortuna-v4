@@ -1,5 +1,7 @@
 ---
-- files:
+- options:
+    height: 350
+  files:
   - file: 711-breakfast.jpg
     alt: A cheap breakfast from 7-11. With most places closed for breakfast, this was one of a few options that would let us eat and start visiting sites early.
     version: col-3

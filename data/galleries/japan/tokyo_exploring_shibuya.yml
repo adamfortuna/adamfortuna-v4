@@ -1,7 +1,7 @@
 ---
 - file: south_shibuya.jpg
   alt: A cherry blossom lined street in South Shibuya.
-  version: col-12
+  version: full
 - files:
   - file: ramen-marilyn.jpg
     alt: A huge bowl of ramen.

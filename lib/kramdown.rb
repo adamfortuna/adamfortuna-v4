@@ -37,19 +37,23 @@ module Kramdown
       define_parser(:gallery, GALLERY_START)
 
       def parse_inline_gallery
-        if gallery = @src.check(self.class::INLINE_GALLERY)
-          @src.pos += @src.matched_size
-          start_line_number = @src.current_line_number
+        begin
+          if gallery = @src.check(self.class::INLINE_GALLERY)
+            @src.pos += @src.matched_size
+            start_line_number = @src.current_line_number
 
-          file_name = @src[1]
-          path = File.join(Dir.pwd, 'data', 'galleries', @src[1]) + ".yml"
-          content = File.read(path)
-          gallery_options = YAML.load(content)
+            file_name = @src[1]
+            path = File.join(Dir.pwd, 'data', 'galleries', @src[1]) + ".yml"
+            content = File.read(path)
+            gallery_options = YAML.load(content)
 
-          # Create a new `ul` for this gallery
-          add_gallery({ path: @src[1], gallery: gallery_options})
-        else
-          false
+            # Create a new `ul` for this gallery
+            add_gallery({ path: path, name: @src[1], gallery: gallery_options})
+          else
+            false
+          end
+        rescue Exception => e
+          puts "There was an error parsing gallery #{@src[1]}"
         end
       end
       define_parser(:inline_gallery, INLINE_GALLERY)
@@ -130,23 +134,26 @@ module Middleman
       def convert_gallery(el, indent)
         el.value = el.value.with_indifferent_access
         items = el.value.is_a?(Array) ? el.value : el.value[:gallery]
+        name = el.value[:name]
         path = el.value[:path]
+
+        gallery = ::Gallery::Gallery.new(path)
 
         content = items.collect do |gallery_item|
           gallery_item = gallery_item.with_indifferent_access
           if gallery_item['files']
             # This is a row of images
-            generate_row(path, gallery_item)
+            generate_row(name, gallery_item, gallery)
           else
-            ::Gallery::Photo.new(gallery_item, path, gallery_item[:options]).to_html
+            ::Gallery::Photo.new(gallery_item, name, gallery_item[:options], gallery).to_html
           end
         end
         %(<section class='gallery'>#{content.join("\n")}</section>)
       end
 
-      def generate_row path, row
+      def generate_row name, row, gallery
         items = row[:files].collect do |image|
-          ::Gallery::Photo.new(image, path, row[:options]).to_html
+          ::Gallery::Photo.new(image, name, row[:options], gallery).to_html
         end
 
         %(<div class='row'>#{items.join("\n")}</div>)

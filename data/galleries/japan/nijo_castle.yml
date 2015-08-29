@@ -17,9 +17,10 @@
   files:
   - file: shrine.jpg
     alt: A stone shrine.
-    version: col-6-tall
+    version: col-6
   - file: path_up.jpg
     alt: These stairs were extremely steep, but regardless of age people were climbing up in the rain.
+    version: col-6
 - file: castle_corner.jpg
   alt: Plum blossoms around the castle moat.
   version: col-12
@@ -42,7 +43,7 @@
     version: col-4
 - file: marilyn_blossoms.jpg
   alt: Marilyn in the rain under the blossoms.
-  version: col-12
+  version: full
 - files:
   - file: raining_garden.jpg
     alt: Rain coming down on the garden.

@@ -1,7 +1,7 @@
 ---
 - file: us.jpg
   alt: Us at Owakudani
-  version: col-12
+  version: full
 - files:
   - file: cable_car.jpg
     alt: This cable car connects Hakone with the next small stop where the Hakone ropeway leaves from.

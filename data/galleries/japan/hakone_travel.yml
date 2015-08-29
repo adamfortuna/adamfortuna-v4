@@ -1,0 +1,14 @@
+---
+- file: train_station.jpg
+  alt: The Hakone train station.
+  version: col-col-12
+- files:
+  - file: train_snack.jpg
+    alt: A train station snack for the ride.
+    version: col-3
+  - file: train_stop.jpg
+    alt: A tiny mountain train stop.
+    version: col-5
+  - file: train_view.jpg
+    alt: View out the shinkansen window.
+    version: col-4

@@ -1,11 +1,8 @@
 ---
+- file: tempura.jpg
+  version: col-12
+  alt: A few of the tempura options available. Not the crispy you see in the west, but a softer with a cod batter.
 - files:
-  - file: tempura.jpg
-    version: col-12
-    alt: A few of the tempura options available. Not the crispy you see in the west, but a softer with a cod batter.
-- options:
-    height: 244
-  files:
     - file: croquette.jpg
       version: col-3
       alt: Freshly fried croquette. I chose squash as my flavor.
@@ -15,15 +12,12 @@
     - file: bonito.jpg
       version: col-4
       alt: Bonito (dried, fermented fish) at a bonito store.
-- options:
+- file: pancackes_and_takoyaki.jpg
+  version: col-12
+  alt: Freshly made stuffed pancakes and takoyaki.
+  options:
     height: 900
-  files:
-    - file: pancackes_and_takoyaki.jpg
-      version: col-12
-      alt: Freshly made stuffed pancakes and takoyaki.
-- options:
-    height: 244
-  files:
+- files:
     - file: 30_watermelon.jpg
       version: col-4
       alt: $30 for a watermelon seems a bit expensive.
@@ -33,9 +27,7 @@
     - file: sweet_potato_pancake.jpg
       version: col-3
       alt: I went with the sweet potato pancake. Marilyn had the sakura stuffed version.
-- options:
-    height: 350
-  files:
+- files:
     - file: egg_stuffed_with_eel.jpg
       version: col-6
       alt: Egg omlet stuffed with eel.
@@ -45,9 +37,7 @@
 - file: fish_vendor.jpg
   version: col-12
   alt: All fish was trucked in this morning.
-- options:
-    height: 400
-  files:
+- files:
     - file: pickels.jpg
       version: col-4
       alt: Kyoto is famous for its pickles.

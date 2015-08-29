@@ -1,7 +1,7 @@
 ---
 - file: sake.jpg
   alt: Pick a sake!
-  version: col-12
+  version: full
 - files:
   - file: view.jpg
     alt: View from my seat on the roof of the building.

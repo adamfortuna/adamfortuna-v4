@@ -1,7 +1,7 @@
 ---
 - file: false_entrance.jpg
   alt: The false entrance to the museum.
-  version: col-12
+  version: full
 - files:
   - file: tickets.jpg
     alt: Ticket instructions are strict.
@@ -21,7 +21,7 @@
     version: col-6
 - file: cell.jpg
   alt: My ticket to the museum.
-  version: col-12
+  version: full
 - files:
   - file: levels.jpg
     alt: Pick a level.

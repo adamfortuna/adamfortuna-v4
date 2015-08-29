@@ -1,7 +1,7 @@
 module Gallery
   class Gallery
     def initialize path
-      @path = path
+      @path = path.gsub(/(.*)(data\/galleries\/.*)/, '\2')
     end
 
     def photos_count

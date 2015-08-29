@@ -14,7 +14,7 @@
     version: col-3
 - file: nishiki_pickles.jpg
   alt: Pickles ready to be sold.
-  version: col-12
+  version: full
 - options:
     height: 780
   files:

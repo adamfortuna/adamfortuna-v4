@@ -1,7 +1,7 @@
 ---
 - file: octopus.jpg
   alt: Octopus
-  version: col-12
+  version: full
 - files:
   - file: marilyn_skewer.jpg
     alt: Marilyn with a skewer.

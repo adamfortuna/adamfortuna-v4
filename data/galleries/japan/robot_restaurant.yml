@@ -1,7 +1,7 @@
 ---
 - file: finale.jpg
   alt: Part of the finale.
-  version: col-12
+  version: full
 - files:
   - file: adam.jpg
     alt: Adan looking confused.
@@ -21,7 +21,7 @@
     version: col-4
 - file: path.jpg
   alt: The walk down to the show.
-  version: col-12
+  version: full
 - files:
   - file: robot_lights.jpg
     alt: Robots and lights.

@@ -1,7 +1,7 @@
 ---
 - file: sakura.jpg
   alt: The first cherry blossoms spotted in the wild.
-  version: col-12
+  version: full
 - files:
   - file: blossoms.jpg
     alt: Cherry blossoms.

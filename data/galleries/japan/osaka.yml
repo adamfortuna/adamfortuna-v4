@@ -1,7 +1,7 @@
 ---
 - file: dotonbori.jpg
   alt: Dōtonbori street.
-  version: col-12
+  version: full
 - files:
   - file: crabs_host_club.jpg
     alt: A crab restaurant next to a host cafe.
