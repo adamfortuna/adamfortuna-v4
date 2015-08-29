@@ -1,0 +1,31 @@
+---
+- file: dotonbori.jpg
+  alt: Dōtonbori street.
+  version: col-12
+- file: crabs_host_club.jpg
+  alt: A crab restaurant next to a host cafe.
+  version: col-4
+- file: takoyaki.jpg
+  alt: This takoyaki vendor had a huge line.
+  version: col-5
+- file: bars.jpg
+  alt: An apartment building filled with bars.
+  version: col-3
+- file: okonomiyaki_osaka.jpg
+  alt: Okonomiyaki (pancake) served Osaka style.
+  version: col-6
+- file: okonomiyaki_tokyo.jpg
+  alt: Okonomiyaki (pancake) served Tokyo style.
+  version: col-6
+- file: takoyaki_octopus.jpg
+  alt: This octopus moved and played a song.
+  version: col-12
+- file: shinsaibashi_street.jpg
+  alt: Shinsaibashi Streets entrance.
+  version: col-3
+- file: anime_costumes.jpg
+  alt: A selection of anime wigs at a costume store.
+  version: col-5
+- file: apartment_bars.jpg
+  alt: A look down the hallway of an apartment building bar.
+  version: col-4

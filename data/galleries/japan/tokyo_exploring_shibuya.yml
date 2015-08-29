@@ -1,0 +1,19 @@
+---
+- file: south_shibuya.jpg
+  alt: A cherry blossom lined street in South Shibuya.
+  version: col-12
+- file: ramen-marilyn.jpg
+  alt: A huge bowl of ramen.
+  version: col-4
+- file: ramen.jpg
+  alt: Marilyn getting ready for some Hokkaido style ramen.
+  version: col-5
+- file: harajuku.jpg
+  alt: The streets of Harajuku.
+  version: col-3
+- file: green_tea_donut.jpg
+  alt: Green tea donut from Krispy Kreme.
+  version: col-6
+- file: cherry_blossom_donut.jpg
+  alt: Cherry Blossom donut from Krispy Kreme.
+  version: col-6

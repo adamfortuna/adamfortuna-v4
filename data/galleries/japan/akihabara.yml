@@ -1,0 +1,28 @@
+---
+- file: akihabara.jpg
+  alt: Streets of Akihabara
+  version: col-12
+- options:
+    height: 244
+  files:
+    - file: akihabara_station.jpg
+      alt: Akibarahara Station.
+      version: col-4
+    - file: sega.jpg
+      alt: Sega Arcade.
+      version: col-5
+    - file: akihabara_station_marilyn.jpg
+      alt: Akibarahara Station.
+      version: col-3
+- options:
+    height: 244
+  files:
+    - file: noodles.jpg
+      alt: Cup of noodles vending machine in an arcade.
+      version: col-3
+    - file: akihabara_streets.jpg
+      alt: Streets of Akihabara
+      version: col-5
+    - file: gundam_cafe.jpg
+      alt: Gundam Cafe
+      version: col-4

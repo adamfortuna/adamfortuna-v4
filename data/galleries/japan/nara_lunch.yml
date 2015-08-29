@@ -1,0 +1,19 @@
+---
+- file: lunch.jpg
+  alt: A light lunch we split to save room for sampling more options later.
+  version: col-12
+- file: mackerel.jpg
+  alt: Mackerel wrapped in persimmon leaves.
+  version: col-4
+- file: jellies.jpg
+  alt: Sweet lychee jellies for dessert.
+  version: col-4
+- file: omlet.jpg
+  alt: A small omlet with a few other textures.
+  version: col-4
+- file: green_tea.jpg
+  alt: Green tea with a small dessert.
+  version: col-6
+- file: rice_porridge.jpg
+  alt: Rice porridge.
+  version: col-6

@@ -1,0 +1,28 @@
+---
+- file: torii.jpg
+  alt: Entrance to the Meiji Shrine
+  version: col-12
+- file: shiny.jpg
+  alt: These dotted the path to the shrine.
+  version: col-4
+- file: flowers.jpg
+  alt: Wild flowers on the side of the road.
+  version: col-3
+- file: entrance.jpg
+  alt: Entrance to shrine itself.
+  version: col-5
+- file: blossom.jpg
+  alt: Cherry blossoms in bloom.
+  version: col-6
+- file: courtyard.jpg
+  alt: The courtyard of the shrine.
+  version: col-6
+- file: old_and_new.jpg
+  alt: Old shrine and new buildings.
+  version: col-4
+- file: hallway.jpg
+  alt: Hallways at the shrine.
+  version: col-5
+- file: prayers.jpg
+  alt: Some prayers.
+  version: col-3

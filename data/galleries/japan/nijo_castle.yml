@@ -1,0 +1,50 @@
+---
+- file: guardhouse.jpg
+  alt: The guardhouse and blooming plum blossom.
+  version: col-12
+- file: entrance.jpg
+  alt: A close up of the blossoms.
+  version: col-4
+- file: shoes.jpg
+  alt: Taking off our shoes for the palace tour.
+  version: col-5
+- file: blossoms.jpg
+  alt: A close up of the blossoms.
+  version: col-3
+- file: shrine.jpg
+  alt: A stone shrine.
+  version: col-6-tall
+  col-6-tall: 585x780
+- file: path_up.jpg
+  alt: These stairs were extremely steep, but regardless of age people were climbing up in the rain.
+  version: col-6-tall
+- file: castle_corner.jpg
+  alt: Plum blossoms around the castle moat.
+  version: col-12
+- file: plum_blossom.jpg
+  alt: Close up of a plum blossom.
+  version: col-6
+- file: yellow_flowers.jpg
+  alt: Close up of a yellow flower.
+  version: col-6
+- file: moat.jpg
+  alt: The moat was larger than it looked.
+  version: col-3
+- file: view.jpg
+  alt: View from up top.
+  version: col-5
+- file: building_courtyard.jpg
+  alt: Courtyard of the building.
+  version: col-4
+- file: marilyn_blossoms.jpg
+  alt: Marilyn in the rain under the blossoms.
+  version: col-12
+- file: raining_garden.jpg
+  alt: Rain coming down on the garden.
+  version: col-4
+- file: blossom_path.jpg
+  alt: Down the plum blossom path.
+  version: col-5
+- file: single_branch.jpg
+  alt: A single plum blossom branch.
+  version: col-3

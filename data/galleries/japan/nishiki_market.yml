@@ -1,0 +1,23 @@
+---
+- file: sake.jpg
+  alt: A Sake shop in Nishiki market.
+  version: col-12
+- file: bonito.jpg
+  alt: Bonito vendor.
+  version: col-4
+- file: meats.jpg
+  alt: Fresh meats grilled up.
+  version: col-5
+- file: squid.jpg
+  alt: Dried squid.
+  version: col-3
+- file: nishiki_pickles.jpg
+  alt: Pickles ready to be sold.
+  version: col-12
+- file: shiny_floor.jpg
+  alt: The floor early in the morning was hosed off and ready for a day of action.
+  version: col-6-tall
+- file: nishiki_shrine.jpg
+  alt: This shrine was hidden amongst the stalls in the market.
+  version: col-6-tall
+  col-6-tall: 585x780

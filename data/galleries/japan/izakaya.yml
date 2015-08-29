@@ -1,0 +1,4 @@
+---
+- file: streets.jpg
+  alt: The busy streets of Shinjuku.
+  version: col-12

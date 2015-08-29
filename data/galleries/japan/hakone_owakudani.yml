@@ -1,0 +1,34 @@
+---
+- file: us.jpg
+  alt: Us at Owakudani
+  version: col-12
+- file: cable_car.jpg
+  alt: This cable car connects Hakone with the next small stop where the Hakone ropeway leaves from.
+  version: col-4
+- file: ropeway_loading.jpg
+  alt: The ropeway had a huge line early in the morning, but went fast.
+  version: col-5
+- file: ropeway_down.jpg
+  alt: One ropeway takes you up to Owakudani, another takes you down to Lake Ashinoko.
+  version: col-3
+- file: hot_water.jpg
+  alt: A view of the hot water.
+  version: col-3
+- file: adam_ropeway.jpg
+  alt: Adam on the ropeway.
+  version: col-5
+- file: ropeway_view.jpg
+  alt: A view of the ropeway.
+  version: col-4
+- file: marilyn_sky.jpg
+  alt: Marilyn taking a break from pictures.
+  version: col-12
+- file: steamy.jpg
+  alt: Steam rising from the hot water.
+  version: col-3
+- file: cooking_eggs.jpg
+  alt: Eggs preparing to be boiled.
+  version: col-4
+- file: eating_eggs.jpg
+  alt: The eggs were black after boiling, but tasted the same.
+  version: col-5

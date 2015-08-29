@@ -1,0 +1,28 @@
+---
+- file: octopus.jpg
+  alt: Octopus
+  version: col-12
+- file: marilyn_skewer.jpg
+  alt: Marilyn with a skewer.
+  version: col-6
+- file: fish2.jpg
+  alt: Fish cooking.
+  version: col-6
+- file: tempura.jpg
+  alt: Tempura
+  version: col-4
+- file: banana.jpg
+  alt: Bananas
+  version: col-3
+- file: scallops.jpg
+  alt: Scallops
+  version: col-5
+- file: rice.jpg
+  alt: Rice
+  version: col-5
+- file: skewer.jpg
+  alt: Pork skewers.
+  version: col-4
+- file: fried_chicken.jpg
+  alt: Friend chicken
+  version: col-3

@@ -1,0 +1,37 @@
+---
+- file: gion.jpg
+  alt: The main street in the Gion district.
+  version: col-12
+- file: side_garden.jpg
+  alt: A small garden alongside a restaurant.
+  version: col-3
+- file: flower.jpg
+  alt: A small flower.
+  version: col-4
+- file: gion_corner.jpg
+  alt: Gion Corner, a theater for Maiko performances.
+  version: col-5
+- file: pathup.jpg
+  alt: The path up to a temple in Gion.
+  version: col-12
+- file: dessert.jpg
+  alt: A parfait with ice cream, mochi and red bean paste.
+  version: col-6
+- file: ice_cream_sampler.jpg
+  alt: Red bean paste and other ice cream flavors.
+  version: col-6
+- file: entrance.jpg
+  alt: Entrance to the dessert shop.
+  version: col-4
+- file: shrine.jpg
+  alt: Entrance to a shrine.
+  version: col-4
+- file: adam_dessert.jpg
+  alt: Dessert time!
+  version: col-4
+- file: ramen.jpg
+  alt: Delicious Hokaido style ramen from Ramen Santouka.
+  version: col-6
+- file: ramen_santouka.jpg
+  alt: Open kitchen surrounds the seating area at Ramen Santouka.
+  version: col-6

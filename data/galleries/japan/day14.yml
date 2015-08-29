@@ -1,0 +1,13 @@
+---
+- file: ramen.jpg
+  alt: Delicious ramen.
+  version: col-12
+- file: sides.jpg
+  alt: Fresh garlic at your table.
+  version: col-4
+- file: takoyaki.jpg
+  alt: Finally tried some takoyaki.
+  version: col-4
+- file: streets.jpg
+  alt: A school that Marilyn confused with a prison.
+  version: col-4

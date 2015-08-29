@@ -1,0 +1,16 @@
+---
+- file: kurosawa.jpg
+  alt: Kurosawa
+  version: col-6
+- file: green_tea.jpg
+  alt: Green Tea cocktail with gold leaf.
+  version: col-6
+- file: cheese.jpg
+  alt: Cheese plate from Ishino Hana Bar.
+  version: col-3
+- file: goodbeer_faucets.jpg
+  alt: Goodbeer faucets.
+  version: col-5
+- file: indoor.jpg
+  alt: The bar at Goodbeer faucets.
+  version: col-4

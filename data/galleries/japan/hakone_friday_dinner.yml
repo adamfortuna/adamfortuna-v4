@@ -1,0 +1,28 @@
+---
+- file: friday_sushi.jpg
+  alt: Sushi plate.
+  version: col-4
+- file: friday_marilyn.jpg
+  alt: Marilyn excited about dinner.
+  version: col-5
+- file: friday_food.jpg
+  alt: Sampler of a few small plates.
+  version: col-3
+- file: friday_tempura.jpg
+  alt: Tempura with sakura salt.
+  version: col-3
+- file: friday_fish.jpg
+  alt: Fish with pickled things.
+  version: col-4
+- file: friday_broth.jpg
+  alt: This broth was absolutely amazing. It cooked at the table.
+  version: col-5
+- file: friday_meat.jpg
+  alt: This cooked under a candle at the table.
+  version: col-4
+- file: friday_salad.jpg
+  alt: A fresh salad.
+  version: col-4
+- file: friday_dessert.jpg
+  alt: Fresh fruit for dessert.
+  version: col-4

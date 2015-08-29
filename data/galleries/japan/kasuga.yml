@@ -1,0 +1,46 @@
+---
+- file: shrine_maidens.jpg
+  alt: Shine maidens going about their day at Kasuga Taisha.
+  version: col-12
+- file: adam_lanterns.jpg
+  alt: Adam in front of lanterns on the way up.
+  version: col-4
+- file: lantern_moss.jpg
+  alt: These line the 800m pathway up.
+  version: col-5
+- file: rooftop.jpg
+  alt: On the way to the shrine, we spotted this rooftop.
+  version: col-3
+- file: marilyn_lantern.jpg
+  alt: Marilyn in front of a huge stone lantern.
+  version: col-6-tall
+- file: shrines_and_roots.jpg
+  alt: Roots stop at the lanterns.
+  version: col-6-tall
+- file: prayers.jpg
+  alt: Prayers tied to trees.
+  version: col-12
+- file: roots.jpg
+  alt: Gnarled tree roots.
+  version: col-3
+- file: cleansing.jpg
+  alt: Cleansing before visiting the temple.
+  version: col-5
+- file: guardian.jpg
+  alt: Shrine guardian.
+  version: col-4
+- file: plum_bloom.jpg
+  alt: Within the shrine sat this beautiful plum blossom.
+  version: col-5
+- file: brone_lantern.jpg
+  alt: One of many bronze lanterns at the shrine.
+  version: col-3
+- file: adam_kasuga.jpg
+  alt: Adam in front of the main shrine.
+  version: col-4
+- file: lanterns_old_and_new.jpg
+  alt: New and old lanterns.
+  version: col-6
+- file: lanterns_and_water.jpg
+  alt: Stone lanterns on the way up.
+  version: col-6

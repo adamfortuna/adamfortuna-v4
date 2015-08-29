@@ -1,0 +1,22 @@
+---
+- file: sun_adam_eating.jpg
+  alt: Adam eating breakfast.
+  version: col-6
+- file: sun_marilyn_eating.jpg
+  alt: Marilyn eating breakfast.
+  version: col-6
+- file: sun_salad.jpg
+  alt: Morning salad.
+  version: col-3
+- file: sun_soup.jpg
+  alt: Crab miso soup.
+  version: col-5
+- file: sun_omlet.jpg
+  alt: This omlet was a foot long.
+  version: col-4
+- file: sun_fish.jpg
+  alt: Another delicious, crunchy, whole fish.
+  version: col-6
+- file: sun_sampler.jpg
+  alt: A sampler of a few things.
+  version: col-6

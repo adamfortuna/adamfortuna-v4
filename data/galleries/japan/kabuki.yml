@@ -1,0 +1,4 @@
+---
+- file: kabuki.jpg
+  alt: Seats at the show.
+  version: col-12

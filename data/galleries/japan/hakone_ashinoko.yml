@@ -1,0 +1,25 @@
+---
+- file: adam_ships.jpg
+  alt: Adam between ships.
+  version: col-12
+- file: marilyn_camera.jpg
+  alt: Marilyn taking pictures.
+  version: col-3
+- file: lake.jpg
+  alt: Lake view from the ship.
+  version: col-5
+- file: shore.jpg
+  alt: The south shoreline of Lake Ashinoko.
+  version: col-4
+- file: adam_boat.jpg
+  alt: Adam out on the deck on Lake Ashinoko.
+  version: col-12
+- file: lake_boats.jpg
+  alt: Fishermans boats.
+  version: col-4
+- file: smelt.jpg
+  alt: Smelt for lunch
+  version: col-5
+- file: fisherman.jpg
+  alt: Fisherman at Lake Ashinoko
+  version: col-3

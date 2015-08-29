@@ -1,0 +1,7 @@
+---
+- file: ramen1.jpg
+  alt: Ramen and Beer
+  version: col-6
+- file: ramen2.jpg
+  alt: Ramen
+  version: col-6

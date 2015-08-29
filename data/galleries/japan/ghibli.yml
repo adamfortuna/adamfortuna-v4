@@ -1,0 +1,37 @@
+---
+- file: false_entrance.jpg
+  alt: The false entrance to the museum.
+  version: col-12
+- file: tickets.jpg
+  alt: Ticket instructions are strict.
+  version: col-4
+- file: outdoors.jpg
+  alt: View of the main museum building.
+  version: col-5
+- file: marilyn_robot.jpg
+  alt: Marilyn and a Robot Soldier
+  version: col-3
+- file: stairs.jpg
+  alt: Stairs to the roof.
+  version: col-6
+- file: adam_robot.jpg
+  alt: Adam and a Robot Soldier
+  version: col-6
+- file: cell.jpg
+  alt: My ticket to the museum.
+  version: col-12
+- file: levels.jpg
+  alt: Pick a level.
+  version: col-6
+- file: reflection.jpg
+  alt: Reflection of a tree.
+  version: col-6
+- file: adam_view.jpg
+  alt: Adam enjoying the view.
+  version: col-4
+- file: faucets.jpg
+  alt: Even the faucets are themed.
+  version: col-5
+- file: marilyn_ice_cream.jpg
+  alt: Marilyn and a Ghibli beer.
+  version: col-3

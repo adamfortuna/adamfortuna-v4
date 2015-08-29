@@ -1,0 +1,31 @@
+---
+- file: finale.jpg
+  alt: Part of the finale.
+  version: col-12
+- file: adam.jpg
+  alt: Adan looking confused.
+  version: col-6
+- file: entrance.jpg
+  alt: The entrance to the restaurant.
+  version: col-6
+- file: robot_horse.jpg
+  alt: Robots and a horse.
+  version: col-5
+- file: drums.jpg
+  alt: two groups like this were playing drums on separate platforms.
+  version: col-3
+- file: adam_marilyn.jpg
+  alt: We got glowsticks.
+  version: col-4
+- file: path.jpg
+  alt: The walk down to the show.
+  version: col-12
+- file: robot_lights.jpg
+  alt: Robots and lights.
+  version: col-4
+- file: not_sure.jpg
+  alt: I have no idea what was going on here.
+  version: col-4
+- file: piano.jpg
+  alt: This guy was playing the piano.
+  version: col-4

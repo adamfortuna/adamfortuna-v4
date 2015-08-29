@@ -1,0 +1,30 @@
+---
+- file: plum_blossom_tree.jpg
+  alt: A huge and beautiful plum blossom tree.
+  version: col-12
+- files:
+    - file: marilyn_plum_blossom.jpg
+      alt: Marilyn under the plum blossoms.
+      version: col-6
+    - file: adam_plum_blossom.jpg
+      alt: Adam under the plum blossoms.
+      version: col-6
+- files:
+  - file: moss.jpg
+    alt: Moss working its way into a tree.
+    version: col-4
+  - file: blossom_ready.jpg
+    alt: Blossoms preparing to bloom.
+    version: col-4
+  - file: hanging_blossoms.jpg
+    alt: Bright blossoms.
+    version: col-4
+- options:
+    height: 780
+  files:
+    - file: stone_walkway.jpg
+      alt: I wonder how old this walkway is...
+      version: col-6
+    - file: white_flower.jpg
+      alt: A single flower glistening in the rain.
+      version: col-6
