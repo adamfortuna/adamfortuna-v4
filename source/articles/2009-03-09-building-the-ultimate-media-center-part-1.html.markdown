@@ -1,11 +1,8 @@
 ---
-layout: post
 title: "Building the Ultimate Media Center, Part 1: Hardware"
-id: building-the-ultimate-media-center-part-1-hardware
-published: true
-comments: true
-tags:
-  - apple
+permalink: building-the-ultimate-media-center-part-1-hardware
+tags: Personal, Hardware
+date: 2009/03/09
 ---
 
 If you're a geek, chances are you've dreamed of having an amazing media setup that gives you a movie theater at home feel while providing all the options to extend it with your media. Well, thanks to the recent release of the "Apple Mac mini":http://www.apple.com/macmini/ , hardware and software (specifically "Plex":http://www.plexapp.com ) are at a great point right now to do just about everything you could want on a single system. Since this past Tuesday when the Mac Mini came out I've been setting a system for this purpose. Hopefully my research can save someone else a little bit of time.

@@ -1,12 +1,7 @@
 ---
-layout: post
 title: "Write Your 'Year in Review' Post Now"
-id: write-your-year-in-review-post-now
-tags:
-  - personal
-  - motivation
-published: true
-comments: true
+permalink: write-your-year-in-review-post-now
+tags: Personal, Self Improvement
 ---
 
 At the end of last year, I wrote a post about "what I'd been up to in the past year":/2010-year-in-review/. I do this every year (though usually unpublished) while things are still fresh in my mind, and find it fun to look back on the highlights and see what I was able to accomplish. It's something I'd recommend to anyone.

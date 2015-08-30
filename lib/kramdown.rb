@@ -5,8 +5,7 @@ module Kramdown
   module Parser
     class AFM < Kramdown::Parser::GFM
       GALLERY_START = /^@gallery\n/
-      GALLERY_MATCH = /^@gallery\n(.*?)^@\n/m
-
+      GALLERY_MATCH = /^@gallery\s+(.*?)\s*?\n(.*?)^@\n/m
       INLINE_GALLERY = /^@gallery\s+(.*?)\s*?\n/
 
       def initialize(source, options)
@@ -24,17 +23,18 @@ module Kramdown
       #  src: http://parisvega.com/wp-content/uploads/2010/04/apple-mbp2011-15-frontface_osx-lg.jpg
       # @
       def parse_gallery
+        # binding.pry
         if gallery = @src.check(self.class::GALLERY_MATCH)
           @src.pos += @src.matched_size
           start_line_number = @src.current_line_number
-          content = @src[1]
+          content = @src[2]
           gallery_options = YAML.load(content)
-          add_gallery({ gallery: gallery_options})
+          add_gallery({ name: @src[1],  gallery: gallery_options})
         else
           false
         end
       end
-      define_parser(:gallery, GALLERY_START)
+      define_parser(:gallery, INLINE_GALLERY)
 
       def parse_inline_gallery
         begin
@@ -47,7 +47,6 @@ module Kramdown
             content = File.read(path)
             gallery_options = YAML.load(content)
 
-            # Create a new `ul` for this gallery
             add_gallery({ path: path, name: @src[1], gallery: gallery_options})
           else
             false
@@ -137,7 +136,7 @@ module Middleman
         name = el.value[:name]
         path = el.value[:path]
 
-        gallery = ::Gallery::Gallery.new(path)
+        gallery = path ? ::Gallery::Gallery.new(path) : nil
 
         content = items.collect do |gallery_item|
           gallery_item = gallery_item.with_indifferent_access

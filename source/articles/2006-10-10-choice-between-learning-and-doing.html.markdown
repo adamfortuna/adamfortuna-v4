@@ -1,19 +1,15 @@
 ---
-layout: post
-title: "Choice Between Learning and Doing"
-id: choice-between-learning-and-doing
-published: true
-comments: true
-tags:
-  - education
-  - self improvement
+title: Choice Between Learning and Doing
+permalink: choice-between-learning-and-doing
+tags: Personal, Self Improvement, Education
+date: 2006-10-10
 ---
 
 Learning something new isn't always easy, in fact it's usually quite a challenge or you'd know it already. When it comes to programming, or anything with computers I can't imagine learning by any means other than a hands on approach. You never see people become experts without doing, so attempting to learn something without at least an idea in place to apply what you're learning doesn't make too much sense. But how do you decide when to apply and when to keep on learning?
 
-That's something I've always struggled with to be honest. I'll read the first chapter of a book and be so inspired by it that I have to start making something with the little bit of knowledge learned - only to find out that it's either not enough to do anything I'd want in complete detail, or there's just too much that was left unsaid to get a decent picture of the architecture. Recently when learning Ruby On Rails for example, I was reading through "Agile Web Development with Rails":http://www.amazon.com/Agile-Web-Development-Rails-Programmers/dp/097669400X/sr=8-1/qid=1160457267/ref=pd_bbs_1/002-8402271-3086451?ie=UTF8&amp;s=books and after each chapter I was amazed by amount of new possibilities that opened up at each step. I'd end up setting up rails, getting a hello world app going and spending more time researching online before even getting into the chapters that dealt with what I wanted to do.
+That's something I've always struggled with to be honest. I'll read the first chapter of a book and be so inspired by it that I have to start making something with the little bit of knowledge learned - only to find out that it's either not enough to do anything I'd want in complete detail, or there's just too much that was left unsaid to get a decent picture of the architecture. Recently when learning Ruby On Rails for example, I was reading through [Agile Web Development with Rails](http://www.amazon.com/Agile-Web-Development-Rails-Programmers/dp/097669400X/sr=8-1/qid=1160457267/ref=pd_bbs_1/002-8402271-3086451?ie=UTF8&amp;s=books) and after each chapter I was amazed by amount of new possibilities that opened up at each step. I'd end up setting up rails, getting a hello world app going and spending more time researching online before even getting into the chapters that dealt with what I wanted to do.
 
-Thinking back, there was something wrong with how I was applying this newly learned knowledge, but what could be done differently? Working on a (so far un-nammed) project now with Model Glue: Unity, while at the same time learning it, Coldspring and Reactor has put me in a similar position. There is no book to read on these subjects though, and when it comes to MG: Unity there is very little sample code out there for fully developed websites (still looking actually). But instead of blindly pressing forward with the coding, I took a step back and listed out what the project I'm working on needed. 
+Thinking back, there was something wrong with how I was applying this newly learned knowledge, but what could be done differently? Working on a (so far un-nammed) project now with Model Glue: Unity, while at the same time learning it, Coldspring and Reactor has put me in a similar position. There is no book to read on these subjects though, and when it comes to MG: Unity there is very little sample code out there for fully developed websites (still looking actually). But instead of blindly pressing forward with the coding, I took a step back and listed out what the project I'm working on needed.
 
 Instead of doing this on PC, I've started getting one of those black and white composition books for each site (i want to) work on. At the front is some basic information about the site - domain name if I have one for it, description, site goals, how it'll be beneficial to it's users, who the site will be targeted towards, revenue sources and simple task descriptions that I want users to be able to do. In the middle fold of the composition books I start designing the database, which is really one of the most fun parts for me. Each page has a date in the upper right corner, which is very helpful for keeping track.
 

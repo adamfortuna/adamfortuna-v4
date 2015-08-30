@@ -16,7 +16,7 @@ Notifications caught on with Mac App developers. [HTML 5 Notifications](http://n
 
 OS X Mavericks has expanded support for notifications that builds heavily on this. Here's what's public on the topic so far:
 
-> Once users have signed up for notifications from your website in Safari, you can send them push notifications that appear just like app notifications, even when Safari isn’t running. Users can then click on your push notification to launch your website.
+> Once users have signed up for notifications from your website in Safari, you can send them push notifications that appear just like app notifications, even when Safari isn't running. Users can then click on your push notification to launch your website.
 <a href='https://developer.apple.com/osx/whats-new/'>OS X Mavericks for Developers</a>
 
 In other words, it's time to hop on board the notification train if you want another route of reaching your sites visitors. Let's check out how this applies to the different browsers.

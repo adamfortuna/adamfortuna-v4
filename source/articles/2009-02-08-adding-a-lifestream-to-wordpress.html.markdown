@@ -1,0 +1,13 @@
+---
+title: "Adding a Lifestream to Wordpress"
+permalink: adding-a-lifestream-to-wordpress
+tags: Technical, Wordpress, Short
+---
+
+Sometimes a new service comes around that you know is powerful but you have trouble finding an actual use for it. Two of those that I've recently been looking into are [FriendFeed](http://www.friendfeed) and [Yahoo Pipes](http://pipes.yahoo.com/pipes/) . By themselves they're nothing, but once you have a goal in mind both become powerful allies. Adding some kind of a “lifestream” seems like all the rage these days, so I decided to give it a try using FriendFeed. I have to admit they make this extremely easy. Creating a page [via a single js call is about as easy as it gets](http://www.studionashvegas.com/2008/11/13/using-friendfeed-as-a-lifestream-within-wordpress/) , although if the page was going to be hit often it'd be a good idea to do some kind of caching. FriendFeed is nice enough to provide some [css hooks](http://friendfeed.com/embed/css) into the generated HTML that help with the finishing touches.
+
+There is one type of service that wasn't available on FriendFeed that I wanted to add to it though — movie reviews. Most movie sites are still walled gardens, despite the outcry from the open web community. IMDB has absolutely no API, although they do provide their data in txt files. That won't help for getting your specific info though. FriedFeed does integrate with NetFlix, but it looks to be only for receiving queue notifications. [Flixster](http://www.flixster) seemed like the best choice for movie reviews, despite the awful interface of their website. Luckily you can do just about everything from Facebook. The problem is, Flixster doesn't have any sort of API! Actually, no movie sites I've found provide so much as an RSS feed of your reviews (if you know of any, let me know).
+
+Enter Yahoo Pipes. Just a few weeks ago, someone created a [Yahoo Pipe](http://pipes.yahoo.com/pipes/pipe.info?_id=dd2129de62a32362e19b15b7791d16e7) for transforming the XML that Flixster uses for it's site widget into an RSS feed. Quite effective, and looks good ( [example](http://friendfeed.com/bdd?service=feed) ).
+
+I still have my problems with Flixster, but at least it's a start in integrating movie reviews. The end result is a [very basic lifestream page](http://www.adamfortuna.com/lifestream/) . There's a lot more than can be done with this though. What if you were able to jump to a specific date and see activity? Or if there were check boxes to show/hide specific services? Not to mention all the styling you can do to it. Interested to see what people end up doing with their FriendFeed data.

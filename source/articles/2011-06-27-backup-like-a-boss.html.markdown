@@ -1,28 +1,25 @@
 ---
-layout: post
 title: "Home Backup Like a Boss"
-id: home-backup-like-a-boss
-published: true
-tags:
-  - backup
+permalink: home-backup-like-a-boss
+tags: Personal, Preparation
 ---
 
 After hearing about the "FBI Raid on Marco Arment's servers":http://5by5.tv/buildanalyze/30, it got me interested in how he was doing backups. I've been slowly tweaking my own backup procedures over the last few years -- to the point of being borderline obsessed with having local backups. A few years ago in 2002, a failing SATA drive containing my windows partition and all my files left me high and dry and without just about any backups of anything. This was a time before "Dropbox":http://db.tt/ueGBRCn and other synchronizing services had come along to make things easier, and I hadn't taken the step on my own to make backup a priority.
 
 Two years ago when I was setting up my "home media center":http://blog.adamfortuna.com/building-the-ultimate-media-center-part-3-bac/, I took a first stab at serious backup. Since then I've been gradually tweaking my system and trying new things. What follows is what worked for me.
 
-h3. What's being backed up?
+### What's being backed up?
 
 In this case I'm talking about a lot of data, but split over a few discreet sections:
 
 * Under 60 GB of photos, documents, code and general files.
 * About 150 GB of music, mostly ripped from my Mom's extensive CD collection when she was a DJ, plus my iTunes downloads.
-* About _(gulp)_ 7 TB of movies. This includes a DVD rip of just every movie I've ever bought. 
+* About _(gulp)_ 7 TB of movies. This includes a DVD rip of just every movie I've ever bought.
 * 3 Macs are being backed up with TimeMachine (Mac Mini and 2 MacBook Pros)
 
 !(right){{site.url}}/media/media_center/mini-small.png! I eased back to the steam-only version of NetFlix, so this is (luckily) the size of the movies folder no longer going up. Occasionally movies/TV are pruned down, so hopefully that'll be down to a "manageable" 5TB soon enough.
 
-h3. What Hardware is this Using?
+### What Hardware is this Using?
 
 * Dedicated Seagate 1TB TimeMachine Hard Drive
 * "4-bay USB/Firewire Drobo":http://www.amazon.com/Data-Robotics-FireWire-Storage-DR04DD10/dp/B001CZ9ZEE/ref=sr_1_1?ie=UTF8&qid=1309218669&sr=8-1&tag=adamfortuna-20 with 4x2TB drives (~5.6TB) connected to the MacMini
@@ -37,7 +34,7 @@ I'd consider the MediaSonic enclosure as a lower priced alternative. The downsid
 
 It's been a a year or two since I looked into hardware, but these have both lasted well without any data loss, and without any failed drives (so far).
 
-h3. Software Makes it Happen
+### Software Makes it Happen
 
 There's a few important pieces of software that keep things in sync. In my "previous post":http://blog.adamfortuna.com/building-the-ultimate-media-center-part-3-bac/ I was using mostly cron jobs - which works, but were a little rough around the edges. Since then I've added a few more to the mix: !(right){{site.url}}/media/media_center/cronosync.png!
 
@@ -59,7 +56,7 @@ p(center). !{{site.url}}/media/screenshots/backblaze_persephone.png!
 It took upwards of 3 months to upload 6 TB to Backblaze (which Brighthouse luckily didn't have any issues with). Since then it's stayed in sync a few days at any given time. The contents on the drive aren't in constant flux, so often it's updated within a few minutes. If you're on a slow connection, this might not be possible, but "Road Runner Lightning":http://brighthouse.com/central-florida/shop/internet/road-runner-lightning or FIOS will make the process a lot smoother.
 
 
-h3. Bringing it All Together
+### Bringing it All Together
 
 The Drobo and Mediasonic devices serve as file storage for archived DVDs, and also store all music I've ever ripped/downloaded. Both devices allow for a single drive failure without the loss of data - and advantage over the standalone Western Digital 3TB drives which if they fail, all data is lost.
 
@@ -67,11 +64,11 @@ h4. Time Machine
 
 !(right){{site.url}}/media/media_center/timemachine.png! The 2 MacBook Pros and the Mac Mini are backed up constantly to Time Machine. Although not encouraged supported, you can plug a USB hard drive into an Airport Extreme and use it as a TimeMachine drive. From my experience, you can't do a first backup via USB then plug it in there either -- you have to do all backups and restores while it is connected to the Airport Extreme (probably a paths thing).
 
-h4. Music 
+h4. Music
 
-Music on my main computer isn't backed up to TimeMachine. Usually I have about 100GB of music, podcasts and other videos from iTunes University which is instead backed up to the Mediasonic device. Chronosync does the work of keeping a nightly snapshot of my entire music folder on one of those drives. If I grab a new album off iTunes, or rip a CD, it'll be backed up that same day. 
+Music on my main computer isn't backed up to TimeMachine. Usually I have about 100GB of music, podcasts and other videos from iTunes University which is instead backed up to the Mediasonic device. Chronosync does the work of keeping a nightly snapshot of my entire music folder on one of those drives. If I grab a new album off iTunes, or rip a CD, it'll be backed up that same day.
 
-!(left){{site.url}}/media/media_center/itunes.png! The MediaSonic has 2 Music folders actually. It has an "In Use" folder and an "Archive" folder. The MacBook Pro music folder is mirrored to "In Use" - which is always a snapshot of what's currently on my laptop. Later, the Mac Mini does a sync to a second "Archive" folder. This may sound redundant, but that's because for much of the data it is. 
+!(left){{site.url}}/media/media_center/itunes.png! The MediaSonic has 2 Music folders actually. It has an "In Use" folder and an "Archive" folder. The MacBook Pro music folder is mirrored to "In Use" - which is always a snapshot of what's currently on my laptop. Later, the Mac Mini does a sync to a second "Archive" folder. This may sound redundant, but that's because for much of the data it is.
 
 The nice part is that if I delete something from my laptop, it'll also be deleted from the "In Use" copy, but the "Archive" folder will retain a copy. The goal of all this is that I can restore my music directly at anytime, not eat up space on the TimeMachine drive, and have an canonical archive for all music.
 
@@ -79,7 +76,7 @@ h4. In-House Backups
 
 The MediaSonic drive is synced nightly to one of the WD 3TB drives. The sizes match, so it's a clean mirror. Chronosync handles the scheduling and syncing, keeping it easy to edit as well. 3 TB of data from the Drobo is backed up to the other MediaSonic Drive nightly as well. That leaves about 2.6 TB of data that's not duplicated in house, but is still available on Backblaze.
 
-h3. The End Result
+### The End Result
 
 Any single hard drive or device can fail with a backup readily at hand. It's important to not only protect against a single hard drive failure but a single device failure. Having a device like a Drobo or a Raid helps with redundancy, but it's not a backup -- if the device itself malfunctions or corrupts your data, you're out of luck. By having a in house backup of these, I still have access to anything important at a moments notice.
 
@@ -87,6 +84,6 @@ Setting up an offsite backup plan is annoying at first, but once it's in place i
 
 One obvious gap in my setup is offsite backups for my TimeMachine drive. These could be synced up with BackBlaze as well, but at the moment Backblaze requires all backed up drives to be physically connected to the machine with it installed.
 
-h3. What's your Plan?
+### What's your Plan?
 
 I'm always interested to see what people are doing to backup large amounts of data like this. If you're backing up a large amount of files, or even a small amount, I'd be interested in hearing what your strategy is!
