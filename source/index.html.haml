@@ -1,36 +1,50 @@
----
-title: Adam Fortuna
----
-
 = partial 'shared/title', locals: { offset: 1 } do
-  %h1 Adam Fortuna
-  %p.meta Orlando Developer with entirely too much time.
+  %img.left{src: "/images/adam-fortuna.png", alt: "Adam Fortuna"}
+  %h1.small-8.columns.end Adam Fortuna
+  %p.meta.medium-8.left.columns
+    Hey hey! I'm a developer who lives in
+    = succeed '.' do
+      = link_to 'Orlando, FL', '/about/orlando'
+    I work at
+    = succeed ',' do
+      = link_to 'Code School', '/about/codeschool'
+    listen to a lot of
+    = succeed ',' do
+      = link_to 'audiobooks', '/about/audiobooks'
+    set way too many
+    = link_to 'goals', '/about/goals'
+    and
+    = link_to 'tweet', 'http://twitter.com/adamfortuna'
+    often.
 
 .row
   .articles--list.medium-5.medium-offset-1.columns
     %p.subtitle.light
       %strong Articles.
-      Personal in
-      = succeed "," do
-        %span.category--personal blue
-      technical in
-      = succeed "." do
-        %span.category--technical green
+      In the mood for
+      %span.category--personal personal
+      or
+      = succeed "?" do
+        %span.category--technical technical
 
     - blog('articles').articles[0..10].each do |article|
       .row{ class: article_classes(article) }
         %a.medium-12.columns{:href => article.url}
           %span.article-title= article.title
-          %p.meta
-            %span.tags
-              - if article.tags.length > 1
-                Tagged with
-                = succeed '.' do
-                  = tags_for_article(article.tags)
-            %time
-              Written on
-              = succeed "." do
-                = article.date.strftime('%B %e %Y')
+          - if article.data['description']
+            %p.meta
+              = article.data['description']
+          - else
+            %p.meta
+              %span.tags
+                - if article.tags.length > 1
+                  Tagged with
+                  = succeed '.' do
+                    = tags_for_article(article.tags)
+              %time
+                Written on
+                = succeed "." do
+                  = article.date.strftime('%B %e %Y')
     .row{ class: 'article-tag--meta' }
       %a.medium-12.columns{:href => '/articles'}
         %span.article-title More Articles
@@ -38,16 +52,36 @@ title: Adam Fortuna
           = blog('articles').articles.length
           articles total.
 
-  .medium-6.columns.end
-    .author
-      = partial 'shared/author_content'
-
+  .medium-6.columns.end.right-side
     %p.subtitle.light
-      %strong Photo Stories
+      %strong Travel Photos.
+      Recent trips and getaways.
+      %a{ href: '/photos/japan'} Japan
+      is my favorite.
+
     %ul.no-bullet.photos-list.travel
+      - matches = 0
       - blog('photos').articles.each do |article|
-        - if article.tags.include? "Travel"
+        - if (matches < 3) && (article.tags.include? "Travel")
+          - matches = matches + 1
           %li
             = partial 'photos/travel', locals: { article: article }
-      %li
-        = link_to 'More Photos', '/photos'
+
+    .row.articles--link.article-tag--meta
+      %a.medium-12.columns{:href => '/photos'}
+        %span.article-title More Photos
+        %p.meta
+          = blog('photos').articles.length
+          photo posts.
+
+.row
+  .medium-offset-1.medium-11.index--events
+    %h2 Event Photos
+    %p.meta Mostly pictures from events around Orlando.
+    %ul.no-bullet.photos-list.asides.row
+      - matches = 0
+      - blog('photos').articles.each do |article|
+        - if (matches < 9) && (!article.tags.include? "Travel")
+          - matches = matches + 1
+          %li.medium-4.columns.left
+            = partial 'photos/event', locals: { article: article }

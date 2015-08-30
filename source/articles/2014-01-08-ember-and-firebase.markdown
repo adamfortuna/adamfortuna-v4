@@ -3,6 +3,7 @@ title: Getting Started With Ember.js and Firebase
 date: 2014-01-08 14:03
 permalink: emberjs-and-firebase
 tags: Technical, Javascript
+description: Hooking up an Ember.js app to an external database.
 ---
 
 About 6 months ago I started learning Ember.js. The first few months I was spent reading the [Ember.js Guides](http://emberjs.com/guides/) (which are amazing by the day), and going through every screencast I could find. We had some Ember projects at work, but the main reason for learning it was to overcome some of the limitations and code clutter that was starting to present itself in more advanced Backbone.js applications.

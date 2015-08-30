@@ -3,6 +3,7 @@ title: 2014 Year in Review
 date: 2015-01-01 00:00 UTC
 tags: Personal
 permalink: 2014-year-in-review
+description: Code School, travel, audiobooks, Angular, Marilyn.
 ---
 
 This is my annual recap of what's happened in my life over the last year. It was a packed year -- even without world changing events. Instead things were consistently active, busy and varied.

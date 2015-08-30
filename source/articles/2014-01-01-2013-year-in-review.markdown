@@ -3,6 +3,7 @@ title: 2013 Year in Review
 permalink: 2013-year-in-review
 date: 01/01/2014
 tags: Personal, Goals
+description: A year of Marilyn, CrossFit, audiobooks, Ember.js and Piano.
 ---
 
 This is my annual recap of what's happened in my life over the last year. I've come to realize every 5th or 6th year is extremely active, while the other years seem to be less so. This year was not one of those 5/6 years, but instead more about personal growth and finding balance in my life. The biggest parts of my life this year were: Marilyn, Code School, CrossFit, audiobooks, learning Ember.js, and learning Piano.

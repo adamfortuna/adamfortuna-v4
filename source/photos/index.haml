@@ -21,9 +21,4 @@ title: Photos
     - blog('photos').articles.each do |article|
       - if !article.tags.include? "Travel"
         %li.medium-4
-          %a{:href => article.url }
-            %img{ src: article.data['poster'], alt: article.title }
-            .cover
-            .meta
-              %p.article--title= article.title
-              %p= article.date.strftime('%B %Y')
+          = partial 'photos/event', locals: { article: article }

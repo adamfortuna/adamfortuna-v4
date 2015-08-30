@@ -1,6 +1,8 @@
 .row{ class: article_classes(article) }
   %a.medium-12.columns{:href => article.url}
     %span.article-title= article.title
+    - if article.data['description']
+      %p.meta= article.data['description']
     %p.meta
       %span.tags
         - if article.tags.length > 1

@@ -3,6 +3,7 @@ title: Seeking Mentors
 date: 2014-01-11 22:00 UTC
 permalink: seeking-mentors
 tags: Personal
+description: How finding mentors in different areas of your life can help.
 ---
 
 Earlier this week, I stumbled upon an interesting blog post about [How to Be a Mentor](http://www.nczonline.net/blog/2014/01/07/how-to-be-a-mentor/) that included a variety of great advice on the subject. It occurred to me how many tips I could take and also how many mentors I've sought out in just the past year or two.

@@ -3,6 +3,7 @@ title: The Audiobook Habit
 date: 2014-12-14 12:00
 permalink: audiobooks
 tags: Personal, Books
+description: How listening to audiobooks shaped my media diet.
 ---
 
 There are so many (good) podcasts out there it's easy to get swept away by them. About 2 years ago I was subscribing to over 30 of them, many of them news that overlapped with each other. Around this time, I decided to take a break from podcasts and binge listen to all 5 Game of Thrones books. For reference, that's over 200 hours of content.

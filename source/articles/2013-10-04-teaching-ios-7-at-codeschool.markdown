@@ -3,6 +3,7 @@ title: Teaching iOS 7 at Code School
 date: 2013-10-04 14:03
 permalink: teaching-ios7-at-codeschool
 tags: Technical, Code School
+description: We had a lot of fun teaching this course.
 ---
 
 A long time ago, at a [WWDC](http://adamfortuna.com/wwdc/) far away, 3 travelers from [Code School][] journeyed to Apple Mecca in search of new technologies. The goal was to see what was new in iOS 7, while looking for ways to best teach this new addition to the iOS world.

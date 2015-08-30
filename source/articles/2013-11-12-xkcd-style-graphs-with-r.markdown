@@ -3,6 +3,7 @@ title: XKCD Style Graphs With R
 date: 2013-11-12 14:03
 permalink: xkcd-graphs-with-r
 tags: Technical
+description: With statistical proof I'm bad at CrossFit.
 ---
 
 Two years I started doing [CrossFit](http://adamfortuna.com/2-years-of-crossfit/) and have since gotten kind of into it. After the CrossFit Open last year, I decided to dive a little deeping into the stats available and was able to prove, using public data, that I'm not very good at CrossFit.
