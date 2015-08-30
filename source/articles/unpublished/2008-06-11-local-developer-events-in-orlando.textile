@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Local Developer Events in Orlando"
+id: local-developer-events-in-orlando
+published: false
+---
+
+Even though "BarCampOrlando":http://www.barcamporlando is a few months behind us, there's still plenty to do this summer for us developers. It seems like in the past 2 years or so more and more events are springing up in town -- exciting stuff. Finding new events can sometimes be a little tricky though. There's a few ways to make this a little easier. Gregg Pollack from "Rails Envy":http://www.railsenvy maintains a Google Calendar titled "Central Florida Tech Events":http://www.google.com/calendar/ical/apopqie8ak17s71ttlnrhi7jp0%40group.calendar.google.com/public/basic.ics which is probably the easiest way to stay up to date. You can search for it within Google, or just add it there (or to iCal) and always know what's coming up. For a one single stop for what's on the agenda is does most the work for you. As the Orlando community is getting more organized though, there are a few other places that also have listings. "Doterati":http://www.doterati.com/ , taglined Central Florida's Click (I still stand by statement that you need more kerning in the word click), is was recently started as an open network for usergroups and various other IT and computer related groups in the Orlando to gather together. "Florida Creatives":http://wiki.floridacreatives.com/index.php/Main_Page#Orlando_.26_Central_Florida has a wiki for some events and local resources that aren't listed elsewhere, but overall it needs more adoption to make it work. So what events am I looking forward to?
+
+* Probably "Orlando Ruby Users Group":http://www.orug.org tomorrow with talks on Rails security and Git.
+* "Adobe Developers of Greater Orlando":http://adogo.us meeting on July 1st where we'll be continuing the code session from last time which turned out to be a great success
+* "IZEA Devasaurus":http://www.doterati.com/events/event/show?id=2092234:Event:1640 on July 2nd should be a lot of fun and hopefully bring a lot of passionate people together.
+* "IZEAFest 2008":http://www.eventbrite.com/event/107846572/IZEATeam/66393524 should be another one just around the corner. It's still a little ways off -- Thursday, September 11, 2008 at 07:00 PM - Saturday, September 13, 2008 at 09:00 PM. 3 day conference for bloggers and advertisers with quite a few speakers I'd heard about.
+* Ruby Conf has also been announced to be in November, and once again in Orlando. Not sure if I'll be able to make it, but definitely going to try for that one. It'll be
+
+Know of any other big events in Orlando that are worth checking out? Or other places to find out what's going on?

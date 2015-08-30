@@ -1,0 +1,8 @@
+---
+layout: post
+title: "cf.Objective() Recap?"
+id: cfobjective-recap
+published: false
+---
+
+cf.Objective(), ColdFusions Enterprise Development Conference, was this past weekend in Minnesota. Although I didn't make it this year, I've been impressed by the amazing number of blog posts the ColdFusion community has been making. Here's a few comprehensive blogs that have posted very detailed accounts of the sessions they attended: "Brian LeGros":http://www.brianlegros.com/blog/ posted a write on every session he attended, as well a few other takes on hallway development. "Chris Phillips":http://cfchris.com/cfchris/ also posted in depth descriptions of about a dozen talks he went to that I've been reading through as he's posted. "Matt Woodward":http://www.mattwoodward.com/blog/ of "The ColdFusion Weekly":http://www.coldfusionweekly.com has been posting links to his Google Docs notes from the conference. Terrence Ryan posted recaps "at the end of each day":http://www.numtopia.com/terry/blog/archives/2007/05/ about the sessions he went to. And of course you can read "Fullasagoog":http://fullasagoog.com/index.cfm?blogcat=ColdFusionMX for more find from the conference.

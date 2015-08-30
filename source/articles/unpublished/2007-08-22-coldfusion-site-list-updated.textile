@@ -1,0 +1,8 @@
+---
+layout: post
+title: "ColdFusion Site List Updated"
+id: coldfusion-site-list-updated
+published: false
+---
+
+"Got CFM?":http://www.gotcfm.com recently was updated to break sites into alphabetical listings, but now you can also "export the list to csv or pdf":http://www.gotcfm.com/thelist.cfm to do with as you please! For us statistics junkies this should make things much more fun. Good job Rey! With all the charting and graphs available in Flex, making an interactive list might be a fun project.

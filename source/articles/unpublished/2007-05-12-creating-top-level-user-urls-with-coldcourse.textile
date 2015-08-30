@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Creating Top Level User URLs with Coldcourse"
+id: creating-top-level-user-urls-with-coldcourse
+published: false
+---
+
+Someone asked me the other day if it would be possible to create URLs where a users username was the first thing in the URL. Something like @http://localhost/AdamFortuna@ for example. This is usually a problem because any rules defined as such would usually conflict with your default controller, making the previous link go to the action AdamFortuna.index by default. With Coldcourse, Rails and CF On Wheels (where Coldcourse comes from) there is an easy way around this though, although it does involve repeating yourself a little. Coldcourse runs through all listed courses and picks the first one that matches. The trick to handling users in this method is to create routes for all other controllers, then at the end have a course to match all users. To put it in coding terms, it would look something like this. [cfm] [/cfm] There may be some flaws in this that I'm not seeing right away, but it seems like a simple enough solution. Of course this would be much easier if you instead wanted URLs similar to @http://localhost/user/AdamFortuna@ . That way you wouldn't need to list out your controllers, instead you'd be safe with just one blanket rule. [cfm] [/cfm] The actions like blog, friends, profile would work by default, although anything outside of the user controller you'd have to add in specific rules for.

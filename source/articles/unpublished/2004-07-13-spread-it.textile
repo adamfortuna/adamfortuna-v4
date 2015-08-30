@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Spread it!"
+id: spread-it
+published: false
+---
+
+Damn, "Firefox ":http://www.mozilla.org/products/firefox/ keeps getting better and better. For the first time i started looking into other addons besides the "Web Developers Toolkit":http://update.mozilla.org/extensions/moreinfo.php?application=firefox&amp;id=60&amp;vid=63 (the addon that encouraged me to use it over IE in the first place). But looking into it now there's so much more! Even now I'm typing this post in a Firefox ap that connects with livejournal (called "Deepest Sender":http://update.mozilla.org/extensions/moreinfo.php?id=113&amp;vid=140&amp;category=Blogging ) and brings up a text field to type in. It has a few other options like previewing the post, displaying music based on what's playing on your system at the time and such. Impressive little aps -- and it's only the 2nd I've installed! If you've never tried Firefox, definitely worth the time to try!
+
+!http://posterous.com/getfile/files.posterous.com/import-verf/tGodhIAieayoFIExuiHvbsibiGhpmtgBzncIkjhmjJuyjqwlswqEasfAvzfa/media_httpwwwmozillao_qAAId.png.scaled500.png!

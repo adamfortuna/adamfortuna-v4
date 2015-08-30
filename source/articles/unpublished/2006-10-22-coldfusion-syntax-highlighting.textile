@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Coldfusion syntax highlighting!"
+id: coldfusion-syntax-highlighting
+published: false
+---
+
+It was long overdue, but I setup code highlighting. There is an amazingly easy to install Wordpress plugin called "Code For Fun":http://blog.igeek.info/still-fresh/2006/02/25/code-for-fun that expands on "GeSHi":http://qbnz.com/highlighter/ Syntax highlighting. Although Coldfusion wasn't initially available, it easily added by just dropping in a cfm.php file into the folder, thereafter associating code within @[CFM][/CFM]@ blocks with coldfusion. I redid my earlier "Coldspring Injection":http://www.adamfortuna.com/2006/10/11/coldspring-injection/ post with this highlighting and it seemed to work extremely well. It goes a few pixels wider than my layout allows, so further tweaking is required. Either way if you have a Coldfusion Wordpress Blog it's definitely worth installing.

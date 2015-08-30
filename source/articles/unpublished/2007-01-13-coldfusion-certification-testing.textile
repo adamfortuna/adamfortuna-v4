@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Coldfusion Certification Testing"
+id: coldfusion-certification-testing
+published: false
+---
+
+One of things I want to do this year is finally getting Coldfusion certified. Ben Forta's "Macromedia ColdFusion MX7 Certified Developer Study Guide":http://www.forta.com/books/0321330110/ and accompaning quiz online are a great resource for preparing for this, but the test itself has a few flaws. Namely it doesn't tell the right answer to the questions you miss! Instead it points you to chapters in the certification book for subjects you could use improvement on. It does help to read up on these, but it's not exactly a convenient method. "Ben Nandel":http://www.bennadel.com/blog came up with a more developer friendly "Coldfusion Certification Test":http://www.bennadel.com/coldfusion-testing/ with all the bells and whistles. In addition to being in the same format (some questions will have one answer, some multiple), it also allows anyone to submit their own questions! There's a write up section below each question as well with detailed information about the answer, as well as a link for reference. It's a great start towards a testing application, I just hope enough people contribute questions to keep things interesting.

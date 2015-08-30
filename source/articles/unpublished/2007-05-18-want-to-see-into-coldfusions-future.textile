@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Want to See Into ColdFusion's Future?"
+id: want-to-see-into-coldfusions-future
+published: false
+---
+
+"Matt Woodward":http://mattwoodward.com/blog/index.cfm recently attended a talk on "The Future of ColdFusion":http://mattwoodward.com/blog/index.cfm?event=showEntry&amp;entryId=9AA42CC8-A6D3-9ABC-0592E5B77BB96F90 up in the DC area where a number of ColdFusion evangelists spoke about what's in store for the language. Matt put together a detailed "ColdFusion 8 overview":http://docs.google.com/View?docid=dhshbm3s_59cwj9xq which contains references to just about all publically available information all in one place. On another note, I found a great "overview of ColdFusion":http://www.vinove.com/mindscape/coldfusion-as-a-web-development-language/ on the "ColdFusion Digg RSS feed":http://digg.com/search?s=coldfusion .

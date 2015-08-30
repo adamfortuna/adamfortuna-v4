@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Fusebox and Frameworks Survey"
+id: fusebox-and-frameworks-survey
+published: false
+---
+
+If you're thinking about attending the "Fusebox and Frameworks convention":http://www.frameworksconference.com/ next february, keep an eye on their website. The date is announced (February 1st and 2nd) but the location is still up in the air, although I'll be shocked if it's not at the usual Marriott. If you're going, or even thinking about it, be sure to fill out the "speaker survey":http://www.frameworksconference.com/survey.cfm which should help decide what we want to hear. Reactor, Model Glue, application generation and actionpacks in MG are some of the topics that stand out for me. I've been trying to read up on actionpacks but haven't had too much luck finding documentation up to this point.

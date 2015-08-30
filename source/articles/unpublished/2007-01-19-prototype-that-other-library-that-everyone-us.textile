@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Prototype, That other library that everyone uses"
+id: prototype-that-other-library-that-everyone-us
+published: false
+---
+
+It seems I've been reading mostly about jQuery lately in an attempt to make the jump, but Prototype seems to be in the headlines lately. Prototype has been in a bit of a dark age it seems. In the past year the only change I've heard about is the addition of the class selector, $$(). That's not to say other changes haven't been committed in the trek from 1.4 to 1.5, which was committed earlier this week, but there hasn't been a great deal of knowledge from the source on the changes. That's one of the biggest draws of the jQuery community -- open communication coupled with a thriving community that spreads the word overnight. That's not something that can change with the Prototype community with a single site, but it at least it should motivate the core audience. The site was started by Sam Stephenson (the father of prototype) and Justin Palmer of "Encytemedia":http://encytemedia.com . It is the new official Prototype site, and should serve as a jumping off point until Palmers Pragmatic Programmers book is released.

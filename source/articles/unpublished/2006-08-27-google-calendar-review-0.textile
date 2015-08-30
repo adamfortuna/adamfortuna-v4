@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Google Calendar Review"
+id: google-calendar-review-0
+published: false
+---
+
+There has been a lot of hype lately about CL2, Googles codename for their new calendar. With amazing calendars out there like 30 Boxes and Kiko, Google needed to impress, but what would you expect from Google?
+
+bq(posterous_medium_quote). Simplify. Organize. (And relax.) Organizing your schedule shouldn't be a burden. That's why we've created Google Calendar – our free online shareable calendar service. With Google Calendar, it's easy to keep track of all your life's important events – birthdays, reunions, little league games, doctor's appointments – all in one place.
+
+One major feature of the Google Calendar is the ability to have multiple calendars. The strength of this isn't fully utilized yet, but it'll surely be expanded on now that there is a Google Calendar API. With multiple calendars comes the ability to share calendars too. You can add in another users calendar -- or something with more global appeal such as DVD/movie release dates, holidays, friends birthdays or more. I wouldn't be surprised if there are word-of-the-day or on-this-day-in-history calendars out there soon (if not already). So far I only have a handful of calendars for general life stuff, work, movie release dates, bill due dates and friends birthdays. There's one more I created that's actually a fitness log. I plan to jot down basic stats on my workouts and maybe add my weight in there too. Should make tracking progress that much easier. After Google Maps came out, the level of innovation was amazing- - I'm hoping the same thing happens with their Calendar as well. I just hope they never start randomly adding local events to calendars, like they recently started doing for google maps. Sadly I could see it happening someday.

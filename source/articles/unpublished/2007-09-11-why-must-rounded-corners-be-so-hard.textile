@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Why Must Rounded Corners be so Hard?"
+id: why-must-rounded-corners-be-so-hard
+published: false
+---
+
+If you've built, or attempted to build, a "web 2.0" style site, you have no doubt come across the difficulties in creating rounded corners. It's one of those problems in modern web development that there is no silver bullet for. The solutions for solving it aren't just many, but they span many different methods. Choosing a method will help you decide what method you want to use. So what methods are there for rounded corners?
+
+h3. What do we want?
+
+We want to be able to create rounded corners on for any element, usually divs, with minimal effort. It's important to be able to create multiple rounded corners on a page. The aim should be to produce something that loads the fastest in a client browser and works as long as the user is using a modern browser; ideally without javascript.
+
+h3. The Basics
+
+Almost all CSS techniques and some javascript techniques require the use of some number of "corner" images. These are those little images that may only be 20x20 in size, but when placed at the corner of a div it will give the appearance of a rounded corner. These little images will usually need the foreground and background color set in them to match those colors of the div that you'll be rounding. The annoying part about this approach is that changing the color in your css requires updating your image files. It also complicates adding borders to your rounded boxes, because that will also need to be match in the div, meaning your graphics need to be more precise. When rounding corners with Javascript the methods open up a little more. Some methods don't require any image files, and will even allow borders. Javascript opens the playing field for more flexibility, but at the downside of performance. It's also one more thing the user will have to have enabled in order to view the page as you want it. So what are methods people use to do CSS and Javascript rounded corners?
+
+h3. CSS Only
+
+In my opinion this is the only true way to go. Rounded corners deal with how the view is displayed, and CSS is what describes that. If only it were that easy. In order to anchor images to elements, you need, well, elements. One of the most common ways is to have your CSS sprinkled with lots of elements, like this: [html]
+
+This is a rounded corner box
+
+[/html] Is this the best way? Definitely not, but it's fast and it could be a lot worse.This works by adding each of the four corner images to those four divs. They'll all be right on top of each other, so the end result will be a single rounded box with the text "This is a rounded corner box.". There's a lot of other approaches that use 4 individual elements to anchor images to that work in this same way. Examples: "Guide to Rounded Corners":http://fird.kucing-kelabu.com/2007/04/26/guide-rounded-corners-with-css/

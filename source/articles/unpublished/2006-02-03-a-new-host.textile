@@ -1,0 +1,8 @@
+---
+layout: post
+title: "A New Host"
+id: a-new-host
+published: false
+---
+
+Hopefully DDRei and everything else will be back up and running shortly. I can't believe my host vanished yet again -- I really need to stop picking these fly-by-night hosts. It was good while it lasted at least. I just signed up over at "Dreamhost":http://www.dreamhost.com/rewards.cgi?dyogenez which looks promising. They have "rails":http://www.rubyonrails.com and "SVN":http://subversion.tigris.org/ support which is what i'm most interested in. I'll lose CF/ASP/MSSQL which means Arcadefly will probably go down for now (not that it was finished in the first place). The JS is the biggest part of it, so no big loss there; the CF side just translates the mssql to xml anyway. Looking at all my domains I really wonder what I was thinking registering some of these. I have so many ideas for sites, but really no drive to work on them. It really comes down to how I plan things I think. As a developer I think more of the information and the database design than what the user will see. This makes a good site structure design and planning, but no real practical implementation without putting in the time and effort. I don't find the site design fun, so I usually get stuck up on that. Either way, I'm doing both now; just have to stay on it. On that note, I realized how many completely unused, somewhat useless domains I have. If anyone can name all 13 of my domains I'll buy you dinner (one for free: dyogenez.com, because I just registered it).

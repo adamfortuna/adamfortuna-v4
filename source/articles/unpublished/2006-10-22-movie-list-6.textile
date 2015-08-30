@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Movie list"
+id: movie-list-6
+published: false
+---
+
+One of the projects I'd love to work on in the future when i have a better footing with current projects is a system for organizing movies online. There's surely a million of them out there, but none seem to do what the "little ap I made back in college":http://www.dymension.org/movies.php do. The main point of this ap was to have a place where I could enter in a ton of movies available, and from those sort by a variety of criteria including IMDB rating for them. I'm amazed it still works considering it was made so very long ago as one of my first projects. Man, what I had to learn to make that thing. PHP OOP, PHPs PEAR library to grab the info from IMDB, Amazon API, and some pretty damn good styling and colors if i do say so. Redoing this would definitely be one of the more fun projects I might work on in Model-Glue, with the ability for people to register of course.

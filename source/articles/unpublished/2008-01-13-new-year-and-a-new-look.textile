@@ -1,0 +1,8 @@
+---
+layout: post
+title: "New Year and a New Look"
+id: new-year-and-a-new-look
+published: false
+---
+
+I've been neglecting this blog for quite a while. The main reason was that I wasn't satisfied with how it looked, which was more of a deterrent than I would've guessed towards posting. Whenever I started writing something up I ended up tweaking the design instead. Instead of trying to fix a broken layout, I decided to go with a an entirely new one for now. Clean, cool colors and easy to modify. Another new direction for this blog will be the topics I'm posting on. In the past I was primarily talking about ColdFusion and framework, with a side of microformats and web standards. Lately though the only exposure I've had to ColdFusion has been at work, where the Java/ColdFusion/Flex stack is still going strong ( "for the moment at least":http://maximporges.blogspot.com/2008/01/backwards-compatibility-is-backwards.html ). In my spare time "Ruby On Rails":http://www.rubyonrails has been the major motivator, with the "new project I'm working on":http://blog.arcadefly.com being the driving force. Although some work in progress posts will be over there, I'll be posting more on Rails here as well.

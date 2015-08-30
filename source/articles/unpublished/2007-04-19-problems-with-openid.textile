@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Problems with OpenID?"
+id: problems-with-openid
+published: false
+---
+
+FactoryJoe.com has a great article about "Problems with OpenID on Highrise":http://factoryjoe.com/blog/2007/03/24/problems-with-openid-on-highrise/ that outlines some of the major issues with how OpenID can be implemented. There are quite a few straightforward issues, such as assuming the person registering owns the provided OpenID URL even without authenticating it, or not giving user friendly feedback that can save a lot of headaches when they should have the knowledge about the error to do so. For a company that wrote the book on user interfaces (no really, "Defensive Design for the Web: How to improve error messages, help, forms, and other crisis points":http://www.amazon.com/Defensive-Design-Web-improve-messages/dp/073571410X was by 37 Signals) I'd expect a little more refinement in the errors. OpenID is new ground though, and if their product is feature ready might as well launch now and clean up the details later. Hopefully though some of the problems listed in FactoryJoe's article are still in need of solutions. For instance, if I sign on to a site with my OpenID as "adamfortuna.com", chances are that site translates that into "http://adamfortuna.com" or even "http://adamfortuna.com/". Those are all about the same, although they are different URIs. This is the approach the current "ColdFusion OpenID library":http://openid.riaforge.org/index.cfm uses, and seems to work out. The user at all three of those addresses is treated the same, but I always wonder if there's some weird case when the trailing slash is the difference between users and because of it someone could be granted access to the wrong account.

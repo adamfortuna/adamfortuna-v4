@@ -1,0 +1,25 @@
+---
+layout: post
+title: "ColdFusion 8 Released!"
+id: coldfusion-8-released-0
+published: false
+---
+
+The long awaited "ColdFusion 8":http://www.adobe.com/products/coldfusion/ made it public today with much fanfare in the ColdFusion community. It's been two years since the release of ColdFusion 7, the last major release, and in the meantime more features have been added than most people know about. So what's new in this release and what would make you want to upgrade or switch to it?
+
+* Integrates with Java, .NET and Exchange
+* Talk to Flex or Ajax applications natively with Flash Remoting/JSON support
+* Create and manipulate PDFs, create PDF Form take image snapshots of PDF pages and more
+* Powerful server monitoring with hooks and alerts. Also able to monitor clusters of servers.
+* Eclipse Debugger and Ajax debugger
+* Ability to set just about all settings per application. Meaning one CF Server can power completely different applications without overstepping configurations.
+* Image manipulation tags that mirror much of what you had to step into Java to accomplish.
+* Ability to create Atom and RSS feeds easily using cffeed.
+* Zip and Jar support
+* Faster object creation than ever before.
+* Lots of syntactic sugar including inline array creation, loops, arguments to objects and more.
+* Fun additions like onMissingMethod
+* Threading and Asynchronous Gateways
+* "Read about more features":http://www.adobe.com/products/coldfusion/features/
+
+So how much do these features cost? $649/$1,299 for the upgrade/full version of CF8 standard, $3,750/$7,499 for the upgrade/full version of CF8 Enterprise. I hate to see ColdFusions price tag so high, but that's the audience it's for. It's slowly getting to the point of "if you have to ask, you can't afford it". Although I do think the language by itself offers more features than anything else I've ever seen, I hope the climate of the community at that price continues to thrive and provide open software. At the price so much of what many ColdFusion developers write is behind closed doors and cannot be shared openly, which has limited the openness of the community. CF8 doesn't change that status either way, so I don't see the community going anywhere but up from this release. I'm looking forward to when we upgrade at work!

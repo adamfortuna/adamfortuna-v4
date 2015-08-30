@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Off to a good start!"
+id: off-to-a-good-start-6
+published: false
+---
+
+I've been messing around with Google Maps a lot lately. About 3 weeks ago they released a Developer API for programmers to access and create maps (which you may have seen some pretty damn cool applications for). There have been quite a few stumbling blocks that held things up so far -- needing long/lat for each point, not ever using XML with JS, awful old database design of DDRei -- but so far it's working out. If you're using Firefox, check out * "ArcadeFly.com":http://www.arcadefly.com * to see how things are progressing. It will be going down as I work on it though, but I'm done for the night. :) If you have any suggestions (that aren't in the Todo List section) let me know. I'm really loving the "link to this page" part at the top. It doesn't update when you zoom in/out or move just yet, but you can get the same results. For instance, if you wanted all locations in "Florida":http://www.arcadefly.com/?&amp;address=florida it would be easy enough. I haven't perfected the centering or zooming just yet, but for the moment it'll work. Also, it's limited to the top 100 in a query, which i'm trying to find a way around for larger result sets. "Check it out!":http://www.arcadefly.com

@@ -1,0 +1,18 @@
+---
+layout: post
+title: "So here's where i stand"
+id: so-heres-where-i-stand
+published: false
+---
+
+The semester is almost at an end! This weekend I need to finish up a JSP program, then I have a week to study for my one and only final. THere will surely bea lot of celebrating between now and then too! Between end of the semester, graduation and getting a job i'll probably be dazed the entire month of may. FCE offered me two weeks off before I start up fulltime which is pretty cool too. I haven't officially accepted the position as of yet (well i haven't been offered it in writing either), so until then i'll be looking around and seeing what else is out there. I did apply for a few others positions, including one at UCF in the Film & DM dept. Not too many CF jobs open in Orlando now unfortunately. None in the last month on monster or careerbuilder at least. Fun looking though! *Employee Title: Application Developer*
+
+* Aid in the clarification of business requirements from internal customers.
+* Aid in the design and architecture of software models for simple and complex applications.
+* Act in the role of technical lead when deemed necessary.
+* Create tactical specifications and implement application code based on sets of design specifications.
+* Unit, integration, and regression testing of software modules and applications.
+* Participate in the development code review process.
+* Software maintenance tasks including, but not limited to, bug fixes and code improvements.
+* Document all code produced according to department's standards and policies.
+* Regulate the development side of the help desk ticket system in adherence with bug management.

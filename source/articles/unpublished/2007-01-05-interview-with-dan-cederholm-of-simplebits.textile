@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Interview with Dan Cederholm of Simplebits"
+id: interview-with-dan-cederholm-of-simplebits
+published: false
+---
+
+Dan Cederholm of "SimpleBits":http://www.simplebits.com has for a long time been one of the designers I've most respected. His code is extremely clean, self documenting and the results come out "Bulletproof":http://www.adamfortuna.com/2006/10/26/bulletproof-web-design-book-review/ . His book is probably the best CSS reference I have seen, and changed my outlook on what CSS design should be. "Brian Oberkirch":http://www.brianoberkirch.com has an "interview with Dan Cedarholm":http://www.brianoberkirch.com/?p=791 recently posted. The talk strays from the usual CSS and design talk to their use of "Microformats":http://microformats.org/ (specifically hReview) when creating "Cork'd":http://www.corkd.com/ . Interesting stuff!

@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Isn't it obvious?"
+id: isnt-it-obvious-2
+published: false
+---
+
+bq(posterous_short_quote).
+
+Is it easy to explain the difference between a hash
+
+var myHash = {a: 'value for a'}
+
+and an object
+
+var myObject = {a: 'value for a'}
+
+"Sam Stephenson":http://conio.net/ @ "Ruby-sponoffs":http://wrath.rubyonrails.org/pipermail/rails-spinoffs/2006-July/004974.html

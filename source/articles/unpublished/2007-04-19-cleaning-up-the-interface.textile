@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Cleaning Up the Interface"
+id: cleaning-up-the-interface
+published: false
+---
+
+Spurred by my coworkers recent entry, or reentry, to the blogosphere I decided to do a little updating of my own. For a while now I've been wanting a cleaner, easier to extend interface that was more targetted for reading, rather than navigation all around in ways that will generate the most ad revenue. This led me to "Warpspires Hemingway theme for Wordpress":http://warpspire.com/hemingway/hemingway-for-wordpress . Basically it's as simple as it can be, but it's a good starting point for extending without having to learn the entire "K2 Theme":http://getk2.com/ . What I was looking for was pretty simple actually. A theme that would be more vertical than column based, something where the information about each post, as well as related posts, could be displayed off to the side, and something that loads fast. It's going to take some design time to do what I want with the rest of it, and to clean up past tags/categories, but the HTML blocks are all there. If anyone has any suggestions on feel free to call them out. Hopefully by this weekend the design will be well on it's way.

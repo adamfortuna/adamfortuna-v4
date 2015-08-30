@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Adobe releases public release candidate of ColdFusion 8 - AKA Scorpio"
+id: adobe-releases-public-release-candidate-of-co
+published: false
+---
+
+Adobe released a public testing version of the newest release of their ColdFusion product. Version 8 includes numerous new features, including built in server monitoring, debugging, and loads of new functions and tags. Do the CF community a favor and Digg this!
+
+"read more":http://ray.camdenfamily.com/index.cfm/2007/5/29/Adobe-releases-public-release-candidate-of-ColdFusion-8--AKA-Scorpio | "digg story":http://digg.com/programming/Adobe_releases_public_release_candidate_of_ColdFusion_8_AKA_Scorpio

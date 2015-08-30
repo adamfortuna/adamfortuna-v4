@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Alexa Traffic Anlysis of ColdFusion Websites"
+id: alexa-traffic-anlysis-of-coldfusion-websites
+published: false
+---
+
+No sooner mentioned than coded, Ed Tabara came up with a quick "Alexa analysis of ColdFusion websites":http://www.1smartsolution.com/blog/index.cfm ! The data comes from "GotCFM?":http://www.gotcfm.com and although it's not a complete list of the companies listed on the "World's Top Companies Use ColdFusion MX":http://www.adobe.com/products/coldfusion/proven/ page it's a great look at some of the top sites. There's a good 10 on the list in the Alexa 1000, and I'm sure more hidden away still to be found. Between URL rewriting, internal applications and other methods of hiding, hopefully such a project and list can bring more companies out to add their names to the list, helping the overall opinion of CF.

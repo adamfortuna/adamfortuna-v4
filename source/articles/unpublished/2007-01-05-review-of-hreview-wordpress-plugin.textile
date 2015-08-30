@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Review of hReview Wordpress Plugin"
+id: review-of-hreview-wordpress-plugin
+published: false
+---
+
+p(item fn). "hReview WordPress Plugin":http://www.aes.id.au/?page_id=28
+
+p(type){display: none;}. product
+
+p(summary). Andrew Scott's hReview plugin for Wordpress
+
+bq(description).
+
+Have you heard about hReview? It's a Microformat for describing reviews that can be easily crawled, indexed and searched by other services. The best description of Microformats I've heard so far is that of an accidental API.
+
+Andrew Scott's wordpress plugin for creating hReview's makes this a snap though. This is my first attempt at using it, but installation was as you'd expect for a wordpress plugin. Download, upload to plugins folder and activate. To create a hReview, go to where you usually would to create a post. Next to the line of formatting options, there should be a little star that can bring up the New Review screen. The interface is straightforward enough that it's easy to go from there with a basic review.
+
+It's a great start to hReview on Wordpress. The only change I had to make to get it working was changing my personal settings from entering posts to be in Rich Text Mode. There are number of other features in the hReview specification such as using hCard for the reviewer, or reviewed item, or using hCalendar that keep it from the 5 rating. It's worth checking out if you want your reviews aggregated to the fullest.
+
+p(myrating). My rating: %(rating)4.0% stars
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starempty.gif!

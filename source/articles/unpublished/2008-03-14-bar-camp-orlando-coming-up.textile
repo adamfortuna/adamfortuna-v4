@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Bar Camp Orlando Coming Up!"
+id: bar-camp-orlando-coming-up
+published: false
+---
+
+For those of you in Orlando next month, April 5th-6th marks the second "Bar Camp Orlando":http://barcamporlando.com/ . The first one went great, and this one looks even more organized. Instead of just one day with anything goes topics, it'll be split into two days- - one for developers, and one for media. With the growth in both communities here in Orlando, I'm looking forward to see how the events turn out. If you can, bring a camera and upload some pictures during the event. Anyone planning on attending?

@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Coldbox, another great solution?"
+id: coldbox-another-great-solution
+published: false
+---
+
+I don't know why but I never really gave "Coldbox":http://www.coldboxframework.com/ a chance when it came out. That was still around the time before I started blogging or just investigating for fun, so I never read up on it the way of some other recent frameworks. Taking a look at it now on "Luiz Majano's blog":http://www.luismajano.com/blog it's a very mature framework approaching it's 2.0 mark extracted from a real world application where many of it's would-be problems were addressed. I think "Mike O'Neil":http://asufusion.com/index.cfm/2007/3/1/ColdBox-Framework describes it best:
+
+bq(posterous_medium_quote). I love Model-Glue. Model-glue is the sweet little blonde from around the corner that you introduce to the parents; ColdBox is the hot brunette that is paying her way through grad school by dancing at the upscale gentleman's club.
+
+So what's different about it from Model-Glue, Mach-II and Fusebox? One of the major advantages at first glance (to me at least) is the way it routes page requests. It uses the same type of URLs as the big three, using @index.cfm?event=home.main@ style to display links, but instead of describing the home.main event in XML, it's directly accessed in a CFC. This was one of the things I liked about CF On Wheels as well. For instance, that home.main event when it comes in, it'll look in your handlers folder off your root for a file called "home.cfc", and call a method, "main" on it. In that function is where your single event driven code would go. This event has a requestContext variable available similar to the way model glue and machii has where you can manipulate form and url variables through, as well as declare values for your view to use. There's really a lot to this framework, although the installation of a empty project is a mere 5 files. Taking a look at the single configuration file for the framework offers more insight to the framework than anything I could say without investigating more, or just "listing features":http://ortus.svnrepository.com/coldbox/trac.cgi/wiki/cbFeatures , so "take a look":http://ortus.svnrepository.com/coldbox/trac.cgi/wiki/cbConfigGuide and see what you think. I'll be investigating this one more myself as well.

@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Reactor Presentation Next Tuesday"
+id: reactor-presentation-next-tuesday
+published: false
+---
+
+If you're in the Orlando next tuesday, Feburary 5th, and want to listen to a talk about "Reactor":http://www.reactorframework.com/ , check out "Adogo's February meeting":http://adogo.us/2008/01/28/february-primer-coldfusion-orm-showcase-reactor/ . "Joe Zack":http://www.cfhow.com/ and I will both be giving a presentation on a ColdFusion ORM, with him doing the also-popular "Transfer":http://transfer.riaforge.org/ . I'll be interested in seeing how the two compare and the discussion that will probably ensue.

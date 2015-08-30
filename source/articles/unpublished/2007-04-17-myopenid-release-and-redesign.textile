@@ -1,0 +1,10 @@
+---
+layout: post
+title: "myOpenID release &amp; redesign"
+id: myopenid-release-and-redesign
+published: false
+---
+
+JanRain has updated the popular OpenID portal myOpenID.com with a new look and features including anti-phishing and transport layer security providing for the ability to authenticate quickly and very securely from your machine without the use of a password. The redesign of the site has been on-going and this is phase 1 of the re-work of myOpenID.
+
+"read more":http://kveton.com/blog/2007/04/17/myopenid-release-redesign/ | "digg story":http://digg.com/tech_news/myOpenID_release_redesign

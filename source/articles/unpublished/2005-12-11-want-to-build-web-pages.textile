@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Want to build web pages?"
+id: want-to-build-web-pages
+published: false
+---
+
+This is one of the cutest things I've seen in a while... :) "http://www.pingmag.jp/2005/12/09/the-website-development-process/":http://www.pingmag.jp/2005/12/09/the-website-development-process/

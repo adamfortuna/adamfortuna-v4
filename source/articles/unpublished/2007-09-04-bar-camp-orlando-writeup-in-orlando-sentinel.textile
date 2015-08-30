@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Bar Camp Orlando Writeup in Orlando Sentinel"
+id: bar-camp-orlando-writeup-in-orlando-sentinel
+published: false
+---
+
+Going to "Bar Camp Orlando":http://www.barcamporlando.com ? There might be a few more joining the fun after the recent "article in the Orlando Sentinel":http://www.orlandosentinel.com/community/news/ucf/orl-barcamp0207sep02,0,1444338.story . If you're still on the fence about going, you better decide soon- - it'll be booked soon by the look of things.

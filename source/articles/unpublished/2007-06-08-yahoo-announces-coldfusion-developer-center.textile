@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Yahoo Announces ColdFusion Developer Center"
+id: yahoo-announces-coldfusion-developer-center
+published: false
+---
+
+Tonight Yahoo decided to "add ColdFusion to the Yahoo Developer Center":http://developer.yahoo.net/blog/archives/2007/06/coldfusion_in_t.html . The "developer page":http://developer.yahoo.com/coldfusion/ includes some How-To's for working with Yahoo REST web services as well as a few other code samples and a link to Raymond Camdens Yahoo package on Riaforge. Great work getting this up there!

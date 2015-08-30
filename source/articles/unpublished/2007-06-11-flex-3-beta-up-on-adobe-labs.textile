@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Flex 3 Beta up on Adobe Labs"
+id: flex-3-beta-up-on-adobe-labs
+published: false
+---
+
+You'll probably be hearing a lot more about this soon, but Flex 3 Beta and Adobe Integrated Runtime (Apollo) Beta are now up on "Adobe Labs":http://labs.adobe.com/ . "Ted":http://www.onflex.org/ted/ had been teasing people throughout the week but it was worth the lead up. I've barely gotten a grasp on Flex 2 so I seriously hope that Flex 3 is no large change. One part that I'm very interested in is the new way flex aps will be packaged -- where your code and tags are separate and the client will cache the tags. Based on what CF8 comes up with for including javascript files we'll see which RIA platform wins the download size war. On another note, Ben Forta mentioned "ColdFusion 8 was far exceeding download expectations":http://www.forta.com/blog/index.cfm?mode=entry&amp;entry=0C806E73-3048-80A9-EF51901EF2E91B89 . Before it was listed as text only on the lower half of the labs page but now it's in a prime slot with a graphic. The top three from Adobe are all interesting, and look forward to trying out Flex 3.

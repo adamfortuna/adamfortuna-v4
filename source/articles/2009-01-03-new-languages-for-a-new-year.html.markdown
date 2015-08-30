@@ -1,7 +1,7 @@
 ---
 title: "New Languages for a New Year?"
 permalink: new-languages-for-a-new-year
-tags: Personal, Goals
+tags: Personal, Goals, Short
 ---
 
 As [some others have mentioned](http://codehappy.wordpress.com/2009/01/02/2009s-hot-new-programming-language/) , it's that time of year where most people with blogs make their public announcements on what languages they'll be concentrating on for the upcoming year. Last year I think my top focus was Ruby on Rails and Javascript; so safe to say I've gotten a little experience in those. Things have taken a bit of a turn though, and I'm going to switch things up for 2009 and concentrate a little on my weaknesses and a little on new growth.

@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Adogo Meeting Tomorrow; Next Meeting Announced"
+id: adogo-meeting-tomorrow-next-meeting-announced
+published: false
+---
+
+For those of you in the Orlando area, we're having the second "Adobe Developers of Greater Orlando":http://adogo.us meeting tomorrow. This will be a short remote recoded presentation given by Ben Forta that is only available to usergroups. If you're interested in coming down and learning a little more about ColdFusion 8, now is the time! The topics for the "next Adogo meeting":http://adogo.us/2007/08/20/september-4th-meeting-topics-announced/ have also been announced. Brian LeGros will be discussing source control practices and I'll be giving a short talk on search engine safe URLs using ColdCourse. From here on out we'll only have one meeting a month, but due to the CF8 release this month was a little hectic. Look forward to seeing you'll out there!

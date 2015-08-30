@@ -1,0 +1,8 @@
+---
+layout: post
+title: "A new Coldfusion Engine"
+id: a-new-coldfusion-engine
+published: false
+---
+
+Browsing Digg earlier I noticed something a little odd on the font page, "a post about Coldfusion":http://digg.com/programming/Open_source_ColdFusion_Server ! Aparently it's a link to a new Coldfusion Engine available over at the "Smith Project":http://www.smithproject.org/index.cfm . I haven't had a chance to try it out as of yet, but it looked like the bulk of expected tags are included. It leaves out the reporting, charting and cflogin set and some others that I haven't tried for the most part. There are some notable tags that i've worked with not yet implemented such as cftransaction, cfchart and cfwddx but it might be a solution for a new project. Still a newcomer to the world of Coldfusion alternatives, but some great work done so far. The download is only 25mb, so if certainly a possibility.

@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Boosting Aggregation"
+id: boosting-aggregation
+published: false
+---
+
+One very fcool feature of Digg is that anything on the site has a RSS feed. You can access any page, even through search results, and grab an RSS feed for it. Being a longtime user of "Google Reader":http://www.google.com/reader/view/ , I decided to add the " "Coldfusion":http://digg.com/search?s=coldfusion&amp;submit=Search%C2%A7ion=news&amp;search-buried=1&amp;type=both&amp;area=all&amp;age=7&amp;sort=new " search term to Google in an attempt to see what others in the CF community are Digging. There is a definitely lack of front page stories about Coldfusion, so voting up the interesting articles from this feed is an easy way of promoting the good submissions. I'm all for skipping over most of course, I'm not for voting up everything, but some articles, such as "Coldfusion for the JSP Developer":http://digg.com/programming/ColdFusion_for_the_JSP_Developer is just what would be great to get out to the Digg masses. Usually when it comes to sites like Digg I end up only digging, rather than submitting though. Most my submissions are to "Del.icio.us":http://del.icio.us/dyogenez via the Firefox plugin. It's an excellent way of sharing bookmarks between computers, and it helps my bookmarks folder stay manageable.

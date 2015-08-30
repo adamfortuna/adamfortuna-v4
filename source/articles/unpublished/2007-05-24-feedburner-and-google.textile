@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Feedburner and Google?"
+id: feedburner-and-google
+published: false
+---
+
+In case you hadn't heard, "Feedburner was acquired by Google":http://www.techcrunch.com/2007/05/23/100-million-payday-for-feedburner-this-deal-is-confirmed/ . Feedburner rates as one of my favorite services I use, and a free one at that. They take all the bandwidth to run things too, so your site gets hit by less feed readers by the thousands, possibly hundreds of thousands a day. The knowledge required to make it work is also next to nothing. If you have a blog, they're one service I'd recommend checking out. What will this mean for users like me? Well that's a ways off, but we can start speculating can't we? One of the most valueable aspects of Feedburner is the in depth analysis they provide, and also the ads able to be placed on higher read blogs. Stats and ads? Sounds like Adsense and Analytics. Can't wait to see how these are incorporated into the ever growing entity that is Google.

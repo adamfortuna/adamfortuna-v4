@@ -1,0 +1,8 @@
+---
+layout: post
+title: "First stab at XMLHTTPRequest"
+id: first-stab-at-xmlhttprequest
+published: false
+---
+
+So, i'd been wanting to try something with "XMLHTTPRequest":http://www.xulplanet.com/references/elemref/ref_XMLHttpRequest.html for a while, finally had a good idea for it. I was originally wanting to make an active livejournal search engine that would go through the rss feed from a journal. Sounded easy enough, but I didn't realize you can't use javascript or iframes on livejournal. Ah well, one idea nullified. Instead I had to make it completely separate from LJ (and only for my LJ), but go "check it out":http://projects.dymension.org/activesearch/live-search.html . :)

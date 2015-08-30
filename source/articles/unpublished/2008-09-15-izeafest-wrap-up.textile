@@ -1,0 +1,10 @@
+---
+layout: post
+title: "IzeaFest Wrap Up"
+id: izeafest-wrap-up
+published: false
+---
+
+Did you make it to "IzeaFest":http://izeafest.com/ last week? It was a fun experience, and a major source of motivation to do better as a blogger. As a general conference attendee, I was even surprised by how well everything turned out. Talks ran smoothly, things went well, they were broadcast live through Ustream, flickr and twitter feeds were buzzing throughout the event (and some up on monitors throughout the event) -- just well done all around. The development team at Izea was working hard for quite a few product releases during IzeaFest as well, including some great new addons to "SocialSpark":http://www.socialspark.com and the public alpha of "CloudShout":http://www.cloudshout.com (available on the "Izea Blog":http://blog.izea.com/ if you want to check it out). I just started helping out on CloudShout about 2 weeks back, but I'm floored by the possibilities of it; and it's been fun for someone as interested in Javascript as me. One very nice thing about IzeaFest is that all the talks are "available online":http://www.ustream.tv/IzeaFest !
+
+One of the talks I was most looking forward to didn't let me down either -- Merlin Mann from "43 Folders":http://www.43folders.com keynote on "How to Blog":http://www.ustream.tv/recorded/708831 . Deceptive title for a great talk. I dare anyone to listen to it and not want to start a blog right then and there. He has some other great talks out there like "Inbox Zero":http://video.google.com/videoplay?docid=973149761529535925 and "Getting Things Done":http://video.google.com/videoplay?docid=-5122836795368363186&amp;vt=lf&amp;hl=en . Aside from that, Izea has a way of throwing some great night events. Thursday night they took over the lounge at the Grand Bohemian for an elegant night of great food and drinks. Friday and Saturday nights also had food and drink events down on Wall Street with tons of bloggers and advertisers in attendance. I still have yet to find out the details on the IzeaHunt (a photo scavenger hunt through downtown) from yesterday night, but I'm imagining it was crazy.

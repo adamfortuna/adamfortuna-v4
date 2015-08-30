@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Frameworks Conference Blogs"
+id: frameworks-conference-blogs
+published: false
+---
+
+There were a few other people that were blogging furiously during the recent frameworks conference if you're interested in reading more. "Kevin Roche":http://www.objectiveaction.com/kevin/ wrote articles about just about just about each talk he went to as well. There were a few I was sad to miss he wrote up on such as "Leveraging Coldspring to Make Better Applications":http://www.objectiveaction.com/kevin/index.cfm/2007/2/2/800am-Kurt-Wiersma--Leveraging-ColdSpring-To-Make-Better-Applications and "CFCs ARE the framework":http://www.objectiveaction.com/kevin/index.cfm/2007/2/1/1230-pm-Steve-Nelson--CFCs-ARE-the-Framework . "Raymond Camden":http://ray.camdenfamily.com/ wrote on a few talks as well, giving another take on the "CFCs ARE the framework": and about "Into to Object Factories":http://ray.camdenfamily.com/index.cfm/2007/2/2/Frameworks-Conference-Intro-to-Object-Factories--Rob-Gonda which was one of his favorites by the look of things. He also posted the notes from his talk on "How he Learned How to Stop Worrying and Love Model-Glue":http://ray.camdenfamily.com/index.cfm/2007/2/3/Frameworks-codeslides .

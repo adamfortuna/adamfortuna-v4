@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Not Sweating It"
+id: not-sweating-it
+published: false
+---
+
+Job interview went OK. They asked me a lot more questions than at previous interviews I've been at, but I think most of the answers I gave were right on. Asked questions on what php libraries I've used, xml, xslt, dhtml, coldfusion functions, give examples of database queries, explain how certain joins work etc. It really sounds like a great place to work too. They pay all tolls and there's a 2 week training period which is very nice. At OBP they gave me a Coldfusion book and said i had 3 days to go over the tutorials before assigning me work in the language ;_; The guys that interviewed me seemed very knowledgeable in web programming too, which is inspirational to be around. Before i was a little hesitant about it as it's so far away, but now I'm hoping i got it!

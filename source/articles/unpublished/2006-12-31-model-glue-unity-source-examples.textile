@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Model Glue Unity Source Examples"
+id: model-glue-unity-source-examples
+published: false
+---
+
+"Model Glue Unity":http://www.model-glue.com examples have been few and far between, mainly because it's still in it's first beta phase. It's actively being changed, with Joe hinting at an "early 2007 release for beta 2":http://www.firemoss.com/blog/index.cfm?mode=entry&amp;entry=C40EF7D4-3048-55C9-43B89F99A0DACE98 , and it's recent "Divorce from Reactor":http://aria-media.com/blog/index.cfm/2006/12/29/ModelGlue-and-Reactor-Divorce , but hard time finding code. There are at least two projects over at "RiaForge":http://www.riaforge.com using Unity though, "CF Email Campaign":http://emailcampaign.riaforge.org/ and "User Group Manager":http://cfugmgr.riaforge.org/ . If anyone knows of other Unity code examples, feel free to chime in!

@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Setting Up Smith, the latest free ColdFusion Server"
+id: setting-up-smith-the-latest-free-coldfusion-s
+published: false
+---
+
+If you're like me, you hear about a lot of new CFM servers but never go beyond reading the reviews. I admit it, I've never installed "Bluedragon":http://www.newatlanta.com/products/bluedragon/index.cfm , "Railo":http://www.railo.ch/en/ , "Coral":http://pcaonline.com/index.cfm?loc=coral or (until recently) "Smith Project":http://www.smithproject.org/ . A recent post on "CFDan.com":http://www.cfdan.com/posts/ColdFusion_Application_Servers.cfm plus a mention of Smith Project on "Helms and Peters Out Loud":http://www.helmsandpeters.com/ had me wanting to at least check one or two of these out. Tonight is the first try -- Smith Project. The idea of an open source cfm server sounds great, but it'll be a lot of work to get up to the level of ColdFusion (or apparently BlueDragon). Even still having a quick and easy cfm display for the basics would be nice. I'd think of it the same way as using a database server. For a professional application you'll want an established solution, whether it's Oracle, MSSQL, MySQL or Postgre -- the same way as you'd pick an established CFM engine. This of course makes it much much harder for the new guys to get their foot in the door, especially with the size of the ColdFusion community as small as it is. But with an open source solution that could be a great step towards unifying people, and with more people behind something it starts to work it's way up. I can't say I've ever been much of an open source contributor, but the idea of writing backend tags as needed is extremely appealing.
+
+!http://posterous.com/getfile/files.posterous.com/import-verf/FpjpAxkIuGopIitzvJBnqprlokjkdFtjffyBFgcBxHHBJkwjgbkcGoFGhvnp/media_httpwwwadamfort_wvhhB.jpg.scaled500.jpg!
+
+Installing Smith Project (on windows) is as simple as unzipping a file. There's no program-files-registry-modify install for this one, so if you want you can run Smith Project very easily off of a thumb drive. There was instant gratification when installing it and viewing the directories which are extremely straightforward. You see those .bat files? They control starting and stopping for the "Jetty Web Server":http://en.wikipedia.org/wiki/Jetty_(web_server) , a lightweight java http server/servelet container and "Mckoi SQL Database":http://www.mckoi.com/database/ , a java SQL database server. After running that pair of bat files in any order and heading over to "http://localhost:8081/":http://localhost:8081/ you'll see it's already up and running.
+
+!http://posterous.com/getfile/files.posterous.com/import-verf/mHwebJAGGByzxxkdzjDwlItpbmoabIjCmdeijxIxdhyCnAiBnbxzBeafIggi/media_httpwwwadamfort_omksb.jpg.scaled500.jpg!
+
+Upon successful install you'll see this welcoming screen. It renders cfm of course, and contains a database call to confirm that everything is working. The database server comes loaded up with a contact table whose contents are listed with the options to add/edit more.
+
+!http://posterous.com/getfile/files.posterous.com/import-verf/isvrtIAHEuhciEzJdhsvobFAnlzydpvzphJixyeHkxcgAwpmqgHepCordsyu/media_httpwwwadamfort_ClicD.jpg.scaled500.jpg!
+
+The debugging output flexible, and reminds me of ColdBox with the ability to minimize the debugging output groups. It's customizable from the administration panel. It has all the options you'd expect- execution times, trace, queries, options to include the various scopes in the debugging output.
+
+!http://posterous.com/getfile/files.posterous.com/import-verf/hqJgGpqnBGtHnubgAGhhaEvFucEkwfzirsaHmICsFljrlCFHjaIGnADDmtgD/media_httpwwwadamfort_Hquuj.jpg.scaled500.jpg!
+
+The administor panel looks like a simplified version of the ColdFusion version. Anyone familiar with any CF version should be able to jump right in. The basic options are here: Mail settings, mappings, datasources, custom tags, debugging, compilation paths and session management options (well option- - User J2EE session management). It's a minimized version of Railo, BlueDragon or ColdFusion for sure, but a very well done one. One more thing on the list I'd like to find out more about, but as far as installations go Smith project's packaging was extremely well thought out. If you're interested in testing your application in Smith project you can do so in almost no time at all.

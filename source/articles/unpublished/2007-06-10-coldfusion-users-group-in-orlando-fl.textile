@@ -1,0 +1,8 @@
+---
+layout: post
+title: "ColdFusion Users Group in Orlando, FL?"
+id: coldfusion-users-group-in-orlando-fl
+published: false
+---
+
+"Brian LeGros":http://www.brianlegros.com posted looking for people interested in joining a newly created "Orlando ColdFusion users group":http://www.brianlegros.com/blog/2007/06/06/where-is-the-ocfug-ock-fug/ yesterday. For as many ColdFusion programmers as there are in Orlando and Central Florida, it's surprising there hasn't been an active group in a number of years- - since before ColdFusion 7 and then some. If you're interested head over to Brians blog and leave a comment!

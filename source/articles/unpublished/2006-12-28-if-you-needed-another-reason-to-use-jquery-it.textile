@@ -1,0 +1,8 @@
+---
+layout: post
+title: "If you needed another reason to use jQuery, it's here"
+id: if-you-needed-another-reason-to-use-jquery-it
+published: false
+---
+
+Here at home with personal projects I haven't yet reached the javascript stage of development on any projects I'm working on. So far it's just been prototyping and interface design, so I've been able to site back and read up on Javascript libraries. Lucky I did because the end all reason to use jQuery in Coldfusion was released today as Rob Gonda announced the "Ajax CFC for jQuery Alpha Release":http://www.robgonda.com/blog/index.cfm/2006/12/27/AjaxCFC-for-jQuery-Alpha-Release earlier today. I've liked everything I've seen of AjaxCFC, especially since there is quite a bit of support for Model Glue around the AjaxCFC community as well. Looks like this will knock out the last straw holding me to using Prototype. I'm looking forward to trying it out!

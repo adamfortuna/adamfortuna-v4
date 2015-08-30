@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Coldfusion added to Google Code Search"
+id: coldfusion-added-to-google-code-search
+published: false
+---
+
+As noted on "ZD Net":http://blogs.zdnet.com/Google/?p=394 , Coldfusion and 10 other languages were added to Google Code searches _lang:_ tag . Just try a search for "lang:Coldfusion":http://www.google.com/codesearch?hl=en&amp;lr=&amp;q=lang%3Acoldfusion&amp;btnG=Search and see all 300 results in all their glory. I wouldn't be surprised if 280 of those are from "Ray Camden":http://ray.camdenfamily.com . :p On another note, I finished Final Fantasy XII. During the 70 or so hours I sunk into the game over two weeks I was still reading blogs and all, but posting and personal development took a backseat to finishing it up.

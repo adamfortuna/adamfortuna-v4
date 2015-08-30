@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Learning Something New"
+id: learning-something-new-7
+published: false
+---
+
+"Zen Habits":http://zenhabits.net has become one of my most looked forward to subscriptions lately. One of the most important things when reading a blog to me is that you either 1) learn something new or 2) have a call to action that hits close to home. Posts always come through with one of those, and usually two -- calling for action and showing you how to do it. This month they launched an "October Challenge":http://zenhabits.net/2007/10/join-the-zen-habits-october-challenge/ where they put out the idea that if you do something consistently for 30 days it will become a habit. So what habit am I trying to train? I'd like to consistently work on web projects, rather than just doing short spells on them "when I have time". We all know that you only have time for something when you make it, so if I can get myself into the habit of making just 30 minutes a day to work on some web project (anything), then a month down the line I'm hoping it'll be enough to carry on. To start off, I'm working my way through the "Agile Development with Rails":http://www.pragmaticprogrammer.com/title/rails/ , doing the examples using "Rails 2.0 preview release":http://weblog.rubyonrails.org/2007/9/30/rails-2-0-0-preview-release and the "Blueprint CSS Framework":http://code.google.com/p/blueprintcss/ for layout. This is probably the set of resources I'll be using for my next project, assuming things go well here. Either way I'll certainly get a better handle on both, while having a book at my disposal to fall back on. "Dreamhost":http://www.dreamhost.com/r.cgi?150228 has Rails and SVN hosting, so at least I'll have a place to post it as things come along.

@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Coldbox 2.0 Final Released"
+id: coldbox-20-final-released
+published: false
+---
+
+If you're interested in checking out ColdBox, "Luis released version 2.0":http://www.luismajano.com/blog/index.cfm/2007/4/28/ColdBox-200-Final-Release-is-here-Come-and-Get-it earlier today. For a framework that doesn't get too much press it's amazingly mature, with more documentation than any other I've come across (aside from those techspedition Fusebox books that have outdated practices). The sample applications that come with the framework offer even more support with examples of how to create full applications using ColdBox including integration with Transfer and Coldspring. Read the release post for a full list of the features in 2.0.

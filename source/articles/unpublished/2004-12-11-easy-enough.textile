@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Easy enough"
+id: easy-enough
+published: false
+---
+
+Great having a day off. :) I've spent most the day messing around online and getting my new PC all setup. It's a nice Athlon 64, 3400+ running very nicely on a 120gb sata drive. Installation took no time at all, and by today I had mysql/php/apache running and was ready to get to work! I still haven't been able to get it to recognize one of my 250s, but I'll worry about that later on. I've been messing around with the idea of making some sort of a locations site. Possibly arcade locations. I haven't been able to really find one besides maybe two or three that have far fewer locations in them than DDRei or Freak. Messed around with the the code to find the "distance between two zip codes":http://www.dymension.org/projects/zip/ which works rather well. I don't think it would be too terribly difficult to get that kind of site up and running. One more potential project for the list. :)

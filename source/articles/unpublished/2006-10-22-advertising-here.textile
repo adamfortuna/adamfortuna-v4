@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Advertising, here?"
+id: advertising-here
+published: false
+---
+
+I wouldn't usually advertise here, but this is a special case. "DeveloperCircuit":http://developercircuit.com/ is an Adobe related jobs board (at the moment at least) with an entire slew of Coldfusion and Flex jobs. My work, FCE, even posted seeking a "Senior level ColdFusion Developer":http://developercircuit.com/job.cfm?jobid=127 . Hope the site does well!

@@ -1,0 +1,20 @@
+---
+layout: post
+title: "ColdFusion Pet Peeves"
+id: coldfusion-pet-peeves
+published: false
+---
+
+In the recent spirit of posting top 10 lists, I thought I'd throw in my 10 ColdFusion related pet peeves. These aren't peeves about the language itself though, but peeves in how people code. We all know there is no "right" way to make an application, so all of these are up for debate, but that doesn't mean they'll stop annoying me.
+
+# *Cased tags* . Why some people insist on putting CF tags in all caps I'm not sure I understand. It could be to differentiate them from regular HTML, but if that's become a problem then you're probably mixing logic or unfamilar with HTML. To me it just looks like the tags are shouting.
+# *Cased functions* . Not all case is bad. I prefer using the official case found in the CF docs for ColdFusion functions. Having these in all lowercase makes them harder to read, and all uppercase gives the same problem as the first one.
+# *Uppercase scopes* . Scopes shouldn't be yelling either! variables, application, url -- looks better to me than VARIABLES, APPLICATION, URL.
+# *Not returning _this_in CFCs* . This isn't a clear cut rule of course, but for most day to day applications working with object makes things a lot easier. In my first experiences with CFCs this wasn't the most obvious way to do things, so I can see why some people might have not have learned a other ways, but _ this_ will help.
+# *Using the this scope* . This one has almost been cleared out of common practice, but using the this scope in CFCs for variables isn't the best idea. When you store a variable in the this scope it will be available from _outside_ the object. This breaks encapsulation, and also makes for ugly code.
+# *Forgetting output="false"* . This could be a CF pet peeve as well, but assuming CF doesn't change we'll need to continue adding output="false" to all methods we don't want output to the browser. Usually this is just about all methods too. It seems redundant but it's helpful, and nice not seeing a whole lot of blank space at the top of your pages.
+# *Not using var scope in CFCs.* Within functions, you need to localize your variables by prefixing them with var, as in @<cfset var qry = "" />@ . This will keep that variable within the function. Not doing this might not seem like a big deal, but there are two notable side effects. For one, if this object is persisted, so will any saved values. Also if this object is persisted, say in the application, then run by multiple pages, they might overwrite each others variables if they're not defined with the var prefix. Some things like querys and query generated variables also need to be var scoped.
+# *No trailing slash* This is a big one for me actually. In order for CF to look more like a valid language it's important to close trailing slashes.
+# *New mappings needed* . It seems like just about any application you download needs to have a mapping added for it. Although in CF8 there are ways of doing this within the code, it'd still be nice if there was a more universal standard for naming packages so that less mappings were needed. Imagine having a "com" and an "org" mapping and all frameworks were pretty much in those? I'm probably oversimplifying the solution, but it's an idea. In the meantime it is possible to add a base directory to the cf tags directory then throw all your frameworks in there. From what I've seen, this works with most frameworks such as ColdSpring and Fusebox, although it doesn't work with Reactor since it stores it's created CFCs within the /reactor mapping.
+# *Reinventing the Wheel* . You knew it was coming. Creating an in house framework sounds great, but building off something that's already there usually makes more sense. I was originally thinking "CFC heavy sites that don't use ColdSpring" for this one, but any under use of a framework could apply.
+Any big pet peeves of yours that I've missed?

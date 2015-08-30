@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Microsoft to drop Passport for OpenID"
+id: microsoft-to-drop-passport-for-openid
+published: false
+---
+
+Earlier this year, Microsoft announced official support for OpenID which was well embraced by "quite":http://www.readwriteweb.com/archives/microsoft_openid_five_key_takeaways.php "a few":http://seattlepi.nwsource.com/business/302830_msftopenid08.html "people":http://conorcahill.blogspot.com/2007/02/identity-microsoft-openid-and-saml.html . Although Microsoft has always been one to lead the way, they've decided to help out "one step more":http://www.microsoft.com/presspass/press/2007/apr01/03-28OpenID.mspx . As of today, all Microsoft Passport accounts also work as OpenID via Microsofts new "Live" initiative. This follows "AOL":http://dev.aol.com/aol-and-63-million-openids which recently granted all AOL users an OpenID as well, boosting the number of potential users by 63 million. With Microsoft's addition of hundreds of millions to the OpenID world, this breaks "the predictions by Scott Kveton, the CEO of JanRain":http://kveton.com/blog/2007/01/04/2007-openid-predictions/ that OpenID support would exceed 100 million users in 2007! Who's next now? Google? Yahoo? Time to step up! Note: Looks like I misread the article, Passport will not be dropped, but like AOL all users will now also have an available OpenID URL that matches their username at their emails domain. This is a bit more tricky for Microsoft than others due to the number of potential domains (msn, live, hotmail).

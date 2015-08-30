@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Local Chain Recycling"
+id: local-chain-recycling
+published: false
+---
+
+Last month I was looking around for some places to get rid of "old computer parts":http://www.adamfortuna.com/2008/01/07/old-pc-cleanup/ and was having trouble finding a good website that listed places to recycle. On my home today there was an episode of "NPR Marketplace":http://marketplace.publicradio.org/ where this exact question was posed. The site mentioned was "Gcycle":http://www.gcycle.org/ , which despite it's very unique interface, was able to find places to recycle just about all my old electronics. As it turns out, Staples and Best Buy are able to handle most of these. I can't say I've seen many people lugging old PCs, TVs or original Nintendos in to recycle though, so I'll have to test this theory out. Anyone tried recycling at a local chain without any weird looks?

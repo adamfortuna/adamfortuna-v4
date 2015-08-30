@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Developer workspace setup"
+id: developer-workspace-setup
+published: false
+---
+
+I've been rebounding from a format/reinstall of windows today, and the last thing I've been working on before taking off for the night is setting up my developer space, hoping to do some work tomorrow. I presumed this would be an overly simple task, but it never quite turns out that way.
+
+The problem was how deeply i've been trained to enter the server a certain way in Coldfusion Administrator. Usually in CF Admin when you specify the "server" parameter for a datasource you do it in the format "localhost\sqlexpress" or something along those lines. This assures thats you'll connect to the right computer (localhost) and the right sql server at that location (sqlexpress). Looks like Windows server 2005 they decided to mix it up a little, or i've just been specifying them wrong the entire time. Instead of "localhost\sqlexpress", it was expecting just "localhost" with the "database" field being the obvious. After a lot of trial and error, and some cuteoverload to calm me down, I stumbled onto this article about "CF and MS SQL 2005":http://thoth.robrohan.com/client/index.cfm/2006/9/7/CF-and-MS-SQL-2005-Express , that ended up saving the day. It's up now and I'll probably be trying out a new Model-Glue project tomorrow,

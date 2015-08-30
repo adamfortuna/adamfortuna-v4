@@ -1,0 +1,35 @@
+---
+layout: post
+title: "One more Advanced Certified Coldfusion Developer"
+id: one-more-advanced-certified-coldfusion-develo
+published: false
+---
+
+For my last weekday off before heading back to a new job this coming Monday, I decided it was a good time to study up and get Coldfusion Certified. I decided to do so about two weeks ago, just before the frameworks conference, and have been studying little by little since then. The end result? A respectable 89% on the exam, and a nice Advanced Certification title. Even though the first rule about adobe testing seems to be "Don't talk about Adobe testing", I thought I'd go over what Adobe Certification is, why I did it and how I studied for it. *What is it?* To be specific, I'm talking about the "Certified ColdFusion MX 7 Developer":http://www.adobe.com/support/training/certified_professional_program/cfmx7_developer.html certification. According to the adobe site, the test is 66 multiple choice questions which must be completed in 75 minutes. As far as scoring goes, if you get above 85% right (missing ~9 or less) you'll be awarded an "Advanced Certified Developer" title, if you get above 70% (missing~ 19 or less) you'll earn the title of "Certified Developer". The test costs $150.00 to take and is administered at a "Virtual University Enterprise (VUE)":http://www.vue.com testing center. Signup is easy on their site, even if it did take a day for me to get my password email. *Why get certified* Everyone has their own reasons to get certified, but for me it was mostly just to go outside my comfort zone in Coldfusion and see what else was out there. In two and half years at the my last job I have to say I touched on a majority of the test topics, but there are entire sections specified in the "Exam Guidelines":http://www.adobe.com/support/training/certified_professional_program/cert_cfmx7_dev_exam.pdf I had no idea on. A lot of things like cfrepot, cfdocument, cfchart, cfforms and customtags weren't heavily used, so it was a good learning experience getting my head around them. I have to say though, there are a LOT of functions out there I just don't see myself ever using. YesNoFormat()? But mainly by seeing what else is out there your code becomes cleaner by using the right tool for the right job. *Study Techniques* I've had Ben Forta's "Macromedia ColdFusion MX7 Certified Developer Study Guide":http://www.forta.com/books/0321330110/ for the last 8 months but hadn't read more than a chapter or two. To make myself study, the first thing I did was sign up for the exam, scheduling it for 2 weeks later. Just the act of scheduling it certainly made my study more because I was no longer putting off the decision. I'd tried taking Ben Forta's "sample exam":http://www.forta.com/books/examintro.cfm?isbn=0321330110 , and didn't sign up until I could get above a 50% on it without preparation. To start off those two weeks I began reading about the topics that I had no knowledge of whatsoever. The tags mentioned above, some web service related functions, various scopes, cookies -- just things I hadn't worked with. The most useful tool in studying came next though -- I bought a copy of "CFMX Exam Buster 7.0":http://www.centrasoft.com/cfmxexambusterorderinfo.cfm . Although it's not the prettiest application, it serves one purpose and serves it sell. The software contains 875 exam-specific questions in a very flexible to use structure. There are 13 test exams with predefined questions that are the same each time, but also the ability to create random exams as well as taking tests on single topics, like an exam on arrays, charting, cfml functions, etc. After taking each exam it'll show your score, how you faired in each category, a recap of every question on the exam with answers, details and reference links, and another tab that only shoes the questions answered incorrectly. After the first time taking an exam I'd always go over the entire exam, then on subsequent tests I'd skip to the incorrect tab right away. While taking the exam there is a "help" option which shows the right answer, help url and description about the answer that can be accessed for the current question. While taking exams the first time I'd also pretend it was the real exam- no looking up answers or using help. After that I'd use help on ones I wasn't sure about, but for scoring purposes only after I picked what i thought it was. Taking the same test a few days later helps to be sure you understand the topics too, so that was a major help. Keeping track of your progress makes things a little clearer too and shows an accurate snapshot of your progress. For instance, here's my progress as shown from these sample test scores:
+
+|Date|Test|Score|Change|
+|1/29/2007|1|63*||
+|1/31/2007|2|66*||
+|1/31/2007|1|95|+32|
+|2/4/2007|3|66*||
+|2/6/2007|1|93|-2|
+|2/6/2007|4|78*||
+|2/7/2007|2|81|+15|
+|2/7/2007|3|89|+23|
+|2/7/2007|5|80*||
+|2/7/2007|6|77*||
+|2/8/2007|4|93|+15|
+|2/8/2007|5|89|+9|
+|2/8/2007|2|89|+8|
+|2/8/2007|6|93|+16|
+|2/8/2007|7|77*||
+|2/8/2007|8|80*||
+|2/8/2007|7|96|+19|
+|2/8/2007|8|96|+16|
+|2/8/2007|9|77*||
+|2/9/2007|10|81*||
+|2/9/2007|11|90*||
+|2/9/2007|12|81*||
+|2/9/2007|13|86*|||*- Denotes first time taking that exam
+
+The last 3 exams I took the morning of the test. The last two were while parked at the testing center because I couldn't get a parking spot at Panera (by Rollins College) to study. Even with two weeks I still ended up studying mostly in the last 3 days, but that's to be expected. The night before the exam I ended up cramming a little more by going through every question in the certification book and reading up on why the ones I missed were wrong. The book provides answers in the back as well as descriptions of why. Ben Forta's "sample exam":http://www.forta.com/books/examintro.cfm?isbn=0321330110 uses the same questions as from the Certification Book, which is great for finding out what else you're having problems with. Unfortunately the exam is a little flaky. If you press back and resubmit an answer you'll end up missing two questions, so don't go back! Some of the multiple choice options are incorrect, as if they were copy/pasted there in a hurry, or the script wasn't written to output the options correctly so it displays something wrong. After going through the book i retook this test a good 15 times until I was scoring in the 90s. It's a short 30 questions (out of a pool of maybe 175) so they start to seem familiar after a while which is both good if you're understanding them but bad if you're just filling in the answers. This process definitely made me happy that I'm no longer in school, although it was fun for a short time on something I'm already interested in. There were a few "aha!" moments when studying too when i realized how much easier something could be accomplished using a different function or tag which will come in handy down the line. If you're planning on taking it yourself, then good luck!

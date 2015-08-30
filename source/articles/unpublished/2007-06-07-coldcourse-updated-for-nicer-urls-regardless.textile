@@ -1,0 +1,17 @@
+---
+layout: post
+title: "ColdCourse Updated for Nicer URLs Regardless of Hosting"
+id: coldcourse-updated-for-nicer-urls-regardless
+published: false
+---
+
+One of the biggest limiting factors of "ColdCourse":http://coldcourse.riaforge.org/ was that in order to get the full effect you needed to have a host that supported .htaccess files or have access to install an isapi filter on IIS. Not anymore though! Now you can create SES URLs regardless of your OS or host as long as you don't mind BlogCFC style rewrites that look like /index.cfm/some/parameters. Here's a rundown of how ColdCourse works: You enter the URL into your browser such as "http://localhost/mycontroller/myaction":http://localhost/mycontroller/myaction or "http://localhost/index.cfm/mycontroller/myaction":http://localhost/index.cfm/mycontroller/myaction . ColdCourse takes over before your framework (fusebox, model-glue, mach-ii, coldbox or just about anything else) and tells your framework that the page that was really called was "http://localhost/index.cfm?fuseaction=mycontroller.myaction.":http://localhost/index.cfm?fuseaction=mycontroller.myaction. This is how ColdCourse had been all along when using .htaccess/isapi filters, but now you can call the "http://localhost/index.cfm/mycontroller/myaction":http://localhost/index.cfm/mycontroller/myaction URL without any webserver setup. All the same bells and whistles from before are still in there:
+
+* Hooks into all major frameworks that use a single event/fuseaction variable with a single value.
+* Ability to have unique URLs, so that "http://localhost/index.cfm?fuseaction=mycontroller.myaction":http://localhost/index.cfm?fuseaction=mycontroller.myaction forwards the user to "http://localhost/mycontroller/myaction":http://localhost/mycontroller/myaction for example.
+* Ability to create new URL parameters programmatically rather than by editing a .htaccess file. For instance You might want "http://localhost/user/AdamFortuna":http://localhost/user/AdamFortuna to be the same as "http://localhost/index.cfm?fuseaction=user.about&username=AdamFortuna.":http://localhost/index.cfm?fuseaction=user.about&amp;username=AdamFortuna.
+* Ability to have specifically named actions included automatically. For instance the URL "http://localhost/home":http://localhost/home might be the same as "http://localhost/home/index":http://localhost/home/index , or "http://localhost/index.cfm?fuseaction=home.index.":http://localhost/index.cfm?fuseaction=home.index. ColdCourse can make sure when someone types "http://localhost/home/index":http://localhost/home/index it'll redirect them to "http://localhost/home":http://localhost/home
+* All redirects are done using the "301 Moved Permanently" implementation which means search engines will pick up the new URLs with ease and not index multiple resources with the same content.
+* You can drop it into an already existing application and see how it works! If you've been linking to resources with a prefix slash then ColdCourse will work right out.
+
+Coldcourse is honestly a snap to use. There's one setup file when you can basically forget about it until you have to create a custom course. If you're in the market for SES URLs, give it a try!

@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Bar Camp Orlando in September"
+id: bar-camp-orlando-in-september
+published: false
+---
+
+The gatherings in Orlando keep on coming! The guys over at the "Orlando Ruby Users Group":http://www.orug.org have put together a "Bar Camp":http://www.barcamporlando.org/ right here in my own backyard. Although I'm still getting my feet wet when it comes to Rails, their presentations are always worth showing up for. If you live in the central Florida area and have been wondering where the developer community is, here's a great chance to find it.

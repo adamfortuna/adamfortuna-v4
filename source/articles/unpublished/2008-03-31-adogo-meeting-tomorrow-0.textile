@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Adogo Meeting Tomorrow"
+id: adogo-meeting-tomorrow-0
+published: false
+---
+
+If you're interested in learning about Blaze DS with Flex and Java, check out tomorrows "Adogo":http://adogo.us/ meeting. "Brian LeGros":http://www.brianlegros.com will giving a pair of talks on BlazeDS. It's a relatively new piece in the Adobe system, so I know I'll get a lot of out of it. The main feature I'm interested in seeing the basics of is the idea of push technology, rather than the usual request-response cycle. This would be great for something like a chat client, where the server can push out messages, rather than every single client polling the server at intervals to see if new messages have arrived. If you're in Orlando and want to see how this works, check out "this months Adogo meeting":http://adogo.us .

@@ -1,0 +1,16 @@
+---
+layout: post
+title: "It's just too Easy sometimes"
+id: its-just-too-easy-sometimes
+published: false
+---
+
+I have to give "Dreamhost":http://www.dreamhost.com/ a lot of credit. Setting up this blog was a snap using their "Goodies", but I didn't realize that they go above and beyond just installing Wordpress. Here's a rundown of the process to create a new wordpress blog on Dreamhost:
+
+# Log into your Dreamhost panel and go to Goodies > One-Click Installs. This will show all previous one click installs, and a list of software you can install. An added bonus is that you can also upgrade software (for instance, it says my phpbb instance can be upgraded).
+# Select the software you want to install. Current list is: Wordpress, phpBB, Gallery, ZenCart, Joomla, activeCollab Collaboration, MediaWiki, Advanced Poll, WebCalendar. The last two require PHP 4, while activeCollab and MediaWiki require PHP 5. All others can run off either. PHP4/5 can be set per domain/subdomain.
+# Select where you want it to go. There is a select list of all your sites and subdomains, folled by a textfield. So if I have the domain adamfortuna.com and I want it at /blog, i'd just need to select adamfortuna.com from the list and type in blog (the "/" is nicely output).
+# Select wha mysql database you want this stored in- - where is lists all the ones you currently have. Or you can create a new database, called anything, and specify what you want the hostname to be. For clarity sake I try to keep my hostname to mysql.adamfortuna.com for all my sites. There's a drop down list for the mysql user that'll be created/used, for which I always just use my default one so i'll only need one login to view all databases.
+# Click install and sit back! For Wordpress you'll get an email in a few minutes.
+
+Ok, time for the added bonuses. I didn't even realize these the first time, but they're in that email. Dreamhost automatically installs the "WP-Cache 2.0 plugin":http://mnm.uib.es/gallir/wp-cache-2/ , which is pretty slick. Reading around for essential plugins, that one was on just about all the lists so for a while I assumed they just meant activate it since it was already installed for me. The second item is just worth a million thank you's though- - in addition to the software, 50+ wordpress themes are also installed. This does mean that your themes folder will have a ton of stuff in it by default, but this has been a blessing so far. Saves some initial setup time until you can get the layout you want. Overall I've been extremely happy with Dreamhost, probably the happiest so far among by many bargain-basement hosts. They have a similar price, but excellent service. I mean how many hosts keep a "running blog of their Status":http://www.dreamhoststatus.com/ ? I considered putting my referral link in this post, as they do pay out up to $97 per user you refer, but decided against it. I'd honestly say if you're looking for a webhost, give Dreamhost a shot. Although, if you're looking for "Coldfusion Web Hosting":http://www.coldfusionwebhosting.org , this isn't your new home.

@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Making the CSS Switch with Grids, Part 2"
+id: making-the-css-switch-with-grids-part-2
+published: false
+---
+
+A month ago I was talking about "designing with grids":http://www.adamfortuna.com/2007/07/01/making-the-css-switch-with-grids/ and specifically with 960 pixel wide grids due to the amount of divisors it has. Over the weekend a new CSS framework called "Blueprint":http://bjorkoy.com/blueprint/ was release which emphasizes just those two aspects. Blueprint includes a small set of css files but packs quite a punch, especially for a first release. There are only 5 css files for the entire framework, split up in designations like "grid", "reset" and "typography". A more in depth description of what they do can be found on the "Blueprint tutorial":http://bjorkoy.com/blueprint/tutorial.html page. The concepts make for learning how to create your own designs relatively easy. There are a few basic ideas to all layouts:
+
+# A div with a class of "container" will hold everything within a box
+# The first item in a container (the one farthest to the left), needs a class of "first"
+# The last item in a container (the one on the right) needs a class of "last"
+# vertical columns need a class of "column"
+# You can specify a class from "span-1" to "span-9" to determine how wide a column should be.
+# You can create another "container" within any column and repeat these steps.
+
+A container sets the width to the magic number, 960px wide. This means that if you were trying to make a layout like "AdamFortuna.com":http://www.adamfortuna.com which has 100% wide portions, each would be it's own element with a container inside of it, so the header would look like this: [html]
+
+h2. AdamFortuna.com
+
+Rants on software development, Coldfusion, Javascript and UI Design.
+
+Search form....
+
+[/html] The "header" would then be responsible for setting the background color. The heavy amount of classes do all the work, keeping your css free of all IDs, one of the main reasons I don't like "Yahoo Grids":http://developer.yahoo.com/yui/grids/ is that it uses ID tags, not to mention littering your css with "yui" everywhere. Blueprint does a good job of staying towards the semantic css side of things, although ideally you wouldn't have numbered classes like "span-3", it would be more like "pod" or "asides". I'm happy with the mix though, and you can specify additional styles by tagging it up with your own IDs. In the "Blueprint example":http://bjorkoy.com/blueprint/test.html you'll also see a pair of background images that come along with the framework to use when testing your layouts. Blueprint is still at version .3, with it just out in the public eye, but I see it being very useful down the line. If you're pulling your hair out trying to get a normal box layout without tables, it's a great resource to check out.

@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Book 5: Adobe Flex 2: Training from the Source"
+id: book-5-adobe-flex-2-training-from-the-source
+published: false
+---
+
+p(item fn). "Adobe Flex 2: Training from the Source":http://www.amazon.com/Adobe-Flex-2-Training-Source/dp/032142316X/ref=pd_bbs_sr_1/104-1788025-5999906?ie=UTF8&amp;s=books&amp;qid=1177464682&amp;sr=8-1
+
+p(type){display: none;}. product
+
+p(summary). Book Review for one of the few Flex books available
+
+bq(description).
+
+!http://posterous.com/getfile/files.posterous.com/import-verf/lssprcIpqdkBeadfBGjJztEJCsHFmavBJjgshbaqvkpnGkmHbJvHJCtCqJsv/media_httpwwwadamfort_gbuad.jpg.scaled500.jpg!
+
+If you're looking to learn "Flex":http://www.adobe.com/products/flex/ , you more than likely will come across this book at some point in time. With Flex 2 not even a year old, only a few books have had a chance to come out on the topic. Of the ones that are available this is the only official _ training from the source_ . I decided it would be the best place to jump into the Flex world. *The Format* At 624 pages and 25 task driven chapters, it's not a quick read. Actually it's not one you can sit down and read at all. The entire book is done in instructional format, where you're usually given a numbered list of tasks and changes you need to complete. Usually this will be in the 10-25 item range, at the end of which time you're able to build the project and see how your changes are going (and in doing so make sure you're still on track with the book). At the beginning of each chapter the contents, estimated time to compete and filelists are listed. These time listings should be taken seriously. If it says 30 minutes, assume 30 minutes, if it says 2:30, assume 2:30. With most chapters around 2 hours, plowing through the entire book will take longer than one work week. I found myself getting tired out by all the repetitive typing and quirky problems that more breaks were required. *The Content* Taking on Flex 2 and Actionscript 3 is no small task. I didn't realize how much there was to it to be honest. This book does a good job of laying out the basic building blocks by having you build a sample "Flex Grocer" application. This is a front end for a store where the user can browse various categories, add products to their cart, view/edit/remove items in their cart and eventually check out. It is also equipped with an administration application for managing the grocery items. The product data for this application is provided in XML files, and later on in the application can be controlled using ColdFusion and a provided access database. The attached CD comes with an already configured ColdFusion 7 installation with Flex Data Services and the required datasource setup. This saves time getting everything setup. I would recommend using it even if you have ColdFusion installed already. The appendix at the back of the book has the details on how to install this, as well as the readme files on the CD. Some of the most useful content comes in when it explains sample application structures. Maintaining applications usually takes up considerably more time than the initial development, so having well organized code is extremely important. This is just an example though, and doesn't go into "Cairngorm":http://labs.adobe.com/wiki/index.php/Cairngorm , the popular Flex framework. I don't know if Caringorm is the right choice, but it would be nice to have at least a mention of it and a comparison to the methodology described. Often a "quick and dirty" way of solving a problem is described, mentioning that it's not the suggested way of doing something. Later on the "right way" is described. This approach was helpful and described what you should not do just as well as what you should. *What I Didn't Like* The most frustrating moment in each chapter was without fail the moment I would go to compile the last set of changes only to find my project not compile. This usually just meant going back through and double checking my typing (or copying line from line from the book I should say). On one occasion though, I had everything correct; I even copied the "finished" files from the CD only to still see the same error. I believe it was remove from cart button. This really annoyed me for a while, and it's not mentioned on the "official page for the book":http://www.adobe.com/devnet/flex/articles/tfs_excerpts.html . This isn't a "Hands on Training" book, but it is only effective by active participation rather than reading. I was hoping it would use more of a combination of both similar to "Head First Design Patterns":http://www.adamfortuna.com/2007/01/26/book-3-head-first-design-patterns/ , but it turned out to be all repetitive typing. The lack of space between typing meant that everything learned in the book was learned from action. I'd be up for reading another book on Flex just to get a better idea of the syntax. This was a good intro into a lot of aspects of Flex though, which could not have been done as easily in alternative methods. *How Was it?* Of the Flex books on the market, this is probably the place where you want to start. It'll give you a decent intro into many aspects of Flex if you have the patience to sit down and make it through the often mundane examples. For the time being it's probably the best book on the market, and should give enough understanding to start (slowly) starting actual Flex development. If you want to add a framework to the mix you'll still need to learn that on your own, but you should be able to understand the concepts at the very least.
+
+p(myrating). My rating: %(rating)3.0% stars
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starempty.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starempty.gif!

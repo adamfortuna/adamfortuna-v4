@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Adobe to Open Source Flex"
+id: adobe-to-open-source-flex
+published: false
+---
+
+As mentioned on "Daniel's View":http://daniel.expdev.net/2007/04/26/adobe-open-sources-flex/ , Adobe is set to immediately open source much of the Flex sdk under the Mozilla Public License. Read more about it in "Adobe's press release":http://www.adobe.com/aboutadobe/pressroom/pressreleases/200704/042607Flex.html . With Adobe's initiative to help Mozilla by open sourcing Tamarin, the Javascript compiler, and now Flex out in the free world what will come next?

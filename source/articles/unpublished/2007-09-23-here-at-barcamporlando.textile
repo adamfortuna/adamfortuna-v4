@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Here at BarCampOrlando "
+id: here-at-barcamporlando
+published: false
+---
+
+I'm here at Taste for "Bar Camp Orlando":http://barcamporlando.com/ which is going great so far. There are two presentation rooms with the bar along the front of the larger room. There's been relatively few hiccups so far, and a lot of passionate presentations up to this point. So far I've lucky enough to attend ones on designing for the Iphone, "OpenMoko":http://openmoko.org/ , MixelPixel (which went into Facebook apps written in Flex), Learning to Love JavaScript, Passion and Inspiration in Innovation (which was all about embracing your passions) and I'm currently sitting in on Groovy with Swing. Each presentation has 20 minutes, the final 5 of which is supposed to be for questioning. I'm sure to come out of this with passion peaking and ready to work on some interesting projects. Although I came in with the intention of doing a PureMVC talk, I thought it seemed a little too out there for someone new to Flex. Instead I ended up doing a "Simple Amazon Webservices Application in 15 Minutes with Flex":http://www.adamfortuna.com/sandbox/FlexAmazon/main.html talk based on some sample code. Turned out OK, although I had to copy/paste from the finished example a few times to get it done in time.

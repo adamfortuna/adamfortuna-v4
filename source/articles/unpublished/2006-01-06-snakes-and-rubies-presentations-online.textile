@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Snakes and Rubies presentations online"
+id: snakes-and-rubies-presentations-online
+published: false
+---
+
+I spent a few hours at work today listening to the "Snakes and Rubies presentation":http://www.djangoproject.com/snakesandrubies/ from the "recent python/ruby convention":http://snakesandrubies.com/event/ . I have to say, the creator of rails has quite a great sense of humor! Rails appears to really be "taking off":http://radar.oreilly.com/archives/2005/12/ruby_book_sales_surpass_python.html too. Anyways, enough Rails evangelism.

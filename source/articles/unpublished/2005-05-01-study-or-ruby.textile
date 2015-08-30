@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Study or Ruby?"
+id: study-or-ruby
+published: false
+---
+
+Is it just me or is everyone most productive when they're putting off doing something. I should be studying for my OS Lab final tomorrow but instead i've cleaned out my room, setup a new stereo system, fixed my ipod, updated mp3 collection, burned and organized dvds, moved ddrei and other sites to a new host and started reading up and seriously considering "Ruby on Rails":http://www.rubyonrails.org/ . I need a C or greater which is about a 10/25 on the final. 40%? If i got a 90% without my program even compiling I shouldn't be too worried about scoring that high on a _multiple choice_ programming test.

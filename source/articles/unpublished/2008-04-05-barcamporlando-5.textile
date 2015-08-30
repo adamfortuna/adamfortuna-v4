@@ -1,0 +1,8 @@
+---
+layout: post
+title: "@BarCampOrlando"
+id: barcamporlando-5
+published: false
+---
+
+I'm downtown in Orlando at BarCamp and so far overwhelmed at both the quality of the venues and the community! As someone who doesn't trek downtown all that often, the area on Wall Street between Slingapours and One Eyed Jacks is an excellent social atmosphere. Kudos to the organizers for keeping things going. If you're wondering what's going on throughout the day, there's a schedule up at "http://s.barcamporlando.org/":http://s.barcamporlando.org/ updated frequently by "Gregg":http://ww.railsenvy.com . I have a pretty clear idea about what talks I'm headed to, although *uck OpenID and Microformats are both at the same time. Past, Present and Future of Tech in Central Florida with Ryan Price, Demystifying Agile Development w/Scrum with Robert Dempsey as well as a few Rails and UI talks I'll probably catch bits and pieces of. Since each talk is 30 minutes rather than 20 minutes like last time around, things don't feel hectic at all. On a side note, I already see a few wordpress screens up all around me. Better throw in a BarCampOrlando keyword for good luck. If you're wanting to check out some current photos, there's a running "BarCampOrlando2008":http://flickr.com/photos/tags/barcamporlando2008 tag on Flickr.

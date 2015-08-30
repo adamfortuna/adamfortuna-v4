@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Square Enix Shop Opens; Runs ColdFusion"
+id: square-enix-shop-opens-runs-coldfusion
+published: false
+---
+
+If you're as big a Square gamer as me (or the people at my office), you're probably salivating over the airship models and Tonberry plushies now available at the "Square Enix Official Online Merchandise Store":http://www.square-enix-shop.com/usa/index.cfm . It would come as no surprise that this site shot out of nowhere (they went public on Monday) and is already up to "8,000 on Alexa":http://www.alexa.com/data/details/traffic_details?q=&amp;url=www.square-enix-shop.com . They also happen to be running ColdFusion (some official version). Sadly in their sudden fame I did experience some jRun errors earlier today, but it doesn't look like they were ready for their fame. Things seem to be handled now though and the site is responded fairly fast. They seemed to be able to scale well enough given the sudden rise. Get your geeky stuff while you can! And if you're in a video game mood, check out the "2nd Player Podcast":http://www.2ndplayer.net/ , started by a few guys from my work, for a good laugh.

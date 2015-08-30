@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Monster Skills"
+id: monster-skills
+published: false
+---
+
+_Required Skills: SQL, Crystal, Visual Basic, Delphi, JAVA, Java Script, XML, PHP, ASP, PERL, ColdFusion, HTML, DHTML, CSS, ASP, LDAP, Dream Weaver, Flash_ Yeah, good luck with that. Reading Monster.com job postings. Not so much because I'm looking for a new job, but just to see what skills are out there and what the pay ranges are for them. Definitely feeling a lot of direction though. I'm enjoying the web programming path, but haven't counted out some of the IT/security side. Picked up a _great_ book at B&N tonight: "The Design of Sites":http://www.amazon.com/exec/obidos/tg/detail/-/020172149X/qid%3D1029529716/sr%3D8-7/102-9465834-5174556 . It's not a coding book at all- - it's looking at the process of developing websites with sections for various types of sites (personal E-commerce, non-profit, educational, forums etc). Really more about looking at design from a user-based prospective, and focusing on widely used techniques, some obvious some not so. My biggest fear now is not passing one of my classes this semester though... I'm not doing so well in OS lab, so it might just be another semester of part time at FCE with ONE class. Wouldn't be a bad thing considering how much I'm learning there. I've signed up for that one class in case in fail, worst case scenerio.

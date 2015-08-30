@@ -1,0 +1,8 @@
+---
+layout: post
+title: "CFEclipse 1.3 Released"
+id: cfeclipse-13-released
+published: false
+---
+
+For those that haven't heard, "CFEclipse 1.3":http://www.cfeclipse.org/ was released today, putting a rest to the "seemingly":http://www.firemoss.com/blog/index.cfm?mode=entry&amp;entry=3AB4464B-3048-55C9-43EA49F066B2771C "endless":http://www.markdrew.co.uk/blog/index.cfm/2007/1/22/Hold-on "taunting":http://ray.camdenfamily.com/index.cfm/2007/1/18/What-is-it . For those unfamiliar with CFEclipse, or Eclipse in general, it's an IDE for programming that can replace Dreamweaver, Homesite, Notepad or whatever you use to code. It's focus is on "projects rather than editing single files":http://www.markdrew.co.uk/blog/index.cfm/2007/1/26/Ask-Mark-Why-you-cant-edit-files-in-CFEclipse-from-straight-from-Windows-Explorer , which is does wonderfully. It took some getting used to to make the jump from Dreamweaver to Eclipse, but it's a great step forward in what it allows you to do. Using Subversion and Eclipse creates an environment that can scale to any number of developers while staying easily manageable. I haven't had a chance to check out the latest version, but I'm looking forward to trying out the new "CFUnit Eclipse Integration":http://www.andyjarrett.co.uk/andy/blog/index.cfm/2007/1/15/Running-CFUnit-in-CFEclipse-quick-guide .

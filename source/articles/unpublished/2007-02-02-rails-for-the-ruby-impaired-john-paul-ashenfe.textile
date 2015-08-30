@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Rails for the Ruby-Impaired, John Paul Ashenfelter"
+id: rails-for-the-ruby-impaired-john-paul-ashenfe
+published: false
+---
+
+Notes from John Paul Ashenfelter's talk on Ruby on Rails at Frameworks 2007. Regardless of what language you're developing you'll be facing the same problems. Frameworks across all languages have that in common - they try to make developing easier, usually with some take on the model-view-controller pattern. The holy grail of application development is something that's good, fast and cheap. Usually the joke is "pick two", but in the end people want it all and can be swayed to switch if they think the grasses is.. perfect (my lame metaphors, not his). So whats are some ways of doing this? Following standards, best practices, reusing code and focusing on quality are a good start. Finding a way to gracefully response to change is up there as well. So why is Rails hot? It pushes you to using best practices to develop. Seems like most coldfusion frameworks do that, but Rails goes a few steps farther. It creates test cases, defaults to a certain naming system for your database, creates standard URLs and separates your model, view and controller. In the end a lot is assumed when you start a rails application. If you stick to these conventions you can save yourself a lot of time and code. Why should you care about Rails? Many of the arguments for using Coldfusion instead of Java can be said true about Rails as well. Instead of saying "I'd rather do it in CF", a lot of smart java people are instead jumping ship to Rails. Both are script oriented, and they're both dynamically typed (duck typing). Rails itself is similar to a collection of cf frameworks, although there's not single framework equivalent (although Model Glue Unity comes the closest). John goes over the various code points in Rails to great extent which was a high level description of many of the concepts. How the models work, the controllers, rhtml and rjs for views, helpers, layouts, partials. He goes over a lot of topics, but focuses on a few topics such as vendor directories. Rather than listing out rails common features here, you can check out the rails documentation for this part. What's this all come down to? Best Practices are the best. Make the database invisible. Easy things should be easy. Testing is crucial... and should be easy. To finish out, he makes a call for the Coldfusion Frameworks to change a few things:
+
+* More convention, less configuration.
+* Pick an ORM and integrate it. (and migrations!)
+* Pick an Ajax library and integrate it.
+* Pick a testing library and integrate it. (and automate creation!)
+* Don't be afraid of the command line. (leverage Ant for automation!)

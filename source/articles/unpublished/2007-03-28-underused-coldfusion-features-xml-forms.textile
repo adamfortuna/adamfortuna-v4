@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Underused Coldfusion Features: XML Forms"
+id: underused-coldfusion-features-xml-forms
+published: false
+---
+
+"http://www.fusionauthority.com/Techniques/4430-XForms-The-Other-New-Forms-in-...":http://www.fusionauthority.com/Techniques/4430-XForms-The-Other-New-Forms-in-CFMX-7.htm "View Source Chart":https://addons.mozilla.org/en-US/firefox/addon/655

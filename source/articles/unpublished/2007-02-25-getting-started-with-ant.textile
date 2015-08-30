@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Getting Started with Ant"
+id: getting-started-with-ant
+published: false
+---
+
+If you're looking for a good place to get started with Ant when it comes to deployment, check out Derek Perez's recent post about "Improving ColdFusion Deployment with Ant":http://www.derekperez.com/blog/?p=39 . He created a time saving script to do three main things: uncompiled deployment to my webroot, compiled deployment to my webroot and packaged deployment.

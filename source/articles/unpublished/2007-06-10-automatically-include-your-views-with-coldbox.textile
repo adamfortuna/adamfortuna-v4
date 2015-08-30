@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Automatically include your views with ColdBox"
+id: automatically-include-your-views-with-coldbox
+published: false
+---
+
+While prototyping a site today, I was looking for a better way for a better way of cutting down some of the programming side so I could focus more on the view templates. ColdBox makes this rather easy with it's "1 view, 1 layout" concept and hooks into the events. Normally with ColdBox in your handler you'll need to tell the framework which 1 view you want to use, and then it'll use your default layout. Why not default the views as well? ColdBox makes doing that simple enough: [CFM] [/CFM] With this function setup as our RequestStartHandler in the config.xml.cfm file we'll always start the page off with a default view. In this case it'll look for the view with the path "/views/#handler#/#method#.cfm". Then if in that controller we need to overwrite the view it's easy enough; but for the most part you'll probably be using one view per event. The downside is that if you call another event from inside your handler it'll still be setup to use whatever event was passed in (at least I imagine this is so).

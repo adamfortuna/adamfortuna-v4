@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Google Code Search"
+id: google-code-search-1
+published: false
+---
+
+Last night Google launched their new "Code Search":http://www.google.com/codesearch , which is extremely fun to play with. I was recently seaching around for some Model Glue: Unity examples, and searching for quotes from the source files bring back some decent hits. It would also be great as a better way of finding coldfusion tag/function calls. Probably do a lot more searching for Reactor samples this weekend if I get stuck on anything. "Valleywag":http://video.msn.com/ also has a few great search terms that make for some fun comment reading!

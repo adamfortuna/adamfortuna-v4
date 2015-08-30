@@ -1,0 +1,12 @@
+---
+layout: post
+title: "favicon.ico added"
+id: faviconico-added
+published: false
+---
+
+!http://posterous.com/getfile/files.posterous.com/import-verf/iCyhFJikslgromvoplnbtkDzczbdcooHwCwAGwHkAHJfodkaFxHEpmitasIA/media_httpstaticadamf_bnokr.gif.scaled500.gif!
+
+Like all blogs these days, I decided to add a favicon recently. In case my Photoshop skills needs interpretation, what you're looking at are the letters af tied together. It's actually a lot easier to recognize this in the larger version. Still plan on adding something up top, as it's looking a little barren, but that'll come soon. The logo itself is the Coldfusion icon, with the curves copied to create the a in the same style. Not a bad first attempt for someone who considers himself completely useless in Photoshop.
+
+!http://posterous.com/getfile/files.posterous.com/import-verf/bCciAoADiapBkDhtHpgkxphHCmFfAglHrwyACDzrmeIorkuhahlFAnECeipc/media_httpstaticadamf_btnks.gif.scaled500.gif!

@@ -1,0 +1,62 @@
+---
+layout: post
+title: "4 fun uses of Model-Glue "
+id: 4-fun-uses-of-model-glue
+published: false
+---
+
+I've been slowly learning Model-Glue recently as you probably know if you're checking the "LineOfThought SVN Repository":http://svn.adamfortuna.com/public/LineOfThought/ . What has helped the most recently has been reading over "Doug Hughes Reactor Sample Blog":http://doughughes.net/index.cfm?event=viewEntry&amp;entryId=189 application, a Model Glue ap that comes packaged in with Reactor. It doesn't use Unity, but it's close enough in it's setup that it might as well. It uses Coldspring for bean configuration and loads them up when the application starts. It uses facades to access various scopes that shouldn't be touched inside CFC. I could go on, but there's still a lot more information for me to mine from this simple application. Here's some of the most fun stuff I've come across, from least exciting to most.
+
+*Forwarding a user to another page in ModelGlue.xml* One of the biggest adavantages of Model-Glue is being able to look at your XML files and get a top down look at your entire application. What actions do, and where they can send the user off to. The section in ModelGlue.xml is one of the easiest to use to organize this. For example, take the following login events.
+
+[xml]
+
+[/xml]
+
+The security.login event broadcasts CheckIfLoggedIn. If a controller is setup to listen for this message, such as this one.
+[xml]
+
+[/xml]
+It'll call the function and run is as you'd expect. Lets say you add a little more code in the SecurityController.CheckIfLoggedIn() method.
+
+[cfm]
+
+[/cfm]
+
+This is setting Results inside the controller. After that message completes, it'll read the section of that same event. If the user is logged in, the "LoggedIn" result will be set. When a result with the name "LoggedIn" appears in this event, it'll now execute. This line will redirect the user to the "home" event if the they try to view the login page but are already logged in.
+[xml][/xml]
+
+Likewise, the Login message that's broadcast in the security.login.submit has a similar line:
+[xml][/xml]
+Whenever the Login message adds a result of "invalidLogin" this will forward the user back to the login page without redirecting them. This means that if they hit reload, it'll be the same as resubmitting the form. If we had changed it to redirect="true" nothing would happen when the reloaded the page. With preserveState="true", all variables available on this page will be there on the login form. This means that we can populate the login form with the username and password they submitted and display a nice little error. "Here's an example":http://svn.adamfortuna.com/public/LineOfThought/views/security/dspLogin.cfm of what the login page code looks like when it's all put together.
+
+*Forwarding a user to another page in a controller* It's easy enough to forward the user to another event in the section of a model glue ap, but what about forwarding them on to another page that's not on your site, or to a dynamic page. Using the tag can always work, but you'll start over from scratch on that entry page. Like with the tag, you can also someone to another location and preserve state. This is done through a very easy call inside of one of your controllers to the forward() method. Lets say you want to forward someone to their personal homepage when they login- - well that's easy enough inside a controller.
+
+[cfm]
+
+[/cfm]
+
+Source: /modelglue/unity/eventrequest/EventContext.cfc/Forward()
+
+*Automatically populate your objects* Inside your controllers very often you'll want to popular a reactor generated record. Usually this means doing something like this.
+[cfm]
+
+...[/cfm]
+
+And so on for each element you want to set. Model-Glue: Unity has a very slick way of processing this input- - by passing it over to Coldspring to do some of the work. In it's simplest form, the above code can be replaced with just this.
+
+[cfm]
+
+[/cfm]
+
+This line of code will create a "UserRecord" bean using Coldspring, and fill it with whatever values it can find from event scope (things available from arguments.event.getValue()). There are some people who are against adding DAO records to coldspring though, and I've run across a few such cases, but MG solves that.
+[cfm]
+
+[/cfm]
+This code will produce the same result, and you can continue working with your UserRecord bean, now filled.
+
+Source: /modelglue/unity/eventrequest/EventContext.cfc/MakeEventBean() and /modelglue/util/CollectionBeanMaker.cfc/MakeBean()
+
+*Actionpacks* . These are definitely a features of Model-Glue i haven't seen enough examples on. Browsing through the svn repo, there is a readme file for a sample "Email Actionpack":http://trac.model-glue.com/model-glue/browser/branches/email/trunk/ModelGlue/actionpacks/email/install/readme.txt?rev=184 . Actionpacks have the added bonus of being able to be shared across Model-Glue applications because of their modular nature. In your ModelGlue.xml file, just add one line of code right after that first tag and you'll have the Email actionpack available. The hope is that in the end everything can just be dropped in a single directory of your workspace and after you add this one line everything works!
+[xml][/xml]
+There's a lot of possibilities that come to mind with this, but it'll take some experimentation and digging to get the concept down. It's extremely powerful though.

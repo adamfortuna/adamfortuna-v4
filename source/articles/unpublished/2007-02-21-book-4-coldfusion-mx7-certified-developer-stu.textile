@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Book 4: Coldfusion MX7 Certified Developer Study Guide"
+id: book-4-coldfusion-mx7-certified-developer-stu
+published: false
+---
+
+p(item fn). "Book 4: Coldfusion MX7 Certified Developer Study Guide":http://www.amazon.com/Macromedia-ColdFusion-Certified-Developer-Study/dp/0321330110/sr=8-1/qid=1172037548/ref=sr_1_1/103-8574928-4279049?ie=UTF8&amp;s=books
+
+p(type){display: none;}. product
+
+p(summary). Ben Forta's guide to getting Coldfusion certified
+
+bq(description).
+
+!http://posterous.com/getfile/files.posterous.com/import-verf/oIsyuwIAshqyfnCpAjkFyjBHwrzlrDilJhaiwihwjvyrsqrgIaajnsdoqyxk/media_httpwwwadamfort_exiEF.gif.scaled500.gif!
+
+If you're looking to get Coldfusion Certified there's not too many products out there to help you. I wrote about "the few I used":http://www.adamfortuna.com/2007/02/09/one-more-advanced-certified-coldfusion-developer/ of which this small but in depth book played an important role. If you're wondering just what a "Study Guide" is, it's not hard to describe. Imagine the default programming book layout where the author goes through examples and extracts the ideas from each of the mini-lessons. This study guide is basically that same concept minus the demo examples. There is still code in short blocks of course, but most the code is self contained and not part of a greater chapter all using that same code. As for the chapters themselves they are surprisingly short. For instance there's a chapter on Coldfusion Components (CFCs) that measures in at a mere 15 pages. Other chapters are equally brief: Lists (6 pages), Locking (4 pages) and Session Management (8 pages). The important part of these chapters isn't in the details, but in a very quick description. When studying for the test, I was able to reread entire chapters on subjects I was missing questions in in almost no time at all. I should point out that this book isn't meant for learning these topics from scratch. If you're wanting that, you'd be better off with the "Macromedia ColdFusion MX 7 Web Application Construction Kit":http://www.amazon.com/Macromedia-ColdFusion-Web-Application-Construction/dp/0321223675/sr=8-1/qid=1172038292/ref=pd_bbs_sr_1/103-8574928-4279049?ie=UTF8&amp;s=books (Wact). If you're already a Coldfusion developer and want to see what subjects you have a limited understanding of this is a great read though. At 444 pages of content, many of those being blank pages between the 50 short chapters or quiz pages at the end of each, it doesn't seem like a very long reference book. At the end of each chapter there are a few multiple choice questions relating to that chapter. These questions help solidify the material immensely. In the back of the book are all of the answers to these questions as well as a descriptions of the answers as well. These are the same questions that are available on "Ben Forta's Study Guide Quiz":http://www.forta.com/books/examintro.cfm?isbn=0321330110 online. There are certainly a good way of measuring your initial ability, and if you find yourself unsure at least there's only ~8 pages of material covered to brush up on. The one thing I did believe this book lacked was more test questions at the end of each chapter. There are usually only 3-5 questions, which become easily remembered. Although this means you know these 3-5 very well, the rest of the topics from the chapters fade more easily. It would've been nice to see a larger question pool, or perhaps more questions available in the online study guide quiz results with reference page numbers which could then be expanded at any time. I like the idea of an accompanying website with tests, but don't believe it was used to it's potential in this case. If you're looking for a more thorough practice test, I'd suggest getting a hold of Centrasofts "CFMX Exam Buster 7.0":http://www.centrasoft.com/cfmxexambusterorderinfo.cfm . I'd say if you're planning on getting certified this is a must have resource. Even after certification though it serves as sort of a bulging-pocket reference sort of book where the meat from any topic can be obtained in far less time than with the WACT book. Still though, no book can offer a guarantee, so best to read what you can from other sources as well, although I'd have to say this is the best starting point I can imagine.
+
+p(myrating). My rating: %(rating)5.0% stars
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!

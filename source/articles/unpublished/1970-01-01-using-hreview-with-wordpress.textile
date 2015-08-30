@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Using hReview with Wordpress"
+id: using-hreview-with-wordpress
+published: false
+---
+
+Back in January I mentioned a "hReview plugin for Wordpress":http://www.adamfortuna.com/2007/01/05/review-of-hreview-wordpress-plugin/ that I've been using primarily for book reviews. But what exactly is hReview? According to "Microformats.org":http://microformats.org/wiki/hreview :
+
+bq(posterous_medium_quote). hReview is a simple, open, distributed format, suitable for embedding reviews (of products, services, businesses, events, etc.) in (X)HTML, Atom, RSS, and arbitrary XML. hReview is one of several microformats open standards.
+
+!http://posterous.com/getfile/files.posterous.com/import-verf/gFzDstFDtmnnkGpngldfzIfakcgdBAomqhtoCzDxHCpJgHJyfIyEiwobkgsG/media_httpwwwadamfort_sijHl.jpg.scaled500.jpg!
+
+To put it in english, it's a way of using semantic XHTML to write a review. The prime example is "Cork'd":http://corkd.com/ a wine review site developed by "Dan Cederholm":http://www.simplebits.com . Take the sample code on the left. It's from a review on "Cork'd":http://corkd.com/wine/view/10690#tasting-notes and illustrates the structure of an hReview (and also a vcard if you're curious). The basics of it are shockingly simple and entirely based on the css classes. Almost all the class declarations in the sample code are hReview related and then then marked up via CSS to look stylish. The benefits of hReview, as with OpenID and other microformats are yet to be fully realized. Technorati has taken a leading role in some Microformats as well as being one of the first to start a hReview, hCalendar and hCard search over at "Kitchen.technorati.com":http://kitchen.technorati.com/ . I can confirm it's working with a search for "ColdFusion":http://kitchen.technorati.com/review/search/coldfusion turning up two of the books I recently reviewed. As a publisher or as consumer having a standard for this kind of thing is a godsend. If you're wanting to learn a little more about microformats, "Jason Allsopp":http://microformatique.com/ recently released a book on the subject: "Microformats: Empowering Your Markup for Web 2.0":http://www.amazon.com/Microformats-Empowering-Your-Markup-Web/dp/1590598148/ref=pd_bbs_sr_1/104-1788025-5999906?ie=UTF8&amp;s=books&amp;qid=1178083909&amp;sr=8-1 . There's two very comprehensive reviews on Amazon, as well as more evangelizing on Allsopp's site. If you're writing reviews, give hReview a try!

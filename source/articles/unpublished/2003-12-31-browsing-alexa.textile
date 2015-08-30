@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Browsing Alexa"
+id: browsing-alexa
+published: false
+---
+
+"Alexa.com":http://www.alexa.com is a great web site when you're looking at the best in something. I was browsing around with no real aim and found a few intersting advertising sites I might look into. What i was really surprised with was how much "Craigslist":http://www.craigslist.org/ has grown o.0 They've gotten about 10x bigger in the past year -- not bad for a non-profit site. According to their alexa.com traffic, they're getting about 8million visits a day. 8 million, up from 800,000 a year ago. That's insane. I can't wait until they expand to Orlando so i can get some free stuff.

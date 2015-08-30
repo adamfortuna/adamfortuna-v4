@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Adobe Air and Twitter Presentation at Adogo"
+id: adobe-air-and-twitter-presentation-at-adogo
+published: false
+---
+
+If you're in Orlando next Tuesday, think about coming down to Devry for our monthly "Adogo":http://adogo.us user group meeting. We have two presentations planned for the day, one on *Continuous Integration using Cruise Control* presented by Ryan Miller which I'm looking forward to. Ryan and his team are using CI when developing their ColdFusion and Flex projects, so it should be applicable to a large audience. I'll be showing a how to create an Adobe Air application from start to finish that will integrate with Twitters API and show how to package this application up to install anywhere. Air and Twitter are both easy to get into, so if you're curious it'll be a good intro to how to work with both that might clear up a few questions.

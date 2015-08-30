@@ -1,0 +1,8 @@
+---
+layout: post
+title: "If it works, use it"
+id: if-it-works-use-it
+published: false
+---
+
+Busy couple of weeks. Nothing out of the ordinary going on, except that I've been working on "ArcadeFly":http://www.arcadefly.com and learning a load of new things. At the moment the framework is extremely flexible. Everything displayed by the javascript is done through XML transformed using AjaxSLT (googles XSLT implementation). Makes updating everything insanely easy, because then it's just a matter of fixing the stylesheet and possibly an XSL file. Sad part is the site doesn't come anywhere close to working in IE. That's not really a problem though, for now at least.

@@ -1,0 +1,8 @@
+---
+layout: post
+title: "ColdFusion top 100 PageRank and Alexa Rating!"
+id: coldfusion-top-100-pagerank-and-alexa-rating
+published: false
+---
+
+We really like our statistics! "Yakhnov Studio":http://www.coldfusiondeveloper.com.au/ decided to take the statistics one step further and make a full list of the "top 100 sites based on Alexa rating and PageRank":http://www.coldfusiondeveloper.com.au/go/top100/ . This comes from the creator of "OpenID":http://www.yakhnov.info/go/projects/openid/ , the first OpenID implementation in ColdFusion, so our interets are definitely intersect -- he just manages to do something about it. Great work man! Interesting to see that the top 100 all have a 7+ PageRank, with 5 9's and 29 8's. The Alexa ratings are more impressive, with the entire list in the top 40k. These numbers should only get better as more CF sites are "outed".

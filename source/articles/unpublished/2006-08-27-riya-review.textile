@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Riya Review"
+id: riya-review
+published: false
+---
+
+A few new aps have surprised me this past week. Takes a lot now a days for something to make me spend more than 5 minutes checking it out, but one accomplished it and then some. Riya One that launced about a month ago that I didn't make the beta for is Riya. Riya describes itself as
+
+bq(posterous_medium_quote). We are a group of determined face recognition and text recognition researchers and engineers who believe it is time for a new type of photo search that uses technology to look inside and automatically tag photos. We hope this will revolutionize how people "see" the world.
+
+I uploaded about 800 megs of photos and within an hour Riya and I had identified the faces on all of them -- every last one. Their tools were mostly accurate in finding similar faces, unfortunately a lot of my pictures had unique faces in them I had to identify as "I Don't know" which took a while. It is still new, and some options such as "rotate" bring up a dialog box with Comming Soon!. I'm still getting the "sharing" part of the site down, but here are the photos of me it found. The slightly scary part about Riya is that you can search for someone, say "Adam Fortuna":http://www.riya.com/search?btnSearch=riya&amp;searchText=adam%20fortuna , and see an entire history of photos for that person. Not bad for the thick-skinned, but some people will be embaressed hopefully. "":http://www.riya.com/search?btnSearch=riya&amp;searchText=adam%20fortuna

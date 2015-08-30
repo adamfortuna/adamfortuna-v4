@@ -1,0 +1,14 @@
+---
+layout: post
+title: "8 Javascript Methods for Rounding Corners"
+id: 8-javascript-methods-for-rounding-corners
+published: false
+---
+
+Why can't rounding corners be easy? This isn't a native feature of most web browsers, meaning it's another headache for developers. You'd think with how many methods there are of doing this there would be one way that would work for everyone, but that's just not the case. Depending on your personal preferences, position within the page and just what the rounded corner box will be used for will determine which method is right for your situation. So first off, what do we want to be able to do?
+
+h3. Method 1: Table Layout
+
+Table layouts are quickly becoming a thing of the past, but before that this was THE way of doing rounded corners. The idea is simple; create a 3x3 grid of cells using a table, putting the main content in the center cell. Each of the other 8 cells will contain a small part of the image being used for rounding. This does mean you'll have to create all your gradients and images up front, but the size of the content can now be scaled. *Images Required:* 8 (top left, top right, bottom left, bottom right, top, right, bottom, left). *Elements Required:* 13 (table, 3 x tr, 9 x td). *Javascript Required:* No *CSS Required:* No *Scalable:* Yes
+
+h3. Method 2: Sliding Doors

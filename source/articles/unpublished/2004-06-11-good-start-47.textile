@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Good Start"
+id: good-start-47
+published: false
+---
+
+First day went pretty well. It's a very comfortable working atmosphere -- and everyone working close by seem very young. Most people there started as UCF co-op students, and i think the other 4 in the web programming team are all current students. I usually seem to have a problem remembering names, but i think i came out ahead today. Spent most the time reading up on javascript which is actually a lot more powerful than i thought. Looks like I'll be working MWF there and TR at the co-op office for a few weeks. Should be interesting alternating between them. Maybe it'll give me a little more time to think about what I'm doing. I just hope i don't get the days mixed up and show up at the wrong office. ^^"

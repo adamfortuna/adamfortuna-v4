@@ -1,0 +1,8 @@
+---
+layout: post
+title: "OpenID Delegate Wordpress Plugin"
+id: openid-delegate-wordpress-plugin
+published: false
+---
+
+Interested in adding OpenID to your wordpress blog? From Eran, the same guy who recently released a "MicroID Plugin for Wordpress":http://eran.sandler.co.il/2007/01/07/microid-plugin-for-wordpress/ comes an easy way to delegate OpenID server without hardcoding anything. For a while I'd been hardcoding the delegate in my header, but this a much cleaner way. Install the plugin, fill in the few fields in the admin section and you're done! I'm hoping to change my layout soon, so the less I have hardcoded the better. This should be a must have plugin for Wordpress. "Get it here!":http://eran.sandler.co.il/openid-delegate-wordpress-plugin/

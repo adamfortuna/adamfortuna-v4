@@ -1,0 +1,8 @@
+---
+layout: post
+title: "\"New\" Project - CFOpenID"
+id: new-project-cfopenid
+published: false
+---
+
+Brian Rinaldi's "ColdFusion Open Source Update":http://www.remotesynthesis.com/blog/index.cfm/2007/4/30/ColdFusion-OpenSource-Update--April-30 for this week linked to one new project I'm very interested in. CFOpenID, not to be confused with "OpenID":http://openid.riaforge.org/ or the "OpenID Actionpack for Model-Glue":http://www.adamfortuna.com/2006/12/25/first-attempt-at-an-openid-actionpack-for-modelglue/ , is a new project released January 18th, 2007 which managed to stay under the radar. Unfortunately "the example on their site":http://www.indiankey.com/cfopenid/examples/login.cfm seems to forward me to my hreview.css file due to a problem in how they parse the the page the openid.server property. Hopefully between these three libraries there's enough information for anyone interested to jump in and see just how OpenID works in a familiar language.

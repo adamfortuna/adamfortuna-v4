@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Adogo Meeting Next Tuesday"
+id: adogo-meeting-next-tuesday
+published: false
+---
+
+If you're in or around Orlando, you should try to come out to the 2nd "Adobe Developers of Greater Orlando":http://adogo.us meeting this coming Tuesday, September 4th. I'll be giving a short talk on "ColdCourse":http://coldcourse.riaforge.com , while "Brian LeGros":http://www.brianlegros.com will be giving a talk on "Common Revision Control Practices with Subversion":http://adogo.us/2007/08/27/primer-common-revision-control-practices-with-subversion/ . We use Subversion with quite a few people at work, so his talk should be pretty fleshed out- - and I'm assured it has many smiley faces.

@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Damn you debugging"
+id: damn-you-debugging
+published: false
+---
+
+Coldfusion has this handy little option that allows you to turn debugging information on for a given IP address. This nifty little feature allows users that IP to get an in depth of of the page call. It lists out the pages that were called in the request and queries, as well as execution times for everything. Today we realized there are some times you just don't want to see this data. Aparently, if you have a form that is type form/multipart-data, and you happen to have debugging information on your form will give a not-so-descriptive error saying it failed (type 500). Also, any XML files you generate will not be well formed which can drive a programmer a little mad.

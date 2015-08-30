@@ -1,0 +1,48 @@
+---
+layout: post
+title: "Make Your Blog Easily Readable in 1 Hour"
+id: make-your-blog-easily-readable-in-1-hour
+published: false
+---
+
+There's one thing that usually bugs when trying to find new blogs to read and that's a lack of direction. A lot of the time the user interfaces we take for granted in the often read blogs are far from utilized elsewhere (I admit I'm guilty of some things as well). Do you ever go to a new site only to have no idea what the main focus of the blog is about? Or perhaps it's so varied that you can't tell what their specialties are and what they're just getting into? Or worse yet most posts stray from topic to topic with seemingly no real glue holding them together. Well, before applying over at "9 Rules":http://9rules.com/ getting as many of the easy things out of the way as possible was one of my main goals. These are also the kind of things that help with search engine optimization as well. These aren't hard things to do, but they're often overlooked.
+
+h4. Title and Subtitle
+
+The title of a site won't matter much. If you're hardcore SEO this is more important of course, but for humans it can be made up words, gibberish, anything -- as long as it's unique. The subtitle though helps out almost as much anyways, and that's where you can put the real focus of your site in the forefront.
+
+h4. Have an Intro
+
+Of course I don't mean a flash intro, but a quick intro on the side of the homepage describing yourself is a great way to go for single person blogs. Often for more community driven blogs you can still have an intro about the site as well. This can usually link into an about page with more details..
+
+h4. About Page
+
+Easiest thing in the world. Not a bad idea to post a picture either if you have one that's slightly above decent. This helps bring in some credibility and can clarify background on where you're coming from.
+
+h4. Tag Cloud / Category List or Cloud
+
+Being able to see what you're most interested in is never easier than with a sized tag cloud or a category cloud. A category listing with numbers is also a great help. Listing every single tag can backfire though if you've heavily tagged your posts.
+
+h4. Related Posts
+
+Showing related posts not only gives the users a few on topic suggestions, but it also helps build credibility that you've thought about the topic a little more. For someone new to your site this helps them read more about whatever brought them there in the first place.
+
+h4. SES URLs
+
+If you're using Wordpress, this is as easy as changing a setting. This is one feature that seems to be becoming increasingly important lately. There's something more professional in a URL that ends with a path rather than a string of text as parameters. This isn't a make or break item, but if your blogging software supports it, why not use it?
+
+h4. Keep URLs the same
+
+Once you get with something, stick with it. On this blog I've been changing the layout on a weekly basis trying to find something that works and that I can elaborate on. In that time, however, all the URLs and the main content on them remained the same.
+
+h4. Sitemap
+
+Recently Yahoo, Google and MSN all decided to use the same sitemap format. There's also a "Wordpress plugin":http://wordpress.org/extend/plugins/google-sitemap-generator/ to do this for you automatically. This is one thing you can setup and forget completely about. If you're curious though, they look like "my sitemap":http://www.adamfortuna.com/sitemap.xml .
+
+h4. Easy on the Ads
+
+If there's one thing I can't stand is a blog loaded down with ads. I can understand wanting to pay for hosting, but I doubt most people are making enough on ads to make things worth it. The techniques used to make the most money from ads probably aren't the tactics you want associated with you anyways (unless you're running a "making money from ads" blog ;). There are much nicer looking ways of making money from ads anyways, such as "Text Link Ads":http://www.text-link-ads.com/?ref=76195 , or referring people to a webhost that pays referrals such as "Dreamhost":http://www.dreamhost.com/r.cgi?150228 or just linking to products on amazon occasionally with your referral code. I'm sure there comes a time when even "Joel on Software":http://www.joelonsoftware.com/ and "Coding Horror":http://www.codinghorror.com/blog/ will have ads, but they've managed to do pretty well without them.
+
+h4. Post, Post, Post!
+
+Regardless of everything else, content is king. If you're an amazing writer with a barebones site (as with those last two links), people will come. Just writing about what you know and writing about what you learn is enough for most people. If you have something to say, don't feel shy about saying it. There are books and books on search engine optimization you can read, but unless you're making a career out of it one may do the job. So many of the things that make your site more usable for a person also help with SEO anyways. Almost everything on here can be setup and then completely forgotten about, leaving you to just worry about writing.

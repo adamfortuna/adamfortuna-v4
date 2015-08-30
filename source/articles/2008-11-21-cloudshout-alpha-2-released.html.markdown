@@ -10,7 +10,7 @@ Over at [IZEA](http://www.izea.com) there are a lot of balls up in the air at an
 -   An app that pull recent tweets from the blog owner, and even tweets from other site visitors
 -   An app that pulls recent flickr photos from the blog owner, and other photos from site visitors
 -   Multiple games — like checkers
--   A “Growl” like application that shows activity for the site (if you're using a mac and don't use [Growl](http://growl.info/) it's worth checking out)
+-   A "Growl" like application that shows activity for the site (if you're using a mac and don't use [Growl](http://growl.info/) it's worth checking out)
 
 It's important to note that any of these applications are updated immediately as new visitors come to the site. So lets say while you're reading this blog post someone new comes to my site. They'll show up immediately on the right, and you'll be able to view tweets, or play checkers with them. Having realtime communication and the ability to send Javascript to other users really opens up a whole new world of application possibilities, so we're thinking of, and hearing suggestions about new applications every day. **We Have the Technology**
 

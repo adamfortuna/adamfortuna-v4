@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Application Generation: Beyond Scoffolding by Peter Bell"
+id: application-generation-beyond-scoffolding-by
+published: false
+---
+
+Notes from Peter Bells talk on Application Generation at Frameworks 2007. Language Oriented Programming is a new approach to programming. Like model driven development or the like, it focuses around objects that can be managed. Scaffolding offers _free functionality_ by using introspection to examine the database and generate code based on that. Scaffolding is just a starting point though, because there's no way for the database metadata to contain all knoweldge about how the application works. For instance a SSN is more than a varchar(9), it has certain validation requirements that can't be handled by a database (well not without some serious contraints). CFC, custom tags and the like are examples of Language Oriented Programming - a way to change the behavior of code in where it does it instead of where it's called from (if i understand correctly). "Building software around a set of domain specific languages" - Martin Fowler Domain specific languages are a hot topic. Peter goes over examples of horizontal DSLs such as SQL, RegEx, Objects and notifications, as well as vertical DSLs such as newsletters, shipping rules or insurance quotes. Coldspring.xml or ModelGlue.xml are domain specific languages for controllers. Three types of languages:
+
+# Declarative: Reuse
+# Templating: Simplicity for designers
+# Scripting: Use to implement
+
+Abstract vs Concrete Grammer = What say vs How say. [xml] [/xml] @User@ FirstName@ Try to use *active* code generation where the generation code is away from where it's implemented, such that the generator can be changed, and the code can be regenerated at any time. CF Template can be used to template various parts of your application, including iterating over columns in a database with easy to read CF syntax. Also watch for CFGen which should be released in the next month on "Peter Bell's":http://www.pbell.com blog. Everything needed for code generation:
+
+* Metadata containing all objects
+* Templates of each object and view
+* Iterator to go over all objects
+* Orchestrator to piece together everything an object needs
+* Extensions to add in custom code
+
+By using domain specific languages, you can attain huge gains in development time on repetitive objects using scaffolding. By creating a simple implementation of them, you also don't repeat yourself in creating them. In the end you can generate everything from scripts to database to documentation and build script, given a smart enough generator. There's nothing you can't generate, however the last few percent of the application can be extended with custom code rather than generated code. Update: Peter added the presentation files online in "his latest post":http://www.pbell.com/index.cfm/2007/2/1/Presentation-Files .

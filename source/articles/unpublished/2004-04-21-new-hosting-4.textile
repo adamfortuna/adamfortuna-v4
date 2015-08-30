@@ -1,0 +1,8 @@
+---
+layout: post
+title: "New hosting"
+id: new-hosting-4
+published: false
+---
+
+I bit the bullet and bought some new hosting. It's quality bandwith hosted in TX actually, but it's really damn fast. I get better pings from it than most hosting places here in Orlando I checked out. The main problem is that even when going to another host in the same city you're routed all over the country then back to the same town. It's best to be right on a backbone -- then from where ever you happen to be routed from it'll be an easy jump to the server. "VortechHosting":http://www.vortechhosting for example is right here in Orlando, but is 22 hops away with an avg ping of ~77. "VoNetwork":http://www.vonetwork.net on the other hand is is 12 hops away with an avg ping around 42. It gets almost nothing but good reviews on "WHT":http://www.webhostingtalk.com which is a definite selling point. Anyways, i signed up there, and it's just a matter of time before the account is setup -- then nameservers will be changed and it will be a little longer before the actual site resolves. whew.. i hope they get the account setup fast!

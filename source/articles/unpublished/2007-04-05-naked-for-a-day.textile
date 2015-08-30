@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Naked for a day?"
+id: naked-for-a-day
+published: false
+---
+
+Yes, April 5th is Naked day. I'm not suggesting going to work like that, but consider dropping your stylesheets for the day. "Dustin Diaz":http://www.dustindiaz.com/ appears to be leading the initiative with over 1400 sites already going buff today. I have to admit, since I use WordPress I hadn't dug into the html, but seeing it now I'm impressed with it's layout. If you want to find out more, read about "Naked Day 2007 at Dustin Diaz.com":http://naked.dustindiaz.com/ . Now I'm realizing one thing though -- I really should probably fix the size of the comment textarea box, which appears to be set entirely in CSS.
+
+!http://posterous.com/getfile/files.posterous.com/import-verf/BvFlBEADsoyGbhIkcJBICDzugrcDtiraFIvkJCfmmmFksrjtBpfgfFpcbibJ/media_httpwwwadamfort_qBfpu.png.scaled500.png!

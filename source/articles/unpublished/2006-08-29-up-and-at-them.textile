@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Up and at-them!"
+id: up-and-at-them
+published: false
+---
+
+I have to admit, I've always been a little weary of using "Wordpress":http://www.wordpress.org . Not because it's not a great piece of software, but because I had less motive to get under the hood with it than with something like "Typo":http://www.typosphere.org/ or "BlogCFC":http://blogcfc.com/ . I'm going to admin defeat for the moment though, and say that having something up and running (and stable) is probably the best bet any way you look at it. As far as installation goes, "Dreamhost":http://www.dreamhost.com/ provided everything at a quick point click installation from their web panel. Although their panel is a little on the slow side, and not the most feature rich, I don't seem to miss the ones they don't provide. With that I set up this blog, as well as a fun one to work on -- "Florida Idiots":http://www.floridiots.us at FlorIdiots.us, a domain I'd been long wanting to do something with. Both installations were painless, and I've been slowly ramping up the plugin that have been interesting so far. I'm sure I'll be posting which ones I'm using as soon as things quiet down.

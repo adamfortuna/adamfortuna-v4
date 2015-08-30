@@ -1,0 +1,15 @@
+---
+layout: post
+title: "ArcadeFly update"
+id: arcadefly-update
+published: false
+---
+
+Work on "ArcadeFly":http://www.arcadefly.com is going great. Hitting a few css and javascript bugs that are holding me back though. Here's a list of bugs I'm currently trying to fix:
+
+* open/close background image doesn't show up either in the modules (on the left) or the graveyard (where nav items go when closed).
+* When you link to a location by id (like i did above) it opens the location alright, but it doesn't load the info for that click.
+* When you click a link below, it'll drop everything down another 500px or so. Seems like even though the item is hidden it's still taking up space. This is odd because it was working until I moved their onclick behavoir to the JS files.
+* Scrollbar on the left nav location list isn't showing up right. The scrollbar shouldn't show up until there's enough items, but i can't get it to work in firefox. Same problem in the about/credits (etc) sections.
+
+There are a lot of unresolved issues which aren't problems -- they're just not done in the first place. I'm still hoping to have it IE compatible by the end of the weekend, then I can work on new features.

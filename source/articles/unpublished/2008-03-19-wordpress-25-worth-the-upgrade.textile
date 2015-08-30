@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Wordpress 2.5 Worth the Upgrade?"
+id: wordpress-25-worth-the-upgrade
+published: false
+---
+
+Absolutely. Wordpress hasn't undergone a major release in a while, and this one certainly fits the description. What do you have to look forward to in this upgrade? Here's a few examples:
+
+* New Admin Menu that's easier to manage
+* More reliable widget management. Instead of having all widgets on the page now you setup individual sidebars as individual collections of widgets.
+* Flash uploader for attachments that can handle multiple uploads.
+* Plugin Auto-upgrade is probably one of the best features. One of the best parts of wordpress is how rarely you have to break out the ftp client to get things done. This will be one more step in that direction.
+* Customizable image sizes is extremely useful. Many times I haven't used thumbnails because they're just not the right sizes.
+* Better tag management should prove useful. They were only recently added in, but not much more than that. This should make them a little easier to work with.
+
+For more in depth explanations of these (with pictures!) check out "10 Things You Need to Know About Wordpress 2.5":http://technosailor.com/2008/03/18/10-things-you-need-to-know-about-wordpress-25/ . I know that thanks to "Dreamhost":http://www.dreamhost.com/r.cgi?150228 upgrading will be a one click process once it's finally released.

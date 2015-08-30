@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Google Campus Videos"
+id: google-campus-videos
+published: false
+---
+
+If you're interested in watching some very interesting presentations on a variety of subjects, check out the "engEDU videos":http://video.google.com/videosearch?q=engEDU+is%3Afree&amp;page=1&amp;so=0 on Google Video. These are speakers who were sponsored to come to Google and speak about what they know best. There are a lot of experts in their fields, such as one on "Mondrian":http://video.google.com/videoplay?docid=-8502904076440714866&amp;q=mondrian by the creator of Python, "One on Django":http://video.google.com/videoplay?docid=-70449010942275062&amp;q=engEDU+is%3Afree by one of Django's core developers, "Selinium":http://video.google.com/videoplay?docid=-594153467742593805&amp;q=engEDU+is%3Afree , "Agile Testing":http://video.google.com/videoplay?docid=-3054974855576235846&amp;q=engEDU+is%3Afree , "Aspect Oriented Programming":http://video.google.com/videoplay?docid=8566923311315412414&amp;q=engEDU+is%3Afree and a total of 227 videos (according to Google ;). Keep in mind these aren't short 5 minute skits, but full length presentations on subjects by experts. This could keep me entertained for weeks! Kudos to Mario at FCE for finding this.

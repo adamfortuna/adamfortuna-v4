@@ -1,0 +1,8 @@
+---
+layout: post
+title: "OpenID Project on RiaForge"
+id: openid-project-on-riaforge
+published: false
+---
+
+Looks like OpenID is getting a little more attention in the Coldfusion community! There's been a few questions about it on the CF Talk mailing list, the "OpenID actionpack for Model Glue":http://www.adamfortuna.com/2006/12/25/first-attempt-at-an-openid-actionpack-for-modelglue/ and now a RiaForge project! Dmitry Yakhnov has started an "OpenID project":http://openid.riaforge.org/ on Riaforge containing a full OpenID consumer and an example. It's a lot easier to read over to get an understanding of how OpenID works than my actionpack, as the files are more easily traceable without the disguise of a framework. It helped hammer out how to do the verification call to the server, which I had previously misread as a GET request when it should be a POST. Just based on how tiny the amount of code required to add an OpenID consumer is, I think there is a lot of room for adoption in the Coldfusion community. I'd like to get a full library of OpenID services down sometime- - the consumer, the server, options for managing your identities, email verification; the whole 9 yards. It's be more of an entire website at that point though, rather than a pluggable library. That's the beauty of the consumer side of things, it's lightweight and easy to add in to any application. If you've put off learning about OpenID, and want a place to start, "Simon Willison's screencast on How to use OpenID":http://simonwillison.net/2006/openid-screencast/ is great getting started point.

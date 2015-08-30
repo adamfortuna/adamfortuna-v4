@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Adobe Developers of Orlando Unite"
+id: adobe-developers-of-orlando-unite
+published: false
+---
+
+If you're an Adobe developer in central Florida, make sure to check out the newly created "Adobe Developers of Greater Orlando":http://adogo.us/ Usergroup. The focus of the group will be on Adobe languages and issues facing developers in general. Please check it out and sign up if you're interested. Topics listed there are a recap of what we discussed in the previous pre-meeting last week, and although nothing has been finalized we are making great strides towards having an active usergroup in Orlando once again.

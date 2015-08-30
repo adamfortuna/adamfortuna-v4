@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Ajax? What's Ajax?"
+id: ajax-whats-ajax
+published: false
+---
+
+I'm starting to like the whole waking up at the same time each day thing. As long as people keep calling me at 9am on saturdays I think i'll be able to stay on it too (don't worry, i was already up ;). Friday at work was actually a a lot of fun. I've been messing around with Javascript xmlHTTPRequest for a while ( "here":http://dymension.org/projects/activesearch/live-search.html is a WORKING examples) and I got to actually write some aps with it. It uses a lot of the same ideas I'd planned to use with ArcadeFly. The main idea (well for the arcadefly case) is that when you're selecting a game from a drop down you don't want to load 4,000 games and have to select one, you want to select a category, or a sub category then get a much smaller list. Often when this is done it isn't with xmlHTTPRequest of course, it's done by loading all the possible combinations into the page, then nothing more needs to be loaded. This means there's a lot of uneeded data sent over. One thing that really stands out is "BackBase.com":http://backbase.com , which only has to reload exactly what's being requested. I've been looking into cheaper solutions (700 Euro? ugh), but none seem as refined as that. Something new to mess around with at least.

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Python on Planes, A New Hope for Web Development?"
+id: python-on-planes-a-new-hope-for-web-developme
+published: false
+---
+
+As much as I love ColdFusion, "Python On Planes":http://pythononplanes.com/ looks like a great new solution. It brands itself as:
+
+bq(posterous_short_quote). Python on Planes is an open-source web framework that's optimized for python happiness and snakeable productivity. It lets you write beautiful code by favoring snake oil over gems.
+
+It sounds like it could be wildly successful. Get in now and be one of the early adopters!
+
+bq(posterous_medium_quote). Planes is the most well thought-out snake oil framework I've ever sniffed. And that's in a decade of doing tongue forking for a living. I've built my own snakes, helped develop the Snakes API, and have created more than a few snakepits from scratch. Nobody has done it like this before.- Vladimir Putin

@@ -1,6 +1,6 @@
 ---
-title: "While I'm Young"
-permalink: while-im-young
+title: "Recent Progress and Goals"
+permalink: recent-progress-and-goals
 tags: Personal, Progress, Short
 ---
 

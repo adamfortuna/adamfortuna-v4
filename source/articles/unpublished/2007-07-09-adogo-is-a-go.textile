@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Adogo is a Go!"
+id: adogo-is-a-go
+published: false
+---
+
+Well it's confirmed! The first "Adobe Developers of Greater Orlando":http://adogo.us usergroup meeting will be held on *August 7th, 2007 @ 7:00 PM at Devry University in Millenia* . The topics will include *Flex and ColdFusion Applications the Easy Way with Coldspring* and a *Rich Internet Applications Birds of a Feather* . If you're interested in attending just plan on showing up. Stay tuned for the primer for the first presentation coming later this week.

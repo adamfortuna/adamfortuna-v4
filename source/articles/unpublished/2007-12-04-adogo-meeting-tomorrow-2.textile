@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Adogo Meeting Tomorrow"
+id: adogo-meeting-tomorrow-2
+published: false
+---
+
+If you're in or around the Orlando area tomorrow night, consider stopping into the December "Adogo":http://adogo.us/ meeting from 7pm-8:30pm at Devry by Mall at Millenia. Luis Majano will be presenting remotely on ColdBox, followed by a birds of a feather session on ColdFusion frameworks led by "Brian LeGros":http://www.brianlegros.com . If you've never been to a BOF (as they're called) they're basically a discussion with one person (or more) managing the room and spurring on conversation. In addition we'll be giving away a ColdFusion 8 standard license to one random person.

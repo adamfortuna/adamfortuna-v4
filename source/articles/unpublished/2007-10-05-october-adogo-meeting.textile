@@ -1,0 +1,8 @@
+---
+layout: post
+title: "October Adogo Meeting"
+id: october-adogo-meeting
+published: false
+---
+
+Our second "Adogo meeting":http://adogo.us/2007/10/02/october-meeting-summary/ was earlier this week. If you're interested in learning about Build Tools (Ant, Rake, Maven and Buildr) it's worth watching the Connect recording. The task was for each build tool to assemble a Flex/ColdFusion webservice project for deployment, including building a swf and packaging everything up in a zip. I know a lot of people use Ant for this, but if you've ever wondered about other options, it's an educational 4 mini-presentation.

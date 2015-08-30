@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Coldfusion as popular as Perl!"
+id: coldfusion-as-popular-as-perl
+published: false
+---
+
+Well, that probably doesn't say much, but in a "recent poll taken over at Ajaxian.com":http://ajaxian.com/archives/ajaxiancom-2006-survey-results , Coldfusion was used by a respectable 45 out of 865 respondents. Of those 45 (presumably) 10 were using "AjaxCFC":http://www.robgonda.com/blog/projects/ajaxcfc/ and another 3 use "CFAjax":http://www.indiankey.com/cfajax/ . I'm surprised another 2% were using Flex in conjunction with Ajax (not neccesarily using CF though), a majority using the "Flex-Ajax Bridge":http://labs.adobe.com/wiki/index.php/Flex_Framework:FABridge (1.4%). Another 8 people wrote in "Spry":http://labs.adobe.com/technologies/spry/ as one of their most often used ajax frameworks as well, which is a decent .9% of respondents. Interesting poll still, but it does make me curious about the global useage of Coldfusion.

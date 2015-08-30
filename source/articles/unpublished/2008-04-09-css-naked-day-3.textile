@@ -1,0 +1,8 @@
+---
+layout: post
+title: "CSS Naked Day #3"
+id: css-naked-day-3
+published: false
+---
+
+Once again it's "CSS Naked Day":http://naked.dustindiaz.com// , a time to strip your site bare and see how good it looks without all that CSS. If you're using Wordpress, you can grab the "CSS Naked Day Plugin":http://www.ajalapus.com/downloads/css-naked-day/ and not have to worry about disturbing your layouts once the day is through. So far I've been extremely happy with this theme, which although I've only done minor tweaks with, it's been easy to expand upon while keeping the same tone and color. I didn't notice until now though that the comments are above the posts themselves which does look a bit odd.

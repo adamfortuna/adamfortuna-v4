@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Add OpenID to your blog"
+id: add-openid-to-your-blog
+published: false
+---
+
+One of the biggest gripes I've had with "OpenID": turned out to be based on completely false information. If you're not familiar with OpenID, it's a distributed authentication system based on trust where a user can be identified as the owner of a URL. This is done by authenticating at a central location, then whenever you need to log into a new system that uses OpenID you can just use a URL of that other site you've authenticated at. I thought that was about all there was to it -- you change who you rely on. After reading Simon Willison's post on "How to turn your blog in to an OpenID":http://simonwillison.net/2006/Dec/19/openid/ seems there's more than a little I've been missing on this point. This simple header link tag allows you to take control of your own OpenID URL, with the ability to use whatever provider you want. I recently signed up over at "ClaimID":http://claimid.com/dyogenez , a useful identity management site that's fun for managing your links. Think of it as a del.icio.us for your own links. There are currently no "OpenID libraries":http://www.openidenabled.com/openid/libraries using Coldfusion, but hopefully that'll change soon!

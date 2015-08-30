@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Adogo Meeting Tomorrow"
+id: adogo-meeting-tomorrow-1
+published: false
+---
+
+Tomorrow is our monthly "Adogo":http://adogo.us/ meeting here in Orlando. This meeting will have two great Flex topics, which seems to be drumming up a lot of attention. "Simeon Bateman":http://blog.simb.net/ will be giving a talk on Using Flex with RESTful WebServices with Ruby on Rails. "Daniel Roop":http://www.danielroop.com will also be giving a talk on FlexUnit Basics and test in Flex. Food will also be provided thanks to "Protoh":http://protoh.com/ (creators of "TallyHoh":http://tallyhoh.com ).

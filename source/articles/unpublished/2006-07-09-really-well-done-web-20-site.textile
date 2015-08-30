@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Really well done Web 2.0 site"
+id: really-well-done-web-20-site
+published: false
+---
+
+p(item fn). "ExtraTasty.com":http://www.extratasty.com/
+
+p(type){display: none;}. website
+
+p(summary). Social site for finding and sharing drink recipes.
+
+bq(description). If you have a load of alcohol laying around your house and you don't know what to make with it, check out "ExtraTasty.com":http://www.extratasty.com/ . Amazingly executed site! You can add what alcohol you have and it'll give a list of drinks that use those ingredients. The cool part is that anyone can add more drinks, so as the population rises, the amount of available drinks does too. You can also rate drinks and see other ratings to see if something is worth your time. Now, although I think the execution is amazing, I have a hard time finding good drinks on here to make given the items in my bar. This could just be because the 50+ things just aren't enough for some of the most interesting drinks, but I think the overall listing of drinks isn't very large as of yet. When this site hits a point when there's a lot more drinks it's easily be a 5 from the amazing interface, but until then i'll leave it a little lower. Give it a shot!
+
+p(myrating). My rating: %(rating)4.0% stars
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starfull.gif!
+
+!http://www.adamfortuna.com/wp-content/plugins/hreview/starempty.gif!

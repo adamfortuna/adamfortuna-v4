@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Why Do You Stick with Adobe ColdFusion?"
+id: why-do-you-stick-with-adobe-coldfusion
+published: false
+---
+
+For people with a vested intered in cfml it's a question a lot of people seem to be taking up these days. Stick with Adobe ColdFusion or stray away to BlueDragon, Railo or even Smith Project? BlueDragon and Railo seem to be making amazing progress at a time when ColdFusion was boarded up working on a great new version themselves. In the end though a lot of the features end up the same between the three, so what killer features have made you choose one over the other? For a corporate environment Adobe is obviously the safe bet. I can't imagine us going with the little(er) guys at work, especially at a time when Flex integration is so incredibly easy. But aside from Flex, and a few new CF8 tags I'd love to play with (with cffeed, onMissingMethod, interfaces and cfimage at the top of the list) it just be overkill for a small independent startup with a limited budget unless Adobe decides to alter the pricing model for CF8, which I highly doubt. BlueDragon on the other hand has a free version for non-commercial (non-SSL) deployment, while Railo has a "free Community edition":http://www.railo.ch/en/index.cfm?treeID=149 where the main limits are one webroot, no cfx tags and the lack of a few tags I wouldn't otherwise be using. Railo is really making some "great strides":http://blog.bpsite.net/item/37/Why%20Railo%202?.html , but it's happening on the programmatic and performance side rather than RIA and interfaces. The huge amount of CF8 helpers, cfcharts and flex integration would probably pay the way for a CF license to me if those were required features, but what about when they're not?

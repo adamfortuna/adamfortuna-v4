@@ -1,0 +1,8 @@
+---
+layout: post
+title: "CFCs Are the Framework code, Fusebox 5.1 Posted, Presentation Samples"
+id: cfcs-are-the-framework-code-fusebox-51-posted
+published: false
+---
+
+Steve Nelson went ahead and posted over at "his labs site":http://labs.webapper.net/projects/CFCFramework/index.cfm as well as the presentation slides, the mysql for it and even a walk through of the code which is an amazing help to tracing how the code works in surprising depth. This is one of the talks I was sad to missed (although Adam Lehman's talk on "Coldspring powered Fusebox applications":http://www.adamfortuna.com/2007/02/01/coldspring-powered-fusebox-applications-by-adam-lehman/ was great too) so I'm glad to see some examples available so quickly. "Fusebox 5.1":http://corfield.org/blog/index.cfm/do/blog.entry/entry/Fusebox_51_officially_released was also updated yesterday. Sean talked quite a bit about this release during his "Advanced Fusebox 5 talk":http://www.adamfortuna.com/2007/02/02/advanced-fusebox-5-extending-the-language-of-fusebox-by-sean-corfield/ specifying some of the features which were specific to 5.1. Brian Kotek also posted code samples from his talk on "Framework Agnostic Models":http://www.adamfortuna.com/2007/02/02/designing-framework-agnostic-models-with-cfcs-by-brian-kotek/ on his "blog":http://www.briankotek.com/blog/ . Just check out the link on the right side to "Framework-Agnostic Models Code and Presentation (Frameworks 2007 Conference)". I felt like this presentation brought together ideas from just about every other talk at the convention and not only unified them by presenting the same code in multiple frameworks, but expanded on them with by introducing the service layer as the unifying API to the models. Definitely worth a look!

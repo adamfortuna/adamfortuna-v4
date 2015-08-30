@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Adogo Meeting Tomorrow!"
+id: adogo-meeting-tomorrow
+published: false
+---
+
+Interesting in going to an "Adogo":http://adogo.us/ meeting? Tomorrow night we have two great talks -- "Maxim Porges":http://maximporges.blogspot.com/ with his cf.objective() talk, "Flex - No Frameworks Required", along with "Steve Gongage":http://cfradiance.blogspot.com/ presenting a Flex ap he's worked on with some tips and suggestions from his experience. It should be a fun, Flex filled night. If you're going please do us a favor and "register":http://adogo200805.eventbrite.com/ . Gives us a good idea of if there's enough interest for the talks or if we should just skip them and meet up at BJs for some beers.

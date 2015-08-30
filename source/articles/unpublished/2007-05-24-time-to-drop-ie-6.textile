@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Time to Drop IE 6?"
+id: time-to-drop-ie-6
+published: false
+---
+
+I'm curious if anyone has had a chance to drop IE 6? I'd love to get away from it for the redesign of this site, but unfortunately that browser still accounts for 15% of hits here. While the thought of making a statement and redirecting to a "Download Firefox!" page when it's hit in IE 6 is appealing, I can't help but think that would be taking the easy way out. For public sites with huge amounts of hits out in the wild it might not be an option of course. For anyone who has gone the >IE6 route, what was your main motivation for doing so, or if you haven't why not?

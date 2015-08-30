@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Startup Meeting for Orlando Adobe Developers User Group"
+id: startup-meeting-for-orlando-adobe-developers
+published: false
+---
+
+As mentioned in "Brian LeGros post":http://www.brianlegros.com/blog/2007/06/13/startup-meeting-for-the-orlando-adobe-developers-user-group/ we're meeting up at the Bear Rock Cafe in Millenia @ 7:00 PM on Thursday, June 14th, 2007 to discuss starting a user group here in Orlando. Brian posted a few topics for discussion and should be a fun night. If you live in the area and are interested in any Adobe related technologies feel free to come. Read more about the details over on Brians blog.
