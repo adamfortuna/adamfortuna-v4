@@ -1,7 +1,12 @@
 .index
+  .face
+    top: 18px
+    position: relative
   p.subtitle
     font-size: 1em
     color: #999
+    a
+      text-decoration: underline
 
   .author
     p
@@ -19,3 +24,24 @@
     margin: 2em 0
     padding: 2em 0
     border-top: 1px solid #eee
+
+  .photos-list--item
+    min-height: 349px
+
++respond-to($small-breakpoint, max-width)
+  .index
+    .right-side
+      border-left: none
+      border-top: 1px solid #eee
+      margin-top: 2em
+      padding: 0
+      .subtitle
+        padding: 2em 0.83333rem 0
+    .photo--link
+      border: none
+
+
+
+
+    .photos-list--item
+      min-height: 250px

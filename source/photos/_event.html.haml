@@ -1,6 +1,7 @@
-%a{:href => article.url }
-  %img{ src: article.data['poster'], alt: article.title }
-  .cover
-  .meta
-    %p.article--title= article.title
-    %p= article.date.strftime('%B %Y')
+%a.photo--link{:href => article.url }
+  %img.photo--poster{ src: article.data['poster'], alt: article.title }
+  .photo--cover
+  .photo--meta
+    %p.photo--title= article.title
+    %p.photo--description= article.date.strftime('%B %Y')
+    = partial 'photos/stats', locals: { article: article }

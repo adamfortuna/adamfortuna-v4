@@ -15,7 +15,7 @@ title: Articles
 - year = nil
 - blog('articles').articles.each do |article|
   - if year != article.date.year
-    .row.for-year
+    .row.articles--for-year
       - year = article.date.year
       .medium-2.columns.medium-offset-1
         %h1.year= year

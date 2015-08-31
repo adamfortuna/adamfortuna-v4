@@ -1,7 +1,8 @@
 ---
 title: The Great Orlando Mixer
 date: 2015-07-18
-id: the-great-orlando-mixer
+collection: events
+permalink: the-great-orlando-mixer
 tags: Events, Orlando
 poster: /images/galleries/the-great-orlando-mixer/poster.jpg
 ---

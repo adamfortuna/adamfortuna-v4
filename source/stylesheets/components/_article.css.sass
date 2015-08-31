@@ -1,73 +1,46 @@
-.article--technical
-  article
-    a
-      color: $text-color-professional-dark !important
-      &:hover
-        color: $text-color-professional-hover !important
-
 article
+  a
+    text-decoration: underline
+    transition: color .3s
+
+  // Green links for technical articles
+  .article--technical &
+    a
+      color: $text-color-professional-dark
+      &:hover
+        color: $text-color-professional-hover
+
+  // Blue links for personal articles
+  .article--personal &
+    a
+      color: $text-color-personal
+      &:hover
+        color: $text-color-personal-dark
+
+  .row
+    // Used pulling left and right
+    position: relative
   h2
     font-size: 26px
     margin: 1em 0 .5em
-    position: relative
-  .row
-    position: relative
+  h3, h4, h5
+    margin: .8em 0 .4em
+  h3
+    font-size: 22px
+  h4
+    font-size: 18px
+  h5
+    font-size: 16px
 
-    > .wrap,
-    > .highlight
-      @include grid-row
-      > p,
-      > ul,
-      > ol,
-      > h2,
-      > h3,
-      > h4,
-      > blockquote,
-        @include grid-column($columns: 7, $offset: 2, $last-column: true, $collapse: true)
-      table
-        @include grid-column($columns: 7, $offset: 2, $last-column: true, $collapse: true)
-
-      > blockquote
-        .wrap
-          margin: 0
-          max-width: auto
-          width: auto
-          p
-            width: auto
-            margin-left: 2em !important
-
-  > .wrap
-    @include grid-row
-    > p,
-    > ul,
-    > ol,
-    > h2,
-    > h3,
-    > h4,
-    > blockquote
-      @include grid-column($columns: 7, $offset: 2, $last-column: true, $collapse: true)
-
-    > blockquote
-      .wrap
-        margin: 0
-        max-width: auto
-        width: auto
-        p
-          width: auto
-          margin-left: 2em !important
-
-  ul,
-  ol
+  ul, ol
     list-style-position: inside
+    li
+      margin-bottom: .4em
     p
       margin-bottom: 0
 
-  .wrap--gallery
-    clear: both
-    @include grid-row
-
-  .comments
-    margin: 2em 0
-    padding: 2em 0
-    .divider
-      border-top: 1px solid #b6daf2
+  blockquote
+    p
+      padding-left: 1.5em
+    p:last-child
+      margin-bottom: 0

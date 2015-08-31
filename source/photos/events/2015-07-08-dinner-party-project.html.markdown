@@ -1,7 +1,8 @@
 ---
 title: Orlando Dinner Party Project
 date: 2015-07-08
-id: orlando-dinner-party-project
+collection: events
+permalink: orlando-dinner-party-project
 tags: Food
 poster: /images/galleries/dinner-party-project/poster.jpg
 ---

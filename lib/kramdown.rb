@@ -92,12 +92,25 @@ module Middleman
     class MiddlemanKramdownHTML < ::Kramdown::Converter::Html
       def convert_p(el, indent)
         content = inner(el, indent)
-        %(<section class='wrap'><p>#{content}</p></section>)
+        if indent == 0
+          %(<section class='wrap'><p class='wrap--inner'>#{content}</p></section>)
+        else
+          %(<p>#{content}</p>)
+        end
       end
 
       def convert_blockquote(el, indent)
+        if indent == 0
+          el.attr['class'] ||= ''
+          el.attr['class'] = "#{el.attr['class']} wrap--inner".strip
+        end
         content = format_as_indented_block_html(el.type, el.attr, inner(el, indent), indent)
-        %(<section class='wrap'>#{content}</section>)
+
+        if indent == 0
+          %(<section class='wrap'>#{content}</section>)
+        else
+          content
+        end
       end
 
       def convert_header(el, indent)
@@ -107,9 +120,17 @@ module Middleman
         end
         @toc << [el.options[:level], attr['id'], el.children] if attr['id'] && in_toc?(el)
         level = output_header_level(el.options[:level])
+        if indent == 0
+          attr['class'] ||= ''
+          attr['class'] = "#{attr['class']} wrap--inner".strip
+        end
         content = format_as_block_html("h#{level}", attr, inner(el, indent), indent)
 
-        %(<section class='wrap wrap--h#{level}'>#{content}</section>)
+        if indent == 0
+          %(<section class='wrap wrap--h#{level}'>#{content}</section>)
+        else
+          content
+        end
       end
 
       def convert_ul(el, indent)
@@ -119,10 +140,18 @@ module Middleman
         elsif !@footnote_location && el.options[:ial] && (el.options[:ial][:refs] || []).include?('footnotes')
           @footnote_location = (0..128).to_a.map{|a| rand(36).to_s(36)}.join
         else
+          if indent == 0
+            el.attr['class'] ||= ''
+            el.attr['class'] = "#{el.attr['class']} wrap--inner".strip
+          end
           format_as_indented_block_html(el.type, el.attr, inner(el, indent), indent)
         end
 
-        %(<section class='wrap'>#{content}</section>)
+        if indent == 0
+          %(<section class='wrap'>#{content}</section>)
+        else
+          content
+        end
       end
       alias :convert_ol :convert_ul
 

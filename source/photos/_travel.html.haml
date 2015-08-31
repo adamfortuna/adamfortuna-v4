@@ -1,18 +1,9 @@
-%a{:href => article.url }
-  %img{ src: article.data['poster'], alt: article.title }
-  .cover
-  .meta.row
+%a.photo--link{:href => article.url }
+  %img.photo--poster{ src: article.data['poster'], alt: article.title }
+  .photo--cover
+  .photo--meta
     .small-12.columns
-      %p.article--title= article.title
+      %p.photo--title= article.title
     .small-9.columns
-      %p= article.data['description']
-    - if article.data['stats']
-      .stats.small-3.columns.text-right
-        - if article.data['stats']['photos']
-          %span
-            %i.fi-camera
-            = article.data['stats']['photos']
-        - if article.data['stats']['videos']
-          %span
-            %i.fi-video
-            = article.data['stats']['videos']
+      %p.photo--description= article.data['description']
+    = partial 'photos/stats', locals: { article: article }

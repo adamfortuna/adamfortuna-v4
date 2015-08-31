@@ -3,10 +3,7 @@
     %ul.title-area
       %li.name
         %h1
-          %a{href: '/'}= data.config.title
-      %li.toggle-topbar.menu-icon
-        %a{href: '#'}
-          %span
+          %a.nav--title{href: '/'}= data.config.title
     - if data.config.social.twitter
       %ul.left.twitter
         %li
@@ -17,14 +14,14 @@
     %section.top-bar-section
       %ul.right.links
         %li
-          %a{href: '/about'}
-            %i.fi-torso
-            About
+          %a.nav--link{href: '/about'}
+            %i.fi-torso.nav--link-icon
+            %span.nav--link-text About
         %li
-          %a{href: '/articles'}
-            %i.fi-book
-            Articles
+          %a.nav--link{href: '/articles'}
+            %i.fi-pencil.nav--link-icon
+            %span.nav--link-text Articles
         %li
-          %a{href: '/photos'}
-            %i.fi-camera
-            Photos
+          %a.nav--link{href: '/photos'}
+            %i.fi-camera.nav--link-icon
+            %span.nav--link-text Photos

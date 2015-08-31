@@ -39,6 +39,7 @@ activate :blog do |blog|
   blog.name = 'articles'
   blog.prefix = 'articles'
   blog.permalink = '{permalink}'
+  blog.sources = '{year}/{year}-{month}-{day}-{title}.html'
 end
 page "articles/*", :layout => :article
 page "articles", :layout => :layout
@@ -49,7 +50,8 @@ page "articles", :layout => :layout
 activate :blog do |blog|
   blog.name = 'photos'
   blog.prefix = 'photos'
-  blog.permalink = '{title}'
+  blog.permalink = '{collection}/{permalink}'
+  blog.sources = '{collection}/{year}-{month}-{day}-{title}.html'
 end
 page "photos/*", :layout => :photo
 page "photos", :layout => :layout
@@ -63,15 +65,21 @@ Dir[data.gallery.galleries].each do |gallery|
 end
 proxy '/galleries', '/galleries/index.html'
 
-# ====================================
-#   Helpers
-# ====================================
-helpers do
-  # If you need helpers for use in this file, then you
-  # can define them here. Otherwise, they should be defined
-  # in `helpers/custom_helpers.rb`.
-end
 
+# ====================================
+#   Disqus
+# ====================================
+configure :development do
+  activate :disqus do |d|
+    d.shortname = data.config.disqus.development
+    #d.shortname = nil # nill will disable disqus
+  end
+end
+configure :build do
+  activate :disqus do |d|
+    d.shortname = d.shortname = data.config.disqus.production
+  end
+end
 
 # ====================================
 #   After Configuration
@@ -108,6 +116,7 @@ configure :build do
   activate :minify_html
   activate :minify_javascript
   activate :relative_assets
+  activate :gzip
 end
 
 

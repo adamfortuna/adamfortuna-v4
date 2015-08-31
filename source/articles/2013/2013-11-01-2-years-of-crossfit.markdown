@@ -24,8 +24,8 @@ Box: Term for a local CrossFit affiliate
 
 So let's say you want to try out CrossFit. What should you expect? Well, after joining a local box, there's a period where you're learning an entire new vocabulary and trying new movements every week. I started slow, at only 2 days a week. 2 days a week is better than 0, and getting a sustainable routine is an important step.
 
-@gallery
-- src: /images/galleries/articles/2-years-of-crossfit/gym.png
+@gallery articles/2-years-of-crossfit
+- file: gym.png
   alt: Inside CrossFit Kings Point
   version: full
 @

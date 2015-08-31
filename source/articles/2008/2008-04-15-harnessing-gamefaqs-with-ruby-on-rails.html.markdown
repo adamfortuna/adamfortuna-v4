@@ -19,10 +19,16 @@ task :gamefaqs_id => :environment do
   @gamefaq_ids = Game.find(:all).collect(&:gamefaqs_id)
 
   letters.each do |letter|
-    html = open('http://www.gamefaqs.com/coinop/arcade/list_'+letter+'.html')
+    html = open(
+      'http://www.gamefaqs.com/coinop/arcade/list_'+letter+'.html'
+    )
     page = Hpricot(html)
 
-    page.search( "//div#container/div#content/div#sky_col_wrap/div#main_col_wrap/div#main_col/div[@class='pod']/div[@class='body']/table/tr" ).each do |g|
+    q = "//div#container/div#content/div#sky_col_wrap"
+    q += "/div#main_col_wrap/div#main_col/"
+    q += "/div[@class='pod']/div[@class='body']/table/tr"
+
+    page.search(q).each do |g|
       a = g.search( "//td:first/a").first
       name = a.inner_html
       link = a['href']

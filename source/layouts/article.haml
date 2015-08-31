@@ -1,15 +1,20 @@
 - content_for :postClasses, article_body_classes(current_article)
 
 = wrap_layout :layout do
-  %article
+  %article.article
     = partial 'shared/title', locals: { image: current_article.data['header'], height: current_article.data['header-height'] } do
       %h1= current_article.title
-      %span.meta
+      %span.title--meta
         Written on
-        = current_article.date.strftime('%B %e, %Y')
+        = full_date(current_article.date)
         in
-        = current_article.tags.join(', ')
+        = tags_for_article(current_article.tags)
+
     .row
       = partial 'shared/author'
       = yield
-      = partial 'shared/comments', locals: { commentable: current_article }
+
+    .row.comments
+      .medium-10.medium-offset-1.large-7.large-offset-2.columns.comments--divider
+        %h2 Comments
+        = disqus

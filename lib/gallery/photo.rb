@@ -149,23 +149,23 @@ module Gallery
     end
 
     def source_path
-      File.join('galleries', path, image[:file])
+      File.join('source', 'images', 'galleries', path, image[:file])
     end
 
     def destination_path
-      File.join('galleries', path, 'processed', version_file)
+      File.join('source', 'images', 'galleries', path, 'processed', version_file)
     end
 
     def destination_folder
-      File.join('galleries', path, 'processed')
+      File.join('source', 'images', 'galleries', path, 'processed')
     end
 
     def full_destination_path
-      File.join('galleries', path, 'resized', image[:file])
+      File.join('source', 'images', 'galleries', path, 'resized', image[:file])
     end
 
     def full_destination_folder
-      File.join('galleries', path, 'resized')
+      File.join('source', 'images', 'galleries', path, 'resized')
     end
 
     def url_for_image

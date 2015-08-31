@@ -1,0 +1,5 @@
+- classes ||= ''
+- title ||= nil
+%a.title-nav--link{ class: classes, href: "/photos/#{article.data['collection']}/#{article.data['permalink']}" }
+  %span.title-nav--title= title || article.data['short_title'] || article.title
+  %p.title-nav--description= article.data['short_description'] || article.data['description']

@@ -1,61 +1,55 @@
-.index
-  .articles--list
-    .row
-      a
-        .article-title
-          font-size: 1.8em
+.articles--item
+  margin-bottom: 10px
 
-.category--technical
-  font-weight: bold
-  color: lighten($text-color-professional, 20%)
-  .light &
-    color: $text-color-professional
-.category--personal
-  font-weight: bold
-  color: lighten($text-color-personal, 50%)
-  .light &
-    color: $text-color-personal
-
-.for-year
-  margin-bottom: 1em
-
-.articles--list,
-.articles--link
-  .row
-    margin-bottom: 10px
-  a
-    font-weight: bold
-    border: 1px solid $white
-    border-radius: 5px
-    transition: 0.3s
-    padding: 1em 1em 0.5em 1em
-    line-height: 1.8em
-    .article-title
-      font-size: 2.4em
-    .meta
-      color: #999
-      font-size: 0.9em
-      margin: 0
-.article-tag--short
-  a
+.article--title
+  font-size: 2.4em
+  // Smaller title on homepage
+  .index &
+    font-size: 1.8em
+  // Short articles get a smaller size
+  .article-tag--short &
+    font-size: 1.4em
     font-weight: noraml
-    .article-title
-      font-size: 1.4em
-.article-tag--meta
-  a
-    color: #666
-    &:hover
-      background-color: lighten(#666, 50%)
-      color: darken(#666, 10%)
-.article-tag--personal
-  a
+
+
+.article--link
+  color: $paragraph-color
+  font-weight: bold
+  border: 1px solid $white
+  border-radius: 5px
+  transition: 0.3s
+  padding: 1em 1em 0.5em 1em
+  line-height: 1.8em
+  &:hover
+    background-color: lighten($paragraph-color, 50%)
+    color: darken($paragraph-color, 10%)
+
+  // Blue for personal
+  .article-tag--personal &
     color: $text-color-personal
     &:hover
       background-color: lighten($text-color-personal, 50%)
       color: darken($text-color-personal, 10%)
-.article-tag--technical
-  a
+
+  // Green for technical
+  .article-tag--technical &
     color: $text-color-professional
     &:hover
       background-color: lighten($text-color-professional, 20%)
       color: darken($text-color-professional, 20%)
+
+.article--meta,
+.article--description,
+  color: $subtitle-text-color
+  font-size: 0.9em
+  margin: 0
+
+.articles--for-year
+  margin-bottom: 1em
+
+
++respond-to($small-breakpoint, max-width)
+  .article--title
+    font-size: 1.8em
+  .articles--for-year
+    margin-bottom: 2em

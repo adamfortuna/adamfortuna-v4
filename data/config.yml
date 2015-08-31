@@ -1,5 +1,7 @@
 title: Adam Fortuna
-disqus: adamfortuna
+disqus:
+  development: adamfortuna-dev
+  production: adamfortuna
 social:
   twitter: adamfortuna
   github: adamfortuna

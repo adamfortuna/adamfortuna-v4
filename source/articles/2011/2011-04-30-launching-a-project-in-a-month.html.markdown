@@ -29,7 +29,7 @@ The application itself is written Ruby on Rails 3. It was my first shot at a Rai
 
 The app is hosted on [Heroku](http://lineofthought.com/tools/heroku), and for the most part costs almost nothing to run. The site was initially running [Apache Solr](http://lineofthought.com/tools/apache-solr) behind the scenes. Solr using Sunspot was used for site wide search, category drill down and autocomplete. The autocomplete part was fun, and only takes a few lines to implement:
 
-```
+```ruby
 class Tool < ActiveRecord::Base
   def self.autocomplete(q = "")
     search do
@@ -47,7 +47,7 @@ There are a number of actions that hit external services (loading site title and
 
 One of my favorite discoveries was the easily extendible autocomplete system in the latest [jQuery UI](http://jqueryui.com/demos/autocomplete/). When you're adding the tools used on a specific site, it uses this autocomplete system to grab the results and show the favicon of the site. You can override the renderer used by jQuery UI, which is how we create the nice list item with a favicon, tool name and URL - then after a tool is chosen the tool ID is set to a hidden field while name and URL of the tool are shown to the user. Only a few lines of jQuery to do all this.
 
-![]({{site.url}}/media/screenshots/lineofthought-autocomplete.png)
+![](/images/galleries/articles/launching-a-project-in-a-month/lineofthought-autocomplete.png)
 
 ### Pismo Gem
 

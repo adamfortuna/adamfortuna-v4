@@ -1,0 +1,12 @@
+- parent = current_article.data['children'] ? current_article : photo_lookup(current_article.data['collection'])
+- articles = photo_children(parent)
+
+.title--nav.right
+  .icon--caret
+
+  = partial 'photos/nav_link', locals: { article: parent, classes: 'title-nav--current', title: parent.data['short_title'] }
+
+  %ul.title-nav--list.no-bullet
+    - articles.each do |article|
+      %li.title-nav--list-item
+        = partial 'photos/nav_link', locals: { article: article }

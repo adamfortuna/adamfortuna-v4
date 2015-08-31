@@ -1,0 +1,10 @@
+- if article.data['stats']
+  .photo--stats.small-3.columns.text-right
+    - if article.data['stats']['photos']
+      %span.photo--stats-text
+        %i.fi-camera.photo--stats-icon
+        = article.data['stats']['photos']
+    - if article.data['stats']['videos']
+      %span.photo--stats-text
+        %i.fi-video.photo--stats-icon
+        = article.data['stats']['videos']

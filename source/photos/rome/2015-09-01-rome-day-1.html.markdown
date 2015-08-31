@@ -1,0 +1,9 @@
+---
+title: Rome - Day 1
+date: 2015-09-01
+collection: rome
+permalink: day-1
+tags: Ignore
+---
+
+asdfasfas

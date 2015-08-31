@@ -38,3 +38,20 @@
           animation: shimmy 1.6s ease-in-out infinite
       i
         padding-right: 3px
+
+
+@media only screen and (max-width: $small-breakpoint)
+  .nav--title
+    padding-left: 0.833333rem !important
+  .top-bar
+    position: relative
+  .nav--link-icon
+    font-size: 1.6em
+  .nav--link-text
+    display: none
+  .nav--link
+    padding: 0 1em !important
+
+@media only screen and (min-width: $small-breakpoint) and (max-width: $medium-breakpoint)
+  .nav--link
+    padding: 0 1em !important

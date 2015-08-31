@@ -1,54 +1,26 @@
 = partial 'shared/title', locals: { offset: 1 } do
-  %img.left{src: "/images/adam-fortuna.png", alt: "Adam Fortuna"}
+  %img.face.left{src: '/images/adam-fortuna.png', alt: 'Adam Fortuna'}
   %h1.small-8.columns.end Adam Fortuna
   %p.meta.medium-8.left.columns
-    Hey hey! I'm a developer who lives in
-    = succeed '.' do
-      = link_to 'Orlando, FL', '/about/orlando'
-    I work at
-    = succeed ',' do
-      = link_to 'Code School', '/about/codeschool'
-    listen to a lot of
-    = succeed ',' do
-      = link_to 'audiobooks', '/about/audiobooks'
-    set way too many
-    = link_to 'goals', '/about/goals'
-    and
-    = link_to 'tweet', 'http://twitter.com/adamfortuna'
-    often.
+    = partial 'shared/author_content'
 
 .row
   .articles--list.medium-5.medium-offset-1.columns
     %p.subtitle.light
       %strong Articles.
       In the mood for
-      %span.category--personal personal
+      %a.category--personal{ href: '/tags/personal' } personal
       or
       = succeed "?" do
-        %span.category--technical technical
+        %a.category--technical{ href: '/tags/technical' } technical
 
     - blog('articles').articles[0..10].each do |article|
-      .row{ class: article_classes(article) }
-        %a.medium-12.columns{:href => article.url}
-          %span.article-title= article.title
-          - if article.data['description']
-            %p.meta
-              = article.data['description']
-          - else
-            %p.meta
-              %span.tags
-                - if article.tags.length > 1
-                  Tagged with
-                  = succeed '.' do
-                    = tags_for_article(article.tags)
-              %time
-                Written on
-                = succeed "." do
-                  = article.date.strftime('%B %e %Y')
-    .row{ class: 'article-tag--meta' }
-      %a.medium-12.columns{:href => '/articles'}
-        %span.article-title More Articles
-        %p.meta
+      = partial 'articles/article', locals: { article: article }
+
+    .row.article--item
+      %a.article--link.medium-12.columns{:href => '/articles'}
+        %span.article--title More Articles
+        %p.article--meta
           = blog('articles').articles.length
           articles total.
 
@@ -59,18 +31,18 @@
       %a{ href: '/photos/japan'} Japan
       is my favorite.
 
-    %ul.no-bullet.photos-list.travel
+    %ul.no-bullet.photos-list.photos-list--travel
       - matches = 0
       - blog('photos').articles.each do |article|
         - if (matches < 3) && (article.tags.include? "Travel")
           - matches = matches + 1
-          %li
+          %li.photos-list--item
             = partial 'photos/travel', locals: { article: article }
 
-    .row.articles--link.article-tag--meta
-      %a.medium-12.columns{:href => '/photos'}
-        %span.article-title More Photos
-        %p.meta
+    .row.article--item.article-tag--meta
+      %a.article--link.medium-12.columns{:href => '/photos'}
+        %span.article--title More Photos
+        %p.article--meta
           = blog('photos').articles.length
           photo posts.
 
@@ -78,7 +50,7 @@
   .medium-offset-1.medium-11.index--events
     %h2 Event Photos
     %p.meta Mostly pictures from events around Orlando.
-    %ul.no-bullet.photos-list.asides.row
+    %ul.no-bullet.photos-list.photos-list--asides.row
       - matches = 0
       - blog('photos').articles.each do |article|
         - if (matches < 9) && (!article.tags.include? "Travel")

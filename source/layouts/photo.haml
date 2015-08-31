@@ -1,14 +1,28 @@
 = wrap_layout :layout do
-  %article
+  %article.photo
     = partial 'shared/title' do
-      %h1= current_article.title
-      %span.meta
+      - if current_article.data['children'] || photo_lookup(current_article.data['collection'])
+        = partial 'photos/children', locals: {current_article: current_article}
+      %h1.title--header= current_article.title
+      %span.title--meta
         Written
         = current_article.date.strftime('%B %e, %Y')
         in
         = current_article.tags.join(', ')
 
+
+
     -# .row
     -#   .medium-1.medium-offset-11.end.columns
     -#     = partial 'shared/author'
+    - if current_article.data['collection'] && current_article.data['permalink']
+      - parent = photo_lookup(current_article.data['collection'])
+      .row
+        .medium-8.medium-offset-2
+          %p.photo-collection--warning
+            This post is part of the
+            = parent.data['children'].length + 1
+            part photo collection,
+            = succeed '.' do
+              %a{ href: "/photos/#{current_article.data['collection']}/"}= parent.title
     = yield

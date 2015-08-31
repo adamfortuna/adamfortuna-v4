@@ -2,18 +2,21 @@ source 'https://rubygems.org'
 
 gem "middleman", "~>3.4.0"
 gem 'middleman-autoprefixer'
-gem 'middleman-livereload'
+# gem 'middleman-livereload'
 gem 'middleman-minify-html'
 gem 'middleman-blog'
+
+gem 'rouge', '1.9.0'
 gem 'middleman-syntax'
 
-# Windows does not come with time zone data
-gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
+gem 'middleman-disqus'
 
 gem 'haml'
 gem 'pry'
 
 # Gallery
-gem 'rake', '~> 0.9'
-gem 'fastimage'
 gem 'mini_magick'
+
+
+#gem 'rake', '~> 0.9'
+#gem 'fastimage'

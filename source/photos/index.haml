@@ -10,15 +10,15 @@ title: Photos
 
 .row
   .medium-10.medium-offset-1.columns
-    %ul.no-bullet.photos-list.travel
+    %ul.no-bullet.photos-list.photos-list--travel
       - blog('photos').articles.each do |article|
         - if article.tags.include? "Travel"
-          %li
+          %li.photos-list--item
             = partial 'photos/travel', locals: { article: article }
 
 .row
-  %ul.medium-10.medium-offset-1.columns.no-bullet.photos-list.asides
+  %ul.medium-10.medium-offset-1.columns.no-bullet.photos-list.photos-list--asides
     - blog('photos').articles.each do |article|
-      - if !article.tags.include? "Travel"
-        %li.medium-4
+      - if !article.tags.include?("Travel") && !article.tags.include?("Ignore")
+        %li.medium-4.columns.photos-list--item.left
           = partial 'photos/event', locals: { article: article }

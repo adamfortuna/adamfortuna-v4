@@ -1,0 +1,32 @@
+.wrap
+  @include grid-row
+
+@media only screen and (max-width: $small-breakpoint)
+  .wrap--inner
+    // Articles take up 7 columns
+    .article &
+      @include grid-column($columns: 12, $offset: 0, $last-column: true, $collapse: true)
+
+    // Photo posts take up 8
+    .photo &
+      @include grid-column($columns: 12, $offset: 0, $last-column: true, $collapse: true)
+
+@media only screen and (min-width: $small-breakpoint) and (max-width: $medium-breakpoint)
+  .wrap--inner
+    // Articles take up 7 columns
+    .article &
+      @include grid-column($columns: 10, $offset: 1, $last-column: true, $collapse: true)
+
+    // Photo posts take up 8
+    .photo &
+      @include grid-column($columns: 10, $offset: 1, $last-column: true, $collapse: true)
+
+@media only screen and (min-width: $medium-breakpoint)
+  .wrap--inner
+    // Articles take up 7 columns
+    .article &
+      @include grid-column($columns: 7, $offset: 2, $last-column: true, $collapse: true)
+
+    // Photo posts take up 8
+    .photo &
+      @include grid-column($columns: 8, $offset: 2, $last-column: true, $collapse: true)

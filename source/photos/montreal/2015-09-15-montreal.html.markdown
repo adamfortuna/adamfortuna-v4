@@ -1,7 +1,7 @@
 ---
 title: Montreal
 date: 2015-09-15
-id: rome
+collection: montreal
 tags: Travel
 poster: /images/galleries/montreal/poster.jpg
 stats:
