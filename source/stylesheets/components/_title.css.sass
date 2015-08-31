@@ -7,9 +7,6 @@
   color: $ligher-blue-text-color
   .article--technical &
     color: $text-color-professional-dark
-.title--text
-  font-size: 1.2em
-  color: $ligher-blue-text-color
 .title--link
   color: $ligher-blue-text
   font-weight: bold
@@ -23,11 +20,22 @@
   padding: 1em
   margin-top: 35px
 
+.title--text,
 .title--meta
   color: $ligher-blue-text-color
   font-size: 1em
   .article--technical &
     color: $text-color-professional-dark
+  .category--personal, .category--technical
+    text-decoration: underline
+.title--author
+  a
+    color: $ligher-blue-text-color
+    text-decoration: underline
+    font-weight: bold
+    &:hover
+      color: $white
+
 
 .title--nav
   margin-top: 16px

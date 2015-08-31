@@ -3,15 +3,13 @@ title: Articles
 ---
 
 = partial 'shared/title', locals: { offset: 3 }  do
-  %h1 Articles
-  %p.subtitle
-    Personal articles in
-    = succeed "," do
-      %span.category--personal blue
-    technical articles in
+  %h1.title--header Articles
+  %p.title--meta
+    Longform posts written over the last few years organized by
+    %a.category--personal{ href: '/tags/personal' } personal
+    and
     = succeed "." do
-      %span.category--technical green
-
+      %a.category--technical{ href: '/tags/technical' } technical
 - year = nil
 - blog('articles').articles.each do |article|
   - if year != article.date.year

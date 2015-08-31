@@ -3,4 +3,10 @@ title: Books
 layout: about
 ---
 
-= partial 'about/breadcrumbs', locals: { current: 'Books' }
+= partial 'shared/title' do
+  %h1.title--header Books
+  %p.title--meta Lots and lots
+  = partial 'about/breadcrumbs', locals: { current: 'Code School' }
+
+= partial 'shared/content' do
+  %p lots

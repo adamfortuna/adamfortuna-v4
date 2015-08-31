@@ -3,7 +3,7 @@
 = wrap_layout :layout do
   %article.article
     = partial 'shared/title', locals: { image: current_article.data['header'], height: current_article.data['header-height'] } do
-      %h1= current_article.title
+      %h1.title--header= current_article.title
       %span.title--meta
         Written on
         = full_date(current_article.date)
