@@ -1,0 +1,11 @@
+- year = nil
+- articles.each do |article|
+  - if year != article.date.year
+    .row.articles--for-year
+      - year = article.date.year
+      .medium-2.columns.medium-offset-1
+        %h1.year= year
+      .articles--list.medium-9.columns
+        - articles.each do |article|
+          - if article.date.year == year
+            = partial 'articles/article', locals: { article: article }

@@ -1,0 +1,15 @@
+- previous_photo_article = previous_photo(article, parent)
+- next_photo_article = next_photo(article, parent)
+
+.row
+  - if !previous_photo_article
+    .medium-6.medium-offset-4.columns
+      = link_to "Next - #{next_photo_article.title}", next_photo_article
+  - elsif !next_photo_article
+    .medium-8.medium-offset-2.columns
+      = link_to "Previous - #{previous_photo_article.title}", previous_photo_article
+  - else
+    .medium-4.medium-offset-2.columns
+      = link_to "Previous - #{previous_photo_article.title}", previous_photo_article
+    .medium-4.medium-offset.columns.end
+      = link_to "Next - #{next_photo_article.title}", next_photo_article

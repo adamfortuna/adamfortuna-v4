@@ -6,18 +6,8 @@ title: Articles
   %h1.title--header Articles
   %p.title--meta
     Longform posts written over the last few years organized by
-    %a.category--personal{ href: '/tags/personal' } personal
+    %a.category--personal{ href: tag_path('Personal', 'articles') } personal
     and
     = succeed "." do
-      %a.category--technical{ href: '/tags/technical' } technical
-- year = nil
-- blog('articles').articles.each do |article|
-  - if year != article.date.year
-    .row.articles--for-year
-      - year = article.date.year
-      .medium-2.columns.medium-offset-1
-        %h1.year= year
-      .articles--list.medium-9.columns
-        - blog('articles').articles.each do |article|
-          - if article.date.year == year
-            = partial 'articles/article', locals: { article: article }
+      %a.category--technical{ href: tag_path('Technical', 'articles') } technical
+= partial 'articles/by_year', locals: { articles: blog('articles').articles }

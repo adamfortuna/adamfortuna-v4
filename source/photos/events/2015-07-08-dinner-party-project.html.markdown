@@ -7,6 +7,8 @@ tags: Food
 poster: /images/galleries/events/orlando-dinner-party-project/poster.jpg
 header: /images/galleries/events/orlando-dinner-party-project/poster.jpg
 description: Food, Cocktails and Appliances
+stats:
+  photos: 9
 ---
 
 I would never have guessed that an appliance store on a sketchy side of town would be the meeting place for a popup dinner featuring elegant place settings, well crafted food and tasty cocktails. After pulling into the parking lot, we did a double take — not sure if we were in the right place.

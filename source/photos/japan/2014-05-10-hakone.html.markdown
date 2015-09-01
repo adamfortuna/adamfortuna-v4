@@ -4,8 +4,9 @@ short_title: Hakone
 date: 2014-05-10
 collection: japan
 permalink: hakone
-tags: Ignore
 description: Mountains of Hakone
+header: /images/galleries/japan/hakone_ashinoko/resized/adam_boat.jpg
+series: true
 ---
 
 ## Day 6: Travel to Hakone - 箱根町

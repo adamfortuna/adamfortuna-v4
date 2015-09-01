@@ -1,8 +1,10 @@
 = wrap_layout :layout do
   %article.photo
     = partial 'shared/title', locals: { image: current_article.data['header'], height: current_article.data['header-height'] } do
-      - if current_article.data['children'] || photo_lookup(current_article.data['collection'])
+
+      - if current_article.data['series'] && !current_article.data['children']
         = partial 'photos/children', locals: {current_article: current_article}
+
       %h1.title--header= current_article.title
       - if current_article.data['description']
         %p.title--description= current_article.data['description']
@@ -12,8 +14,8 @@
         in
         = current_article.tags.join(', ')
 
-    - if current_article.data['collection'] && current_article.data['permalink']
-      - if parent = photo_lookup(current_article.data['collection'])
+    - if current_article.data['series']
+      - if parent = current_article.data['children'] ? current_article : photo_lookup(current_article.data['collection'])
         .row
           .medium-10.medium-offset-1.large-8.large-offset-2.columns.c
             %p.photo-collection--warning
@@ -23,6 +25,9 @@
               = succeed '.' do
                 %a{ href: "/photos/#{current_article.data['collection']}/"}= parent.title
     = yield
+
+    - if current_article.data['series']
+      = partial 'photos/series', locals: { article: current_article, parent: parent }
 
     .row.comments
       .medium-10.medium-offset-1.large-8.large-offset-2.columns.comments--divider

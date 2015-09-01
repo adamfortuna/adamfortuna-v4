@@ -11,14 +11,14 @@ title: Photos
 .row
   .medium-10.medium-offset-1.columns
     %ul.no-bullet.photos-list.photos-list--travel
-      - blog('photos').articles.each do |article|
-        - if article.tags.include? "Travel"
-          %li.photos-list--item
-            = partial 'photos/travel', locals: { article: article }
+      - travel_photos.each do |article|
+        %li.photos-list--item
+          = partial 'photos/travel', locals: { article: article }
 
 .row
-  %ul.medium-10.medium-offset-1.columns.no-bullet.photos-list.photos-list--asides
-    - blog('photos').articles.each do |article|
-      - if !article.tags.include?("Travel") && !article.tags.include?("Ignore")
-        %li.medium-4.columns.photos-list--item.left
-          = partial 'photos/event', locals: { article: article }
+  .medium-10.medium-offset-1.columns
+    .row
+      %ul.no-bullet.photos-list.photos-list--asides
+        - event_photos.each do |article|
+          %li.medium-4.columns.photos-list--item.left
+            = partial 'photos/event', locals: { article: article }

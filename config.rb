@@ -39,7 +39,8 @@ activate :blog do |blog|
   blog.prefix = 'articles'
   blog.permalink = '{permalink}'
   blog.sources = '{year}/{year}-{month}-{day}-{title}.html'
-  # blog.taglink = 'tags/{tag}'
+  blog.tag_template = 'articles/tag.html'
+  blog.taglink = 'tags/{tag}'
 end
 page "articles/*", :layout => :article
 page "articles", :layout => :layout

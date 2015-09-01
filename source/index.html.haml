@@ -32,12 +32,9 @@
       is my favorite.
 
     %ul.no-bullet.photos-list.photos-list--travel
-      - matches = 0
-      - blog('photos').articles.each do |article|
-        - if (matches < 3) && (has_tag?(article, 'Travel'))
-          - matches = matches + 1
-          %li.photos-list--item
-            = partial 'photos/travel', locals: { article: article }
+      - travel_photos[0..3].each do |article|
+        %li.photos-list--item
+          = partial 'photos/travel', locals: { article: article }
 
     .row.article--item.article-tag--meta
       %a.article--link.small-12.columns{:href => '/photos'}
@@ -55,9 +52,6 @@
         %a{ href: '/about/orlando' } Orlando
 
     %ul.no-bullet.photos-list.photos-list--asides.row
-      - matches = 0
-      - blog('photos').articles.each do |article|
-        - if (matches < 9) && !(has_tag?(article, ['Travel', 'Ignore']))
-          - matches = matches + 1
-          %li.medium-6.large-4.columns.left.aside-list--item
-            = partial 'photos/event', locals: { article: article }
+      - event_photos[0..9].each do |article|
+        %li.medium-6.large-4.columns.left.aside-list--item
+          = partial 'photos/event', locals: { article: article }

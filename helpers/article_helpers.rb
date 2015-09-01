@@ -22,11 +22,10 @@ module ArticleHelpers
   end
 
   def tags_for_article tags=[]
+    blog_name ||= 'articles'
     tags.collect do |tag|
-      if (tag != 'Personal') && (tag != 'Technical')
-        "<span>#{tag}</span>"
-      end
-    end.compact.join(", ")
+      "<span>#{tag}</span>"
+    end.join(", ")
   end
 
   def article_body_classes article
@@ -43,8 +42,9 @@ module ArticleHelpers
     date.strftime('%B %e, %Y')
   end
 
-  # Todo: Turn these into links
-  def tags tags
-    tags.join(', ')
+  def tag_links tags, blog_name
+    tags.collect do |tag|
+      link_to tag, tag_path(tag, blog_name), { class: 'tag--link' }
+    end.join(', ')
   end
 end

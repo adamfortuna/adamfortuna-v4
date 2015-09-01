@@ -4,8 +4,9 @@ short_title: Takeaways
 date: 2014-05-10
 collection: japan
 permalink: takeaways
-tags: Ignore
 description: What to expect when going to Japan
+header: /images/galleries/japan/osaka/resized/dotonbori.jpg
+series: true
 ---
 
 ## What to Expect

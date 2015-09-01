@@ -5,8 +5,8 @@
       %p.article--description= article.data['description']
     - else
       %p.article--meta
-        %span.article--tags
-          - if article.tags.length > 1
+        - if article.tags.length > 0
+          %span.article--tags
             Tagged with
             = succeed '.' do
               = tags_for_article(article.tags)
@@ -14,22 +14,3 @@
           Written on
           = succeed "." do
             = article.date.strftime('%B %e %Y')
-
-
--# .row{ class: article_classes(article) }
--#   %a.medium-12.columns{:href => article.url}
--#     %span.article-title= article.title
--#     - if article.data['description']
--#       %p.meta
--#         = article.data['description']
--#     - else
--#       %p.meta
--#         - if article.tags.length > 1
--#           %span.tags
--#             Tagged with
--#             = succeed '.' do
--#               = tags_for_article(article.tags)
--#         %time
--#           Written on
--#           = succeed "." do
--#             = short_date(article.date)

@@ -4,8 +4,9 @@ short_title: Tokyo
 date: 2014-05-10
 collection: japan
 permalink: tokyo
-tags: Ignore
 description: Harajuku, Shinjuku, Ueno Park
+header: /images/galleries/japan/ueno/resized/blossom_boats.jpg
+series: true
 ---
 
 ## Day 8: Hakone &amp; Tokyo

@@ -19,4 +19,43 @@ module PhotoHelpers
       photo_lookup(parent.data['collection'], child_id)
     end.compact
   end
+
+  def event_photos
+    blog('photos').articles.reject do |article|
+      travel = article.tags.include?('Travel')
+      series = article.data['series']
+      travel || series
+    end
+  end
+
+  def travel_photos
+    blog('photos').articles.reject do |article|
+      !article.tags.include?('Travel')
+    end
+  end
+
+  def next_photo article, parent
+    # First article will be the first child
+    if article.data['children']
+      photo_lookup(article.data['collection'], article.data['children'].first)
+    else
+      index = parent.data['children'].index(article.data['permalink'])
+      next_permalink = parent.data['children'][index+1]
+      photo_lookup(article.data['collection'], next_permalink) if next_permalink
+    end
+  end
+
+  def previous_photo article, parent
+    if article.data['children']
+      nil
+    else
+      index = parent.data['children'].index(article.data['permalink'])
+      if index == 0
+        parent
+      else
+        next_permalink = parent.data['children'][index-1]
+        photo_lookup(article.data['collection'], next_permalink) if next_permalink
+      end
+    end
+  end
 end

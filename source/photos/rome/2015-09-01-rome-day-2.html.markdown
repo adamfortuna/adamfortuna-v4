@@ -3,7 +3,8 @@ title: Rome - Day 2
 date: 2015-09-01
 collection: rome
 permalink: day-2
-tags: Ignore
+series: true
+published: false
 ---
 
 WALK TO THE VATICAN

@@ -7,6 +7,9 @@ tags: Events, Orlando
 description: Cocktails and 20s Attire
 poster: /images/galleries/events/the-great-orlando-mixer/poster.jpg
 header: /images/galleries/events/the-great-orlando-mixer/poster.jpg
+stats:
+  photos: 6
+  videos: 1
 ---
 
 

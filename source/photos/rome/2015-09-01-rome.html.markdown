@@ -4,21 +4,17 @@ date: 2015-09-01
 collection: rome
 permalink:
 tags: Travel
+series: true
+published: false
 stats:
   photos: 362
   videos: 7
 description: 7 days in Rome and Pompei in January 2015
 poster: /images/galleries/rome/poster.jpg
 children:
-  - title: Day 1
-    description: Travel from Orlando to Rome
-    permalink: rome/day-1
-  - title: Day 2
-    description: Vatican, St. Peters Square, Trastevere
-    permalink: rome/day-2
-  - title: Day 3
-    description: Spanish Steps, Borghese Park and Villa Museum
-    permalink: rome/day-3
+  - day-1
+  - day-2
+  - day-3
 ---
 
 

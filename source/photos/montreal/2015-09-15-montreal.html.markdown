@@ -3,7 +3,9 @@ title: Montreal
 date: 2015-09-15
 collection: montreal
 tags: Travel
+series: true
 poster: /images/galleries/montreal/poster.jpg
+published: false
 stats:
   photos: 132
   videos: 2

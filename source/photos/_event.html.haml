@@ -3,5 +3,14 @@
   .photo--cover
   .photo--meta
     %p.photo--title= article.title
-    %p.photo--description= article.date.strftime('%B %Y')
-    = partial 'photos/stats', locals: { article: article }
+    %p.photo--description.left= article.date.strftime('%B %Y')
+    - if article.data['stats']
+      .photo--stats.right
+        - if article.data['stats']['photos']
+          %span.photo--stats-text
+            %i.fi-camera.photo--stats-icon
+            = article.data['stats']['photos']
+        - if article.data['stats']['videos']
+          %span.photo--stats-text
+            %i.fi-video.photo--stats-icon
+            = article.data['stats']['videos']

@@ -4,11 +4,13 @@
   %article.article
     = partial 'shared/title', locals: { image: current_article.data['header'], height: current_article.data['header-height'] } do
       %h1.title--header= current_article.title
+      - if current_article.data['description']
+        %p.title--description= current_article.data['description']
       %span.title--meta
         Written on
         = full_date(current_article.date)
         in
-        = tags_for_article(current_article.tags)
+        = tag_links(current_article.tags, 'articles')
 
     .row
       = partial 'shared/author'

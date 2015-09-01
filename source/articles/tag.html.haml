@@ -1,0 +1,13 @@
+---
+title: Tags
+layout: layout
+---
+
+= partial 'shared/title', locals: { offset: 3, medium_offset: 1 }  do
+  %h1.title--header= "Tag: #{tagname}"
+  %p.title--description
+    = pluralize(articles.length, 'Article')
+    tagged with
+    = tagname
+
+= partial 'articles/by_year', locals: { articles: articles }
