@@ -11,7 +11,7 @@ module Gallery
       image_options = image[:options] || {}
       combined_options = global_options.merge(gallery_options).merge(image_options)
       @options = PhotoOptions.new(combined_options)
-      write_images if !images_exists? || image_out_of_date?
+      write_images if !images_exists? || image_out_of_date? || force_reload?
     end
 
     def to_html
@@ -54,8 +54,12 @@ module Gallery
     end
 
     def image_out_of_date?
-      return true if !gallery
+      return false if !gallery
       gallery.updated_at > File.mtime(destination_path)
+    end
+
+    def force_reload?
+      ENV['FORCE_RELOAD'] || false
     end
 
     def write_images
@@ -68,7 +72,7 @@ module Gallery
       FileUtils.mkdir_p(full_destination_folder)
       image_file = ::MiniMagick::Image.open(source_path)
       image_file.combine_options do |i|
-        i.resize "3000>x3000>"
+        i.resize "2500>x2500>"
         i.quality "90"
       end
       puts "Writing resized image to #{full_destination_path}"
@@ -90,7 +94,7 @@ module Gallery
         end
       end
 
-      puts "Writing processed image to #{destination_path}"
+      puts "Writing processed image to #{destination_path} with commands #{commands}"
       image_file.write destination_path
     end
 

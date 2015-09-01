@@ -1,0 +1,49 @@
+// Overlay on top of image in title
+.title--wrap
+  background-color: rgba(1,1,1,0.7)
+  padding: 1em
+
+
+// Overrides for the the rest of the page
+.has-title-image
+  .title
+    background-position-y: 50%
+    background-size: 100%
+    background-repeat: no-repeat
+    padding: 0
+
+  .nav-wrapper
+    position: absolute
+    top: 0
+    width: 100%
+    z-index: 99
+    left: 0
+
+  .nav--title,
+  .nav--link
+    &:hover
+      color: darken($white, 50%) !important
+
+  .top-bar .name h1 a,
+  .top-bar-section ul li > a,
+  .title--header,
+  .title--meta,
+  .title--description
+    color: darken($white, 5%)
+
+  .title--description
+    font-size: 2em
+    font-family: serif
+    font-style: italic
+
+  .title--content
+    margin-top: 4em
+  .title--header
+    font-size: 4em
+
+  .top-bar
+    background-color: transparent
+
+  .top-bar-section
+    li, a
+      background-color: transparent !important

@@ -14,14 +14,9 @@
   &:hover
     color: $white
 
-// Overlay on top of image in title
-.title--wrap
-  background-color: rgba(1,1,1,0.7)
-  padding: 1em
-  margin-top: 35px
-
 .title--text,
-.title--meta
+.title--meta,
+.title--description
   color: $ligher-blue-text-color
   font-size: 1em
   .article--technical &
@@ -78,7 +73,7 @@
     background-color: $ligher-blue-text-color
     color: $light-blue
 
-.title-nav--current
+// .title-nav--current
 
 
 .title-nav--title
@@ -127,33 +122,8 @@
       color: $white !important
   .title
     background-color: $text-color-professional !important
-    h1, .meta, p
+    h1, .meta, p, .title--description
       color: $text-color-professional-dark !important
-
-// For posts with a title image
-.has-title-image
-  article
-    .row
-      margin-top: 2em
-  .title,
-  .wrap
-    padding: 0
-    margin: 0 !important
-    .row
-      margin-top: 80px
-
-  .nav-wrapper
-    position: absolute
-    top: 0
-    width: 100%
-    z-index: 99
-    left: 0
-  .top-bar
-    background-color: transparent
-  .top-bar-section
-    li,
-    a
-      background-color: transparent !important
 
 
 

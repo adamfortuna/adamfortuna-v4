@@ -25,7 +25,6 @@ end
 
 activate :automatic_image_sizes
 activate :directory_indexes
-# activate :livereload
 
 activate :autoprefixer do |config|
   config.browsers = ['last 2 versions', 'Explorer >= 10']
@@ -40,6 +39,7 @@ activate :blog do |blog|
   blog.prefix = 'articles'
   blog.permalink = '{permalink}'
   blog.sources = '{year}/{year}-{month}-{day}-{title}.html'
+  # blog.taglink = 'tags/{tag}'
 end
 page "articles/*", :layout => :article
 page "articles", :layout => :layout

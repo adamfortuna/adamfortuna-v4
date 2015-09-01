@@ -1,15 +1,12 @@
 module ArticleHelpers
 
-  def classes_from_offset offset
-    offset ||= 2
-    columns = 12 - offset
+  def classes_from_offset large_offset, medium_offset=nil, small_offset=nil
+    large_offset ||= 2
+    large_columns = 12 - large_offset
 
-    large_offset = offset
-    medium_offset = offset - 1
-
-    large_columns = columns
-    medium_columns = columns + 2
-    medium_columns = 12 if medium_columns > 12
+    medium_offset ||= large_offset - 1
+    medium_offset = 0 if medium_offset < 0
+    medium_columns = 12 - medium_offset
 
     "large-#{large_columns} large-offset-#{large_offset} medium-offset-#{medium_offset} medium-#{medium_columns}"
   end

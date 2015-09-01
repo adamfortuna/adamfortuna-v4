@@ -1,11 +1,11 @@
-= partial 'shared/title', locals: { offset: 1 } do
+= partial 'shared/title', locals: { offset: 1, medium_offset: 0 } do
   %img.face.left{src: '/images/adam-fortuna.png', alt: 'Adam Fortuna'}
   %h1.title--header.small-8.columns.end Adam Fortuna
-  %p.title--meta.medium-8.left.columns.title--author
+  %p.title--meta.small-12.medium-8.left.columns.title--author
     = partial 'shared/author_content'
 
 .row
-  .articles--list.medium-5.medium-offset-1.columns
+  .articles--list.large-5.large-offset-1.columns
     %p.subtitle.light
       %strong Articles.
       In the mood for
@@ -18,13 +18,13 @@
       = partial 'articles/article', locals: { article: article }
 
     .row.article--item
-      %a.article--link.medium-12.columns{:href => '/articles'}
+      %a.article--link.small-12.columns{:href => '/articles'}
         %span.article--title More Articles
         %p.article--meta
           = blog('articles').articles.length
           articles total.
 
-  .medium-6.columns.end.right-side
+  .large-6.columns.end.right-side
     %p.subtitle.light
       %strong Travel Photos.
       Recent trips and getaways.
@@ -34,26 +34,30 @@
     %ul.no-bullet.photos-list.photos-list--travel
       - matches = 0
       - blog('photos').articles.each do |article|
-        - if (matches < 3) && (article.tags.include? "Travel")
+        - if (matches < 3) && (has_tag?(article, 'Travel'))
           - matches = matches + 1
           %li.photos-list--item
             = partial 'photos/travel', locals: { article: article }
 
     .row.article--item.article-tag--meta
-      %a.article--link.medium-12.columns{:href => '/photos'}
+      %a.article--link.small-12.columns{:href => '/photos'}
         %span.article--title More Photos
         %p.article--meta
           = blog('photos').articles.length
           photo posts.
 
 .row
-  .medium-offset-1.medium-11.index--events
-    %h2 Event Photos
-    %p.meta Mostly pictures from events around Orlando.
+  .large-offset-1.large-11.index--events
+    %p.subtitle.light
+      %strong Event Photos.
+      Mostly pictures from happenings in
+      = succeed '.' do
+        %a{ href: '/about/orlando' } Orlando
+
     %ul.no-bullet.photos-list.photos-list--asides.row
       - matches = 0
       - blog('photos').articles.each do |article|
-        - if (matches < 9) && (!article.tags.include? "Travel")
+        - if (matches < 9) && !(has_tag?(article, ['Travel', 'Ignore']))
           - matches = matches + 1
-          %li.medium-4.columns.left
+          %li.medium-6.large-4.columns.left.aside-list--item
             = partial 'photos/event', locals: { article: article }

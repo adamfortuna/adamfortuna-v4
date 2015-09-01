@@ -1,4 +1,11 @@
 module PhotoHelpers
+  def has_tag? photo, tag
+    tags = tag
+    tags = [tags] unless tags.is_a?(Array)
+    tags.any? do |tag|
+      photo.tags.include? tag
+    end
+  end
 
   def photo_lookup collection, permalink=nil
     blog('photos').articles.find do |article|

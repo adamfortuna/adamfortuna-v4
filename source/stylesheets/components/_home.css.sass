@@ -28,20 +28,22 @@
   .photos-list--item
     min-height: 349px
 
-+respond-to($small-breakpoint, max-width)
+@media only screen and (min-width: 0) and (max-width: $medium-breakpoint)
   .index
     .right-side
       border-left: none
       border-top: 1px solid #eee
       margin-top: 2em
-      padding: 0
+      padding: 0 0.83333rem
       .subtitle
-        padding: 2em 0.83333rem 0
-    .photo--link
-      border: none
-
-
-
+        padding: 2em 0 0
 
     .photos-list--item
       min-height: 250px
+
+    .index--events
+      margin-top: 1em
+      padding: 2em 0.83333rem
+
+    .aside-list--item
+      margin-bottom: 1em

@@ -4,29 +4,34 @@ versions:
   full:
     resize: "2500>x2500>"
     quality: "90"
+  col-2:
+    height: 400
+    width: 187
+    crop: true
+    gravity: center
   col-3:
-    height: 244
-    width: 273
+    height: 400
+    width: 284
     crop: true
     gravity: center
   col-4:
-    height: 244
-    width: 370
+    height: 400
+    width: 382
     crop: true
     gravity: center
   col-5:
-    height: 244
-    width: 468
+    height: 400
+    width: 480
     crop: true
     gravity: center
   col-6:
-    height: 350
-    width: 565
+    height: 400
+    width: 577
     crop: true
     gravity: center
   col-9:
-    height: 244
-    width: 890
+    height: 400
+    width: 870
     crop: true
     gravity: center
   col-12:

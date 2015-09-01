@@ -1,15 +1,16 @@
 - offset ||= 2
- 
+- medium_offset ||= 1
+
 - if (defined? image) && image
   - content_for :pageClasses, 'has-title-image'
-
-  %header.title--image.title{ style: "background: url(#{image}) no-repeat top center; min-height: #{height}px;" }
+  - height ||= 700
+  %header.title--image.title{ style: "background-image: url(#{image}); min-height: #{height}px;" }
     .title--wrap{ style: "min-height: #{height}px;" }
       .row
-        .columns{ class: classes_from_offset(offset) }
+        .columns.small-12.text-center.title--content{ style: "margin-top:#{height*2/7}px;" }
           = yield
 - else
   %header.title
     .row
-      .columns{ class: classes_from_offset(offset) }
+      .columns{ class: classes_from_offset(offset, medium_offset) }
         = yield
