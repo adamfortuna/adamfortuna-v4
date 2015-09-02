@@ -15,6 +15,7 @@
   ],
   "dependencies": {
     "foundation": "zurb/bower-foundation",
-    "foundation-icon-fonts": "*"
+    "foundation-icon-fonts": "*",
+    "photoswipe": "~4.1.0"
   }
 }

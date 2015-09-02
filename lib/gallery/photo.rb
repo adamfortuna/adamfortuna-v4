@@ -30,8 +30,8 @@ module Gallery
       end
 
       html = <<-PIC
-        <a href='#{full_src}' class='gallery--photo #{column_class_for}'>
-          <img class='gallery--photo-image' src="#{src}" alt="#{alt}" style="#{height};#{width};" />
+        <a href='#{full_src}' class='lazy gallery--photo #{column_class_for}'>
+          <img class='gallery--photo-image' data-src="#{src}" alt="#{alt}" style="#{height};#{width};" />
         </a>
       PIC
       if columns_count == 12

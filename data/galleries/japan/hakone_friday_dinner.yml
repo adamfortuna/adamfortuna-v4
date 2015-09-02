@@ -6,6 +6,8 @@
   - file: friday_marilyn.jpg
     alt: Marilyn excited about dinner.
     version: col-5
+    options:
+      gravity: north
   - file: friday_food.jpg
     alt: Sampler of a few small plates.
     version: col-3
