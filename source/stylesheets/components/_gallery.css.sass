@@ -6,7 +6,7 @@
     border: none
   .full
     + .row
-      padding-top: 12px
+      padding-top: 8px
   .row
     padding-bottom: 8px
     .columns,
@@ -17,3 +17,23 @@
       padding-left: 0
     &:last-child
       padding-right: 0
+
+
+@media only screen and (min-width: 0) and (max-width: $small-breakpoint)
+  .gallery
+    .row
+      padding: 0
+    > .gallery--photo
+      padding-top: 8px
+      padding-bottom: 8px
+  .gallery--photo.full
+  .gallery--photo
+    padding-top: 4px
+    padding-bottom: 4px
+  .gallery--photo-image
+    width: 100% !important
+    height: auto !important
+
+@media only screen and (min-width: $small-breakpoint) and (max-width: $large-breakpoint)
+  .gallery--photo-image
+    height: auto !important

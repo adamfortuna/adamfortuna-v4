@@ -17,10 +17,10 @@
   files:
   - file: sake_ball.jpg
     alt: A ball made from a Japanese Cyprus tree. This indicates that the store sells sake.
-    version: col-6-tall
+    version: col-6
   - file: favorite_sake.jpg
     alt: Our favorite sake was an unfiltered, unpasteurized sake. Its also one of only a few brewed by a woman.
-    version: col-6-tall
+    version: col-6
 - file: sake_barrels.jpg
   alt: Instead of getting a keg for a party, try getting a sake barrel!
   version: col-12

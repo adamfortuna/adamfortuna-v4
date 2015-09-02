@@ -15,12 +15,23 @@ module Gallery
     end
 
     def to_html
+      file = MiniMagick::Image.open(destination_path)
+      height = file.height
+      if image[:version] == 'full'
+        height = "height:auto"
+        width = "width:auto"
+      elsif file.width > 1170
+        width = "width:1170px"
+        height = (1170.0/file.width)*file.height
+        height = "max-height:#{height}px"
+      else
+        width = "width:#{file.width}px"
+        height = "height:#{file.height}px"
+      end
+
       html = <<-PIC
-        <a href='#{full_src}' class='#{column_class_for}'>
-          <picture>
-            <source srcset="#{src}" media="(min-width: 600px)">
-            <img src="#{src}" alt="#{alt}">
-          </picture>
+        <a href='#{full_src}' class='gallery--photo #{column_class_for}'>
+          <img class='gallery--photo-image' src="#{src}" alt="#{alt}" style="#{height};#{width};" />
         </a>
       PIC
       if columns_count == 12
@@ -198,7 +209,7 @@ module Gallery
       if image[:version] == 'full'
         'full'
       else
-        "large-#{columns_count} medium-#{columns_count} columns"
+        "medium-#{columns_count} small-12 columns left"
       end
     end
   end
