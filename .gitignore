@@ -11,7 +11,7 @@
 /build
 /galleries
 /source/images/galleries
-/data/aaws.yml
+/data/aws.yml
 
 # Ignore cache
 /.sass-cache
