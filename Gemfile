@@ -5,6 +5,10 @@ gem 'middleman-autoprefixer'
 gem 'middleman-minify-html'
 gem 'middleman-blog'
 
+# Deployment
+gem 'middleman-s3_sync'
+gem 'middleman-cloudfront'
+
 gem 'rouge', '1.9.0'
 gem 'middleman-syntax'
 
