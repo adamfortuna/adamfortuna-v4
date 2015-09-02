@@ -1,6 +1,9 @@
 - content_for :javascript do
   :javascript
-    $(function() { lazy(); });
+    $(function() {
+      lazy();
+      gallery();
+    });
 
 = wrap_layout :layout do
   %article.photo

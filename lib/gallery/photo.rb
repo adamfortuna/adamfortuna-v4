@@ -29,9 +29,11 @@ module Gallery
         height = "height:#{file.height}px"
       end
 
+      resized_file = MiniMagick::Image.open(full_destination_path)
+
       html = <<-PIC
         <a href='#{full_src}' class='lazy gallery--photo #{column_class_for}'>
-          <img class='gallery--photo-image' data-src="#{src}" alt="#{alt}" style="#{height};#{width};" />
+          <img class='gallery--photo-image' data-src="#{src}" alt="#{alt}" style="#{height};#{width};" data-size="#{resized_file.width}x#{resized_file.height}" />
         </a>
       PIC
       if columns_count == 12
