@@ -3,28 +3,37 @@ title: About
 layout: about
 ---
 
-= partial 'shared/title' do
-  %h1.title--header About
-  %p.title--meta Orlando Developer with entirely too much time.
+= partial 'shared/title', locals: { offset: 2, medium_offset: 1 } do
+  %img.face.left{src: '/images/adam-fortuna.png', alt: 'Adam Fortuna'}
+  %h1.title--header.small-8.columns.end About
+  %p.title--meta.small-12.medium-8.left.columns.title--author
+    = partial 'shared/author_content'
 
 = partial 'shared/content' do
-  %p
-    Hey hey! I'm Adam Fortuna, a guy in Orlando, FL who spends most of my time
-    creating courses at Code School -- mostly by coding in Ruby or JavaScript.
-
-  %p
-    This site is a collection of whatever I'm interested in -- from development
-    posts (in green) to photos to random thoughts (in blue). Here's a few
-    areas of my life are my major focuses.
-
+  %p.light
+    This site is a collection of whatever I'm interested in -- from
+    = link_to 'technical articles', '/articles/tags/technical', class: 'category--technical'
+    to
+    = link_to 'personal posts', '/articles/tags/technical', class: 'category--personal'
+    to
+    = succeed '.' do
+      = link_to 'travel photos', '/photos'
 
   %h2 Focuses (Foci?)
+
+  %p Here's a few areas of my life are my major focuses.
+
+  .pull-right
+    %p asdfsfsa
 
   %p
     I like to document and organize my
     %a{href: '/about/goals'} Goals
     – somewhat obsessively. I've been doing these on my own in Evernote for a
     while and decided to finally share them.
+
+  .pull-left
+    %p left content
 
   %p
     Ten years ago I wouldn't have guessed it, but I love

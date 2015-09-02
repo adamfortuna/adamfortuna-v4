@@ -7,6 +7,10 @@ module PhotoHelpers
     end
   end
 
+  def photo_url article
+    "/photos/#{article.collection}/#{article.permalink}"
+  end
+
   def photo_lookup collection, permalink=nil
     blog('photos').articles.find do |article|
       (article.data['collection'] == collection) &&
