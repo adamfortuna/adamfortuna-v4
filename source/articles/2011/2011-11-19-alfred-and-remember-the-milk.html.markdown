@@ -1,5 +1,5 @@
 ---
-title: "Adding tasks to Remember the Milk with Alfred"
+title: "Adding Tasks to Remember the Milk with Alfred"
 permalink: adding-tasks-to-remember-the-milk-with-alfred
 tags: Personal, Productivity, Short
 ---

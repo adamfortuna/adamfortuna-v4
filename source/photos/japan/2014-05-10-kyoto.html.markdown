@@ -103,9 +103,8 @@ We took the train down from Kyoto, which is actually about a 1 hour ride due to 
 
 We you get off the train and make your way east, before too long you'll run into the famous deer of Nara. I like Wikipedias explantation of why there are so many.
 
-{% blockquote Wikipedia http://en.wikipedia.org/wiki/Nara,_Nara %}
-According to the legendary history of Kasuga Shrine, a mythological god Takemikazuchi arrived in Nara on a white deer to guard the newly built capital of Heijō-kyō. Since then the deer have been regarded as heavenly animals, protecting the city and the country.
-{% endblockquote %}
+> According to the legendary history of Kasuga Shrine, a mythological god Takemikazuchi arrived in Nara on a white deer to guard the newly built capital of Heijō-kyō. Since then the deer have been regarded as heavenly animals, protecting the city and the country.
+[Wikipedia](http://en.wikipedia.org/wiki/Nara,_Nara)
 
 So it's basically like cows in India, except tourists come from far and wide to feed them. At night they are penned up and fed for their own safety and population control reasons. From what I've read, they keep their antlers short to protect visitors.
 

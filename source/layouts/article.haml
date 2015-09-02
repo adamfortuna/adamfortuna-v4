@@ -9,8 +9,10 @@
       %span.title--meta
         Written on
         = full_date(current_article.date)
-        in
-        = tag_links(current_article.tags, 'articles')
+        - if current_article.tags.length > 0
+          in
+          = succeed '.' do
+            = tag_links(current_article.tags, 'articles')
 
     .row
       = partial 'shared/author'

@@ -86,10 +86,10 @@ rm -rf /Volumes/Drobo/Users/adam/weekly/ cp- pR /Volumes/Drobo/Users/adam/curren
 
 [DropBox](https://www.getdropbox.com/referrals/NTY0ODEwOQ) is probably my favorite part of all this. After signing up for DropBox, you install a small program on each computer you want to use it with. It’ll create a DropBox folder at a location you pick (I went with the default ~/Dropbox). Anything you add to this folder will get synced up to the Dropbox service. What’s extra-useful about this is that all files will be versioned. I’m storing my Documents and Sites folders in here and backing up daily. Even if I haven’t committed site changes for something I’m working on, it’ll still have a daily revision of changes. I have a few other commands in my backup.command file that copy things over to a DropBox folder on the Media Server.
 
-{% highlight bash %}
+```bash
 rsync -aE --delete /Volumes/Drobo/Users/adam/current/Documents ~/Dropbox
 rsync- aE --delete /Volumes/Drobo/Users/adam/current/Sites ~/Dropbox
-{% endhighlight %}
+```
 
 One really nice part about Dropbox’s desktop client is that you can limit the upload speed. With RoadRunner my upstream is capped to about 70k/s when it’s in a good mood, and maxing it out will usually slow down any downloads. Being able to cap it to 10k/s is very useful in my situation.
 
@@ -101,7 +101,7 @@ You’ll notice that my backup scripts where in my Dropbox: `~/Dropbox/scripts/b
 
 [DropBox](https://www.getdropbox.com/referrals/NTY0ODEwOQ) is free up to 2GB making it excellent for documents, but not very realistic for media. They do offer a plan up to 50GB for $99/yr, which blows MobileMe’s 20GB plan out of the water. Most the use I get from MobileMe is in syncing computers though, so I’ll keep it going for that. For now I’ll stick with MobileMe for my larger media backup as well, although I can tell you now I’m not exactly happy about it. One of the downsides of MobileMe is that it doesn’t automatically mount itself on startup. Normally you have to click on it in Finder to mount the drive. Only then it’ll show in “/Volumes”. You can open up Script Editor and create a small app to do this though. Just copy this and change it to use your username and password. @ tell application “Finder” mount volume “http://idisk.mac.com/myusername/” as user name “myusername” with password “mypassword” end tell @ Save it as file format “Application” with “Run Only” checked, but don’t check “Stay Open” or “Startup Screen”. Save this application somewhere then add it to your startup items. The last part is setting up the “remote.command” script listed earlier. This will do all the work of copying everything remotely, with the exception of whatever uses Dropbox.
 
-{% highlight bash %}
+```bash
 rsync -aE --delete /Volumes/Drobo/Users/adam/current/Documents /Volumes/myusername
 rsync -aE --delete /Volumes/Drobo/Users/adam/current/Backup /Volumes/myusername
 rsync -aE --delete /Volumes/Drobo/Users/adam/current/Desktop /Volumes/myusername/Documents
@@ -109,7 +109,7 @@ rsync -aE --delete /Volumes/Drobo/Users/adam/current/Movies /Volumes/myusername
 rsync -aE --delete /Volumes/Drobo/Users/adam/current/Pictures /Volumes/myusername
 rsync -aE --delete /Volumes/Drobo/Users/adam/current/Sites /Volumes/myusername
 rsync -aE --delete /Volumes/Drobo/Books /Volumes/myusername/Documents
-{% endhighlight %}
+```
 
 This just runs weekly everything here doesn’t change that much. The Pictures directly is the main one that’ll be updated, as it’s a single iPhoto file that changes often.
 

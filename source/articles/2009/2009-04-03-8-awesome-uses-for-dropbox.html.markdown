@@ -11,9 +11,9 @@ Although only a very small part of my "backup strategies":http://www.adamfortuna
 
 Right now Dropbox installs itself into a pre-selected location, then everything in that folder is archived in Dropbox. Syncing outside of the Dropbox folder is on the todo list, but for now there's a workaround to do this. Create a symbolic link within the Dropbox folder pointing to the folder you want to archive. For instance, lets say within Dropbox you want your Documents folder. To do this you'd create a sym link for this.
 
-{% highlight bash %}
+```bash
 ln- s ~/Documents/ ~/Dropbox/Documents
-{% endhighlight %}
+```
 
 Dropbox should start syncing right away, and will sync from here on out whenever. Anything that goes into your @~/Documents@ folder will be backed up. One very important thing to note is that if you delete something from the @~/Dropbox/Documents@ folder on another computer, it will be removed from your @~/Documents@ folder on the computer with the symlink, so keep that in mind.
 
@@ -21,9 +21,9 @@ Dropbox should start syncing right away, and will sync from here on out whenever
 
 So you're looking through chat logs for a conversation you know you had, but you can't seem to find it. Turns out it was on a a different computer. Has this ever happened to you? There's a convenient way of syncing Adium log files (or any other log files) with Dropbox. Adium doesn't allow you to change your Log directory, but there's no reason why you can't make the default location a smylink to somewhere else. I have a @~/Dropbox/Sync@ directory where I store any settings/items that I want to keep in Sync between computers, so this is the perfect place for it. I created a @~/Dropbox/Sync/chat@ folder, quit Adium and dragged my existing Adium logs folder into Dropbox (from /Users/adam/Library/Application Support/Adium 2.0/Users/Default/Logs). All you have to do is point a folder at your Dropbox and you're good to go! In my case, the command was:
 
-{% highlight bash %}
+```bash
 ln -s ~/Dropbox/Sync/chat/logs/ "/Users/adam/Library/Application Support/Adium 2.0/Users/Default/Logs"
-{% endhighlight %}
+```
 
 Just setup multiple computers with this same path and you should have a single repository for all your chat logs. I'm not too sure how this works with conflict resolution, but unless you're chatting to the same person on multiple computers at the same time you should be good. If you've tried that though, I'd be interested to see how it works.
 
@@ -31,9 +31,9 @@ Just setup multiple computers with this same path and you should have a single r
 
 This was mentioned earlier, but having a shared space for your backup scripts makes life easier. Dropbox is amazing, but the Dropbox application does have the ability to delete files from your computer. Lets say the worst happens and they delete your account, causing your Dropbox to be deleted on all your computers- - would you mind? If you have your ~/Documents and other folders linked, this might be a huge blow to lose unless you're backing it up somewhere. This same doomsday scenerio could happen if someone hacks into your Dropbox account and removes your files from the web interface. You'll probably be able to restore them in that case, but then you're relying on Dropbox to fix the Dropbox problem. A more secure way of handling this might be to have a full copy of your Dropbox somewhere locally. With Dropbox maxing out around 55GB, making a full copy of this on some HD you have laying around isn't a bad idea. Automating the process and backing up your Dropbox nightly is even better though! So what would something like this look like.
 
-{% highlight bash %}
+```bash
 rsync -rpLtgoDE- -delete ~/Dropbox /Volumes/Drobo/Users/adam/current
-{% endhighlight %}
+```
 
 This rsync command will copy everything from my Dropbox to a local directory, in this case on a "Drobo":http://www.drobo.com/ . This follow all symlinks and copy the contents of them, rather than copying the symlinks themselves. Try saving this one line in a file, @backup.command@ . You should be able to run it by double clicking or from terminal. I store this file in @~/Dropbox/Sync/scripts/backup.command@ so it can be edited from anywhere.
 
@@ -41,9 +41,9 @@ This rsync command will copy everything from my Dropbox to a local directory, in
 
 You don't want to run that backup script manually everyday do you? To save time (and guarantee a good backup strategy), you'll want to have this automatically run. I'll recap real quick how to set this up. Just open up terminal on the computer you'll be automating the backup. You can call things on a scheduling using "cron":http://en.wikipedia.org/wiki/Cron , which can be opened by entering @crontab- e@ . I've decided to run the above script every day, and backup my list of cron jobs every day.
 
-{% highlight bash %}
+```bash
 @daily crontab -l > ~/Dropbox/Sync/scripts/crontab.txt 30 3 * sh ~/Dropbox/Sync/scripts/backup.command
-{% endhighlight %}
+```
 
 The first line will save the crontab contents in the @ ~/Dropbox/Sync/scripts/crontab.txt@ file. The @daily parts means this'll happen every night at midnight. The second line is scheduled to run every night at 3:30am as well, but usually takes a little longer. Rsync isn't the fastest in the world, but it'll get the job done- - usually in under a minute for me.
 
