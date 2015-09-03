@@ -9,7 +9,6 @@ poster: /images/galleries/events/the-great-orlando-mixer/poster.jpg
 header: /images/galleries/events/the-great-orlando-mixer/poster.jpg
 stats:
   photos: 6
-  videos: 1
 ---
 
 
@@ -43,6 +42,3 @@ The Cheyenne Saloon is an amazing place for this — with 3 levels to sit at and
     alt: Adam
     version: col-5
 @
-
-
-# Todo: Video
