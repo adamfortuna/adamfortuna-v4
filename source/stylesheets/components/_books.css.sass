@@ -1,0 +1,70 @@
+.books
+  .book
+    padding: 1em 0
+    border-bottom: 1px solid #b6daf2
+    min-height: 220px
+
+    &.rating-5, &.rating-4
+      .rating
+        color: #5cb85c
+    &.rating-3
+      .rating
+        color: #f0ad4e
+    &.rating-2, &.rating-1
+      .rating
+        color: #d9534f
+
+    h3
+      color: #555
+      margin-top: 0
+    img
+      width: 100px
+      height: 150px
+      border: 1px solid #888
+      top: 0
+      left: 0
+      position: absolute
+    .book-image
+      position: relative
+      display: block
+    .date-read
+      color: #666
+      font-size: 14px
+      font-style: italic
+      display: block
+      padding-top: 20px
+      text-align: right
+    .description
+      font-style: italic
+      color: #888
+    .genres
+      float: left
+    .meta a.author
+      font-size: 12px
+    .rating
+      padding: 10px 0 0 28px
+      color: #888
+      font-size: 16px
+      position: absolute
+      top: 150px
+      left: 18px
+      .rate
+        font-size: 24px
+        font-color: #666
+
+.currently-reading
+  .book-image, .description, .review
+    display: none
+  .books
+    border-top: 1px solid #b6daf2
+    .book
+      min-height: inherit
+
+.filters
+  a:hover
+    cursor: pointer
+
+
+.book-image
+  position: relative
+  display: block

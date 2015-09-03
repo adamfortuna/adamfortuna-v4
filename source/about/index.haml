@@ -10,7 +10,7 @@ layout: about
     = partial 'shared/author_content'
 
 = partial 'shared/content' do
-  %p.light
+  %p.subtitle.light
     This site is a collection of whatever I'm interested in -- from
     = link_to 'technical articles', '/articles/tags/technical', class: 'category--technical'
     to
@@ -18,13 +18,57 @@ layout: about
     to
     = succeed '.' do
       = link_to 'travel photos', '/photos'
+    Also a good place to experiment with new technologies!
+
+  %div{class: 'pull-right' }
+    %p Let's just get these out of the way.
+
+  %h2 Common Questions
+
+  %h3 Who made that awesome mustached avatar?
+
+  %div{class: 'pull-left' }
+    %p
+      %img.face{src: '/images/adam-fortuna.png', alt: 'Adam Fortuna'}
+
+  %p
+    It was made by
+    = succeed ',' do
+      %a{href: 'http://drewbarontini.com/'} Drew Barontini
+    a coworker of mine at Code School. He made awesome mustached versions of everyone in the office for the
+    %a{href: 'http://madewithenvy.com/'}Envy
+    homepage back in the day. Even though I don't have a mustache, I love the icon.
+
+  %h3 Are you looking for work?
+
+  .pull-left
+    %p
+      %img.face{src: '/images/galleries/codeschool/logo.png', alt: 'Code School'}
+
+  %p
+    Nope, I'm happily employed as the Technology Director at
+    %a{ href: 'https://www.codeschool.com' } Code School
+    for the last 4 years innovating on code education. I'm constantly learning new things and looking for new and interesting ways to teach which keeps me on my toes.
+
+  %h3 What was this site made in?
+
+  %p
+    Eventually I'm sure there will be a post about this, but it's all made with
+    %a{href: 'https://middlemanapp.com/'} Middleman
+    right now. On the front-end side, I'm using the
+    %a{href: 'http://foundation.zurb.com/'} Foundation Framework
+    for some things, and a healthy dose of custom
+    %a{href: 'http://sass-lang.com/'} Sass
+    for the rest. Everything is hosted on Amazon S3, using
+    %a{href: 'https://github.com/fredjean/middleman-s3_sync'} Middleman S3 Sync
+    to deploy everything.
+
 
   %h2 Focuses (Foci?)
 
   %p Here's a few areas of my life are my major focuses.
 
-  .pull-right
-    %p asdfsfsa
+  %h3 Goals
 
   %p
     I like to document and organize my
@@ -32,24 +76,21 @@ layout: about
     – somewhat obsessively. I've been doing these on my own in Evernote for a
     while and decided to finally share them.
 
-  .pull-left
-    %p left content
+
+  %h3 Orlando
 
   %p
-    Ten years ago I wouldn't have guessed it, but I love
-    = succeed '.' do
-      %a{href: '/about/orlando'} Orlando
+    Ten years ago I wouldn't have guessed it, but I love Orlando.
     I came here for college (UCF, 2000-2005) and hung around for some jobs, but
-    now I love it. If you're interested in knowing why, you should read more
-    about why
-    %a{href: '/about/orlando'} Orlando
-    is amazing.
+    now I love it.
+
+  %h3 Tools
 
   %p
     Spending all day on a computer, and using the same one for personal use and
-    professional use, makes tools (software) essential. There's a few
-    %a{href: '/about/tools'} tools I use
-    that stand out as the most important.
+    professional use, makes tools (software) essential. There's a few tools I use that stand out as the most important. Namely a Mac, an iPhone, Atom, Evernote, 1Password, a Fuji XT-1, Lightwave, Things, Slack and Fantastical.
+
+  %h3 Books
 
   %p
     I listen to a
@@ -58,13 +99,15 @@ layout: about
     = succeed ',' do
       %a{href: '/articles/audiobooks'} Audiobook Habit
     but I also actively maintain a
-    %a{href: '/about/books'} books
+    %a{href: '/books'} books
     page which shows what I'm currently reading and what I've most recently
     read.
 
+  %h3 Code School
+
   %p
     Since April 2011, I've been happily working at
-    %a{href: '/about/codeschool'} Code School
+    %a{href: 'https://www.codeschool.com'} Code School
     working on educational content in the coding world. It's been the job
     of a lifetime so far with new ideas always on the horizon.
 
@@ -73,12 +116,12 @@ layout: about
     = succeed '.' do
       %a{href: '/photos'} photos
     These include anything from trips to
-    %a{href: '/photos/japan'} japan
+    %a{href: '/photos/japan/adam-and-marilyn-go-to-japan'} japan
     to
     = succeed '.' do
-      %a{href: '/photos/orlando-mixer'} parties in Orlando
+      %a{href: '/photos/events/the-great-orlando-mixer'} parties in Orlando
 
-  %h2 More Randomness
+  %h3 More Randomness
 
   %p
     Even though I haven't written articles about these topics, they're very

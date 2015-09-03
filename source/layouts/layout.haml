@@ -6,6 +6,7 @@
     %meta{ name: 'viewport', content: 'width=device-width, initial-scale=1.0' }
 
     %title= current_page.data.title ? "#{current_page.data.title} - Adam Fortuna" : 'Adam Fortuna'
+    = yield_content :before_stylesheets
     %link{href: 'http://fonts.googleapis.com/css?family=Droid+Sans:400,700'}
     = stylesheet_link_tag 'app'
   %body{:class => custom_page_classes}
