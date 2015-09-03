@@ -3,6 +3,13 @@ title: Gallery
 layout: gallery
 ---
 
+- content_for :javascript do
+  :javascript
+    $(function() {
+      lazy();
+      gallery();
+    });
+
 - gallery = Gallery::Gallery.new(path)
 
 = partial 'shared/title' do

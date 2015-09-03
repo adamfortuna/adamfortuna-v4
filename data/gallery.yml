@@ -35,5 +35,5 @@ versions:
     crop: true
     gravity: center
   col-12:
-    width: 1170
-    quality: "90"
+    resize: 1700x
+    quality: 90

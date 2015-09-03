@@ -39,6 +39,6 @@
     .row.comments
       .medium-10.medium-offset-1.large-8.large-offset-2.columns.comments--divider
         %h2 Comments
-        = disqus
+        = partial 'shared/comments', locals: { commentable: parent || current_article }
 
   = partial 'photos/photoswipe'

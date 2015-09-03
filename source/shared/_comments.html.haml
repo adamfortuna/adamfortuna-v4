@@ -1,0 +1,14 @@
+#disqus_thread{:"aria-live" => 'polite'}
+
+:javascript
+  var disqus_shortname = "#{disqus_shortname}",
+      disqus_identifier = "#{disqus_identifier(commentable)}",
+      disqus_url = "#{disqus_permalink(commentable)}",
+      disqus_script = 'embed.js';
+  (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//go.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
