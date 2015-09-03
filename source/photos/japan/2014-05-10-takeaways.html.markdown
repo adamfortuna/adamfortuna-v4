@@ -7,6 +7,7 @@ permalink: takeaways
 description: What to expect when going to Japan
 header: /images/galleries/japan/osaka/resized/dotonbori.jpg
 series: true
+parent: adam-and-marilyn-go-to-japan
 ---
 
 ## What to Expect

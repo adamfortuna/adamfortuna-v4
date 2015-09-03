@@ -20,7 +20,7 @@ compass_config do |config|
   config.images_dir = 'images'
   config.javascripts_dir = 'javascripts'
 
-  relative_assets = true
+  relative_assets = false
 end
 
 activate :automatic_image_sizes
@@ -108,6 +108,12 @@ set :markdown, :input              => 'AFM',
                :af_gallery         => true
 
 activate :syntax, :line_numbers => true
+
+# Enable Asset Hosts
+activate :asset_host
+set :asset_host do |asset|
+  '/'
+end
 
 configure :build do
   activate :minify_css

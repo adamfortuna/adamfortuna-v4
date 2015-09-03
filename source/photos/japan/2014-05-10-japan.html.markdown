@@ -2,6 +2,7 @@
 title: Adam & Marilyn go to Japan
 date: 2014-05-10 10:07
 collection: japan
+permalink: adam-and-marilyn-go-to-japan
 tags: Travel
 stats:
   photos: 563

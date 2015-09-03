@@ -7,6 +7,7 @@ permalink: kyoto
 description: Kyoto, Osaka, Gion, Nara, Fushimi Inari
 header: /images/galleries/japan/kiyomizudera_temple/resized/pagoda.jpg
 series: true
+parent: adam-and-marilyn-go-to-japan
 ---
 
 ## Day 2: A Food and Sake Tour of Fushimi

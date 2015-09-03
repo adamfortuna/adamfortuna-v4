@@ -7,6 +7,7 @@ permalink: hakone
 description: Mountains of Hakone
 header: /images/galleries/japan/hakone_ashinoko/resized/adam_boat.jpg
 series: true
+parent: adam-and-marilyn-go-to-japan
 ---
 
 ## Day 6: Travel to Hakone - 箱根町

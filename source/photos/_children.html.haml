@@ -1,4 +1,4 @@
-- parent = current_article.data['children'] ? current_article : photo_lookup(current_article.data['collection'])
+- parent = current_article.data['children'] ? current_article : photo_lookup(current_article.data['collection'], current_article.data['parent'])
 - articles = photo_children(parent)
 
 .title--nav.right
