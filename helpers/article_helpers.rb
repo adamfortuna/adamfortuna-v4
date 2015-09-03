@@ -1,18 +1,27 @@
 module ArticleHelpers
 
   def disqus_shortname
-    data.config.disqus[environment]
+    if environment == :development
+      data.config.disqus[environment]
+    else
+      data.config.disqus.production
+    end
   end
 
   def disqus_permalink commentable
-    "#{data.config.url}#{commentable.url}"
+    "#{site_url}#{commentable.url}"
   end
-  # "#{data.config.url}/articles/#{commentable.data.permalink}"
+
+  def site_url
+    if environment == :development
+      data.config.development.url
+    else
+      data.config.production.url
+    end
+  end
 
   def disqus_identifier commentable
-    return commentable.data['disqus_identifier'] if commentable.data['disqus_identifier']
-
-    "#{data.config.disqus.identifier}-/#{commentable.data['permalink']}"
+    "#{data.config.disqus.identifier}-/#{commentable.data['disqus_identifier'] || commentable.data['permalink']}"
   end
 
   def classes_from_offset large_offset, medium_offset=nil, small_offset=nil

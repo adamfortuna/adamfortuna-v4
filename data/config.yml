@@ -1,3 +1,7 @@
+production:
+  url: 'http://www.adamfortuna.com'
+development:
+  url: ''
 title: Adam Fortuna
 disqus:
   development: adamfortuna-dev
