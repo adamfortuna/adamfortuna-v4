@@ -4,7 +4,7 @@ layout: about
 ---
 = partial 'shared/title' do
   %h1.title--header Goals
-  %p.title--meta Some people say I'm a little goal oriented
+  %p.title--description Some people say I'm a little goal oriented
   = partial 'about/breadcrumbs', locals: { current: 'Goals' }
 
 = partial 'shared/content' do
@@ -24,14 +24,14 @@ layout: about
         %li
           2013 -
           = succeed ',' do
-            %a.is-completed{href: '/japan'} Try jQuery
-          %a.is-completed{href: '/japan'} jQuery: The Return Flight
+            %a.is-completed{href: 'https://www.codeschool.com/courses/try-jquery'} Try jQuery
+          %a.is-completed{href: 'https://www.codeschool.com/courses/jquery-the-return-flight'} jQuery: The Return Flight
         %li
           2014 -
-          %a.is-completed{href: '/japan'} Warming Up With Ember.js
+          %a.is-completed{href: 'https://www.codeschool.com/courses/warming-up-with-ember-js'} Warming Up With Ember.js
         %li
           2015 -
-          %a.is-completed{href: '/japan'} Blasting Off With Bootstrap
+          %a.is-completed{href: 'https://www.codeschool.com/courses/blasting-off-with-bootstrap'} Blasting Off With Bootstrap
         %li
           Next - PHP/MySQL? Foundation? D3? Angular 2?
     %li Familiar with ES2015
@@ -81,12 +81,10 @@ layout: about
           %span.is-inprogress 40 states down, 10 to go!
         %li
           %strike Visit Montreal
-          %span.is-completed
-            %a{href: '/photos/montreal'} Visited in August 2015
+          %span.is-completed Visited in August 2015
         %li
           %strike Visit Chicago
-          %span.is-completed
-            %a{href: '/photos/chicago'} Visited in June 2014
+          %span.is-completed Visited in June 2014
         %li
           %strike Visit New York
           %span.is-completed Visited in December 2011
@@ -103,7 +101,7 @@ layout: about
         %li
           %strike Visit Japan
           %span.is-completed
-            %a{href: '/photos/japan'} 2 Week Trip in March/April 2014
+            %a{href: '/photos/japan/adam-and-marilyn-go-to-japan'} 2 Week Trip in March/April 2014
     %li
       Europe
       %ul.no-bullet
@@ -111,8 +109,7 @@ layout: about
         %li Visit Germany
         %li
           %strike Visit Italy
-          %span.is-completed
-            %a{href: '/photos/rome'} Visited in January 2015
+          %span.is-completed Visited in January 2015
         %li
           %strike Visit France & Paris
           %span.is-completed Visited in December 2012
@@ -129,11 +126,15 @@ layout: about
       Read all the books
       %ul.no-bullet
         %li
-          Read 75 books in a year
-          %span.is-inprogress 51 so far in in 2015
-          %span.is-completed 25 books in a year
+          Read 100 books in a year
         %li
-          Read 25 books in a year
+          Read 75 books in a year
+          %span.is-inprogress 2015 is the year
+        %li
+          %strike Read 50 books in a year
+          %span.is-completed 51+ so far in in 2015
+        %li
+          %strike Read 25 books in a year
           %span.is-completed 45 in 2013
           %span.is-completed 44 in 2014
     %li
@@ -192,9 +193,9 @@ layout: about
       %strong Bar Muscle Ups
       %ul.no-bullet
         %li
-          %span.is-completed One in October, 2013.
+          %span.is-completed First kipping in October, 2013.
         %li
-          %span.is-inprogress Strict ,uscle up
+          %span.is-inprogress Strict muscle up
     %li
       %strong Run a Mile
       %ul.no-bullet
