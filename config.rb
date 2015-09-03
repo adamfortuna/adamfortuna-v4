@@ -121,7 +121,6 @@ configure :build do
   activate :minify_javascript
   activate :relative_assets
   activate :gzip
-  activate :asset_hash
 end
 
 configure :development do
@@ -149,22 +148,15 @@ activate :s3_sync do |s3_sync|
   s3_sync.prefix                     = ''
   s3_sync.version_bucket             = false
 end
-# Cache things until next month
-caching_policy 'text/css', max_age: (60*60*24), must_revalidate: true
-caching_policy 'application/javascript', max_age: (60*60*24), must_revalidate: true
-caching_policy 'image/jpeg', max_age: (60*60*24), must_revalidate: true
-caching_policy 'image/png', max_age: (60*60*24), must_revalidate: true
-caching_policy 'image/x-icon', max_age: (60*60*24*30), must_revalidate: true
-default_caching_policy expires: Time.now + (60 * 60 * 24 * 30)
 
-after_s3_sync do |files_by_status|
-  invalidate files_by_status[:updated]
-end
+# after_s3_sync do |files_by_status|
+#   invalidate files_by_status[:updated]
+# end
 
-activate :cloudfront do |cf|
-  cf.access_key_id = data.aws.access_key
-  cf.secret_access_key = data.aws.secret
-  cf.distribution_id = data.aws.distribution_id
-  # cf.filter = /\.html$/i  # default is /.*/
-  # cf.after_build = false  # default is false
-end
+# activate :cloudfront do |cf|
+#   cf.access_key_id = data.aws.access_key
+#   cf.secret_access_key = data.aws.secret
+#   cf.distribution_id = data.aws.distribution_id
+#   # cf.filter = /\.html$/i  # default is /.*/
+#   # cf.after_build = false  # default is false
+# end
