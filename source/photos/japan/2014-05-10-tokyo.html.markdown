@@ -8,6 +8,7 @@ description: Harajuku, Shinjuku, Ueno Park
 header: /images/galleries/japan/ueno/resized/blossom_boats.jpg
 poster: /images/galleries/japan/ueno/processed/birds-full.jpg
 series: true
+tags: Travel
 parent: adam-and-marilyn-go-to-japan
 stats:
   photos: 127
