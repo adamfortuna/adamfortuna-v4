@@ -50,6 +50,7 @@
 
 $nav-border: rgba(0,0,0, 0.5)
 $nav-inner: rgba(0,0,0, 0.5)
+$nav-darken: rgba(0,0,0, 0.8)
 $title-nav-color: darken($white, 15%)
 $title-nav-color-hover: darken($white, 35%)
 .title--nav
@@ -58,8 +59,12 @@ $title-nav-color-hover: darken($white, 35%)
   border-radius: 4px
   color: $title-nav-color
   position: absolute
-  right: 0
-  bottom: 30px
+  right: 25px
+  top: 50px
+  &:hover
+    border-bottom-left-radius: 0px
+    border-bottom-right-radius: 0px
+
 
 .title-nav--list
   visibility: hidden
@@ -72,6 +77,9 @@ $title-nav-color-hover: darken($white, 35%)
   margin-top: -3px
   top: 80px
   transition: 0.3s
+  border-top-left-radius: 0px
+  border-top-right-radius: 0px
+
   .title--nav:hover &
     visibility: visible
     opacity: 1
@@ -93,7 +101,7 @@ $title-nav-color-hover: darken($white, 35%)
   background-color: $nav-inner
   color: $title-nav-color
   &:hover
-    background-color: $nav-border
+    background-color: $nav-darken
     color: $title-nav-color-hover
 
 .title-nav--title

@@ -7,10 +7,10 @@
 
 = wrap_layout :layout do
   %article.photo
+    - if current_article.data['series']
+      = partial 'photos/children', locals: {current_article: current_article }
     = partial 'shared/title', locals: { image: current_article.data['header'], height: current_article.data['header-height'] } do
 
-      - if current_article.data['series']
-        = partial 'photos/children', locals: {current_article: current_article }
 
       %h1.title--header= current_article.title
       - if current_article.data['description']
