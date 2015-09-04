@@ -20,6 +20,7 @@
   transition: 0.3s
   padding: 1em 1em 0.5em 1em
   line-height: 1.8em
+  position: relative
   &:hover
     background-color: lighten($paragraph-color, 50%)
     color: darken($paragraph-color, 10%)
@@ -37,6 +38,11 @@
     &:hover
       background-color: lighten($text-color-professional, 20%)
       color: darken($text-color-professional, 20%)
+
+.article--flair
+  position: absolute
+  left: -14px
+  font-size: 2em
 
 .article--meta,
 .article--description,
