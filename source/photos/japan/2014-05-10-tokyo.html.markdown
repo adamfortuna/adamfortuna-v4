@@ -6,21 +6,14 @@ collection: japan
 permalink: tokyo
 description: Harajuku, Shinjuku, Ueno Park
 header: /images/galleries/japan/ueno/resized/blossom_boats.jpg
+poster: /images/galleries/japan/ueno/processed/birds-full.jpg
 series: true
 parent: adam-and-marilyn-go-to-japan
+stats:
+  photos: 127
 ---
 
-## Day 8: Hakone &amp; Tokyo
-
-We left the ryokan and traveled to Tokyo.
-
-### Sunday Breakfast
-
-Our last meal at the ryokan was breakfast on Sunday morning. It was raining out, so we took our time eating before checking out.
-
-@gallery japan/hakone_sunday_breakfast
-
-### To Tokyo! - 東京
+### Day 8: To Tokyo! - 東京
 
 We checked out and our trek to Tokyo began! From Hakone, we grabbed a bus from in front of our hotel all the way down to Odawara station. The bus route is less scenic than the rail route, but its also a straight shot that takes you from the hotel straight to the Shinkansen station. The trip takes just as long, but you don't have to transfer from bus to train to other train.
 

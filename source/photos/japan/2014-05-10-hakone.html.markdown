@@ -6,8 +6,11 @@ collection: japan
 permalink: hakone
 description: Mountains of Hakone
 header: /images/galleries/japan/hakone_ashinoko/resized/adam_boat.jpg
+poster: /images/galleries/japan/hakone_ashinoko/resized/adam_boat.jpg
 series: true
 parent: adam-and-marilyn-go-to-japan
+stats:
+  photos: 64
 ---
 
 ## Day 6: Travel to Hakone - 箱根町
@@ -83,3 +86,13 @@ We learned that the Hakone shrine is also a place for women to go to ask for a b
 After a day of traveling around Hakone, we returned to our room with enough time to get in a relaxing mineral bath in our room before dinner. This meal included blowfish, something I wasn't expecting to try, but was on my bucket list while in Japan. As exotic as it was, I wouldn't order it again. It tasted like fish, but beyond that the intricacies were lost on me.
 
 @gallery japan/hakone_saturday_dinner
+
+## Day 8: Hakone &amp; Tokyo
+
+We left the ryokan and traveled to Tokyo.
+
+### Sunday Breakfast
+
+Our last meal at the ryokan was breakfast on Sunday morning. It was raining out, so we took our time eating before checking out.
+
+@gallery japan/hakone_sunday_breakfast

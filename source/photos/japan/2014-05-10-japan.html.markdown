@@ -7,7 +7,7 @@ tags: Travel
 disqus_identifier: japan
 stats:
   photos: 350
-description: Two weeks in Japan during sakura season 2014
+description: Two weeks in Japan during sakura season
 short_description: 2 Weeks during sakura season 2014
 poster: /images/galleries/japan/ueno/resized/blossom_boats.jpg
 header: /images/galleries/japan/travel/resized/rail_pass.jpg

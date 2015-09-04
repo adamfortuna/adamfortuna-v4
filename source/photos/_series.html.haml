@@ -2,14 +2,27 @@
 - next_photo_article = next_photo(article, parent)
 
 .row
+  .medium-10.medium-offset-1.large-8.large-offset-2.columns.end
+    %p.photo-collection--warning
+      This post is part of the
+      = parent.data['children'].length + 1
+      part photo collection,
+      = succeed '.' do
+        %a{ href: parent.url }= parent.title
+
+.row
   - if !previous_photo_article
-    .medium-6.medium-offset-4.columns
-      = link_to "Next - #{next_photo_article.title}", next_photo_article
+    .medium-5.medium-offset-6.large-4.large-offset-6.columns.end
+      %p.subtitle Next Gallery In Series
+      = partial 'photos/travel', locals: { article: next_photo_article }
   - elsif !next_photo_article
-    .medium-8.medium-offset-2.columns
-      = link_to "Previous - #{previous_photo_article.title}", previous_photo_article
+    .medium-5.medium-offset-1.large-4.large-offset-2.columns.end
+      %p.subtitle Previous Gallery In Series
+      = partial 'photos/travel', locals: { article: previous_photo_article }
   - else
-    .medium-4.medium-offset-2.columns
-      = link_to "Previous - #{previous_photo_article.title}", previous_photo_article
-    .medium-4.medium-offset.columns.end
-      = link_to "Next - #{next_photo_article.title}", next_photo_article
+    .medium-5.medium-offset-1.large-4.large-offset-2.columns
+      %p.subtitle Previous Gallery In Series
+      = partial 'photos/travel', locals: { article: previous_photo_article }
+    .medium-5.large-4.columns.end
+      %p.subtitle Next Gallery In Series
+      = partial 'photos/travel', locals: { article: next_photo_article }

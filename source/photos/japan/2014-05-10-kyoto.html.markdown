@@ -6,6 +6,9 @@ collection: japan
 permalink: kyoto
 description: Kyoto, Osaka, Gion, Nara, Fushimi Inari
 header: /images/galleries/japan/kiyomizudera_temple/resized/pagoda.jpg
+poster: /images/galleries/japan/kiyomizudera_temple/resized/pagoda.jpg
+stats:
+  photos: 154
 series: true
 parent: adam-and-marilyn-go-to-japan
 ---

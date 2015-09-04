@@ -4,6 +4,6 @@
   .photo--meta
     .small-12.columns
       %p.photo--title= article.title
-    .small-9.columns
+    .small-9.columns.end
       %p.photo--description= article.data['description']
     = partial 'photos/stats', locals: { article: article }
