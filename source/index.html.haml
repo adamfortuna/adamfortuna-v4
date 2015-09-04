@@ -9,10 +9,10 @@
     %p.subtitle.light
       %strong Articles.
       In the mood for
-      %a.category--personal{ href: '/tags/personal' } personal
+      %a.category--personal{ href: '/articles/tags/personal' } personal
       or
       = succeed "?" do
-        %a.category--technical{ href: '/tags/technical' } technical
+        %a.category--technical{ href: '/articles/tags/technical' } technical
 
     - blog('articles').articles[0..10].each do |article|
       = partial 'articles/article', locals: { article: article }

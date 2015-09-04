@@ -116,6 +116,9 @@ set :asset_host do |asset|
 end
 
 configure :build do
+  ignore '/bower_components/*'
+  ignore '/galleries/*'
+  ignore '/upublished/*'
   activate :minify_css
   activate :minify_html
   activate :minify_javascript

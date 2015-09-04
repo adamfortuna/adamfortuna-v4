@@ -33,9 +33,9 @@ module PhotoHelpers
   end
 
   def travel_photos
-    blog('photos').articles.reject do |article|
-      !article.tags.include?('Travel')
-    end
+    blog('photos').articles.collect do |article|
+      article if article.tags.include?('Travel') && article.data['children']
+    end.compact
   end
 
   def next_photo article, parent
