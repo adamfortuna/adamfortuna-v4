@@ -9,8 +9,8 @@
   %article.photo
     = partial 'shared/title', locals: { image: current_article.data['header'], height: current_article.data['header-height'] } do
 
-      - if current_article.data['series'] && !current_article.data['children']
-        = partial 'photos/children', locals: {current_article: current_article}
+      - if current_article.data['series']
+        = partial 'photos/children', locals: {current_article: current_article }
 
       %h1.title--header= current_article.title
       - if current_article.data['description']
