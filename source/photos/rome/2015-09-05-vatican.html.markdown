@@ -2,11 +2,10 @@
 title: Rome - Vatican
 short_title: The Vatican
 description: Museum and historical site
-date: 2015-09-08
+date: 2015-09-05
 collection: rome
 permalink: vatican
 series: true
-published: false
 parent: index
 tags: Travel
 poster: /images/galleries/rome/vatican/outside/resized/outside.jpg

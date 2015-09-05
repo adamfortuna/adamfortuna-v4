@@ -1,6 +1,6 @@
 ---
 title: Rome
-date: 2015-09-08
+date: 2015-09-05
 collection: rome
 permalink: index
 tags: Travel
@@ -9,6 +9,7 @@ short_title: Rome
 stats:
   photos: 88
 description: 7 days in Rome and Pompei
+short_description: 7 days in Rome and Pompei
 poster: /images/galleries/rome/vatican/walk/processed/river-full.jpg
 header: /images/galleries/rome/vatican/walk/processed/river-full.jpg
 children:
