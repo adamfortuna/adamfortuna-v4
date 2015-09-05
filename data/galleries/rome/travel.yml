@@ -1,0 +1,11 @@
+---
+- files:
+    - file: marilyn.jpg
+      alt: Marilyn in Orlando
+      version: col-4
+    - file: us.jpg
+      alt: Adam and Marilyn in Orlando
+      version: col-4
+    - file: adam.jpg
+      alt: Adam in Orlando
+      version: col-4

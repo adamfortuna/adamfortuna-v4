@@ -1,0 +1,28 @@
+---
+- files:
+  - file: backyard.jpg
+    alt: AirBnb Backyard
+    version: col-5
+  - file: couches.jpg
+    alt: This couch ended up being a great place to lay out clothes.
+    version: col-3
+  - file: bathroom.jpg
+    alt: Fancy looking bathroom.
+    version: col-4
+- files:
+  - file: kitchen.jpg
+    alt: Kitchen (by Marilyn)
+    version: col-6
+  - file: main.jpg
+    alt: Nice coffee area (by Marilyn)
+    version: col-6
+- file: bed.jpg
+  alt: Bed area with sliding door (by Marilyn)
+  version: col-12
+- files:
+  - file: seats.jpg
+    alt: Outside Area (by Marilyn)
+    version: col-6
+  - file: adam.jpg
+    alt: Connecting to the router (by Marilyn)
+    version: col-6

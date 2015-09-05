@@ -1,0 +1,18 @@
+---
+title: Rome - Colosseum
+date: 2015-09-08
+collection: rome
+permalink: colosseum
+series: true
+published: false
+parent: index
+header: /images/galleries/japan/kiyomizudera_temple/resized/pagoda.jpg
+poster: /images/galleries/japan/kiyomizudera_temple/resized/pagoda.jpg
+tags: Travel
+stats:
+  photos: 120
+
+---
+
+
+It's big

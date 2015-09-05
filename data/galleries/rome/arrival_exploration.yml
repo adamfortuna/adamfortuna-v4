@@ -1,0 +1,29 @@
+---
+
+- files:
+  - file: trevi.jpg
+    alt: Trevi Fountain
+    version: col-6
+  - file: pantheon_statue.jpg
+    alt: Pantheon Statue
+    version: col-6
+- file: collumns.jpg
+  alt: Collumns
+  version: col-12
+- files:
+  - file: pantheon_statue2.jpg
+    alt: Pantheron Statue
+    version: col-3
+  - file: pantheon_pillar.jpg
+    alt: Inside the Pantheon
+    version: col-4
+  - file: pantheon.jpg
+    alt: Pantheon Entrance
+    version: col-5
+- files:
+  - file: inside_pantheon.jpg
+    alt: Inside the Pantheon
+    version: col-6
+  - file: marilyn_coffee.jpg
+    alt: Marilyn at a Cafe
+    version: col-6

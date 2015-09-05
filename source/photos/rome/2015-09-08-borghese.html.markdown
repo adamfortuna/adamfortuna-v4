@@ -1,10 +1,11 @@
 ---
-title: Rome - Day 3
-date: 2015-09-01
+title: Rome - Borghese Park and Museum
+date: 2015-09-08
 collection: rome
-permalink: day-3
+permalink: borghese
 published: false
 series: true
+parent:
 ---
 
 SPANISH STEPS

@@ -1,0 +1,56 @@
+---
+title: Rome
+date: 2015-09-08
+collection: rome
+permalink: index
+tags: Travel
+series: true
+short_title: Rome
+published: false
+stats:
+  photos: 362
+  videos: 7
+description: 7 days in Rome and Pompei
+header: /images/galleries/rome/poster.jpg
+poster: /images/galleries/rome/poster.jpg
+children:
+  - vatican
+  - borghese
+  - exploring
+  - collosseum
+  - pompeii
+---
+
+In January of 2015, Marilyn and I took a two week trip to Europe. We started with 6 days in Rome, followed by 4 in Amsterdam. The Amsterdam part was mostly for Marilyn's annual Booking.com event, but I tagged along to make a vacation out of it. We'd been to Amsterdam a number of times, but Rome (and Italy) had been on both of our lists for a while.
+
+Rather than going into detail about the entire trip in one post, this will be broken up by day elaborating on each.
+
+## Orlando to Rome!
+
+We left early in the day for our flight from Orlando to Rome. Marilyn's work was covering her flight — but it was into Amsterdam for a work trip, meaning that we were on our own for the last leg from Amsterdam to Rome. We ended up on different flights to Atlanta, but then on the same flight for the rest of the trip.
+
+@gallery rome/travel
+
+We'd read about a "non-official" taxi's charging outrageous rates, so we played it safe a caught a taxi from the taxi line. The trip to our place in the old part of town took a while, but was well worth the 40 euros or so.
+
+## AirBnB
+
+We found a cute, but small AirBnb a few blocks from the Spanish Steps and Burguese Park that we'd be staying in for the week.
+
+@gallery rome/airbnb
+
+## La Prosciutteria
+
+After looking around on Yelp for a place open close to midnight when we arrived and found somewhere close by that served charcuterie, cheese and wine — which was everything we were in the mood for. We ate outside as the only patrons of the place — and in their only outdoor seat.
+
+@gallery rome/arrival_dinner
+
+## Exploring Rome at Night
+
+Even though it was almost midnight at this point, we knew we had to do some exploring before heading to head. We followed a foot path through the city to see where it would take us. One of the first familiar sites we encountered was the Trevi Fountain, which was unfortunately undergoing maintenance for our stay there. On the bright side, they had built a platform over the fountain allowing tourists a closer look than is usually available.
+
+Continuing on, we ran into a very old building in an open square. We were unsure of what it was at first before realizing that it must be the Pantheon. We were able to take a short tour inside before they closed for the night. In the many times we walked by during our trip, this ended up being the only time the Pantheon was open.
+
+@gallery rome/arrival_exploration
+
+For our second day, we had Vatican Museum tickets pre-bought so we headed back to get a good night sleep.

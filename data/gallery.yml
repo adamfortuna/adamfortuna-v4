@@ -35,5 +35,5 @@ versions:
     crop: true
     gravity: center
   col-12:
-    resize: 1700x
+    resize: 1170x
     quality: 90

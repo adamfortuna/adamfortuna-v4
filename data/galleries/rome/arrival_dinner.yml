@@ -1,0 +1,17 @@
+---
+- file: spread.jpg
+  alt: Delicious Meats and picked veggies
+  version: col-12
+- files:
+  - file: meat.jpg
+    alt: AirBnb Backyard
+    version: col-4
+  - file: cheese.jpg
+    alt: Yummy cheeses
+    version: col-4
+  - file: wine.jpg
+    alt: Wine glass from La Prosciutteria
+    version: col-4
+- file: meat.jpg
+  alt: Hanging Meats
+  version: col-12
