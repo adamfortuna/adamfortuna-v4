@@ -1,17 +1,28 @@
-
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-Adam at the Vatican (by Marilyn)
-REMOVEFILL ROW
-Adam at the Vatican (by Marilyn)
-Outside the Vatican
-REMOVEFILL ROW
-Outside the Vatican
-View Outside (by Marilyn)
-REMOVEFILL ROW
-View Outside (by Marilyn)
-Vatican Museum Entrance (by Marilyn)
-REMOVEFILL ROW
-Vatican Museum Entrance (by Marilyn)
-Patio (by Marilyn)
-REMOVEFILL ROW
-Patio (by Marilyn)
+---
+- files:
+  - file: adam_inside.jpg
+    alt: Adam Inside the Vatican (by Marilyn)
+    version: col-4
+  - file: building.jpg
+    alt: Side of the Museum
+    version: col-4
+  - file: view.jpg
+    alt: View Outside (by Marilyn)
+    version: col-4
+- files:
+  - file: entrance.jpg
+    alt: Vatican Museum Entrance (by Marilyn)
+    version: col-6
+  - file: adam_superman.jpg
+    alt: Adam at the Vatican (by Marilyn)
+    version: col-6
+- file: outside.jpg
+  alt: Outside the Vatican
+  version: col-12
+- files:
+  - file: marilyn.jpg
+    alt: Marilyn taking a photo
+    version: col-6
+  - file: entrance_statue.jpg
+    alt: Entrance Statue
+    version: col-6

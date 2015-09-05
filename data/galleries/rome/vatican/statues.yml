@@ -1,27 +1,41 @@
-Living Fountain
-REMOVEFILL ROW
-Living Fountain
-Lion Head (by Marilyn)
-REMOVEFILL ROW
-Lion Head (by Marilyn)
-Statue (by Marilyn)
-REMOVEFILL ROW
-Statue (by Marilyn)
-Muses Statue
-REMOVEFILL ROW
-Muses Statue
-Picolo Player
-REMOVEFILL ROW
-Picolo Player
-Statue (by Marilyn)
-REMOVEFILL ROW
-Statue (by Marilyn)
-Shadow Art
-REMOVEFILL ROW
-Shadow Art
-Angels Playing (by Marilyn)
-REMOVEFILL ROW
-Angels Playing (by Marilyn)
-Angel
-REMOVEFILL ROW
-Angel
+---
+- options:
+    height: 300
+  files:
+  - file: fountain.jpg
+    alt: Living Fountain
+    version: col-8
+    options:
+      gravity: north
+  - file: lion.jpg
+    alt: Lion Head (by Marilyn)
+    version: col-4
+- files:
+  - file: muse.jpg
+    alt: Muses Statue
+    version: col-3
+  - file: statue.jpg
+    alt: Statue (by Marilyn)
+    version: col-9
+    options:
+      gravity: north
+- file: picolo.jpg
+  alt: Picolo Player
+  version: col-12
+- files:
+  - file: small_statue.jpg
+    alt: Statue (by Marilyn)
+    version: col-3
+    options:
+      gravity: west
+  - file: shadow_art.jpg
+    alt: Shadow Art
+    version: col-4
+    options:
+      gravity: north
+  - file: angels_playing.jpg
+    alt: Angels Playing (by Marilyn)
+    version: col-5
+- file: angel.jpg
+  alt: Angel
+  version: full

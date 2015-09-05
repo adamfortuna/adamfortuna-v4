@@ -6,19 +6,13 @@ permalink: index
 tags: Travel
 series: true
 short_title: Rome
-published: false
 stats:
-  photos: 362
-  videos: 7
+  photos: 88
 description: 7 days in Rome and Pompei
-header: /images/galleries/rome/poster.jpg
-poster: /images/galleries/rome/poster.jpg
+poster: /images/galleries/rome/vatican/walk/processed/river-full.jpg
+header: /images/galleries/rome/vatican/walk/processed/river-full.jpg
 children:
   - vatican
-  - borghese
-  - exploring
-  - collosseum
-  - pompeii
 ---
 
 In January of 2015, Marilyn and I took a two week trip to Europe. We started with 6 days in Rome, followed by 4 in Amsterdam. The Amsterdam part was mostly for Marilyn's annual Booking.com event, but I tagged along to make a vacation out of it. We'd been to Amsterdam a number of times, but Rome (and Italy) had been on both of our lists for a while.

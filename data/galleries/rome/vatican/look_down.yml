@@ -1,15 +1,20 @@
-Tile Floor
-REMOVEFILL ROW
-Tile Floor
-Horse-Dragon-Ram?
-REMOVEFILL ROW
-Horse-Dragon-Ram?
-Colorful Tiles
-REMOVEFILL ROW
-Colorful Tiles
-Marble Floor
-REMOVEFILL ROW
-Marble Floor
-Protein for Dinner (by Marilyn)
-REMOVEFILL ROW
-Protein for Dinner (by Marilyn)
+---
+- files:
+  - file: tiles.jpg
+    alt: Tile Floor
+    version: col-4
+  - file: horse.jpg
+    alt: Horse-Dragon-Ram?
+    version: col-4
+  - file: colorful.jpg
+    alt: Colorful Tiles
+    version: col-4
+- options:
+    height: 550
+  files:
+  - file: marble.jpg
+    alt: Marble Floor
+    version: col-3
+  - file: protein.jpg
+    alt: Protein for Dinner (by Marilyn)
+    version: col-9

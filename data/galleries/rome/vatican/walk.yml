@@ -1,20 +1,20 @@
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-Above an entrance
-REMOVEFILL ROW
-Above an entrance
-Corner of a park
-REMOVEFILL ROW
-Corner of a park
-Telephone
-REMOVEFILL ROW
-Telephone
-Crossing the river
-REMOVEFILL ROW
-Crossing the river
-Tourists Traveling (by Marilyn)
-REMOVEFILL ROW
-Tourists Traveling (by Marilyn)
-Elevated Park (by Marilyn)
-REMOVEFILL ROW
-Elevated Park (by Marilyn)
-OUTSIDE THE VATICA
+- files:
+  - file: building.jpg
+    alt: Above an entrance
+    version: col-4
+  - file: park.jpg
+    alt: Corner of a park
+    version: col-5
+  - file: phone.jpg
+    alt: Telephone
+    version: col-3
+- file: river.jpg
+  alt: Crossing the river
+  version: full
+- files:
+  - file: tourists.jpg
+    alt: Tourists Traveling (by Marilyn)
+    version: col-6
+  - file: roof.jpg
+    alt: Rooftop
+    version: col-6

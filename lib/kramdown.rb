@@ -177,6 +177,8 @@ module Middleman
           end
         end
         %(<section class='gallery'>#{content.join("\n")}</section>)
+      rescue Exception => e
+        %(<section class='gallery row'><p>GALLERY IN PROCESS</p><p>#{e.message}</p></section>)
       end
 
       def generate_row name, row, gallery

@@ -1,26 +1,27 @@
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-The School of Athens
-REMOVEFILL ROW
-The School of Athens
-Above the Doors
-REMOVEFILL ROW
-Above the Doors
-Above Another Door
-REMOVEFILL ROW
-Above Another Door
-Diogenes Closeup
-REMOVEFILL ROW
-Diogenes Closeup
-School of Athens closeup
-REMOVEFILL ROW
-School of Athens closeup
-Edge of the Ceiling
-REMOVEFILL ROW
-Edge of the Ceiling
-Corner
-REMOVEFILL ROW
-Corner
-Amazing Ceiling
-REMOVEFILL ROW
-Amazing Ceiling
-SISTINE CHAPEL
+---
+- files:
+  - file: school_of_athens.jpg
+    alt: The School of Athens
+    version: col-4
+  - file: above_doors.jpg
+    alt: Above the Doors
+    version: col-4
+  - file: above_other_door.jpg
+    alt: Above Another Door
+    version: col-4
+- file: diogenes.jpg
+  alt: Diogenes Closeup
+  version: col-12
+- files:
+  - file: athens_closeup.jpg
+    alt: School of Athens closeup
+    version: col-4
+  - file: edge_of_ceiling.jpg
+    alt: Edge of the Ceiling
+    version: col-4
+  - file: corner.jpg
+    alt: Corner
+    version: col-4
+- file: amazing_ceiling.jpg
+  alt: Amazing Ceiling
+  version: col-12

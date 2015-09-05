@@ -1,0 +1,8 @@
+---
+- files:
+  - file: beer.jpg
+    alt: First Beers of the trip
+    version: col-6
+  - file: pasta.jpg
+    alt: First pasta of the trip
+    version: col-6

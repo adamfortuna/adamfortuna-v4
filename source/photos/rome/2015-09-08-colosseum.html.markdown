@@ -1,5 +1,7 @@
 ---
 title: Rome - Colosseum
+short_title: Colosseum
+description: Guided tour and surrounding grounds
 date: 2015-09-08
 collection: rome
 permalink: colosseum

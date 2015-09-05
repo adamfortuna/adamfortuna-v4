@@ -1,11 +1,16 @@
 ---
 title: Rome - Borghese Park and Museum
+short_title: Borghese Museum
+description: Villa Museum, Garden and Spanish Steps
 date: 2015-09-08
 collection: rome
 permalink: borghese
 published: false
 series: true
-parent:
+parent: index
+tags: Travel
+stats:
+  photos: 120
 ---
 
 SPANISH STEPS

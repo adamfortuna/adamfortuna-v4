@@ -1,12 +1,16 @@
 ---
 title: Rome - Vatican
+short_title: The Vatican
+description: Museum and historical site
 date: 2015-09-08
 collection: rome
 permalink: vatican
 series: true
 published: false
-parent: adam-and-marilyn-go-to-japan
+parent: index
 tags: Travel
+poster: /images/galleries/rome/vatican/outside/resized/outside.jpg
+header: /images/galleries/rome/vatican/outside/resized/outside.jpg
 stats:
   photos: 64
 ---
@@ -72,4 +76,8 @@ Unlike the Vatican, there was a huge line to get into St. Peter's Basilica. We d
 
 @gallery rome/vatican/st_peters_square
 
+## Trastevere
+
 After our whirlwind Vatican tour, we headed south towards the Trastevere district (<10 Euros Taxi) to explore. This area was recommended as a hip, thriving area with interesting food, shops and bars. Unfortunately, it's not so around 5pm — an evil time between lunch and dinner. We managed to wandering around to the few places open before spotting a highly rated places on Yelp for our first real meal of our trip.
+
+@gallery rome/vatican/dinner

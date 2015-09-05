@@ -1,5 +1,7 @@
 ---
 title: Rome - Exploring
+short_title: Exploring
+description: Foods, Drinks and Fun
 date: 2015-09-08
 collection: rome
 permalink: exploring

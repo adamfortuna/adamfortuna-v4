@@ -29,6 +29,11 @@ versions:
     width: 577
     crop: true
     gravity: center
+  col-8:
+    height: 400
+    width: 772
+    crop: true
+    gravity: center
   col-9:
     height: 400
     width: 870

@@ -1,21 +1,26 @@
-Map Room Legend
-REMOVEFILL ROW
-Map Room Legend
-Island
-REMOVEFILL ROW
-Island
-Map Island
-REMOVEFILL ROW
-Map Island
-Italy
-REMOVEFILL ROW
-Italy
-Compass (by Marilyn)
-REMOVEFILL ROW
-Compass (by Marilyn)
-Atlantic
-REMOVEFILL ROW
-Atlantic
-Map Information
-REMOVEFILL ROW
-Map Information
+---
+- options:
+    height: 700
+  files:
+  - file: legend.jpg
+    alt: Map Room Legend
+    version: col-4
+  - file: island.jpg
+    alt: Island
+    version: col-4
+  - file: map_island.jpg
+    alt: Map Island
+    version: col-4
+- file: italy.jpg
+  alt: Italy
+  version: col-12
+- files:
+  - file: compass.jpg
+    alt: Compass (by Marilyn)
+    version: col-5
+  - file: atlantic.jpg
+    alt: Atlantic
+    version: col-4
+  - file: info.jpg
+    alt: Map Information
+    version: col-3

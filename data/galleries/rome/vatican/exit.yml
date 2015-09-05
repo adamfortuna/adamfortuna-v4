@@ -1,11 +1,11 @@
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-Stairway Out
-REMOVEFILL ROW
-Stairway Out
-Stairs
-REMOVEFILL ROW
-Stairs
-Looking Up
-REMOVEFILL ROW
-Looking Up
-ST. PETER’S SQUARE
+---
+- file: down.jpg
+  alt: Stairway Out
+  version: full
+- files:
+  - file: stairs.jpg
+    alt: Stairs
+    version: col-6
+  - file: looking_up.jpg
+    alt: Looking Up
+    version: col-6

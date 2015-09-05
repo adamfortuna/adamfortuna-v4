@@ -1,20 +1,24 @@
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-St. Peters Square
-REMOVEFILL ROW
-St. Peters Square
-Marilyn at St. Peters
-REMOVEFILL ROW
-Marilyn at St. Peters
-Gelato Shop next to St. Peters
-REMOVEFILL ROW
-Gelato Shop next to St. Peters
-Adam at St. Peters (by Marilyn)
-REMOVEFILL ROW
-Adam at St. Peters (by Marilyn)
-Left Panorama
-REMOVEFILL ROW
-Left Panorama
-Right Panorama
-REMOVEFILL ROW
-Right Panorama
-TRASTEVERE
+---
+- file: building.jpg
+  alt: St. Peters Square
+  version: col-12
+- files:
+  - file: marilyn.jpg
+    alt: Marilyn at St. Peters
+    version: col-4
+  - file: gelato.jpg
+    alt: Gelato Shop next to St. Peters
+    version: col-4
+  - file: adam.jpg
+    alt: Adam at St. Peters (by Marilyn)
+    version: col-4
+- file: left.jpg
+  alt: Left Panorama
+  version: col-12
+  options:
+    height: 300
+- file: right.jpg
+  alt: Right Panorama
+  version: col-12
+  options:
+    height: 300
