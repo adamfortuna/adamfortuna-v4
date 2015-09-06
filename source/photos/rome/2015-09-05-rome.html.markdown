@@ -7,12 +7,12 @@ tags: Travel
 series: true
 short_title: Rome
 stats:
-  photos: 88
+  photos: 146
   videos: 1
 description: 7 days in Rome and Pompei
 short_description: 7 days in Rome and Pompei
-poster: /images/galleries/rome/vatican/walk/processed/river-full.jpg
-header: /images/galleries/rome/vatican/walk/processed/river-full.jpg
+poster: /images/galleries/rome/poster.jpg
+header: /images/galleries/rome/poster.jpg
 children:
   - vatican
   - borghese

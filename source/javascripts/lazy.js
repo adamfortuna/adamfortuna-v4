@@ -21,7 +21,7 @@ function lazy() {
     });
   });
 
-  $('.lazy video').unveil(0, function() {
+  $('.lazy video').unveil(200, function() {
     var video = $(this),
         videoEl = $(this)[0],
         autoplay = video.attr('data-autoplay');

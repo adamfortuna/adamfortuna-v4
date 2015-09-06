@@ -8,8 +8,8 @@ permalink: vatican
 series: true
 parent: index
 tags: Travel
-poster: /images/galleries/rome/vatican/outside/resized/outside.jpg
-header: /images/galleries/rome/vatican/outside/resized/outside.jpg
+poster: /images/galleries/rome/vatican/look_up/processed/shadow_hall-full.jpg
+header: /images/galleries/rome/vatican/look_up/resized/rotunda.jpg
 stats:
   photos: 64
 ---

@@ -1,0 +1,26 @@
+---
+- file: side.jpg
+  version: full
+  alt: Apollo and Daphne
+- file: back.jpg
+  version: col-12
+  alt: Apollo and Daphne
+- files:
+  - file: hand.jpg
+    version: col-2
+    alt: Apollo and Daphne
+  - file: side_below.jpg
+    version: col-3
+    alt: Apollo and Daphne
+  - file: faces.jpg
+    version: col-4
+    alt: Apollo and Daphne. Photo by Marilyn
+  - file: front.jpg
+    version: col-3
+    alt: Apollo and Daphne
+- file: ceiling.jpg
+  version: col-12
+  alt: Apollo and Daphne. Photo by Marilyn
+- file: feet.jpg
+  version: full
+  alt: Apollo and Daphne

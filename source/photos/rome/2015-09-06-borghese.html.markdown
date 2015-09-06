@@ -2,17 +2,16 @@
 title: Rome - Borghese Park & Museum
 short_title: Borghese Museum
 description: Villa Museum, Garden and Spanish Steps
-date: 2015-09-05
+date: 2015-09-06
 collection: rome
 permalink: borghese
-published: false
 series: true
 parent: index
 tags: Travel
-poster: /images/galleries/rome/vatican/outside/resized/outside.jpg
-header: /images/galleries/rome/vatican/outside/resized/outside.jpg
+poster: /images/galleries/rome/borghese/david/resized/david.jpg
+header: /images/galleries/rome/borghese/david/resized/david.jpg
 stats:
-  photos: 120
+  photos: 58
   videos: 1
 ---
 
@@ -80,40 +79,20 @@ Where we spent possibly the most time was watching an amazing zoetrope over and 
 
 @gallery rome/borghese/zeotrope
 
-VENUS VICTORIOUS - ANTONIO CANOVA
+## Venus Victorious - Antonio Canova
 
 This striking statue, sitting alone in the middle of a room, is titled "Venus Victorious" by Antonio Canova. Its model is a former owner of the museum — Paolina Borghese.
 
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-Venus Victorious
-REMOVEFILL ROW
-Venus Victorious
-Venus Victorious. Photo by Marilyn
-REMOVEFILL ROW
-Venus Victorious. Photo by Marilyn
-Venus Victorious. Photo by Marilyn
-REMOVEFILL ROW
-Venus Victorious. Photo by Marilyn
-DAVID - BERNINI
+@gallery rome/borghese/venus
+
+## David - Bernini
 
 This version of David by Bernini depicts the moment just before David slew Goliath. I couldn’t stand immediately in front of this sculpture without fearing that I was in the line of fire.
-REPLACE PHOTOREMOVE PHOTO
-David
-REMOVEFILL ROW
-David
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-David
-REMOVEFILL ROW
-David
-David. Photo by Marilyn
-REMOVEFILL ROW
-David. Photo by Marilyn
-David
-REMOVEFILL ROW
-David
-David
-REMOVEFILL ROW
-David
-APOLLO AND DAPHNE - BERNINI
+
+@gallery rome/borghese/david
+
+## Apollo and Daphne - Bernini
 
 The most amazing sculpture to both Marilyn and I was "Apollo and Daphne" by Bernini. When you look for the works Bernini is most famous for, this one stands out — and with good reason. There is story, depth, and skill beyond compare showcased in this work. This sculpture takes place at the moment of transition when Daphne, being chased by Apollo, is turning into a tree.
+
+@gallery rome/borghese/apollo

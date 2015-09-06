@@ -1,0 +1,11 @@
+---
+- file: venus.jpg
+  alt: Venus Victorious
+  version: col-12
+- files:
+    - file: venus1.jpg
+      alt: Venus Victorious. Photo by Marilyn
+      version: col-6
+    - file: venus2.jpg
+      alt: Venus Victorious. Photo by Marilyn
+      version: col-6

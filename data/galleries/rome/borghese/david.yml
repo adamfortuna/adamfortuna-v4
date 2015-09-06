@@ -1,0 +1,16 @@
+---
+- file: david.jpg
+  alt: David
+  version: col-12
+- options:
+    height: 600
+  files:
+  - file: david1.jpg
+    version: col-4
+    alt: David
+  - file: david2.jpg
+    version: col-4
+    alt: David
+  - file: david3.jpg
+    version: col-4
+    alt: David
