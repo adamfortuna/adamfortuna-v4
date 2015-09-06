@@ -1,5 +1,5 @@
 ---
-title: Rome - Borghese Park and Museum
+title: Rome - Borghese Park & Museum
 short_title: Borghese Museum
 description: Villa Museum, Garden and Spanish Steps
 date: 2015-09-05
@@ -13,10 +13,10 @@ poster: /images/galleries/rome/vatican/outside/resized/outside.jpg
 header: /images/galleries/rome/vatican/outside/resized/outside.jpg
 stats:
   photos: 120
+  videos: 1
 ---
 
 ## Spanish Steps
-
 
 Our 2nd day in town we had plans to head west — towards the beautiful Borghese Park. On our way there, we stopped by the Spanish Steps, an area famous for it’s shops and people watching, to browse the area. The steps were about a quarter mile from our apartment, leading to us spending a lot of time relaxing here between adventures.
 
@@ -68,39 +68,18 @@ One of many Bernini sculptures.
 
 @gallery rome/borghese/prosperpina
 
-TRUTH UNVEILED BY TIME - BERNINI
+## Truth Unveiled by Time - Bernini
 
 "Truth Unveiled by Time" is an unfinished work by Bernini. I spent a while staring at this one, trying to understand Bernini’s process. The unfinished hands, the etching on the chair awaiting more work and the ball at the bottom all needed much more work to complete.
 
-REPLACE PHOTOREMOVE PHOTO
-Truth Unveiled by Time
-REMOVEFILL ROW
-Truth Unveiled by Time
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-Truth Unveiled by Time
-REMOVEFILL ROW
-Truth Unveiled by Time
-Truth Unveiled by Time. Photo by Marilyn
-REMOVEFILL ROW
-Truth Unveiled by Time. Photo by Marilyn
-ALL THINGS FALL ZEOTROPE
+@gallery rome/borghese/truth
+
+## All Things Fall Zeotrope
 
 Where we spent possibly the most time was watching an amazing zoetrope over and over.
-REPLACE EMBEDREMOVE EMBED
 
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-Zeotrope
-REMOVEFILL ROW
-Zeotrope
-Zeotrope. Photo by Marilyn
-REMOVEFILL ROW
-Zeotrope. Photo by Marilyn
-Zeotrope. Photo by Marilyn
-REMOVEFILL ROW
-Zeotrope. Photo by Marilyn
-Zeotrope. Photo by Marilyn
-REMOVEFILL ROW
-Zeotrope. Photo by Marilyn
+@gallery rome/borghese/zeotrope
+
 VENUS VICTORIOUS - ANTONIO CANOVA
 
 This striking statue, sitting alone in the middle of a room, is titled "Venus Victorious" by Antonio Canova. Its model is a former owner of the museum — Paolina Borghese.

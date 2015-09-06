@@ -173,7 +173,7 @@ module Middleman
             # This is a row of images
             generate_row(name, gallery_item, gallery)
           else
-            ::Gallery::Photo.new(gallery_item, name, gallery_item[:options], gallery).to_html
+            ::Gallery::Item.create(gallery_item, name, gallery_item[:options], gallery).to_html
           end
         end
         %(<section class='gallery'>#{content.join("\n")}</section>)
@@ -183,7 +183,7 @@ module Middleman
 
       def generate_row name, row, gallery
         items = row[:files].collect do |image|
-          ::Gallery::Photo.new(image, name, row[:options], gallery).to_html
+          ::Gallery::Item.create(image, name, row[:options], gallery).to_html
         end
 
         %(<div class='row'>#{items.join("\n")}</div>)

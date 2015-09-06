@@ -1,0 +1,11 @@
+---
+- file: full.jpg
+  version: full
+  alt: Truth Unveiled by Time
+- files:
+  - file: foot.jpg
+    version: col-6
+    alt: Truth Unveiled by Time
+  - file: head.jpg
+    version: col-6
+    alt: Truth Unveiled by Time. Photo by Marilyn

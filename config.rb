@@ -1,7 +1,9 @@
 require 'lib/gallery'
+require 'lib/gallery/item'
 require 'lib/gallery/gallery'
-require 'lib/gallery/photo'
 require 'lib/gallery/photo_options'
+require 'lib/gallery/photo'
+require 'lib/gallery/video'
 require 'lib/kramdown'
 
 # ====================================

@@ -1,0 +1,21 @@
+---
+
+- file: zeotrope.mp4
+  version: col-12
+  alt: Zeotrope in action
+  video: true
+  options:
+    autoplay: true
+- files:
+  - file: dark.jpg
+    version: col-6
+    alt: Zeotrope. Photo by Marilyn
+  - file: light.jpg
+    version: col-6
+    alt: Photo by Marilyn
+- file: lower.jpg
+  version: col-12
+  alt: Zeotrope. Photo by Marilyn
+- file: upper.jpg
+  version: col-12
+  alt: Zeotrope. Photo by Marilyn

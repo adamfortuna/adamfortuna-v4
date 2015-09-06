@@ -1,17 +1,10 @@
 require 'mini_magick'
-module Gallery
-  class Photo
-    attr_accessor :image, :path, :options, :gallery
 
-    def initialize image, path, options = {}, gallery = nil
-      @image = image.with_indifferent_access
-      @path = path
-      @gallery = gallery
-      gallery_options = options || {}
-      image_options = image[:options] || {}
-      combined_options = global_options.merge(gallery_options).merge(image_options)
-      @options = PhotoOptions.new(combined_options)
-      write_images if !images_exists? || image_out_of_date? || force_reload?
+module Gallery
+  class Photo < Item
+    def initialize image, path, options, gallery
+      super
+      write_images if !files_exists? || out_of_date? || force_reload?
     end
 
     def to_html
@@ -46,34 +39,7 @@ module Gallery
       html
     end
 
-    def global_options
-      @global_options ||= ::Gallery.options['versions'][image[:version]] || {}
-    end
-
-    def alt
-      image[:alt]
-    end
-
-    def src
-      @src ||= image[:src] ? image[:src] : url_for_image
-    end
-
-    def full_src
-      @full_src ||= image[:src] ? image[:src] : full_url_for_image
-    end
-
-    def images_exists?
-      File.exists?(destination_path) && File.exists?(full_destination_path)
-    end
-
-    def image_out_of_date?
-      return false if !gallery
-      gallery.updated_at > File.mtime(destination_path)
-    end
-
-    def force_reload?
-      ENV['FORCE_RELOAD'] || false
-    end
+    private
 
     def write_images
       return false unless File.exists?(source_path)
@@ -163,56 +129,6 @@ module Gallery
       end
 
       return [horizontal_offset, vertical_offset]
-    end
-
-    def source_path
-      File.join('source', 'images', 'galleries', path, image[:file])
-    end
-
-    def destination_path
-      File.join('source', 'images', 'galleries', path, 'processed', version_file)
-    end
-
-    def destination_folder
-      File.join('source', 'images', 'galleries', path, 'processed')
-    end
-
-    def full_destination_path
-      File.join('source', 'images', 'galleries', path, 'resized', image[:file])
-    end
-
-    def full_destination_folder
-      File.join('source', 'images', 'galleries', path, 'resized')
-    end
-
-    def url_for_image
-      File.join('/', 'images', 'galleries', path, 'processed', version_file)
-    end
-
-    def full_url_for_image
-      File.join('/', 'images', 'galleries', path, 'resized', image[:file])
-    end
-
-    def version_file
-      if image[:version] == 'full'
-        image[:file].gsub(/\.([^\.]+)$/, '-full.\1')
-      else
-        image[:file].gsub(/\.([^\.]+)$/, '-'+image[:version]+'.\1')
-      end
-    rescue Exception => e
-      puts "Could not determine a version for image #{image}"
-    end
-
-    def columns_count
-      @columns_count ||= image[:version].gsub('col-', '').to_i || 12
-    end
-
-    def column_class_for
-      if image[:version] == 'full'
-        'full'
-      else
-        "medium-#{columns_count} small-12 columns left"
-      end
     end
   end
 end
