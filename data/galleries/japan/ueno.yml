@@ -12,13 +12,20 @@
 - files:
   - file: blossom.jpg
     alt: Blossoms
-    version: col-4
+    version: col-8
   - file: tori.jpg
     alt: Gate with blossoms.
-    version: col-5
+    version: col-4
+- options:
+    height: 434
+  files:
   - file: blossoms2.jpg
     alt: Blossoms
-    version: col-3
+    version: col-4
+  - file: feeding_birds.mp4
+    version: col-8
+    alt: Some people feeding birds
+    video: true
 - file: birds.jpg
   alt: Feeding the birds.
   version: full

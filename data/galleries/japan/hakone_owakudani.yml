@@ -25,13 +25,20 @@
 - file: marilyn_sky.jpg
   alt: Marilyn taking a break from pictures.
   version: col-12
-- files:
+- options:
+    height: 489
+  files:
   - file: steamy.jpg
     alt: Steam rising from the hot water.
     version: col-3
+  - file: eggs.mp4
+    alt: Cooking eggs
+    version: col-9
+    video: true
+- files:
   - file: cooking_eggs.jpg
     alt: Eggs preparing to be boiled.
-    version: col-4
+    version: col-6
   - file: eating_eggs.jpg
     alt: The eggs were black after boiling, but tasted the same.
-    version: col-5
+    version: col-6

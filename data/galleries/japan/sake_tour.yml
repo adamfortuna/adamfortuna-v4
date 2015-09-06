@@ -12,6 +12,9 @@
   - file: old_tree.jpg
     alt: A very old cherry blossom tree at the a shrine.
     version: col-4
+- file: cherry_blossoms.mp4
+  version: col-12
+  video: true
 - options:
     height: 780
   files:

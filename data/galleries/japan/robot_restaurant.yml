@@ -5,20 +5,31 @@
 - files:
   - file: adam.jpg
     alt: Adan looking confused.
-    version: col-6
+    version: col-8
   - file: entrance.jpg
     alt: The entrance to the restaurant.
+    version: col-4
+- options:
+    height: 325
+  files:
+  - file: distractions.mp4
+    alt: Where would you look?
+    video: true
     version: col-6
-- files:
   - file: robot_horse.jpg
     alt: Robots and a horse.
-    version: col-5
+    version: col-6
+- files:
   - file: drums.jpg
     alt: two groups like this were playing drums on separate platforms.
-    version: col-3
+    version: col-4
   - file: adam_marilyn.jpg
     alt: We got glowsticks.
-    version: col-4
+    version: col-8
+- file: nausicaa.mp4
+  alt: Song form Nausicaa performed.
+  video: true
+  version: col-12
 - file: path.jpg
   alt: The walk down to the show.
   version: full

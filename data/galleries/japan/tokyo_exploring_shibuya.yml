@@ -4,11 +4,19 @@
   version: full
 - files:
   - file: ramen-marilyn.jpg
+    alt: Marilyn getting ready for some Hokkaido style ramen.
+    version: col-8
+    options:
+      gravity: north
+  - file: ramen.jpg
     alt: A huge bowl of ramen.
     version: col-4
-  - file: ramen.jpg
-    alt: Marilyn getting ready for some Hokkaido style ramen.
-    version: col-5
+- options:
+    height: 489
+  files:
+  - file: shibuya.mp4
+    version: col-9
+    video: true
   - file: harajuku.jpg
     alt: The streets of Harajuku.
     version: col-3

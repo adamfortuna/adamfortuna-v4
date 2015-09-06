@@ -2,17 +2,25 @@
 - file: shrine_deer.jpg
   alt: Hiding between the shrines.
   version: col-12
-  col-6-tall: 585x780
 - files:
+  - file: deer_in_forest.jpg
+    alt: Deer chew down everything green, so they fence off some to grow before unleashing the deer on them.
+    version: col-6
+  - file: marilyn_small_deer.jpg
+    alt: Marilyn feeding one of the smallest deer. It was tough to not be overwhelmed by the other deer during the taking of this photo.
+    version: col-6
+- options:
+    height: 489
+  files:
+  - file: nara_feeding.mp4
+    alt: Feeding Deer at Nara
+    version: col-9
+    video: true
   - file: deer_chewing.jpg
     alt: Deer chewing on chains.
     version: col-3
-  - file: deer_in_forest.jpg
-    alt: Deer chew down everything green, so they fence off some to grow before unleashing the deer on them.
-    version: col-5
-  - file: marilyn_small_deer.jpg
-    alt: Marilyn feeding one of the smallest deer. It was tough to not be overwhelmed by the other deer during the taking of this photo.
-    version: col-4
+    options:
+      gravity: west
 - files:
   - file: adam_feeding.jpg
     alt: Adam feeding the deer.

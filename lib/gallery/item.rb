@@ -22,7 +22,7 @@ module Gallery
     end
 
     def out_of_date?
-      return false if !gallery
+      return false if !gallery || ENV['SKIP_RELOAD']
       gallery.updated_at > File.mtime(destination_path)
     end
 

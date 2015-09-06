@@ -1,5 +1,8 @@
 galleries: data/galleries/**/*.yml
-
+video:
+  autoplay: true
+  controls: true
+  repeat: true
 versions:
   full:
     resize: "2500>x2500>"

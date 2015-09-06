@@ -31,16 +31,23 @@
   - file: yellow_flowers.jpg
     alt: Close up of a yellow flower.
     version: col-6
-- files:
+- options:
+    height: 489
+  files:
   - file: moat.jpg
     alt: The moat was larger than it looked.
     version: col-3
+  - file: nijo_rain.mp4
+    alt: Rain and cherry blossoms.
+    version: col-9
+    video: true
+- files:
   - file: view.jpg
     alt: View from up top.
-    version: col-5
+    version: col-6
   - file: building_courtyard.jpg
     alt: Courtyard of the building.
-    version: col-4
+    version: col-6
 - file: marilyn_blossoms.jpg
   alt: Marilyn in the rain under the blossoms.
   version: full

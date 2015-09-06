@@ -1,10 +1,16 @@
 module Gallery
   class Video < Item
 
+    def initialize image, path, options, gallery
+      super
+      video_options = ::Gallery.options['video'].with_indifferent_access
+      @options.options = video_options.merge(@options.options)
+    end
+
     def to_html
       html = <<-PIC
-      <div class='lazy gallery--video #{column_class_for}'>
-        <video data-src='#{original_url}' controls #{autoplay} class='gallery--video-video'>
+      <div class='lazy gallery--video controls #{column_class_for}'>
+        <video data-src='#{original_url}' #{autoplay} #{controls} #{repeat} class='gallery--video-video'>
           Your browser does not support the <code>video</code> element.
         </video>
       </div>
@@ -24,5 +30,12 @@ module Gallery
       options.options[:autoplay] ? 'data-autoplay="true"' : ''
     end
 
+    def controls
+      options.options[:controls] ? 'controls' : ''
+    end
+
+    def repeat
+      options.options[:repeat] ? 'loop' : ''
+    end
   end
 end

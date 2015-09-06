@@ -11,6 +11,10 @@
   - file: view.jpg
     alt: The main view from the room.
     version: col-6
+- file: walkthrough.mp4
+  alt: A Walkthrough of our Ryokaan
+  version: col-12
+  video: true
 - files:
   - file: overlook.jpg
     alt: Two pairs of chairs, each with a view.

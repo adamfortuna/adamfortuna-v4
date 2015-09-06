@@ -2,13 +2,16 @@
 - file: tempura.jpg
   version: col-12
   alt: A few of the tempura options available. Not the crispy you see in the west, but a softer with a cod batter.
-- files:
+- options:
+    height: 270
+  files:
     - file: croquette.jpg
       version: col-3
       alt: Freshly fried croquette. I chose squash as my flavor.
-    - file: tempura_stand.jpg
+    - file: shaving_bonito.mp4
       version: col-5
-      alt: A view of the tempura stand. Alone on a street with a small crowd.
+      alt: A bonito vendor shaving bonito.
+      video: true
     - file: bonito.jpg
       version: col-4
       alt: Bonito (dried, fermented fish) at a bonito store.
