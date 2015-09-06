@@ -4,6 +4,7 @@ gem "middleman", "~>3.4.0"
 gem 'middleman-autoprefixer'
 gem 'middleman-minify-html'
 gem 'middleman-blog'
+gem 'middleman-livereload', '~> 3.3.0'
 
 # Deployment
 gem 'middleman-s3_sync'

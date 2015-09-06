@@ -3,10 +3,11 @@ title: Galleries
 ---
 
 = partial 'shared/title' do
-  %h1 Galleries
-  %p.meta Internal page for listing galleries
+  %h1.title--header Galleries
+  %p.title--description Internal page for listing galleries
 
 = partial 'shared/content' do
+  %p Galleries from all photo posts.
   %ul
     - Dir[data.gallery.galleries].each do |path|
       - gallery = Gallery::Gallery.new(path)

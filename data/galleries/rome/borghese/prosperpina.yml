@@ -1,0 +1,14 @@
+---
+- file: wide.jpg
+  version: col-12
+  alt: The Rape of Proserpina. Photo by Marilyn
+- files:
+  - file: front.jpg
+    version: col-3
+    alt: The Rape of Proserpina. Photo by Marilyn
+  - file: girl.jpg
+    version: col-4
+    alt: The Rape of Proserpina. Photo by Marilyn
+  - file: dog.jpg
+    version: col-5
+    alt: The Rape of Proserpina. Photo by Marilyn

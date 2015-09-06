@@ -28,11 +28,19 @@ module Gallery
 
     def contents
       return @contents if @contents
-      @contents = YAML.load(File.read(@path))
+      @contents = YAML.load(file_contents)
+    end
+
+    def file_contents
+      @file_contents ||= File.read(@path)
     end
 
     def to_html
       %(<section class='gallery'>#{rows.join("\n")}</section>)
+    end
+
+    def to_yml
+      file_contents
     end
 
     def rows

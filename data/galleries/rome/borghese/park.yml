@@ -1,0 +1,21 @@
+---
+
+- options:
+    height: 300
+  files:
+  - file: view.jpg
+    alt: View from Borghese Park Overlook
+    version: col-9
+  - file: backyards.jpg
+    alt: North of the Spanish Steps
+    version: col-3
+- files:
+  - file: rooftops.jpg
+    alt: Looking out at the City. Photo by Marilyn
+    version: col-6
+  - file: park_building.jpg
+    alt: Within the Park
+    version: col-6
+- file: adam.jpg
+  alt: Adam looking for a shot. Photo by Marilyn
+  version: full

@@ -2,179 +2,75 @@
 title: Rome - Borghese Park and Museum
 short_title: Borghese Museum
 description: Villa Museum, Garden and Spanish Steps
-date: 2015-09-08
+date: 2015-09-05
 collection: rome
 permalink: borghese
 published: false
 series: true
 parent: index
 tags: Travel
+poster: /images/galleries/rome/vatican/outside/resized/outside.jpg
+header: /images/galleries/rome/vatican/outside/resized/outside.jpg
 stats:
   photos: 120
 ---
 
-SPANISH STEPS
+## Spanish Steps
+
 
 Our 2nd day in town we had plans to head west — towards the beautiful Borghese Park. On our way there, we stopped by the Spanish Steps, an area famous for it’s shops and people watching, to browse the area. The steps were about a quarter mile from our apartment, leading to us spending a lot of time relaxing here between adventures.
 
-REPLACE PHOTOREMOVE PHOTO
-View from atop the Spanish Steps
-REMOVEFILL ROW
-View from atop the Spanish Steps
-BORGHESE PARK
+@gallery rome/borghese/spanish_steps
+
+## Borghese Park
 
 After picking up a picnic basket (more on that later) we walked up to the entrance to Borghese Park. The park entrance sits at the peak of the a hill overlooking much of Rome — a great place to lookout at the city from. The park itself was scattered with interesting buildings, fountains, a theater in the round and quite a but more to look at. In our case though, we had a picnic to eat and a museum to tour.
 
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-View from Borghese Park Overlook
-REMOVEFILL ROW
-View from Borghese Park Overlook
-North of the Spanish Steps
-REMOVEFILL ROW
-North of the Spanish Steps
-Looking out at the City. Photo by Marilyn
-REMOVEFILL ROW
-Looking out at the City. Photo by Marilyn
-Within the Park
-REMOVEFILL ROW
-Within the Park
-REPLACE PHOTOREMOVE PHOTO
-Adam looking for a shot. Photo by Marilyn
-REMOVEFILL ROW
-Adam looking for a shot. Photo by Marilyn
-GINA PICNIC
+@gallery rome/borghese/park
+
+## Gina Picnic
 
 At the foot of the Spanish Steps is GiNa, a small restaurant that offers sandwiches and other lunch fare. They also offer one unique item — picnic baskets to go. We carried our basic over to the a quiet spot on the park in front of a fountain and enjoyed a great meal.
 
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-Picnic in the Park. Photo by Marilyn
-REMOVEFILL ROW
-Picnic in the Park. Photo by Marilyn
-Picnic in the Park
-REMOVEFILL ROW
-Picnic in the Park
-Delicious Sandwich. Photo by Marilyn
-REMOVEFILL ROW
-Delicious Sandwich. Photo by Marilyn
-VILLA BORGHESE
+@gallery rome/borghese/picnic
+
+## Villa Borghese
 
 My favorite stop on our entire trip was our stop at Villa Borghese, a small museum in the heart of Rome. This museum isn’t just any museum. It’s entrance is limited to a small number of people each day who pre-purchase tickets, guaranteeing a smaller crowd. The history of the museum itself is long and interesting in its own rite. Ownership of the museum has been in the hands of Bonapartes, Roman families and throughout it all the Borghese family which has kept the legacy alive.
 
 Image going to Versailles, but with smaller rooms with more famous artwork/sculptures and fewer people.
 
-REPLACE PHOTOREMOVE PHOTO
-Every room is this amazing.
-REMOVEFILL ROW
-Every room is this amazing.
-VILLA BORGHESE
+## Villa Borghese
 
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-Looking up. Photo by Marilyn
-REMOVEFILL ROW
-Looking up. Photo by Marilyn
-Looking up. Photo by Marilyn
-REMOVEFILL ROW
-Looking up. Photo by Marilyn
-Looking Up
-REMOVEFILL ROW
-Looking Up
-Statues.
-REMOVEFILL ROW
-Statues.
-Looking up.
-REMOVEFILL ROW
-Looking up.
-Tile Floor
-REMOVEFILL ROW
-Tile Floor
-Tile
-REMOVEFILL ROW
-Tile
-PAINTINGS
+@gallery rome/borghese/villa
+
+## Paintings
 
 To say this place has an impressive selection of paintings might be an understatement. I can’t say I recognized many of the actual works, but every room was littered with works by artists I had heard of. The rooms were small, like walking through someones house. You would pass by the fireplace and have the small bedroom to yourself to admire the works.
 
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-Photo by Marilyn
-REMOVEFILL ROW
-Photo by Marilyn
-Photo by Marilyn
-REMOVEFILL ROW
-Photo by Marilyn
-Photo by Marilyn
-REMOVEFILL ROW
-Photo by Marilyn
-Photo by Adam
-REMOVEFILL ROW
-Photo by Adam
-Photo by Marilyn
-REMOVEFILL ROW
-Photo by Marilyn
-Photo by Marilyn
-REMOVEFILL ROW
-Photo by Marilyn
-Photo by Marilyn
-REMOVEFILL ROW
-Photo by Marilyn
-Photo by Marilyn
-REMOVEFILL ROW
-Photo by Marilyn
-Photo by Marilyn
-REMOVEFILL ROW
-Photo by Marilyn
-SCULPTURES
+@gallery rome/borghese/paintings
+
+## Sculptures
 
 The two higher floors store all of the paintings, while the first and second floor host what it possibly the greatest collection of sculptures in the world.
 
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-Photo by Adam
-REMOVEFILL ROW
-Photo by Adam
-Photo by Adam
-REMOVEFILL ROW
-Photo by Adam
-Photo by Adam
-REMOVEFILL ROW
-Photo by Adam
-Wall
-REMOVEFILL ROW
-Wall
-Bust
-REMOVEFILL ROW
-Bust
-AENEAS, ANCHISES, AND ASCANIUS - BERNINI
+@gallery rome/borghese/sculptures
+
+## Aenas, Anchises and Ascanius - Bernini
 
 One of many Bernini sculptures.
-REPLACE PHOTOREMOVE PHOTO
-Aeneas, Anchises and Ascanius. Photo by Marilyn
-REMOVEFILL ROW
-Aeneas, Anchises and Ascanius. Photo by Marilyn
-THE RAPE OF PROSERPINA
 
-“The Rape of Proserpina” is another amazing work by Bernini made when he was only 23 years old. It focuses on Prosperpina being taken into the underworld by Pluto.
+@gallery rome/borghese/aenas
 
-ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
-The Rape of Proserpina. Photo By Marilyn
-REMOVEFILL ROW
-The Rape of Proserpina. Photo By Marilyn
-The Rape of Proserpina. Photo by Marilyn
-REMOVEFILL ROW
-The Rape of Proserpina. Photo by Marilyn
-The Rape of Proserpina. Photo by Marilyn
-REMOVEFILL ROW
-The Rape of Proserpina. Photo by Marilyn
-The Rape of Proserpina. Photo by Marilyn
-REMOVEFILL ROW
-The Rape of Proserpina. Photo by Marilyn
-The Rape of Proserpina. Photo by Marilyn
-REMOVEFILL ROW
-The Rape of Proserpina. Photo by Marilyn
-The Rape of Proserpina. Photo by Marilyn
-REMOVEFILL ROW
-The Rape of Proserpina. Photo by Marilyn
+## The Rape of Prosperpina
+
+"The Rape of Proserpina" is another amazing work by Bernini made when he was only 23 years old. It focuses on Prosperpina being taken into the underworld by Pluto.
+
+@gallery rome/borghese/prosperpina
+
 TRUTH UNVEILED BY TIME - BERNINI
 
-“Truth Unveiled by Time” is an unfinished work by Bernini. I spent a while staring at this one, trying to understand Bernini’s process. The unfinished hands, the etching on the chair awaiting more work and the ball at the bottom all needed much more work to complete.
+"Truth Unveiled by Time" is an unfinished work by Bernini. I spent a while staring at this one, trying to understand Bernini’s process. The unfinished hands, the etching on the chair awaiting more work and the ball at the bottom all needed much more work to complete.
 
 REPLACE PHOTOREMOVE PHOTO
 Truth Unveiled by Time
@@ -207,7 +103,7 @@ REMOVEFILL ROW
 Zeotrope. Photo by Marilyn
 VENUS VICTORIOUS - ANTONIO CANOVA
 
-This striking statue, sitting alone in the middle of a room, is titled “Venus Victorious” by Antonio Canova. Its model is a former owner of the museum — Paolina Borghese.
+This striking statue, sitting alone in the middle of a room, is titled "Venus Victorious" by Antonio Canova. Its model is a former owner of the museum — Paolina Borghese.
 
 ADD NEW PHOTOSREORDER PHOTOSREMOVE PHOTOSET
 Venus Victorious
@@ -241,4 +137,4 @@ REMOVEFILL ROW
 David
 APOLLO AND DAPHNE - BERNINI
 
-The most amazing sculpture to both Marilyn and I was “Apollo and Daphne” by Bernini. When you look for the works Bernini is most famous for, this one stands out — and with good reason. There is story, depth, and skill beyond compare showcased in this work. This sculpture takes place at the moment of transition when Daphne, being chased by Apollo, is turning into a tree.
+The most amazing sculpture to both Marilyn and I was "Apollo and Daphne" by Bernini. When you look for the works Bernini is most famous for, this one stands out — and with good reason. There is story, depth, and skill beyond compare showcased in this work. This sculpture takes place at the moment of transition when Daphne, being chased by Apollo, is turning into a tree.

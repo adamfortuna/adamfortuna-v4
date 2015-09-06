@@ -1,0 +1,17 @@
+---
+- file: dog.jpg
+  version: col-12
+  alt: Photo by Adam
+- files:
+  - file: ceiling.jpg
+    version: col-2
+    alt: Photo by Adam
+  - file: leaf.jpg
+    version: col-2
+    alt: Photo by Adam
+  - file: side.jpg
+    version: col-6
+    alt: Wall
+  - file: bust.jpg
+    version: col-2
+    alt: Bust

@@ -1,0 +1,35 @@
+---
+- options:
+    height: 300
+  files:
+  - file: painting3.jpg
+    version: col-4
+    alt: Photo by Marilyn
+  - file: bathing.jpg
+    version: col-4
+    alt: Photo by Marilyn
+  - file: painting.jpg
+    version: col-4
+    alt: Photo by Marilyn
+- file: point.jpg
+  version: col-12
+  alt: Photo by Adam
+- options:
+    height: 300
+  files:
+  - file: angel.jpg
+    version: col-4
+    alt: Photo by Marilyn
+  - file: black_and_white.jpg
+    version: col-4
+    alt: Photo by Marilyn
+  - file: church.jpg
+    version: col-4
+    alt: Photo by Marilyn
+- files:
+  - file: leering.jpg
+    version: col-6
+    alt: Photo by Marilyn
+  - file: painting2.jpg
+    version: col-6
+    alt: Photo by Marilyn

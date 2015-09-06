@@ -1,0 +1,28 @@
+---
+- file: room.jpg
+  version: full
+  alt: Every room is this amazing.
+- files:
+  - file: up.jpg
+    version: col-4
+    alt: Looking up. Photo by Marilyn
+  - file: gold_corner.jpg
+    version: col-4
+    alt: Looking Up
+  - file: painting_corner.jpg
+    version: col-4
+    alt: Looking Up
+- files:
+  - file: statues.jpg
+    version: col-6
+    alt: Statues.
+  - file: painting_wall.jpg
+    version: col-6
+    alt: Looking up.
+- files:
+  - file: tile1.jpg
+    version: col-6
+    alt: Tile Floor
+  - file: tile2.jpg
+    version: col-6
+    alt: Tile

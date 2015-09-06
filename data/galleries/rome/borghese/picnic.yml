@@ -1,0 +1,11 @@
+---
+- files:
+  - file: picnic.jpg
+    alt: Picnic in the Park. Photo by Marilyn
+    version: col-4
+  - file: picnic2.jpg
+    alt: Picnic in the Park
+    version: col-4
+  - file: sandwich.jpg
+    alt: Delicious Sandwich. Photo by Marilyn
+    version: col-4
