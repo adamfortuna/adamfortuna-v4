@@ -42,10 +42,6 @@ module Gallery
       @full_src ||= image[:src] ? image[:src] : full_url
     end
 
-    def files_exists?
-      File.exists?(destination_path) && File.exists?(full_destination_path)
-    end
-
     def version_file
       if image[:version] == 'full'
         image[:file].gsub(/\.([^\.]+)$/, '-full.\1')

@@ -7,6 +7,10 @@ module Gallery
       write_images if !files_exists? || out_of_date? || force_reload?
     end
 
+    def files_exists?
+      File.exists?(destination_path) && File.exists?(full_destination_path)
+    end
+
     def to_html
       file = MiniMagick::Image.open(destination_path)
       height = file.height

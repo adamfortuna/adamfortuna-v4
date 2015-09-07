@@ -11,6 +11,7 @@
     background-size: 100%
     background-repeat: no-repeat
     padding: 0
+    background-repeat-y: repeat
 
   .nav-wrapper
     position: absolute
@@ -22,7 +23,7 @@
   .nav--title,
   .nav--link
     &:hover
-      color: darken($white, 50%) !important
+      color: darken($white, 20%) !important
 
   .top-bar .name h1 a,
   .top-bar-section ul li > a,
@@ -45,5 +46,15 @@
     background-color: transparent
 
   .top-bar-section
-    li, a
+    li
       background-color: transparent !important
+      &:first-child
+        a
+          border-bottom-left-radius: 6px
+          -webkit-border-bottom-left-radius: 6px
+    a
+      background-color: rgba(0,0,0,0.3) !important
+
+      &:hover
+        background-color: rgba(0,0,0,0.6) !important
+        color: $white

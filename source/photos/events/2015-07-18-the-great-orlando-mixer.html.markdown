@@ -30,15 +30,23 @@ The Cheyenne Saloon is an amazing place for this — with 3 levels to sit at and
   alt: Dance Floor
   version: col-12
 - options:
-    gravity: west
+    height: 434
   files:
   - file: marilyn.jpg
     alt: Marilyn
-    version: col-3
+    version: col-4
+    options:
+      gravity: north_west
+  - file: dancing.mp4
+    video: true
+    version: col-8
+- options:
+    gravity: west
+  files:
   - file: adam1.jpg
     alt: Adam
-    version: col-4
+    version: col-6
   - file: adam2.jpg
     alt: Adam
-    version: col-5
+    version: col-6
 @

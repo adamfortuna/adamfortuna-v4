@@ -12,6 +12,7 @@ tags: Travel
 parent: adam-and-marilyn-go-to-japan
 stats:
   photos: 127
+  videos: 11
 ---
 
 ### Day 8: To Tokyo! - 東京
