@@ -1,5 +1,6 @@
 ---
 title: Adam & Marilyn go to Japan
+short_title: Japan
 date: 2014-05-10 10:07
 collection: japan
 permalink: adam-and-marilyn-go-to-japan
@@ -7,11 +8,11 @@ tags: Travel
 disqus_identifier: japan
 stats:
   photos: 350
+  videos: 11
 description: Two weeks in Japan during sakura season
 short_description: 2 Weeks during sakura season 2014
 poster: /images/galleries/japan/ueno/resized/blossom_boats.jpg
 header: /images/galleries/japan/travel/resized/rail_pass.jpg
-short_title: Japan
 series: true
 children:
   - kyoto

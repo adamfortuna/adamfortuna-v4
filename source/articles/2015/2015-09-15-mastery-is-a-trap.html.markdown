@@ -1,6 +1,6 @@
 ---
 title: Mastery is a Trap
-date: 2015-09-07
+date: 2015-09-15
 tags: Personal
 description: You don't need to be a master to get something done.
 published: false
