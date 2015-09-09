@@ -1,8 +1,8 @@
 .row.article--item{ class: article_classes(article) }
   %a.medium-12.columns.article--link{:href => article.data['url'] || article.url, target: article.data['url'] ? '_blank' : ''}
-    - if article.data['external']
-      %i.fi-link.article--flair
     %span.article--title
+      - if article.data['external']
+        %i.fi-link.article--flair
       = article.title
     - if article.data['description']
       %p.article--description= article.data['description']
