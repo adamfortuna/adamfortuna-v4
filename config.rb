@@ -120,7 +120,7 @@ end
 
 configure :build do
   ignore '/bower_components/*'
-  ignore '/galleries/*'
+  # ignore '/galleries/*'
   ignore '/upublished/*'
   activate :minify_css
   activate :minify_html
