@@ -45,5 +45,5 @@ function setupGallery(e) {
   gallery.init();
 }
 function gallery() {
-  $('.gallery--photo').on('click', setupGallery);
+  $('.gallery--photo, gallery--photo-image').on('click', setupGallery);
 }
