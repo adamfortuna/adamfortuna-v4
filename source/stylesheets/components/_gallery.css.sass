@@ -21,11 +21,38 @@
   width: 100%
 
 .gallery--photo
+  position: relative
   &.full
+    display: block
+    width: 100%
     img
       margin: 0 auto
       display: block
       width: 100%
+.gallery-photo-about
+  position: absolute
+  display: block
+  top: 0
+  right: 0
+  left: 0
+  background-image: linear-gradient(rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 90%, rgba(0,0,0,0) 100%)
+  color: darken($white, 10%)
+  text-align: center
+  padding: 20px
+  visibility: hidden
+  opacity: 0
+  font-size: 1.4em
+  transition: all 0.4s
+  font-style: italic
+  margin: 0 4px
+
+  .gallery--photo.full &
+    margin: 0  
+
+  .gallery--photo:hover &
+    visibility: visible
+    opacity: 1
+
 
 @media only screen and (min-width: 0) and (max-width: $small-breakpoint)
   .gallery

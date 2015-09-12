@@ -6,7 +6,7 @@ date: 2015-09-06
 collection: rome
 permalink: borghese
 series: true
-parent: index
+parent: a-week-in-rome
 tags: Travel
 poster: /images/galleries/rome/borghese/david/resized/david.jpg
 header: /images/galleries/rome/borghese/david/resized/david.jpg

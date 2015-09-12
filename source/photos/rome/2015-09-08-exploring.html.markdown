@@ -7,7 +7,7 @@ collection: rome
 permalink: exploring
 series: true
 published: false
-parent: index
+parent: a-week-in-rome
 header: /images/galleries/japan/kiyomizudera_temple/resized/pagoda.jpg
 poster: /images/galleries/japan/kiyomizudera_temple/resized/pagoda.jpg
 tags: Travel

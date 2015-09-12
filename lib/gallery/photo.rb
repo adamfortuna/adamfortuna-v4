@@ -30,6 +30,7 @@ module Gallery
 
       html = <<-PIC
         <a href='#{full_src}' class='lazy gallery--photo #{column_class_for}'>
+          <span class='gallery-photo-about'>#{alt}</span>
           <img class='gallery--photo-image' data-src="#{src}" alt="#{alt}" style="#{height};#{width};" data-size="#{resized_file.width}x#{resized_file.height}" />
         </a>
       PIC
