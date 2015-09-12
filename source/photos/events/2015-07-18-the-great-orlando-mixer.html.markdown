@@ -9,6 +9,7 @@ poster: /images/galleries/events/the-great-orlando-mixer/poster.jpg
 header: /images/galleries/events/the-great-orlando-mixer/poster.jpg
 stats:
   photos: 6
+  videos: 1
 ---
 
 
