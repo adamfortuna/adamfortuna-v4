@@ -1,12 +1,13 @@
 @keyframes title
   from
-    transform: translateY(-25px)
-    visibility: hidden
     opacity: 0
-  to
-    transform: translateY(0px)
-    visibility: visible
+    -webkit-transform: translate3d(0, -100%, 0)
+    transform: translate3d(0, -100%, 0)
+
+  100%
     opacity: 1
+    -webkit-transform: none
+    transform: none
 
 .animation--title
   animation-name: title

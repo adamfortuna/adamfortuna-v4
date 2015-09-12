@@ -1,0 +1,10 @@
+---
+- options:
+    height: 500
+  files:
+  - file: street.jpg
+    alt: View from the street
+    version: col-6
+  - file: side.jpg
+    alt: Looking up from the outside
+    version: col-6
