@@ -4,13 +4,13 @@
 - if (defined? image) && image
   - content_for :pageClasses, 'has-title-image'
   - height ||= 700
-  %header.title--image.title.animated.animation--fade-in{ style: "background-image: url(#{image}); min-height: #{height}px;" }
+  %header.title--image.title{ style: "background-image: url(#{image}); min-height: #{height}px;" }
     .title--wrap{ style: "min-height: #{height}px;" }
       .row
-        .columns.small-12.text-center.title--content.animation--title{ style: "margin-top:#{height*2/7}px;" }
+        .columns.small-12.text-center.title--content{ style: "margin-top:#{height*2/7}px;" }
           = yield
 - else
-  %header.title.animated.animation--fade-in
+  %header.title
     .row
-      .columns.animation--title{ class: classes_from_offset(offset, medium_offset) }
+      .columns{ class: classes_from_offset(offset, medium_offset) }
         = yield
