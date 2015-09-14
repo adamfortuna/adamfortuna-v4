@@ -1,4 +1,10 @@
 - content_for :postClasses, article_body_classes(current_article)
+- content_for :javascript do
+  :javascript
+    $(function() {
+      lazy();
+      gallery();
+    });
 
 = wrap_layout :layout do
   %article.article

@@ -289,33 +289,6 @@ Here's a snippet of what this YML file looks like.
     video: true
 ```
 
-And here's what this would render:
-
-@gallery japan/ueno
-- file: blossom_boats.jpg
-  alt: Cherry Blossoms and swan boats.
-  version: full
-- files:
-  - file: us.jpg
-    alt: Us with the blossoms.
-    version: col-6
-  - file: lake.jpg
-    alt: View of the lake.
-    version: col-6
-    options:
-      gravity: north
-- options:
-    height: 434
-  files:
-  - file: blossoms2.jpg
-    alt: Blossoms
-    version: col-4
-  - file: feeding_birds.mp4
-    version: col-8
-    alt: Some people feeding birds
-    video: true
-@
-
 When this page is loaded, the HTML is created we don't want to use the full sized versions of every image in a tiny grid -- that would be too slow. Instead, each image instantiates a new `Photo` class which knows how to create a thumbnail version of itself based on the on the settings given.
 
 @pull right
