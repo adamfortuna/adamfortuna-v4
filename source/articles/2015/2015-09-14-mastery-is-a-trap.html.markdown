@@ -1,15 +1,14 @@
 ---
 title: Mastery is a Trap
-date: 2015-09-15
+date: 2015-09-14
 tags: Personal
 permalink: mastery-is-a-trap
 description: You don't need to be a master to accomplish your goals
-published: false
 ---
 
 A few weeks ago at Code School, we did a 3 day long [hack event](https://www.codeschool.com/blog/2015/09/04/code-school-culture-hack-days/) where we formed into small teams and tackled whatever were were most passionate about working on. During this event, I was pairing with a coworker and they asked a question that I've heard a number of times before (paraphrased):
 
-> How long will it take for be able to program like that?
+> How long will it take for me to be able to program like that?
 
 This is a question that mentors, teachers and anyone who is sharing knowledge gets from time to time that is tough to answer. It felt great to know that my coworker respected my experience and was asking for advice -- but when it came to answering the question, I had no good response. Do I mention how long it took me to get there? Do I try to find and suggest a shortcut based on what I've learned? What is a good answer to this question?
 
