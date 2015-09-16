@@ -15,10 +15,10 @@ There's so much written about this topic that I'm going to gloss over it. One im
 
 * Payoff debts first
 * Pay highest interest first
+* Pay yourself next
 * Don't take out more debt!
 * Live within your means
 * Avoid Lifestyle Creep
-
 
 ## Accumulation Phase
 
@@ -38,6 +38,7 @@ Index Funds not stocks
   Sector investing
 Bogleheads Guide to Investing
   Vanguard
+Principles of tax effecient fund placement
 Betterment/wealthfront
 Taxes
 Sticking to it
