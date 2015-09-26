@@ -1,6 +1,6 @@
 ---
 title: Financial Literacy
-date: 2015-09-22
+date: 2015-10-02
 tags: Personal
 permalink: financial-literacy
 description: Managing your finances is easier than you think
