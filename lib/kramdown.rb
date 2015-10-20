@@ -23,7 +23,6 @@ module Kramdown
       #  src: http://parisvega.com/wp-content/uploads/2010/04/apple-mbp2011-15-frontface_osx-lg.jpg
       # @
       def parse_gallery
-        # binding.pry
         if gallery = @src.check(self.class::GALLERY_MATCH)
           @src.pos += @src.matched_size
           start_line_number = @src.current_line_number
@@ -192,7 +191,6 @@ module Middleman
         end
         %(<section class='gallery'>#{content.join("\n")}</section>)
       rescue Exception => e
-        binding.pry
         %(<section class='gallery row'><p>GALLERY IN PROCESS</p><p>#{e.message}</p></section>)
       end
 
