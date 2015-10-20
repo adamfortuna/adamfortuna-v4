@@ -168,3 +168,13 @@ The easiest thing you can do if you want to get started is max out your 401k to 
 ## How Much Should You Invest?
 
 There's a great post on [Mr. Money Mustache's Blog](http://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/) about this one. The simple answer is as much as you can. If you can save 50% of your income, you can retire in 17 years. Raise it to 75% (either by reducing expenses or saving more) and you can retire in 7 years.
+
+## Keeping an Eye on Things
+
+So you're ready to give it a go. The best way to keep track of things that I've found is [Personal Capital](https://www.personalcapital.com/). Some people swear by [Mint](https://www.mint.com/) which is also awesome. I think Mint is better at budgeting and general day to day transactions, while Personal Capital is the favorite when it comes to investing. Either one of these will work.
+
+## Disclaimer
+
+Maybe this should've been higher, but I'm no expert in this stuff. I've come to realize that even the "experts" usually aren't either. I'd consider myself more of a pragmatist, who has found a system that works well for me -- but that doesn't mean it'll work for everyone.
+
+If any of this interests you, and you'd like to chat, feel free to leave a comment. Since this is more personal subject matter, if you'd rather chat just us, feel free to use my [contact me](https://docs.google.com/forms/d/1GmjkT8u3iETk7qXO4-gJkZs4baX5KiaILLkZoABtWh8/viewform) form.
