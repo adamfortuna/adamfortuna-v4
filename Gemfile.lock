@@ -249,6 +249,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rake (0.9.6)
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -297,6 +298,7 @@ DEPENDENCIES
   middleman-syntax
   mini_magick
   pry
+  rake (~> 0.9)
   rouge (= 1.9.0)
 
 BUNDLED WITH

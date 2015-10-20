@@ -37,7 +37,7 @@ We ended up transferring everything from my bag to my coat and pockets, then fol
 
 Once you're inside, there are two levels that you can access without a guide -- the middle ring (ground floor) and the 2nd floor. We missed the stairs up to the 2nd floor at first.
 
-___GALLERY FOR BOTTOM LEVEL___
+@gallery rome/colosseum/ground_self_tour
 
 We wandered around, found a few spot to snap a few photos, and tried to take in the view.
 
@@ -99,4 +99,4 @@ We left our apartment at 8:30am, and it wasn't until almost 6pm when we made it 
 
 Following a short refresh at our home base, we met up with some friends farther west for dinner and some exploring near Piazza Navona.
 
-___Dinner Gallery___
+@gallery rome/colosseum/dinner

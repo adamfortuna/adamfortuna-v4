@@ -22,5 +22,5 @@ gem 'pry'
 gem 'mini_magick'
 
 
-#gem 'rake', '~> 0.9'
+gem 'rake', '~> 0.9'
 #gem 'fastimage'

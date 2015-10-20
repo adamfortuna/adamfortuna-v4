@@ -99,6 +99,20 @@ module Middleman
         end
       end
 
+      def convert_table(el, indent)
+        if indent == 0
+          el.attr['class'] ||= ''
+          el.attr['class'] = "#{el.attr['class']} wrap--inner".strip
+        end
+        content = format_as_indented_block_html(el.type, el.attr, inner(el, indent), indent)
+
+        if indent == 0
+          %(<section class='wrap'>#{content}</section>)
+        else
+          content
+        end
+      end
+
       def convert_blockquote(el, indent)
         if indent == 0
           el.attr['class'] ||= ''
@@ -178,6 +192,7 @@ module Middleman
         end
         %(<section class='gallery'>#{content.join("\n")}</section>)
       rescue Exception => e
+        binding.pry
         %(<section class='gallery row'><p>GALLERY IN PROCESS</p><p>#{e.message}</p></section>)
       end
 

@@ -1,0 +1,22 @@
+.table--content
+  background: none
+  border-collapse: separate
+  border: 1px solid #eee
+  border-radius: 4px
+  margin: 1em 0
+
+  th,
+  td
+    text-align: left
+    color: $paragraph-color
+    font-size: $paragraph-font-size
+    padding: 4px
+
+  thead
+    tr
+      font-size: rem-calc(20)
+      background-color: darken($light-gray, 5%)
+
+  tbody
+    tr:nth-child(even)
+      background-color: $light-gray

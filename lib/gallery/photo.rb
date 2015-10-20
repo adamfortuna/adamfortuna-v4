@@ -61,6 +61,9 @@ module Gallery
       end
       puts "Writing resized image to #{full_destination_path}"
       image_file.write full_destination_path
+    rescue Exception => e
+      binding.pry
+      raise e
     end
 
     def write_processed_image

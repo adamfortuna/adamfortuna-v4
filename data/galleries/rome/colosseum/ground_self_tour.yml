@@ -1,0 +1,65 @@
+---
+- :files:
+  - :file: Bricks.jpg
+    :version: col-3
+    :alt: Bricks
+  - :file: Adam and Marilyn 2.jpg
+    :version: col-5
+    :alt: Adam and marilyn 2
+    options:
+      gravity: west
+  - :file: Green Ground.jpg
+    :version: col-4
+    :alt: Green ground
+- :files:
+  - :file: Adam Side View.jpg
+    :version: col-6
+    :alt: Adam side view
+    options:
+      gravity: west
+  - :file: Green Walkway.jpg
+    :version: col-6
+    :alt: Green walkway
+- :file: Marilyn Looking Around.jpg
+  :version: full
+  :alt: Marilyn looking around
+  options:
+    gravity: west
+- :files:
+  - :file: Adam and Marilyn at Lower Level.jpg
+    :version: col-5
+    :alt: Adam and marilyn at lower level
+    options:
+      gravity: north
+  - :file: Hallway.jpg
+    :version: col-3
+    :alt: Hallway
+  - :file: Lower Ring View.jpg
+    :version: col-4
+    :alt: Lower ring view
+- :files:
+  - :file: Lower Ring.jpg
+    :version: col-6
+    :alt: Lower ring
+  - :file: Ring Wide.jpg
+    :version: col-6
+    :alt: Ring wide
+- files:
+  - :file: Marilyn Thumbs Up.jpg
+    :version: col-4
+    :alt: Marilyn thumbs up
+    options:
+      gravity: west
+  - file: Umbrella.jpg
+    version: col-8
+    alt: Umbrella
+- :file: Panorama.jpg
+  :version: full
+  :alt: Panorama
+- :files:
+  - :file: Adam.jpg
+    :version: col-6
+    :alt: Adam
+  - :file: Marilyn.jpg
+    :version: col-6
+    :alt: Marilyn
