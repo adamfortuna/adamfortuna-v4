@@ -1,0 +1,74 @@
+---
+title: What I'm Doing Right Now
+layout: about
+---
+
+= partial 'shared/title', locals: { offset: 2, medium_offset: 1 } do
+  %img.face.left{src: '/images/adam-fortuna.png', alt: 'Adam Fortuna'}
+  %h1.title--header.small-8.columns.end Now
+  %p.title--meta.small-12.medium-8.left.columns.title--author
+    What am I working on right now?
+
+= partial 'shared/content' do
+  %p.subtitle.light
+    This site is a collection of whatever I'm interested in -- from
+    = link_to 'technical articles', '/articles/tags/technical', class: 'category--technical'
+    to
+    = link_to 'personal posts', '/articles/tags/technical', class: 'category--personal'
+    to
+    = succeed '.' do
+      = link_to 'travel photos', '/photos'
+    Also a good place to experiment with new technologies!
+
+  %div{class: 'pull-right' }
+    %p.subtitle.light Last updated 2015.10.22.
+
+  %h2 What I'm Doing Right Now
+
+  %p
+    Living in Orlando (and planning to be here a while!). Here's what I'm spending most of my time doing.
+
+  .pull-left
+    %p
+      %img.face{src: '/images/galleries/codeschool/logo.png', alt: 'Code School'}
+
+  %ul
+    %li
+      Working at
+      %a{ href: 'https://www.codeschool.com' } Code School
+      (a
+      %a{ href: 'http://pluralsight.com' } Pluralsight
+      Company). Leading the course team there, as well as working on the content for a new course on
+      %a{ href: 'http://d3js.org/' } D3.js
+      that I am very excited about!
+    %li Going to Epcot food and wine with my girlfriend as much as possible. :)
+    %li
+      Going to
+      %a{ href: '/articles/crossfit'} CrossFit
+      a few times a week.
+    %li Trying to blog at least once a month.
+    %li Trying to keep up with way too many TV shows.
+    %li Speaking up more at Code School about potential changes and ideas.
+    %li
+      Listening to a lot of
+      = succeed '.' do
+        %a{ href: '/books' } sci-fi audiobooks
+    %li Getting ready for a trip to Panama.
+    %li Getting ready for a trip to Finland/Amsterdam next year!
+
+
+  %h2 Technologies
+
+  %p Things I'm learning or trying to learn about right now.
+
+  %ul
+    %li
+      %a{ href: 'http://d3js.org/' } D3.js
+    %li
+      %a{ href: 'http://neo4j.com/' } Neo4j
+    %li CSS Animations
+
+  %p.subtitle.light
+    Inspiration for this page from
+    = succeed '.' do
+      %a{href: 'http://sivers.org/now' } David Sivers
