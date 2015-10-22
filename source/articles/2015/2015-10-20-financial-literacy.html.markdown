@@ -28,7 +28,7 @@ Another great site, and fellow Orlando startup, is [Edukate](https://www.edukate
 
 ### Some Terms and Broad Strokes
 
-There's a few terms that just know about can help understand how to manage your investments. Just knowing the options is important.
+There's a few terms that just knowing about can help understand how to manage your investments.
 
 ### Fund Types
 
@@ -40,7 +40,7 @@ So what can you invest in? Usually this comes down to stocks and bonds -- but th
 Bonds could be from many places including companies, municipalities, international companies, locations or the treasury.
 @
 
-**Bonds Funds** - The idea behind bonds is that companies need money, so they sell bonds promising to repay them with some interest. You could buy a bond from a specific company, or a municipality, but most people don't do that. Instead, you'd buy a bond fund -- a collection of bond purchases from various companies. This means that if one company fails, you don't lose all of your money. Bond funds are generally
+**Bonds Funds** - The idea behind bonds is that companies need money, so they sell bonds promising to repay them with some interest. You could buy a bond from a specific company, or a municipality, but most people don't do that. Instead, you'd buy a bond fund -- a collection of bond purchases from various companies. This means that if one company fails, you don't lose all of your money.
 
 **ETF, Exchange-Traded Fund** - These could also be called mutual funds. These are single funds you can invest in which are a collection of stocks and bonds, grouped together to avoid risk. If you ever see the DOW or Nasdaq index, those are a collection of funds used to represent the market as a whole. Since these represent a number of companies, if one company goes out of business, it won't have a huge affect on your investment. These make up 95% of my investments and have a very low fee associated with purchases and holding.
 
@@ -54,7 +54,7 @@ Any investment you have money in will probably be one of these categories:
 Stay away from Active Managed Funds when you can!
 @
 
-**Active Managed Funds** - These are variable risk, high diversity, high fee. These are a collection of stocks where a human picks out what is in it. Because of the human element, these have a higher volatility, as well as a higher fees used to pay the people that work on them. I'd recommend staying away from these except in the case where you want exposure to a different sector to add diversity to your portfolio. This, to me, is the same as going with an advisor and putting your trust in them -- or picking a stock because you trust the company. These can charge up to 2% of your total invested amount as a fee each year -- or $200 per $10,000 invested per year.
+**Active Managed Funds** - These are variable risk, high diversity, high fee. These are a collection of stocks where a human picks out what is in it. Because of the human element, these have a higher volatility, as well as higher fees that are used to pay the people that work on them. I'd recommend staying away from these except in the case where you want exposure to a different sector to add diversity to your portfolio. This, to me, is the same as going with an advisor and putting your trust in them -- or picking a stock because you trust the company. These can charge up to 2% of your total invested amount as a fee each year -- or $200 per $10,000 invested per year.
 
 **Index Funds** - These are funds that are controlled by a formula. For example, [Vanguard Total Stock Market Index](http://www.morningstar.com/funds/XNAS/VTSAX/quote.html) is the biggest fund in the world and is an index fund. These have the smallest fees of anything, and can be as low as 0.04% -- or $4 per $10,000 invested per year.
 
@@ -62,11 +62,15 @@ Stay away from Active Managed Funds when you can!
 
 **Expense Ratio** - When you see any fund, it'll probably have an expense ratio listed. For instance [American Funds Growth Fund of Amer A](http://www.morningstar.com/funds/XNAS/AGTHX/quote.html) has an expense ratio of 0.66%, or $66 per $10,000. That's 15x the expenses for VTSAX.
 
+For both Active Managed Funds and Index Funds, you won't ever get a bill for the expense ratio. Instead it'll be reflected in the price of the fund. In other words, if there were two identical funds with different expense ratios, after a year the one with the lower expense ratio would be trading slightly higher.
+
 **Load** - Load is probably the scariest fee of all. I learned about it when a financial advisor put some funds of mine in a fund that had a load without my knowledge. [AGTHX](http://www.morningstar.com/funds/XNAS/AGTHX/quote.html) has a load of 5.75, while Vanguard Funds have no load. So what is load?
 
 Load is a fee that the investor pays to compensate the sales intermediary (the broker, financial planner, investment advisor, etc) for their time and expertise in selecting the fund. There's a concept of "front-load", where the fee is paid when the fund is bought, or "back-load", for when the fund is sold.
 
-On that $10,000 purchase of AGTHX, there is a 5.75 front-load, meaning that the investor is paying $575 for the privilege of investing in American Funds. $575 + $66 = $641 a year for AGTHX vs $4 for VTSAX. Crazy right? It'd be awesome if AGTHX outperformed, but it doesn't. For the most part similar funds in a category, in this case large growth/blend.
+My advice is that if your financial advisor ever suggests, or you find out you're in a load fund, then you need to fire them and get out. If you have gains in the fund, I'd wait until you've held it a year -- but also make sure not to reinvest dividends during that time.
+
+On that $10,000 purchase of AGTHX, there is a 5.75 front-load, meaning that the investor is paying $575 for the privilege of investing in American Funds. $575 + $66 = $641 a year for AGTHX vs $4 for VTSAX. Crazy right? It'd be awesome if AGTHX outperformed, but it doesn't. For the most part, similar funds in a category will perforom about that same.
 
 
 @gallery articles/financial-literacy
@@ -75,22 +79,22 @@ On that $10,000 purchase of AGTHX, there is a 5.75 front-load, meaning that the 
   version: full
 @
 
-To me these kinds of fees are the biggest hit for not educating yourself. Imagine if this was $100k instead? We're up to $6,410 for that first year now. That's a pretty serious money lost due to education.
+To me these kinds of fees are the biggest hit for not educating yourself. Imagine if this was $100k instead? We're up to $6,410 for that first year now. That's pretty serious money lost due to lack of education.
 
 
 ### Taxes
 
 An even bigger mistake than choosing funds with high fees is not understanding what the tax impact will be when making investment decisions. There are 3 major categories for investment taxes:
 
-Year to year bond taxes. If you have investments in bonds or funds that have a yield (which is almost everything) you'll need to pay taxes every year on these dividends. These will be taxed at your current tax bracket -- just like any additional income you make. The better you can do to move these into a tax deferred or tax exempt account the better.
+Year to year bond taxes. If you have investments in bonds or funds that have a yield (which is almost everything) and these funds are held in a taxable account (so not an IRA or a 401l) you'll need to pay taxes every year on these dividends. These will be taxed at your current tax bracket -- just like any additional income you make. The better you can do to move these into a tax deferred or tax exempt account the better.
 
-**Short-term capital gains taxes** Are paid each year on the gains made selling funds that you held less than 1 year. You'll pay whatever your current tax rate is. So if you're in the 28% tax bracket, you'll pay 28% tax on your capital gains. For example, you invest $10,000, and 6 months later sell for $12,000. You'll pay 28% of $2,000 in taxes, or $560 in taxes. I try to never sell anything in the short-term category unless it's at a loss.
+**Short-term capital gains taxes** are paid each year on the gains made selling funds that you held less than 1 year. You'll pay whatever your current tax rate is. So if you're in the 28% tax bracket, you'll pay 28% tax on your capital gains. For example, you invest $10,000, and 6 months later sell for $12,000. You'll pay 28% of $2,000 in taxes, or $560 in taxes. I try to never sell anything in the short-term category unless it's at a loss.
 
 @pull right
 Buy and hold is good advice! I don't buy anything I wouldn't hold forever.
 @
 
-**Long-term capital gains taxes** Are paid on capital gains of funds held longer than a year. For these, you'll pay either 0% (if you make 0-36k or 73k married) or 15% (if you make 36k+/73k+). A trick of this is that if you can lower your income below 73k for 2 people, you could live off investments tax free. Like short-term, this tax is only on the gains, so in the same $10,000 invested, selling it for $12,000 1 year later, you'll likely pay $2,000 * 15% = $300 in taxes if you make $36k+.
+**Long-term capital gains taxes** are paid on capital gains of funds held longer than a year. For these, you'll pay either 0% (if you make 0-36k or 73k married) or 15% (if you make 36k+/73k+). A trick of this is that if you can lower your income below 73k for 2 people, you could live off investments tax free. Like short-term, this tax is only on the gains, so in the same $10,000 invested, selling it for $12,000 1 year later, you'll likely pay $2,000 * 15% = $300 in taxes if you make $36k+.
 
 Choosing where to put your investments (401k, IRA, Roth IRA, Brokerage) will have a major impact on your taxes as well -- potentially costing years of income if chosen incorrectly. It's worth reading about the [Principles of tax-efficient fund placement](https://www.bogleheads.org/wiki/Principles_of_tax-efficient_fund_placement) to help decide where your funds should be invested.
 
@@ -102,7 +106,11 @@ The [Bogleheads Wiki](https://www.bogleheads.org/wiki) is a great place to explo
 
 Ok, so why should you manage your own investments rather than letting someone else do it? They're professionals with years of experience in this field after all, and you might not have that confidence. Well, the secret is that next to no one beats the market, and a statistically insignificant number of people (near 0) beat the market for years in a row. Honestly with any of the [Bogleheads Lazy Portfolio's](https://www.bogleheads.org/wiki/Lazy_portfolios) put in the right tax efficient locations you'll do better than almost any financial advisor.
 
-Financial Advisors need to beat the market in order to make money for their clients. Some years they might, but unless your name is Warren Buffett, I'm not going to have enough faith to sign my funds over.
+Financial advisors also tend to charge a fee in one of 3 ways:
+
+**Interest only advisors** charge a fee for meeting them. If you chat with one, these are the kind I recommend. **Percent fee based advisors** will charge a percent of the money under management per year - often tiered based on how much you have. Usually this'll be between 0.25% and 1.5%. This amount is often paid quarterly. Some advisors will charge a **percent of transaction**, which may be 1% or so. Everytime you change funds, they'd charge this. All of these fees are bad, and can seriously add up.
+
+Financial advisors need to beat the market in order to make money for their clients. Some years they might, but unless your name is Warren Buffett, I'm not going to have enough faith to sign my funds over.
 
 
 ## Asset Allocation
@@ -117,12 +125,12 @@ One way of visualizing this over time is ordering all asset classes by their ret
   version: full
 @
 
-Take the S&P from 1995-1998; this was during the dot-com boom. Things were doing amazing for a few years. Not so much for 2000-2004. If your portfolio was diversified, with some assets in each class, your overall performance would be closer to the middle (or more likely slightly above). That's the goal of diversity.
+Take the S&P from 1995-1998; this was during the dot-com boom. Things were doing amazing for a few years. Not so much for 2000-2006. If your portfolio was diversified, with some assets in each class, your overall performance would be closer to the middle (or more likely slightly above). That's the goal of diversity.
 
 
 ### My Allocation
 
-If you're curious what my allocation looks like, it's nothing too interesting. This is almost entirely Vanguard funds, and similar things to what you'd get if you used a service like [Betterment](https://www.betterment.com/) or [Wealthfront](https://www.wealthfront.com/).
+If you're curious what my allocation looks like, it's nothing too interesting. It's almost entirely Vanguard funds and looks similar to what you'd get if you used a service like [Betterment](https://www.betterment.com/) or [Wealthfront](https://www.wealthfront.com/).
 
 | Asset Class         | Percentage | Main Fund |
 | ------------------- | ---------- | --------- |
@@ -141,7 +149,7 @@ If you're curious what my allocation looks like, it's nothing too interesting. T
 
 For me, the gambling part comes into place in that "specific stocks" category, which allows me to try to pick winners. Over the years I've picked some good ones (AAPL and TSLA are up more than 100% over the years!) but I'm smart enough to know that makes me lucky as opposed to good. I've also made bad picks -- LUV at the wrong time, Vanguard Energy fund before oil went way down (although I have liked that change).
 
-The important thing I learned was to put rules on myself to prevent really bad decisions. My person rules for investing are simple:
+The important thing I learned was to put rules on myself to prevent really bad decisions. My personal rules for investing are simple:
 
 * 5% of my portfolio can be played with - never risk more than that.
 * For the other 95%, don't buy anything you don't plan on holding forever.
@@ -157,7 +165,7 @@ Not many rules, but it's been enough to keep me from making big mistakes.
 These are great services, but they are still very new. Who knows if they'll be around in 10 years.
 @
 
-Although my recommendation is investing things yourself to where you'll have the most control, learn the most and be able to make changes the easiest, there are a number of new services that have sprung up recently. [Betterment](https://www.betterment.com/) and [Wealthfront](https://www.wealthfront.com/) are leading the way here. These take all the advice I follow and automate the investing process. These services will charge about 0.15% to 0.35% for their services - which is still significantly less than active advisors.
+My recommendation is to invest in things yourself so you'll have the most control. Learning a lot allows you to make changes easily as well. If that's still too much, there are a number of new services that have sprung up recently that handle this in a way that's actually better than an in-person financial advisor could. [Betterment](https://www.betterment.com/) and [Wealthfront](https://www.wealthfront.com/) are leading the way here. These take all the advice I follow and automate the investing process. They also sell your funds and buy similar ones in order to take advantage of minor tax advantages that can add up. These services will charge about 0.15% to 0.35% for their services - which is still significantly less than active advisors.
 
 There's [a lot](http://www.mrmoneymustache.com/betterment-vs-vanguard/) written about robo-investors -- almost all good, but a [a few bad](https://medium.com/@blakeross/wealthfront-silicon-valley-tech-at-wall-street-prices-fdd2e5f54905).
 
