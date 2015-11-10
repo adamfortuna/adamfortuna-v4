@@ -1,0 +1,55 @@
+---
+title: Panama
+short_title: Panama
+date: 2015-11-10
+collection: panama
+permalink: central-america
+tags: Travel
+disqus_identifier: panama
+stats:
+  photos: 350
+  videos: 11
+description: 5 days in Panama, Central America
+short_description: 5 days in Panama, Central America
+poster: /images/galleries/japan/ueno/resized/blossom_boats.jpg
+header: /images/galleries/japan/travel/resized/rail_pass.jpg
+series: true
+children:
+  - canal
+  - city
+  - rainforest
+  - takeaways
+---
+
+Panama has never been on my [list of places](/about/goals#travel) that I've longed to visit, but given the opportunity to head there how could I say no? Marilyn's work ([Booking.com](http://booking.com)) led her down there for a company event, which allowed us to extend the trip by a few days to explore the city -- which we always try to take advantage of!
+
+Since we only had a few days, and it was the rainy seasons, we decided to stay in Panama City for the entire trip. This allowed us to see the old city, the canal and the rainforest all within a short Uber ride. Instead of doing a lot of research, we decided to try approaching this trip a different way and learning as we went -- aside from one planned tour we knew we wanted to work in.
+
+## Panama Primer
+
+As a destination in another country, Panama is one of the easier places to travel to. In the early 1900s, the US _helped_ Panama declare their independence from Colombia, in exchange for partnering with them to build the Panama Canal. The Canal drastically changed Panama, and brought an influx of cash unparalleled in the latin world.
+
+Up until 1979, the "Panama Canal Zone", the land on both sides of the canal, was considered a US Territory and people born there were considered dual citizens of the US and Panama. The area was a mix of US armed forces, and many engineers and others employed to keep the canal function from the US and Panama. John McCain was born in the Panama Canal Zone on an air force base there, which shows just how Americanized it is.
+
+In 1977, the handoff began of the Canal Zone to Panamanians. It was jointly managed until 1999 before full control was turned over to Panama. From what we gathered talking to locals, the organization managing the canal does an amazing job, and is a source of pride for the Panamanian people. Unfortunately the government isn't as efficient (sounds familiar), leading to some strife between the two organizations.
+
+Although Panama has its own currency, it's pegged to the dollar. Also because of the long history of ties to the US, they use the US dollar interchangeably with their own. This allows travelers to stick to USD for their entire trip. Most places even accepted credit cards (expecting them to have chips), although a few were cash only.
+
+## Arriving
+
+From Orlando, Panama is less than a 3 hour, nonstop flight away on [Copa Airlines](http://www.copaair.com/). After arriving and doing the customs thing, you can hop in a cab to take you to the a hotel for $35. Take care to hold onto your bags, otherwise someone might be expecting a tip for helping you out with them.
+
+__Arriving photos__
+
+## The Biggest Mall Hotel
+
+The hotel is in the mall, the mall is huge.
+
+
+## Dinner at Manolo Caracol
+
+Amazing 9 course meal in Casco Viejo.
+
+__Manolo Caracol photos__
+
+We were too tired to explore the city more, so headed back to get up early for our tour the next day.
