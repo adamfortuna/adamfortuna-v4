@@ -1,7 +1,14 @@
+require 'Parallel'
+require 'benchmark'
+require 'active_support/all'
+
 module Gallery
   class Gallery
-    def initialize path
+    attr_accessor :contents, :name
+
+    def initialize path, given_contents=nil
       @path = path.gsub(/(.*)(data\/galleries\/.*)/, '\2')
+      @contents = given_contents || YAML.load(file_contents)
     end
 
     def files_count
@@ -28,12 +35,7 @@ module Gallery
     end
 
     def name
-      @path.gsub('data/galleries/', '').gsub('.yml', '')
-    end
-
-    def contents
-      return @contents if @contents
-      @contents = YAML.load(file_contents)
+      @name ||= @path.gsub('data/galleries/', '').gsub('.yml', '')
     end
 
     def file_contents
@@ -49,22 +51,51 @@ module Gallery
     end
 
     def rows
-      @rows ||= contents.collect do |gallery_item|
-        gallery_item = gallery_item.with_indifferent_access
-        if gallery_item[:files]
-          generate_row(gallery_item)
-        else
-          Item.create(gallery_item, name, gallery_item[:options], self).to_html
-        end
+      @rows ||= items.collect do |row|
+        row.is_a?(Array) ? generate_row(row) : row.to_html
       end
     end
 
-    def generate_row row
-      items = row[:files].collect do |image|
-        Item.create(image, name, row[:options], self).to_html
-      end
+    def generate_row items
+      %(<div class='row'>#{items.collect(&:to_html).join("\n")}</div>)
+    end
 
-      %(<div class='row'>#{items.join("\n")}</div>)
+    # Prepares all images for view by resizing them
+    def prepare!
+      prepare_in_parallel!
+    end
+
+    def prepare_in_parallel!
+      @prepared ||= Parallel.each(items.flatten, progress: "Preparing Gallery #{name}") do |item|
+        item.prepare!
+      end
+      puts "Finished preparing #{@prepared.length} item(s)."
+    end
+
+    def prepare_in_serial!
+      items.flatten.each do |item|
+        item.prepare!
+      end
+    end
+
+    # Returns a nested array of all items in this gallery
+    # Each item in the top level array is a row in the gallery
+    def items
+      @items ||= contents.collect do |gallery_item|
+        gallery_item = gallery_item.with_indifferent_access
+
+        # This is a row with multiple item
+        if gallery_item[:files]
+          to_return = gallery_item[:files].collect do |item|
+            Item.create(item, name, gallery_item[:options], self)
+          end
+        # This a row with a full width item
+        else
+          to_return = Item.create(gallery_item, name, gallery_item[:options], self)
+        end
+
+        to_return
+      end
     end
   end
 end

@@ -20,7 +20,11 @@ gem 'pry'
 
 # Gallery
 gem 'mini_magick'
+gem 'parallel'
+gem 'dimensions'
 
 
+gem 'listen'
+gem 'ruby_gntp'
 gem 'rake', '~> 0.9'
 #gem 'fastimage'

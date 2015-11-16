@@ -50,6 +50,8 @@ module Gallery
       end
     rescue Exception => e
       puts "Could not determine a version for image #{image}"
+      binding.pry
+      raise e
     end
 
     def columns_count
@@ -62,6 +64,10 @@ module Gallery
       else
         "medium-#{columns_count} small-12 columns left"
       end
+    end
+
+    def uid
+      source_path
     end
 
     def source_path

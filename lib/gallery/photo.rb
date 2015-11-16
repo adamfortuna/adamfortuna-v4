@@ -1,55 +1,99 @@
+require 'dimensions'
 require 'mini_magick'
 
 module Gallery
   class Photo < Item
-    def initialize image, path, options, gallery
-      super
+    def prepare!
       write_images if !files_exists? || out_of_date? || force_reload?
     end
 
     def files_exists?
-      File.exists?(destination_path) && File.exists?(full_destination_path)
+      thumbnail_exists? && resized_exists?
+    end
+
+    def thumbnail_dimensions
+      @file_dimensions ||= thumbnail_exists? ? Dimensions.dimensions(destination_path) : []
+    end
+
+    def full_dimensions
+      @resized_dimensions ||= resized_exists? ? Dimensions.dimensions(full_destination_path) : []
+    end
+
+    def width
+      @options.width
+    end
+
+    def height
+      @options.height
     end
 
     def to_html
-      file = MiniMagick::Image.open(destination_path)
-      height = file.height
+      return @to_html if @to_html
+      styles = []
+
       if image[:version] == 'full'
-        height = "height:auto"
-        width = "width:auto"
-      elsif file.width > 1170
-        width = "width:1170px"
-        height = (1170.0/file.width)*file.height
-        height = "max-height:#{height}px"
+        styles << "height:auto"
+        styles << "width:auto"
+      elsif image[:version] == 'col-12'
+        styles << "width:1170px"
+        calculated_height = (1170.0/width)*height
+        styles << "max-height:#{calculated_height}px"
       else
-        width = "width:#{file.width}px"
-        height = "height:#{file.height}px"
+        styles << "width:#{width}px"
+        styles << "height:#{height}px"
       end
 
-      resized_file = MiniMagick::Image.open(full_destination_path)
-
-      html = <<-PIC
+      @to_html = <<-PIC
         <a href='#{full_src}' class='lazy gallery--photo #{column_class_for}'>
           <span class='gallery-photo-about'>#{alt}</span>
-          <img class='gallery--photo-image' data-src="#{src}" alt="#{alt}" style="#{height};#{width};" data-size="#{resized_file.width}x#{resized_file.height}" />
+          <img class='gallery--photo-image' data-src="#{src}" alt="#{alt}" style="#{styles.join(';')};" data-size="#{full_dimensions[0]}x#{full_dimensions[1]}"/>
         </a>
       PIC
+      # data-size="#{resized_dimensions[0]}x#{resized_dimensions[1]}"
       if columns_count == 12
-        html = <<-PIC
+        @to_html = <<-PIC
           <div class='row'>
-            #{html}
+            #{@to_html}
           </div>
         PIC
       end
-      html
+
+      @to_html
+    rescue Exception => e
+      puts "to_html error: #{e.message}"
+      raise e
     end
 
     private
 
     def write_images
       return false unless File.exists?(source_path)
-      write_resized_image
-      write_processed_image
+
+      if force_reload? || !thumbnail_exists? || !same_dimensions?
+        puts "Writing resized image: #{destination_path}"
+        write_processed_image
+      end
+
+      if force_reload? || !resized_exists?
+        puts "Writing full image: #{full_destination_path}"
+        write_resized_image
+      end
+    end
+
+    def thumbnail_exists?
+      File.exists?(destination_path)
+    end
+
+    def resized_exists?
+      File.exists?(full_destination_path)
+    end
+
+    def same_dimensions?
+      return false unless thumbnail_exists?
+      if image[:version] || image[:version] == 'col-12'
+        return thumbnail_exists?
+      end
+      (thumbnail_dimensions[0].to_i == width.to_i) && (thumbnail_dimensions[1].to_i == height.to_i)
     end
 
     def write_resized_image
@@ -59,9 +103,10 @@ module Gallery
         i.resize "2500>x2500>"
         i.quality "90"
       end
-      puts "Writing resized image to #{full_destination_path}"
       image_file.write full_destination_path
+      image_file.destroy!
     rescue Exception => e
+      puts "Error writing resized image to #{full_destination_path}"
       binding.pry
       raise e
     end
@@ -81,8 +126,12 @@ module Gallery
         end
       end
 
-      puts "Writing processed image to #{destination_path} with commands #{commands}"
       image_file.write destination_path
+      image_file.destroy!
+    rescue Exeception => e
+      puts "Error Writing processed image to #{destination_path} with commands #{commands}"
+      binding.pry
+      raise e
     end
 
     # Get all minimagick options for resizing
@@ -105,7 +154,8 @@ module Gallery
       end
 
       w_offset, h_offset = crop_offsets_by_gravity(gravity, [w_result, h_result], [w, h])
-      crop = "#{w.to_i}x#{h.to_i}+#{w_offset}+#{h_offset}!"
+      # crop = "#{w.to_i}x#{h.to_i}+#{w_offset}+#{h_offset}!"
+      crop = "#{w.to_i}x#{h.to_i}+0+0!"
 
       {
         resize: op_resize,

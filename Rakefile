@@ -3,16 +3,31 @@ $:.unshift File.join(File.dirname(__FILE__), 'lib')
 require 'pry'
 require 'yaml'
 require 'gallery'
+require 'gallery/gallery'
+require 'gallery/item'
+require 'gallery/photo'
+require 'gallery/video'
+require 'gallery/photo_options'
+
 require 'pathname'
+require 'listen'
 
 namespace :gallery do
-  desc 'Parse through all galleries and create thumbnails and mini versions for each.'
-  task :generate do
-    overwrite = ENV['OVERWRITE'] || false
-    options = YAML.load(File.read('data/gallery.yml'))
-    gallery = Gallery.new(options)
 
-    gallery.generate!(overwrite)
+  desc 'Watches for changes to galleries and rebuilds them if there are changes'
+  task :watch do
+    listener = Listen.to('data/galleries') do |modified_files, added, removed|
+      puts "modified absolute path: #{modified_files}"
+      puts "added absolute path: #{added}"
+      puts "removed absolute path: #{removed}"
+      modified_files.each do |file_path|
+        gallery = Gallery::Gallery.new(file_path)
+        gallery.prepare!
+      end
+    end
+    listener.start # not blocking
+    puts 'Watching for changes in data/galleries...'
+    sleep
   end
 
   task :yml do

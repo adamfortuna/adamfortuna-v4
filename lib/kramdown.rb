@@ -174,34 +174,17 @@ module Middleman
 
       def convert_gallery(el, indent)
         el.value = el.value.with_indifferent_access
-        items = el.value.is_a?(Array) ? el.value : el.value[:gallery]
-        name = el.value[:name]
+        contents = el.value.is_a?(Array) ? el.value : el.value[:gallery]
         path = el.value[:path]
 
-        gallery = path ? ::Gallery::Gallery.new(path) : nil
+        gallery = ::Gallery::Gallery.new(path, contents)
+        gallery.name = el.value[:name] if el.value[:name]
 
-        content = items.collect do |gallery_item|
-          gallery_item = gallery_item.with_indifferent_access
-          if gallery_item['files']
-            # This is a row of images
-            generate_row(name, gallery_item, gallery)
-          else
-            ::Gallery::Item.create(gallery_item, name, gallery_item[:options], gallery).to_html
-          end
-        end
-        %(<section class='gallery'>#{content.join("\n")}</section>)
+        # Generate the HTML for this gallery
+        gallery.to_html
       rescue Exception => e
         %(<section class='gallery row'><p>GALLERY IN PROCESS</p><p>#{e.message}</p></section>)
       end
-
-      def generate_row name, row, gallery
-        items = row[:files].collect do |image|
-          ::Gallery::Item.create(image, name, row[:options], gallery).to_html
-        end
-
-        %(<div class='row'>#{items.join("\n")}</div>)
-      end
-
     end
   end
 end

@@ -7,6 +7,10 @@ module Gallery
       @options.options = video_options.merge(@options.options)
     end
 
+    def prepare!
+      true
+    end
+
     def to_html
       html = <<-PIC
       <div class='lazy gallery--video controls #{column_class_for}'>
