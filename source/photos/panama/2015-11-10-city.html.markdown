@@ -12,6 +12,7 @@ stats:
   photos: 154
 series: true
 parent: central-america
+published: false
 ---
 
 The city isn't that large, with the rainforest and the ocean holding it in. For tourists, the main sites of the city can be seen in a day or two. We concentrated on a few main areas for our stay: the Albrook Mall (where we were staying), Via Argentina Street, the waterfront and Casco Viejo.

@@ -14,6 +14,7 @@ short_description: 5 days in Panama, Central America
 poster: /images/galleries/japan/ueno/resized/blossom_boats.jpg
 header: /images/galleries/japan/travel/resized/rail_pass.jpg
 series: true
+published: false
 children:
   - canal
   - city

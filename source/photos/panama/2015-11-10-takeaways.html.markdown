@@ -12,6 +12,7 @@ stats:
   photos: 154
 series: true
 parent: central-america
+published: false
 ---
 
 ## Minimal Planning
