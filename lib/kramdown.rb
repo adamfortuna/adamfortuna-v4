@@ -177,13 +177,14 @@ module Middleman
         contents = el.value.is_a?(Array) ? el.value : el.value[:gallery]
         path = el.value[:path]
 
-        gallery = ::Gallery::Gallery.new(path, contents)
+        gallery = ::Gallery::Gallery.new(contents)
         gallery.name = el.value[:name] if el.value[:name]
 
         # Generate the HTML for this gallery
         gallery.to_html
       rescue Exception => e
-        %(<section class='gallery row'><p>GALLERY IN PROCESS</p><p>#{e.message}</p></section>)
+        binding.pry
+        %(<section class='gallery row'><p>GALLERY IN PROCESS</p><p>#{e.message}</p><p>#{e.backtrace}</p></section>)
       end
     end
   end

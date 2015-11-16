@@ -6,9 +6,13 @@ module Gallery
   class Gallery
     attr_accessor :contents, :name
 
-    def initialize path, given_contents=nil
-      @path = path.gsub(/(.*)(data\/galleries\/.*)/, '\2')
-      @contents = given_contents || YAML.load(file_contents)
+    def initialize starter
+      if starter.is_a? String
+        @path = path.gsub(/(.*)(data\/galleries\/.*)/, '\2')
+        @contents = YAML.load(file_contents)
+      else
+        @contents = starter
+      end
     end
 
     def files_count
