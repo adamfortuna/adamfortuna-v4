@@ -11,15 +11,15 @@
         %a{ href: parent.url }= parent.title
 
 .row
-  - if !previous_photo_article
+  - if !previous_photo_article && next_photo_article
     .medium-5.medium-offset-6.large-4.large-offset-6.columns.end
       %p.subtitle Next Gallery In Series
       = partial 'photos/travel', locals: { article: next_photo_article }
-  - elsif !next_photo_article
+  - elsif !next_photo_article && previous_photo_article
     .medium-5.medium-offset-1.large-4.large-offset-2.columns.end
       %p.subtitle Previous Gallery In Series
       = partial 'photos/travel', locals: { article: previous_photo_article }
-  - else
+  - elsif previous_photo_article && next_photo_article
     .medium-5.medium-offset-1.large-4.large-offset-2.columns
       %p.subtitle Previous Gallery In Series
       = partial 'photos/travel', locals: { article: previous_photo_article }

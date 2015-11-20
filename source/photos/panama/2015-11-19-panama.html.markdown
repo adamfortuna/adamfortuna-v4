@@ -16,9 +16,6 @@ series: true
 published: true
 children:
   - canal
-#  - city
-#  - rainforest
-#  - takeaways
 ---
 
 Panama has never been on my [list of places](/about/goals#travel) that I've longed to visit, but given the opportunity to head there how could I say no? Marilyn's work ([Booking.com](http://booking.com)) led her down there for a company event, which allowed us to extend the trip by a few days to explore the city -- which we always try to take advantage of!
