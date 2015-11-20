@@ -21,8 +21,12 @@ namespace :gallery do
       puts "added absolute path: #{added}"
       puts "removed absolute path: #{removed}"
       modified_files.each do |file_path|
-        gallery = Gallery::Gallery.new(file_path)
-        gallery.prepare!
+        begin
+          gallery = Gallery::Gallery.new(file_path)
+          gallery.prepare!
+        rescue Exception => e
+          # noop
+        end
       end
     end
     listener.start # not blocking
@@ -69,6 +73,11 @@ namespace :gallery do
     puts "YML: #{groups.to_yaml}"
 
     # Setup the yml file
+    folder  = File.join('data', 'galleries', "#{gallery.split('/').first}")
+    if !Dir.exists? folder
+      FileUtils.mkdir_p folder
+    end
+
     destination_file = File.join('data', 'galleries', "#{gallery}.yml")
     puts "Creating file: #{destination_file}"
     if !File.exists?(destination_file)

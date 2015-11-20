@@ -8,11 +8,14 @@ module Gallery
 
     def initialize starter
       if starter.is_a? String
-        @path = path.gsub(/(.*)(data\/galleries\/.*)/, '\2')
+        @path = starter.gsub(/(.*)(data\/galleries\/.*)/, '\2')
         @contents = YAML.load(file_contents)
       else
         @contents = starter
       end
+    rescue Exception => e
+      puts "Error parsing #{starter}"
+      raise e
     end
 
     def files_count

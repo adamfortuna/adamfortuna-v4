@@ -1,25 +1,24 @@
 ---
 title: Panama
 short_title: Panama
-date: 2015-11-10
+date: 2015-11-19
 collection: panama
 permalink: central-america
 tags: Travel
 disqus_identifier: panama
 stats:
-  photos: 350
-  videos: 11
+  photos: 35
 description: 5 days in Panama, Central America
 short_description: 5 days in Panama, Central America
-poster: /images/galleries/japan/ueno/resized/blossom_boats.jpg
-header: /images/galleries/japan/travel/resized/rail_pass.jpg
+poster: /images/galleries/panama/arriving/panama--arriving-016.jpg
+header: /images/galleries/panama/arriving/panama--arriving-016.jpg
 series: true
-published: false
+published: true
 children:
   - canal
-  - city
-  - rainforest
-  - takeaways
+#  - city
+#  - rainforest
+#  - takeaways
 ---
 
 Panama has never been on my [list of places](/about/goals#travel) that I've longed to visit, but given the opportunity to head there how could I say no? Marilyn's work ([Booking.com](http://booking.com)) led her down there for a company event, which allowed us to extend the trip by a few days to explore the city -- which we always try to take advantage of!
@@ -40,17 +39,20 @@ Although Panama has its own currency, it's pegged to the dollar. Also because of
 
 From Orlando, Panama is less than a 3 hour, nonstop flight away on [Copa Airlines](http://www.copaair.com/). After arriving and doing the customs thing, you can hop in a cab to take you to the a hotel for $35. Take care to hold onto your bags, otherwise someone might be expecting a tip for helping you out with them.
 
-__Arriving photos__
+@gallery panama/arriving
 
 ## The Biggest Mall Hotel
 
-The hotel is in the mall, the mall is huge.
+The hotel is in the mall, the mall is huge. It took us over 30 minutes just to walk to the end of it and walk back -- and it's 2 floors! There are 3 food courts in this thing.
 
+@gallery panama/mall
 
 ## Dinner at Manolo Caracol
 
-Amazing 9 course meal in Casco Viejo.
+Amazing 9 course meal in Casco Viejo, which is the old district which is also very nice. After a few minutes of looking online for a restaurant we found Manolo Caracol which seemed like exactly what we were looking for.
 
-__Manolo Caracol photos__
+Manolo is a bit different from a traditional place. Instead of ordering, you just sit down and they start bringing out food. Paired with a few local beers (or wine in Marilyns case), this proved to be our best meal of the entire trip.
+
+@gallery panama/manolo_caracol
 
 We were too tired to explore the city more, so headed back to get up early for our tour the next day.

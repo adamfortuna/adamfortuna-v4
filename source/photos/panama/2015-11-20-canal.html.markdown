@@ -1,21 +1,23 @@
 ---
 title: Panama - Canal
 short_title: Canal
-date: 2015-11-10
+date: 2015-11-20
 collection: panama
 permalink: canal
 description: Tour of Panama Canal, Money Islands and San Lorenzo
-header: /images/galleries/japan/kiyomizudera_temple/resized/pagoda.jpg
-poster: /images/galleries/japan/kiyomizudera_temple/resized/pagoda.jpg
+header: /images/galleries/panama/arriving/panama--arriving-002.jpg
+poster: /images/galleries/panama/arriving/panama--arriving-002.jpg
 tags: Travel
 stats:
-  photos: 154
+  photos: 0
 series: true
 parent: central-america
 published: false
 ---
 
-## Panama Canal Tour
+__This post is expected to be published on November 20, 2015__
+
+<!-- ## Panama Canal Tour
 
 We started day 2 up before 6am to prepare for our tour. Our tour started early to get a jump on the day at a time when we would have the canal to ourselves and have our best chance at seeing animals.
 
@@ -98,4 +100,4 @@ __port__
 
 ## Returning to Panama
 
-After waving goodbye to the Disney Cruise Ship guests, we made our way back to our hotel, happily chatting with the French tourists (who had just been to Cuba!) for the hour long ride back to town.
+After waving goodbye to the Disney Cruise Ship guests, we made our way back to our hotel, happily chatting with the French tourists (who had just been to Cuba!) for the hour long ride back to town. -->
