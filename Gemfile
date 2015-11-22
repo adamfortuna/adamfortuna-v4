@@ -26,5 +26,5 @@ gem 'dimensions'
 
 gem 'listen'
 gem 'ruby_gntp'
-gem 'rake', '~> 0.9'
+gem 'rake'
 #gem 'fastimage'

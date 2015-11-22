@@ -1,0 +1,144 @@
+---
+title: Panama - Canal
+short_title: Canal
+date: 2015-11-22
+collection: panama
+permalink: canal
+description: Tour of Panama Canal, Money Islands and San Lorenzo
+header: /images/galleries/panama/tour/geoffroys_tamarin/panama--geoffroys_tamarin-s036-r5.jpg
+poster: /images/galleries/panama/tour/geoffroys_tamarin/panama--geoffroys_tamarin-s036-r5.jpg
+tags: Travel
+stats:
+  photos: 97
+  videos: 7
+series: true
+parent: central-america
+published: true
+---
+
+On our first full day in Panama, Marilyn scheduled a tour of the Panama Canal. I presumed this would be a short trip out to view the engineering feat and learn a little bit about the history of the area, but ended up on one of the most interesting tours and adventures we've had.
+
+## The Tour
+
+At 7:00am, [TOUR COMPANY](#/asdfa) picked us up at our hotel and we began our trek around Panama. Marilyn, me, two guides and a family of 4 on vacation from France loaded into a van and our tour began.
+
+
+## Traveling To the Canal
+
+From the city center, it's less than 15 minutes out to the Miraflores Locks, the Pacific side of the Panama Canal. That wasn't our destination though -- we were headed to the Atlantic side. On our way there we'd get a feel for the Canal by exploring Gatun Lake.
+
+@gallery panama/tour/traveling_to_canal
+
+
+## Gatun Lake
+
+The interior area of the Panama Canal, between the mechanical locks which raise and lower the ships, lies Gatun lake. This lake is navigated by ships during their journey through the canal, but can also be easily accessed by locals for fishing, or tourism. It was created by flooding the interior when the canal was created, causing a number of small islands to form at the peaks of hills.
+
+
+### Docks
+
+After arriving at a small dock, we loaded into a boat and began our tour of Lake Gatun.
+
+@gallery panama/tour/docks
+
+
+### Water
+
+When we pushed off, we knew we'd be at the mercy of the weather. Visiting in October when we were there is not recommended, as this is the height of the wet season. When planning our trip, it was expected to rain everyday, but somehow we managed to stay dry throughout the week.
+
+By launching before 8am, we avoided the crowds and were able to enjoy the cooler morning air.
+
+@gallery panama/tour/water
+
+
+### White Headed Capuchin
+
+We pulled up to what looked like an empty island which was inhabited by a single of family of White Headed Capuchin Monkeys. After a few calls from our guides, they came within view. I was expecting to view them from a distance, but before we realized it, the entire group jumped on our boat and began scavenging for treats.
+
+A number of tours come out to this area everyday, conditioning these specific monkeys to be familiar with humans. They were noticeable fatter than some of the wild ones we later saw, but our guides were clear to limit the amount we gave them.
+
+We weren't able to touch them, but that didn't stop them from touching us. I held out my closed hand with a grape in it, prompting them to jump over and pry my fingers up to get to the treat.
+
+@gallery panama/tour/white_headed_capuchin
+
+### Geoffroys Tamarin
+
+The second island we made our way over to was inhabited by very small Geoffroys Tamarins. These were easily the cutest little guys we came across. We spent the longest time at this location, listening to their high pitched sounds as they climbed over us for a small taste of banana.
+
+@gallery panama/tour/geoffroys_tamarin
+
+
+## San Lorenzo
+
+After heading back to the docks, we continued our trek up to the Atlantic side of the canal. We drove over the Gatun Locks, which we would come back to explore more later. On the way over, we drove through San Lorenzo, which was previously a US Military city. To make it here, we had to go through a checkpoint, due to potential smuggling since we're so close to the canal. The walls of the buildings were removed to prevent squatting, making the city look like it was right out of a post-apolalyptic movie.
+
+@gallery panama/tour/abandon_city
+
+
+### Walk to the Fort
+
+About a kilometer before the fort, we got out to enjoy a bit of time on the jungle road. Apparently there are no trails through the jungle, as they're completely grown over in next to no time. Because of that, the only trails that stick around are ones that cars travel to keep them under control.
+
+@gallery panama/tour/san_lorenzo_walk
+
+
+## Fort San Lorenzo
+
+We made it over to [Fort San Lorenzo](https://en.wikipedia.org/wiki/Chagres_and_Fort_San_Lorenzo), which sits at the mouth of the Chagres river. It overlooks the water and acts as a focal point for ships coming in. After a quick lunch, we began exploring the fort.
+
+@gallery panama/tour/around_the_fort
+
+
+### Canons
+
+The Chagres river was discovered by Christopher Columbus, and was under Spanish control from the 1500s onward. It was repeatedly attacked and destroyed, before the current fort was build in the 1680s.
+
+@gallery panama/tour/canons
+
+This fort was a main battleground, even up until World War II, where there was a real fear that German U-boats would blow up the Panama Canal. It was one of the United States most versatile assets during the war, allowing the allies an easier route for the Pacific and Atlantic wars.
+
+
+### Upstairs
+
+Around the fort was covered by a bright green moss that covered most of the stone. We got the lay of the land and learned about how the fort was designed to make invaders think they had the upper hand, only to actually have them surrounded.
+
+@gallery panama/tour/upstairs
+
+
+### Downstairs
+
+Some of the structures of the fort look like they are on the verge of falling down. Despite having withstood hundreds of years, it's hard to imagine them withstanding hundreds more with tourists constantly clawing at them.
+
+@gallery panama/tour/downstairs
+
+
+### Inside the Fort
+
+The inner rooms within the fort served as barracks for troops and an armory.  
+
+@gallery panama/tour/inside
+
+
+### Views
+
+The fort overlooks the water and acts as a focal point for ships coming in.
+
+@gallery panama/tour/views
+
+
+## Gatun Locks
+
+After touring the fort, we drove down to the Gatun Locks see them in action. These "locks", along with two others, are the engineering heart of the Panama Canal. These are the points where a ship enters and is raised or lowered, then let free on the other side. Even though the Pacific and Atlantic are at sea level, due to tides and the rotation of the earth, the Atlantic side is significantly higher than the Pacific. When traveling from Atlantic -> Pacific, this means the ships go down many meters.
+
+There's a platform for viewing ships going through the canal which offers a great view of the mechanical side. We found a spot and watched a "Panamax" ship make its way through the canal. The ship enters from the Atlantic side, about 30ft higher than the Canal itself. From there, water is moved from the higher container to the lower, causing the levels to normalize and the ship to drop.
+
+We also were able to see some of the old trains used to move and stabilize the ships as they made their way through the locks.
+
+@gallery panama/tour/gatun_locks
+
+
+## Returning to Panama City
+
+After waving goodbye to the Disney Cruise Ship guests, we made our way back to our hotel, happily chatting with the French tourists (who had just been to Cuba!) for the hour long ride back to town.
+
+_Stay tuned for the next post this series on November 24._

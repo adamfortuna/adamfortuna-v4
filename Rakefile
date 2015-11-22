@@ -9,7 +9,10 @@ require 'gallery/photo'
 require 'gallery/video'
 require 'gallery/photo_options'
 
-require 'pathname'
+require 'grid'
+require 'grid/gallery'
+require 'grid/item'
+
 require 'listen'
 
 namespace :gallery do
@@ -20,7 +23,7 @@ namespace :gallery do
       puts "modified absolute path: #{modified_files}"
       puts "added absolute path: #{added}"
       puts "removed absolute path: #{removed}"
-      modified_files.each do |file_path|
+      [added,modified_files].flatten.each do |file_path|
         begin
           gallery = Gallery::Gallery.new(file_path)
           gallery.prepare!
@@ -34,55 +37,23 @@ namespace :gallery do
     sleep
   end
 
-  task :yml do
-    gallery = ENV['GALLERY']
-    folder = File.split(gallery)[0..-2]
+  task :yml_test do
+    gallery = Grid::Gallery.new('panama/tour/abandon_city')
+    puts gallery.to_gallery
+  end
 
-    # Setup the initial folder
-    destination_folder = File.join('data', 'galleries', folder)
-    puts "Creating folder: #{destination_folder}"
-    #FileUtils.mkdir_p(destination_folder)
+  desc 'Converts any number of folder of images into a yml file'
+  task :yml do |t, args|
+    galleries = args.extras
 
-    # Parse out the files in the given folder
-    images = File.join('source', 'images', 'galleries', gallery, "*")
-    puts "Files: #{Dir[images]}"
-
-    files = Dir[images].collect do |image|
-      file = Pathname.new(image)
-      {
-        'file': file.basename.to_s,
-        'version': 'col-4',
-        'alt': file.basename.to_s.gsub(file.extname, '').capitalize
-      } unless file.extname == ''
-    end
-
-    files.compact!
-
-    groups = []
-    new_group = []
-    files.each_with_index do |file, index|
-      if (index % 3) == 0 && !new_group.empty?
-        groups << { files: new_group }
-        new_group = []
+    statements = galleries.collect do |gallery_path|
+      gallery = Grid::Gallery.new(gallery_path)
+      if gallery.exists?
+        gallery.save!
+        "@gallery #{gallery_path}"
       end
-      new_group << file
-    end
-    if !new_group.empty?
-      groups << { files: new_group }
-    end
-    puts "YML: #{groups.to_yaml}"
+    end.compact
 
-    # Setup the yml file
-    folder  = File.join('data', 'galleries', "#{gallery.split('/').first}")
-    if !Dir.exists? folder
-      FileUtils.mkdir_p folder
-    end
-
-    destination_file = File.join('data', 'galleries', "#{gallery}.yml")
-    puts "Creating file: #{destination_file}"
-    if !File.exists?(destination_file)
-      file = File.open(destination_file, 'w')
-      file.write(groups.to_yaml)
-    end
+    puts statements.join("/n")
   end
 end

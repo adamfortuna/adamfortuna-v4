@@ -1,0 +1,66 @@
+---
+- :files:
+  - :file: panama--videos-s020-small-r2.mp4
+    :version: col-6
+    :alt: Panama--videos-s020-small-r2
+    :video: true
+    :options:
+      height: 325
+  - :file: panama--san_lorenzo_walk-s064-r4.jpg
+    :version: col-6
+    :alt: Panama--san_lorenzo_walk-s064-r4
+    :options:
+      height: 325
+- :files:
+  - :file: panama--san_lorenzo_walk-s068-r2.jpg
+    :version: col-4
+    :alt: Panama--san_lorenzo_walk-s068-r2
+  - :file: panama--san_lorenzo_walk-s063-r4.jpg
+    :version: col-3
+    :alt: Panama--san_lorenzo_walk-s063-r4
+  - :file: panama--san_lorenzo_walk-s067-r2.jpg
+    :version: col-5
+    :alt: Panama--san_lorenzo_walk-s067-r2
+- :files:
+  - :file: panama--san_lorenzo_walk-s070-r3.jpg
+    :version: col-6
+    :alt: Panama--san_lorenzo_walk-s070-r3
+    :options:
+      height: 600
+  - :file: panama--san_lorenzo_walk-s060-r3.jpg
+    :version: col-6
+    :alt: Panama--san_lorenzo_walk-s060-r3
+    :options:
+      height: 600
+- :files:
+  - :file: panama--san_lorenzo_walk-s061-r3.jpg
+    :version: col-12
+    :alt: Panama--san_lorenzo_walk-s061-r3
+- :files:
+  - :file: panama--san_lorenzo_walk-s066-r2.jpg
+    :version: col-6
+    :alt: Panama--san_lorenzo_walk-s066-r2
+  - :file: panama--san_lorenzo_walk-s062-r3.jpg
+    :version: col-6
+    :alt: Panama--san_lorenzo_walk-s062-r3
+- :files:
+  - :file: panama--san_lorenzo_walk-s051-r2.jpg
+    :version: col-5
+    :alt: Panama--san_lorenzo_walk-s051-r2
+  - :file: panama--san_lorenzo_walk-s050-r2.jpg
+    :version: col-7
+    :alt: Panama--san_lorenzo_walk-s050-r2
+- :files:
+  - :file: panama--san_lorenzo_walk-s069-r2.jpg
+    :version: col-4
+    :alt: Panama--san_lorenzo_walk-s069-r2
+  - :file: panama--san_lorenzo_walk-s057-r2.jpg
+    :version: col-5
+    :alt: Panama--san_lorenzo_walk-s057-r2
+  - :file: panama--san_lorenzo_walk-s056-r2.jpg
+    :version: col-3
+    :alt: Panama--san_lorenzo_walk-s056-r2
+- :files:
+  - :file: panama--san_lorenzo_walk-s065-r3.jpg
+    :version: col-12
+    :alt: Panama--san_lorenzo_walk-s065-r3

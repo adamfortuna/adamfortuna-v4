@@ -1,0 +1,96 @@
+---
+- :file: panama--gatun_locks-s095-r5.jpg
+  :version: full
+  :alt: Panama--gatun_locks-s095-r5
+- :files:
+  - :file: panama--gatun_locks-s117-r1.jpg
+    :version: col-5
+    :alt: Panama--gatun_locks-s117-r1
+    :options:
+      height: 379
+  - :file: panama--videos-s021-small-r4.mp4
+    :version: col-7
+    :alt: Panama--videos-s021-small-r4
+    :video: true
+    :options:
+      height: 379
+- :files:
+  - :file: panama--gatun_locks-s047-r3.jpg
+    :version: col-6
+    :alt: Panama--gatun_locks-s047-r3
+  - :file: panama--gatun_locks-s046-r3.jpg
+    :version: col-6
+    :alt: Panama--gatun_locks-s046-r3
+- :files:
+  - :file: panama--gatun_locks-s052-r3.jpg
+    :version: col-4
+    :alt: Panama--gatun_locks-s052-r3
+  - :file: panama--gatun_locks-s111-r4.jpg
+    :version: col-4
+    :alt: Panama--gatun_locks-s111-r4
+  - :file: panama--gatun_locks-s053-r3.jpg
+    :version: col-4
+    :alt: Panama--gatun_locks-s053-r3
+- :file: panama--gatun_locks-s112-r5.jpg
+  :version: full
+  :alt: Panama--gatun_locks-s112-r5
+- :files:
+  - :file: panama--gatun_locks-s116-r2.jpg
+    :version: col-3
+    :alt: Panama--gatun_locks-s116-r2
+  - :file: panama--gatun_locks-s120-r4.jpg
+    :version: col-3
+    :alt: Panama--gatun_locks-s120-r4
+    :options:
+      gravity: east
+  - :file: panama--gatun_locks-s113-r4.jpg
+    :version: col-6
+    :alt: Panama--gatun_locks-s113-r4
+- :files:
+  - :file: panama--gatun_locks-s110-r4.jpg
+    :version: col-4
+    :alt: Panama--gatun_locks-s110-r4
+    :options:
+      height: 434
+  - :file: panama--videos-s022-small-r3.mp4
+    :version: col-8
+    :alt: Panama--videos-s022-small-r3
+    :video: true
+    :options:
+      height: 434
+- :files:
+  - :file: panama--gatun_locks-s055-r4.jpg
+    :version: col-6
+    :alt: Panama--gatun_locks-s055-r4
+  - :file: panama--gatun_locks-s054-r4.jpg
+    :version: col-6
+    :alt: Panama--gatun_locks-s054-r4
+- :files:
+  - :file: panama--gatun_locks-s114-r3.jpg
+    :version: col-4
+    :alt: Panama--gatun_locks-s114-r3
+  - :file: panama--gatun_locks-s108-r4.jpg
+    :version: col-4
+    :alt: Panama--gatun_locks-s108-r4
+  - :file: panama--gatun_locks-s115-r2.jpg
+    :version: col-4
+    :alt: Panama--gatun_locks-s115-r2
+- :files:
+  - :file: panama--videos-s023-small-r3.mp4
+    :version: col-6
+    :alt: Panama--videos-s023-small-r3
+    :video: true
+    :options:
+      height: 325
+  - :file: panama--gatun_locks-s118-r3.jpg
+    :version: col-6
+    :alt: Panama--gatun_locks-s118-r3
+    :options:
+      height: 325
+- :files:
+  - :file: panama--gatun_locks-s119-r3.jpg
+    :version: col-4
+    :alt: Panama--gatun_locks-s119-r3
+  - :file: panama--gatun_locks-s109-r3.jpg
+    :version: col-8
+    :alt: Panama--gatun_locks-s109-r3

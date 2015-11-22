@@ -1,0 +1,33 @@
+---
+- :file: panama--water-s044-r5.jpg
+  :version: full
+  :alt: Panama--water-s044-r5
+- :files:
+  - :file: panama--water-s030-r2.jpg
+    :version: col-6
+    :alt: Panama--water-s030-r2
+  - :file: panama--water-s032-r2.jpg
+    :version: col-6
+    :alt: Panama--water-s032-r2
+- :files:
+  - :file: panama--videos-s017-small-r4.mp4
+    :version: col-12
+    :alt: Panama--videos-s017-small-r4
+    :video: true
+- :files:
+  - :file: panama--water-s031-r3.jpg
+    :version: col-5
+    :alt: Panama--water-s031-r3
+  - :file: panama--water-s043-r4.jpg
+    :version: col-4
+    :alt: Panama--water-s043-r4
+  - :file: panama--water-s041-r1.jpg
+    :version: col-3
+    :alt: Panama--water-s041-r1
+- :files:
+  - :file: panama--water-s028-r2.jpg
+    :version: col-6
+    :alt: Panama--water-s028-r2
+  - :file: panama--water-s029-r3.jpg
+    :version: col-6
+    :alt: Panama--water-s029-r3

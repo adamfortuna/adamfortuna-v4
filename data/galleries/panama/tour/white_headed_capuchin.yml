@@ -1,0 +1,16 @@
+---
+- :files:
+  - :file: panama--videos-s001-small-r4.mp4
+    :version: col-8
+    :alt: Panama--videos-s001-small-r4
+    :video: true
+  - :file: panama--white-headed_capuchin-s040-r4.jpg
+    :version: col-4
+    :alt: Panama--white-headed_capuchin-s040-r4
+- :files:
+  - :file: panama--white-headed_capuchin-s023-r3.jpg
+    :version: col-6
+    :alt: Panama--white-headed_capuchin-s023-r3
+  - :file: panama--white-headed_capuchin-s034-r3.jpg
+    :version: col-6
+    :alt: Panama--white-headed_capuchin-s034-r3

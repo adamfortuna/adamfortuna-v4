@@ -1,0 +1,26 @@
+---
+- :file: panama--docks-s027-r5.jpg
+  :version: full
+  :alt: Panama--docks-s027-r5
+- :files:
+  - :file: panama--docks-s026-r2.jpg
+    :version: col-4
+    :alt: Panama--docks-s026-r2
+    :options:
+      gravity: east
+      height: 600
+  - :file: panama--docks-s025-r4.jpg
+    :version: col-8
+    :alt: Panama--docks-s025-r4
+    :options:
+      gravity: north
+      height: 600
+- :files:
+  - :file: panama--docks-s033-r3.jpg
+    :version: col-6
+    :alt: Panama--docks-s033-r3
+    :options:
+      gravity: east
+  - :file: panama--docks-s045-r2.jpg
+    :version: col-6
+    :alt: Panama--docks-s045-r2

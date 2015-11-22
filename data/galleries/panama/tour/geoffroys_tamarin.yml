@@ -1,0 +1,33 @@
+---
+- :file: panama--geoffroys_tamarin-s036-r5.jpg
+  :version: full
+  :alt: Panama--geoffroys_tamarin-s036-r5
+- :files:
+  - :file: panama--geoffroys_tamarin-s021-r4.jpg
+    :version: col-6
+    :alt: Panama--geoffroys_tamarin-s021-r4
+  - :file: panama--geoffroys_tamarin-s020-r4.jpg
+    :version: col-6
+    :alt: Panama--geoffroys_tamarin-s020-r4
+- :files:
+  - :file: panama--videos-s002-small-r5.mp4
+    :version: col-12
+    :alt: Panama--videos-s002-small-r5
+    :video: true
+- :files:
+  - :file: panama--geoffroys_tamarin-s035-r4.jpg
+    :version: col-4
+    :alt: Panama--geoffroys_tamarin-s035-r4
+  - :file: panama--geoffroys_tamarin-s019-r3.jpg
+    :version: col-8
+    :alt: Panama--geoffroys_tamarin-s019-r3
+- :files:
+  - :file: panama--geoffroys_tamarin-s037-r4.jpg
+    :version: col-8
+    :alt: Panama--geoffroys_tamarin-s037-r4
+  - :file: panama--geoffroys_tamarin-s038-r4.jpg
+    :version: col-4
+    :alt: Panama--geoffroys_tamarin-s038-r4
+- :file: panama--geoffroys_tamarin-s039-r5.jpg
+  :version: full
+  :alt: Panama--geoffroys_tamarin-s039-r5
