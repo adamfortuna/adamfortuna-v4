@@ -7,7 +7,7 @@ permalink: central-america
 tags: Travel
 disqus_identifier: panama
 stats:
-  photos: 184
+  photos: 199
   videos: 7
 description: 5 days in Panama, Central America
 short_description: 5 days in Panama, Central America
