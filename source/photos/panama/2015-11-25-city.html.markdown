@@ -1,0 +1,85 @@
+---
+title: Panama - City
+short_title: City
+date: 2015-11-25
+collection: panama
+permalink: city
+description: Casco Viejo & Via Argentina
+header: /images/galleries/panama/casco_viejo/casa_sucre/resized/panama--Casa%20Sucre-s041-r4.jpg
+poster: /images/galleries/panama/casco_viejo/casa_sucre/resized/panama--Casa%20Sucre-s041-r4.jpg
+tags: Travel
+stats:
+  photos: 52
+series: true
+parent: central-america
+published: true
+---
+
+The city isn't that large. The ocean is on one side, and the rainforest keeps expansion on the other side in check. For tourists, the main sites of the city can be seen in a day or two. We concentrated on a few main areas for our stay: the Albrook Mall (where we were staying), Via Argentina Street, the waterfront and Casco Viejo.
+
+## Via Argentina
+
+This area is less traveled by tourists, but contains a few great restaurants and a brewery as well as a little charm.
+
+@gallery panama/city/via_argentina
+
+### El Trapiche
+
+We walked up and down the main tretch before heading to El Trapiche, a local Panamanian restaurant which was amazing.
+
+@gallery panama/city/el_trapiche
+
+From there, we walked south all the way to the waterfront where we enjoyed some amazing views of the city.
+
+@gallery panama/city/walk
+
+## Waterfront
+
+The waterfront offers an uninterrupted walk along the sea wall and amazing views of the city. The water itself is not at all inviting -- murky with pollution from the canal -- but that didn't stop people from enjoying the cool air.
+
+@gallery panama/city/waterfront
+
+We finished the night up with some ceviche and a pair of beers for $5 from the fish market.
+
+
+
+
+## Casco Viejo
+
+The next day we began our day out at Casco Viejo -- the "old city". If you've been to San Juan or even Key West it might look familiar. Small streets, little shops.
+
+@gallery panama/casco_viejo/streets
+
+We made two unfortunate decisions with our timing. We were here the day before independence day, which meant a number of shops were shut down. The second mistake was that we were there the day before independence day. That would normally be a part time, but from noon the day before to noon the day of, alcohol is not sold anywhere in Panama! We had to make do with coffee and search out good food instead.
+
+
+### Bajarique Coffee Kitchen
+
+We found some OK at Bajarique Coffee Kitchen by the waterfront. The Yelp reviews for the place ended up being better than actual experience. The coffee is grown and roasted just a few miles out from the city, but surprisingly it didn't taste much different than anything you'd get at a solid place here in the US.
+
+@gallery panama/casco_viejo/bajareque
+
+
+### Casa Sucre
+
+Wandering north, we found Casa Sucre, another small coffee house and cafe to grab a bite at. We ended up grabbing a delicious shake, coffee and a Panamanian tamale which was similar to Pasteles.
+
+@gallery panama/casco_viejo/casa_sucre
+
+### Inglesia de San Jose
+
+One of the more impressive sites in the old city was the Golden Alter at the Inglesia de San Jose. This alter has quite a history. It's carved wood covered in gold flake. When English pirate Henry Morgan attacked the city the jesuits painted the altar black to hide the gold, but it's since been restored to it's splendor.
+
+@gallery panama/casco_viejo/church
+
+### Street Art
+
+Around the old city, we kept running into artwork that fit right into the mood.
+
+@gallery panama/casco_viejo/art
+
+### The View from Outside
+
+Like many nice neighborhoods, only a few blocks from Casco Viejo are some of the most run down parts of the city. Houses with tarps for roofs. Still though, the views from the old city to the rest of Panama aren't bad.
+
+@gallery panama/casco_viejo/views

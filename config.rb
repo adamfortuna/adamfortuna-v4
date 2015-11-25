@@ -63,11 +63,11 @@ page "photos", :layout => :layout
 # ====================================
 #   Galleries
 # ====================================
-Dir[data.gallery.galleries].each do |gallery|
-  path = gallery.gsub('data/galleries/', '').gsub('.yml', '')
-  proxy "/galleries/#{path}", "/galleries/show.html", ignore: true, locals: { path: gallery }
-end
-proxy '/galleries', '/galleries/index.html'
+# Dir[data.gallery.galleries].each do |gallery|
+#   path = gallery.gsub('data/galleries/', '').gsub('.yml', '')
+#   proxy "/galleries/#{path}", "/galleries/show.html", ignore: true, locals: { path: gallery }
+# end
+# proxy '/galleries', '/galleries/index.html'
 
 
 # ====================================

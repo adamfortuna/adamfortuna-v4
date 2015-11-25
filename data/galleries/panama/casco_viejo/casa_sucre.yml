@@ -1,0 +1,24 @@
+---
+- :file: panama--Casa Sucre-s029-r4.jpg
+  :version: full
+  :alt: Panama--casa sucre-s029-r4
+- :files:
+  - :file: panama--Casa Sucre-s028-r3.jpg
+    :version: col-6
+    :alt: Panama--casa sucre-s028-r3
+  - :file: panama--Casa Sucre-s040-r2.jpg
+    :version: col-6
+    :alt: Panama--casa sucre-s040-r2
+- :files:
+  - :file: panama--Casa Sucre-s041-r4.jpg
+    :version: col-12
+    :alt: Panama--casa sucre-s041-r4
+- :files:
+  - :file: panama--Casa Sucre-s043-r3.jpg
+    :version: col-6
+    :alt: Panama--casa sucre-s043-r3
+  - :file: panama--Casa Sucre-s042-r3.jpg
+    :version: col-6
+    :alt: Panama--casa sucre-s042-r3
+    :options:
+      gravity: north

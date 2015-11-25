@@ -1,7 +1,7 @@
 ---
 title: Panama - Takeaways
 short_title: Takeaways
-date: 2015-11-10
+date: 2015-11-25
 collection: panama
 permalink: takeaways
 description: Takeaways from our time in Panama
@@ -14,6 +14,58 @@ series: true
 parent: central-america
 published: false
 ---
+
+The city isn't that large, with the rainforest and the ocean holding it in. For tourists, the main sites of the city can be seen in a day or two. We concentrated on a few main areas for our stay: the Albrook Mall (where we were staying), Via Argentina Street, the waterfront and Casco Viejo.
+
+__general_city__
+
+## Via Argentina
+
+This area has a few things.
+
+__via-argentina__
+
+We walked south all the way to the waterfront where we
+
+## Waterfront
+
+Lots going on at the waterfront.
+
+__waterfront__
+
+We finished the night up with some ceviche and a pair of beers for $5.
+
+## Casco Viejo
+
+Casco Viejo is the "old city". If you've been to San Juan or even Key West it might look familiar. Small streets, little shops.
+
+__casco viejo__
+
+We made two unfortunate decisions with our timing. We were here the day before independence day, which meant a number of shops were shut down. The second mistake was that
+
+### Bajarique Coffee Kitchen
+
+We found some amazing at Bajarique Coffee Kitchen
+
+__bajarique__
+
+### Casa Sucre
+
+Wandering north, we found Casa Sucre, another small coffee house and cafe.
+
+__casa sucre__
+
+### Art
+
+Nice amount of art around the city as well.
+
+__casco art__
+
+### The View from Outside
+
+Like many nice neighborhoods, only a few blocks from Casco Viejo are some of the most run down parts of the city. Houses with tarps for roofs.
+
+
 
 ## Minimal Planning
 

@@ -92,15 +92,24 @@ module Grid
 
       # If any remaining rows have a rank of 5, give them their own row
       elsif @remaining_items.length > 2 && rank_remaining?(5)
-        puts "generate_row: high ranking item"
+        puts "generate_row: high ranking 5 item"
         # Find the item and make it big
 
         high_rank_index = @remaining_items.collect(&:rating).index(5)
         item = @remaining_items.slice!(high_rank_index)
-
-        @last_full_width = (@last_full_width == 'full') ? 'col-12' : 'full'
         item.columns = 12
-        item.full = @last_full_width
+        item.full = 'full'
+        row = [item]
+
+      elsif @remaining_items.length > 2 && rank_remaining?(4)
+        puts "generate_row: high ranking 4 item"
+        # Find the item and make it big
+
+        high_rank_index = @remaining_items.collect(&:rating).index(4)
+        item = @remaining_items.slice!(high_rank_index)
+
+        item.columns = 12
+        item.full = 'col-12'
 
         row = [item]
 
