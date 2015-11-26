@@ -2,6 +2,7 @@ $:.unshift File.join(File.dirname(__FILE__), 'lib')
 
 require 'pry'
 require 'yaml'
+require 'Parallel'
 require 'gallery'
 require 'gallery/gallery'
 require 'gallery/item'
@@ -19,16 +20,30 @@ namespace :gallery do
 
   desc 'Watches for changes to galleries and rebuilds them if there are changes'
   task :watch do
+    # Load all galleries, so we'll know if we need to do something when a file changes
+    @galleries = {}
+    Dir['data/galleries/**/*.yml'].each do |path|
+      @galleries[path] = Gallery::Gallery.new(path)
+    end
+
     listener = Listen.to('data/galleries') do |modified_files, added, removed|
       puts "modified absolute path: #{modified_files}"
       puts "added absolute path: #{added}"
       puts "removed absolute path: #{removed}"
-      [added,modified_files].flatten.each do |file_path|
+
+      # Create any new galleries
+      added.each do |file_path|
+        normalized_path = file_path.gsub("#{Dir.pwd}/", '')
+        @galleries[normalized_path] = Gallery::Gallery.new(normalized_path)
+        @galleries[normalized_path].prepare!
+      end
+
+      modified_files.each do |file_path|
         begin
-          gallery = Gallery::Gallery.new(file_path)
-          gallery.prepare!
+          normalized_path = file_path.gsub("#{Dir.pwd}/", '')
+          @galleries[normalized_path].refresh!
         rescue Exception => e
-          # noop
+          puts "Exception: #{e.message}"
         end
       end
     end

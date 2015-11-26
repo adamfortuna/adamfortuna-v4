@@ -11,6 +11,10 @@ module Gallery
       true
     end
 
+    def different?
+      false
+    end
+
     def to_html
       html = <<-PIC
       <div class='lazy gallery--video controls #{column_class_for}'>

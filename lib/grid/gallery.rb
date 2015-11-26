@@ -2,11 +2,6 @@
 # TODO: Split up 12 column items throughout each gallery
 # TODO: Figure out how to not have as many corner intersections
 
-# be rake gallery:yml['panama/tour/abandon_city','panama/tour/around_the_fort','panama/tour/canons','panama/tour/docks','panama/tour/downstairs','panama/tour/gatun_locks','panama/tour/geoffroys_tamarin','panama/tour/inside','panama/tour/san_lorenzo_walk','panama/tour/traveling_to_canal','panama/tour/upstairs','panama/tour/views','panama/tour/water','panama/tour/white-headed-capuchin']
-
-
-
-
 module Grid
   class Gallery
     def initialize path

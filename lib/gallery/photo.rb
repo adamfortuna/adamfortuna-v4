@@ -4,7 +4,9 @@ require 'mini_magick'
 module Gallery
   class Photo < Item
     def prepare!
-      write_images if !files_exists? || out_of_date? || force_reload?
+      if !files_exists? || out_of_date? || force_reload?
+        write_images
+      end
     end
 
     def files_exists?
@@ -64,18 +66,27 @@ module Gallery
       raise e
     end
 
+    def identical?(photo)
+      (columns_count == photo.columns_count) &&
+        (version == photo.version) &&
+        (options.identical?(photo.options))
+    end
+
+    def delete!
+      FileUtils.rm_f(destination_path) rescue nil
+      FileUtils.rm_f(full_destination_path) rescue nil
+    end
+
     private
 
     def write_images
       return false unless File.exists?(source_path)
 
       if force_reload? || !thumbnail_exists? || !same_dimensions?
-        puts "Writing resized image: #{destination_path}"
         write_processed_image
       end
 
       if force_reload? || !resized_exists?
-        puts "Writing full image: #{full_destination_path}"
         write_resized_image
       end
     end

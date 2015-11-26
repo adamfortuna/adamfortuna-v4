@@ -42,6 +42,10 @@ module Gallery
       @full_src ||= image[:src] ? image[:src] : full_url
     end
 
+    def version
+      image[:version]
+    end
+
     def version_file
       if image[:version] == 'full'
         image[:file].gsub(/\.([^\.]+)$/, '-full.\1')

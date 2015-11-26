@@ -7,6 +7,13 @@ module Gallery
       @options = options.with_indifferent_access
     end
 
+    def identical?(other)
+      (other.gravity == gravity) &&
+        (other.width == width) &&
+        (other.height == height) &&
+        (other.crop? == crop?)
+    end
+
     def gravity
       options[:gravity] || 'center'
     end

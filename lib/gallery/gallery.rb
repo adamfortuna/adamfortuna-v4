@@ -1,4 +1,3 @@
-require 'Parallel'
 require 'benchmark'
 require 'active_support/all'
 
@@ -67,13 +66,40 @@ module Gallery
       %(<div class='row'>#{items.collect(&:to_html).join("\n")}</div>)
     end
 
+    # Used to update in the event of file changes
+    def refresh!
+      updated_contents = File.read(@path)
+      updated_yml = YAML.load(updated_contents)
+
+      updated_items = fetch_items(updated_yml)
+      original_items = items.flatten
+
+      updated_items.flatten.each do |updated_item|
+        original_item = original_items.find do |oi|
+          oi.full_src == updated_item.full_src
+        end
+
+        # If this is a new item, we're good
+        next if !original_item
+
+        # Otherwise, we'll need to see if this file changed
+        if !original_item.identical?(updated_item)
+          original_item.delete!
+        end
+      end
+
+      @items = updated_items
+
+      prepare!
+    end
+
     # Prepares all images for view by resizing them
     def prepare!
       prepare_in_parallel!
     end
 
     def prepare_in_parallel!
-      @prepared ||= Parallel.each(items.flatten, progress: "Preparing Gallery #{name}") do |item|
+      @prepared = Parallel.each(items.flatten, progress: "Preparing Gallery #{name}") do |item|
         item.prepare!
       end
       puts "Finished preparing #{@prepared.length} item(s)."
@@ -88,7 +114,11 @@ module Gallery
     # Returns a nested array of all items in this gallery
     # Each item in the top level array is a row in the gallery
     def items
-      @items ||= contents.collect do |gallery_item|
+      @items ||= fetch_items(contents.collect)
+    end
+
+    def fetch_items(files)
+      files.collect do |gallery_item|
         gallery_item = gallery_item.with_indifferent_access
 
         # This is a row with multiple item

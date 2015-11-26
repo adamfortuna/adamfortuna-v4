@@ -1,3 +1,4 @@
+require 'lib/middleman_overrides'
 require 'lib/gallery'
 require 'lib/gallery/item'
 require 'lib/gallery/gallery'
@@ -63,11 +64,11 @@ page "photos", :layout => :layout
 # ====================================
 #   Galleries
 # ====================================
-# Dir[data.gallery.galleries].each do |gallery|
-#   path = gallery.gsub('data/galleries/', '').gsub('.yml', '')
-#   proxy "/galleries/#{path}", "/galleries/show.html", ignore: true, locals: { path: gallery }
-# end
-# proxy '/galleries', '/galleries/index.html'
+Dir[data.gallery.galleries].each do |gallery|
+  path = gallery.gsub('data/galleries/', '').gsub('.yml', '')
+  proxy "/galleries/#{path}", "/galleries/show.html", ignore: true, locals: { path: gallery }
+end
+proxy '/galleries', '/galleries/index.html'
 
 
 # ====================================
@@ -76,12 +77,11 @@ page "photos", :layout => :layout
 configure :development do
   activate :disqus do |d|
     d.shortname = data.config.disqus.development
-    #d.shortname = nil # nill will disable disqus
   end
 end
 configure :build do
   activate :disqus do |d|
-    d.shortname = d.shortname = data.config.disqus.production
+    d.shortname = data.config.disqus.production
   end
 end
 
@@ -91,7 +91,7 @@ end
 after_configuration do
   @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
   sprockets.append_path File.join root, @bower_config['directory']
-  sprockets.append_path File.join(root, 'images', 'galleries')
+  #sprockets.append_path File.join(root, 'images', 'galleries')
 end
 
 set :css_dir, 'stylesheets'
@@ -118,9 +118,32 @@ set :asset_host do |asset|
   '/'
 end
 
+
+# Don't watch bower or gallery images
+set :file_watcher_ignore, [
+  /^bin(\/|$)/,
+  /^\.bundle(\/|$)/,
+  /^vendor(\/|$)/,
+  /^node_modules(\/|$)/,
+  /^\.sass-cache(\/|$)/,
+  /^\.cache(\/|$)/,
+  /^\.git(\/|$)/,
+  /^\.gitignore$/,
+  /\.DS_Store/,
+  /^\.rbenv-.*$/,
+  /^Gemfile$/,
+  /^Gemfile\.lock$/,
+  /~$/,
+  /(^|\/)\.?#/,
+  /^tmp\//,
+  /^source\/bower_components(\/|$)/,
+  /^source\/images\/galleries(\/|$)/
+]
+
+
 configure :build do
   ignore '/bower_components/*'
-  # ignore '/galleries/*'
+  ignore '/galleries/*'
   ignore '/upublished/*'
   activate :minify_css
   activate :minify_html
@@ -154,15 +177,3 @@ activate :s3_sync do |s3_sync|
   s3_sync.prefix                     = ''
   s3_sync.version_bucket             = false
 end
-
-# after_s3_sync do |files_by_status|
-#   invalidate files_by_status[:updated]
-# end
-
-# activate :cloudfront do |cf|
-#   cf.access_key_id = data.aws.access_key
-#   cf.secret_access_key = data.aws.secret
-#   cf.distribution_id = data.aws.distribution_id
-#   # cf.filter = /\.html$/i  # default is /.*/
-#   # cf.after_build = false  # default is false
-# end
