@@ -19,7 +19,7 @@ gem 'haml'
 gem 'pry'
 
 # Gallery
-gem 'mini_magick'
+gem 'mini_magick', '~> 4.3'
 gem 'parallel'
 gem 'dimensions'
 

@@ -1,13 +1,11 @@
-require 'benchmark'
-require 'active_support/all'
-
 module Gallery
   class Gallery
     attr_accessor :contents, :name
 
     def initialize starter
       if starter.is_a? String
-        @path = starter.gsub(/(.*)(data\/galleries\/.*)/, '\2')
+        # starter = montreal/travel
+        @path = File.join(root, 'data', 'galleries', starter) + '.yml'
         @contents = YAML.load(file_contents)
       else
         @contents = starter
@@ -41,7 +39,7 @@ module Gallery
     end
 
     def name
-      @name ||= @path.gsub('data/galleries/', '').gsub('.yml', '')
+      @name ||= @path.gsub(/(.*)(data\/galleries\/.*)/, '\2').gsub('data/galleries/', '').gsub('.yml', '')
     end
 
     def file_contents
@@ -114,7 +112,7 @@ module Gallery
     # Returns a nested array of all items in this gallery
     # Each item in the top level array is a row in the gallery
     def items
-      @items ||= fetch_items(contents.collect)
+      @items ||= fetch_items(contents)
     end
 
     def fetch_items(files)
@@ -133,6 +131,10 @@ module Gallery
 
         to_return
       end
+    end
+
+    def root
+      '/Users/adam/code/personal/adamfortuna.com'
     end
   end
 end

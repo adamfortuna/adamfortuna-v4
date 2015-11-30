@@ -1,0 +1,48 @@
+---
+- :files:
+  - :file: montreal--city_streets-s015-r5.mp4
+    :version: col-12
+    :alt: Montreal--city_streets-s015-r5
+    :video: true
+- :files:
+  - :file: montreal--city_streets-s142-r3.jpg
+    :version: col-3
+    :alt: Montreal--city_streets-s142-r3
+  - :file: montreal--city_streets-s128-r1.jpg
+    :version: col-4
+    :alt: Montreal--city_streets-s128-r1
+  - :file: montreal--city_streets-s141-r3.jpg
+    :version: col-5
+    :alt: Montreal--city_streets-s141-r3
+- :file: montreal--city_streets-s126-r5.jpg
+  :version: full
+  :alt: Montreal--city_streets-s126-r5
+- :files:
+  - :file: montreal--city_streets-s127-r5.jpg
+    :version: col-6
+    :alt: Montreal--city_streets-s127-r5
+    :options:
+      height: 325
+  - :file: montreal--city_streets-s132-r3.mp4
+    :version: col-6
+    :alt: Montreal--city_streets-s132-r3
+    :video: true
+    :options:
+      height: 325
+- :file: montreal--city_streets-s014-r4.jpg
+  :version: full
+  :alt: Montreal--city_streets-s014-r4
+- :files:
+  - :file: montreal--city_streets-s018-r3.jpg
+    :version: col-4
+    :alt: Montreal--city_streets-s018-r3
+  - :file: montreal--city_streets-s016-r3.jpg
+    :version: col-8
+    :alt: Montreal--city_streets-s016-r3
+- :files:
+  - :file: montreal--city_streets-s007-r4.jpg
+    :version: col-8
+    :alt: Montreal--city_streets-s007-r4
+  - :file: montreal--city_streets-s051-r3.jpg
+    :version: col-4
+    :alt: Montreal--city_streets-s051-r3

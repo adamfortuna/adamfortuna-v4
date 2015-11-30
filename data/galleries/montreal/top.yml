@@ -1,0 +1,16 @@
+---
+- :file: montreal--top-s044-r4.mp4
+  :version: full
+  :alt: Montreal--top-s044-r4
+  :video: true
+- :files:
+  - :file: montreal--top-s031-r3.jpg
+    :version: col-6
+    :alt: Montreal--top-s031-r3
+  - :file: montreal--top-s038-r3.jpg
+    :version: col-6
+    :alt: Montreal--top-s038-r3
+- :files:
+  - :file: montreal--top-s041-r3.jpg
+    :version: col-12
+    :alt: Montreal--top-s041-r3

@@ -1,20 +1,12 @@
-$:.unshift File.join(File.dirname(__FILE__), 'lib')
+$:.unshift File.join(File.dirname(__FILE__))
 
 require 'pry'
-require 'yaml'
-require 'Parallel'
-require 'gallery'
-require 'gallery/gallery'
-require 'gallery/item'
-require 'gallery/photo'
-require 'gallery/video'
-require 'gallery/photo_options'
-
-require 'grid'
-require 'grid/gallery'
-require 'grid/item'
-
 require 'listen'
+require 'Parallel'
+
+require 'lib/gallery'
+require 'lib/grid'
+
 
 namespace :gallery do
 
@@ -22,7 +14,8 @@ namespace :gallery do
   task :watch do
     # Load all galleries, so we'll know if we need to do something when a file changes
     @galleries = {}
-    Dir['data/galleries/**/*.yml'].each do |path|
+    Dir['data/galleries/**/*.yml'].each do |full_path|
+      path = full_path.gsub(/(.*)(data\/galleries\/.*)/, '\2').gsub('data/galleries/', '').gsub('.yml', '')
       @galleries[path] = Gallery::Gallery.new(path)
     end
 
@@ -33,14 +26,14 @@ namespace :gallery do
 
       # Create any new galleries
       added.each do |file_path|
-        normalized_path = file_path.gsub("#{Dir.pwd}/", '')
+        normalized_path = file_path.gsub(/(.*)(data\/galleries\/.*)/, '\2').gsub('data/galleries/', '').gsub('.yml', '')
         @galleries[normalized_path] = Gallery::Gallery.new(normalized_path)
         @galleries[normalized_path].prepare!
       end
 
       modified_files.each do |file_path|
         begin
-          normalized_path = file_path.gsub("#{Dir.pwd}/", '')
+          normalized_path = file_path.gsub(/(.*)(data\/galleries\/.*)/, '\2').gsub('data/galleries/', '').gsub('.yml', '')
           @galleries[normalized_path].refresh!
         rescue Exception => e
           puts "Exception: #{e.message}"

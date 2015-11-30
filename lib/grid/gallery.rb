@@ -2,11 +2,13 @@
 # TODO: Split up 12 column items throughout each gallery
 # TODO: Figure out how to not have as many corner intersections
 
+require 'yaml'
+
 module Grid
   class Gallery
     def initialize path
       @path = path
-      images = File.join('source', 'images', 'galleries', path, '*')
+      images = File.join(root, 'source', 'images', 'galleries', path, '*')
       @items = Dir[images].collect do |item|
         ::Grid::Item.new(item) unless Dir.exists?(item)
       end.compact
@@ -35,21 +37,27 @@ module Grid
     end
 
     def save!
-      # Setup the yml file
-      folder_path = @path.split('/')
-      folder_path.pop()
+      begin
+        # Setup the yml file
+        folder_path = @path.split('/')
+        folder_path.pop()
 
-      folder  = File.join('data', 'galleries', folder_path)
-      if !Dir.exists? folder
-        FileUtils.mkdir_p folder
-      end
+        folder  = File.join(root, 'data', 'galleries', folder_path)
+        if !Dir.exists? folder
+          puts "Creating #{folder}"
+          FileUtils.mkdir_p folder
+        end
 
-      destination_file = File.join('data', 'galleries', "#{@path}.yml")
-      puts "Creating file: #{destination_file}"
-      if !File.exists?(destination_file)
-        puts "Writing file to #{destination_file}"
-        file = File.open(destination_file, 'w')
-        file.write(to_gallery.to_yaml)
+        destination_file = File.join(root, 'data', 'galleries', "#{@path}.yml")
+        puts "Creating file: #{destination_file}"
+        if !File.exists?(destination_file)
+          puts "Writing file to #{destination_file}"
+          file = File.open(destination_file, 'w')
+          file.write(to_gallery.to_yaml)
+          file.close
+        end
+      rescue Exception => e
+        raise StandardError.new "Error for folder #{folder} - #{e.message}"
       end
     end
 
@@ -230,6 +238,10 @@ module Grid
       rescue Exception => e
         binding.pry
       end
+    end
+
+    def root
+      '/Users/adam/code/personal/adamfortuna.com'
     end
   end
 end

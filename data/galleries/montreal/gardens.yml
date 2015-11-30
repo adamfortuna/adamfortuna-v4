@@ -1,0 +1,57 @@
+---
+- :file: montreal--gardens-s071-r4.jpg
+  :version: full
+  :alt: Montreal--gardens-s071-r4
+- :file: montreal--gardens-s073-r4.jpg
+  :version: full
+  :alt: Montreal--gardens-s073-r4
+- :file: montreal--gardens-s075-r4.jpg
+  :version: full
+  :alt: Montreal--gardens-s075-r4
+- :file: montreal--gardens-s079-r4.mp4
+  :version: full
+  :alt: Montreal--gardens-s079-r4
+  :video: true
+- :files:
+  - :file: montreal--gardens-s077-r2.jpg
+    :version: col-3
+    :alt: Montreal--gardens-s077-r2
+  - :file: montreal--gardens-s110-r3.jpg
+    :version: col-3
+    :alt: Montreal--gardens-s110-r3
+  - :file: montreal--gardens-s080-r3.jpg
+    :version: col-4
+    :alt: Montreal--gardens-s080-r3
+  - :file: montreal--gardens-s072-r2.jpg
+    :version: col-2
+    :alt: Montreal--gardens-s072-r2
+- :files:
+  - :file: montreal--gardens-s076-r3.jpg
+    :version: col-5
+    :alt: Montreal--gardens-s076-r3
+  - :file: montreal--gardens-s034-r2.jpg
+    :version: col-4
+    :alt: Montreal--gardens-s034-r2
+  - :file: montreal--gardens-s078-r3.jpg
+    :version: col-3
+    :alt: Montreal--gardens-s078-r3
+- :files:
+  - :file: montreal--gardens-s057-r3.jpg
+    :version: col-3
+    :alt: Montreal--gardens-s057-r3
+  - :file: montreal--gardens-s032-r2.jpg
+    :version: col-4
+    :alt: Montreal--gardens-s032-r2
+  - :file: montreal--gardens-s074-r3.jpg
+    :version: col-5
+    :alt: Montreal--gardens-s074-r3
+- :files:
+  - :file: montreal--gardens-s033-r3.jpg
+    :version: col-4
+    :alt: Montreal--gardens-s033-r3
+  - :file: montreal--gardens-s035-r3.jpg
+    :version: col-5
+    :alt: Montreal--gardens-s035-r3
+  - :file: montreal--gardens-s056-r3.jpg
+    :version: col-3
+    :alt: Montreal--gardens-s056-r3

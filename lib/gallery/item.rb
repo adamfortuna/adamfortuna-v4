@@ -75,23 +75,23 @@ module Gallery
     end
 
     def source_path
-      File.join('source', 'images', 'galleries', path, image[:file])
+      File.join(root, 'source', 'images', 'galleries', path, image[:file])
     end
 
     def destination_path
-      File.join('source', 'images', 'galleries', path, 'processed', version_file)
+      File.join(root, 'source', 'images', 'galleries', path, 'processed', version_file)
     end
 
     def destination_folder
-      File.join('source', 'images', 'galleries', path, 'processed')
+      File.join(root, 'source', 'images', 'galleries', path, 'processed')
     end
 
     def full_destination_path
-      File.join('source', 'images', 'galleries', path, 'resized', image[:file])
+      File.join(root, 'source', 'images', 'galleries', path, 'resized', image[:file])
     end
 
     def full_destination_folder
-      File.join('source', 'images', 'galleries', path, 'resized')
+      File.join(root, 'source', 'images', 'galleries', path, 'resized')
     end
 
     def url
@@ -104,6 +104,10 @@ module Gallery
 
     def original_url
       File.join('/', 'images', 'galleries', path, image[:file])
+    end
+
+    def root
+      '/Users/adam/code/personal/adamfortuna.com'
     end
   end
 end

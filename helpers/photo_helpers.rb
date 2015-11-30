@@ -19,7 +19,7 @@ module PhotoHelpers
   end
 
   def photo_children parent
-    parent.data['children'].collect do |child_id|
+    (parent.data['children'] || []).collect do |child_id|
       photo_lookup(parent.data['collection'], child_id)
     end.compact
   end
@@ -34,7 +34,7 @@ module PhotoHelpers
 
   def travel_photos
     blog('photos').articles.collect do |article|
-      article if article.tags.include?('Travel') && article.data['children']
+      article if article.tags.include?('Travel') && !article.data['parent']
     end.compact
   end
 

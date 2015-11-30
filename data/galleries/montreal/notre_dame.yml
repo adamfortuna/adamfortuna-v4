@@ -1,0 +1,17 @@
+---
+- :file: montreal--notre_dame-s105-r5.jpg
+  :version: full
+  :alt: Montreal--notre_dame-s105-r5
+- :file: montreal--notre_dame-s070-r4.jpg
+  :version: full
+  :alt: Montreal--notre_dame-s070-r4
+- :files:
+  - :file: montreal--notre_dame-s069-r3.jpg
+    :version: col-3
+    :alt: Montreal--notre_dame-s069-r3
+  - :file: montreal--notre_dame-s067-r3.jpg
+    :version: col-4
+    :alt: Montreal--notre_dame-s067-r3
+  - :file: montreal--notre_dame-s068-r3.jpg
+    :version: col-5
+    :alt: Montreal--notre_dame-s068-r3

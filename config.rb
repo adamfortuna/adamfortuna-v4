@@ -1,10 +1,5 @@
 require 'lib/middleman_overrides'
 require 'lib/gallery'
-require 'lib/gallery/item'
-require 'lib/gallery/gallery'
-require 'lib/gallery/photo_options'
-require 'lib/gallery/photo'
-require 'lib/gallery/video'
 require 'lib/kramdown'
 
 # ====================================
@@ -91,7 +86,7 @@ end
 after_configuration do
   @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
   sprockets.append_path File.join root, @bower_config['directory']
-  #sprockets.append_path File.join(root, 'images', 'galleries')
+  sprockets.append_path File.join(root, 'images', 'galleries')
 end
 
 set :css_dir, 'stylesheets'
@@ -118,29 +113,6 @@ set :asset_host do |asset|
   '/'
 end
 
-
-# Don't watch bower or gallery images
-set :file_watcher_ignore, [
-  /^bin(\/|$)/,
-  /^\.bundle(\/|$)/,
-  /^vendor(\/|$)/,
-  /^node_modules(\/|$)/,
-  /^\.sass-cache(\/|$)/,
-  /^\.cache(\/|$)/,
-  /^\.git(\/|$)/,
-  /^\.gitignore$/,
-  /\.DS_Store/,
-  /^\.rbenv-.*$/,
-  /^Gemfile$/,
-  /^Gemfile\.lock$/,
-  /~$/,
-  /(^|\/)\.?#/,
-  /^tmp\//,
-  /^source\/bower_components(\/|$)/,
-  /^source\/images\/galleries(\/|$)/
-]
-
-
 configure :build do
   ignore '/bower_components/*'
   ignore '/galleries/*'
@@ -150,10 +122,50 @@ configure :build do
   activate :minify_javascript
   activate :relative_assets
   activate :gzip
+
+  set :file_watcher_ignore, [
+    /^bin(\/|$)/,
+    /^\.bundle(\/|$)/,
+    /^vendor(\/|$)/,
+    /^node_modules(\/|$)/,
+    /^\.sass-cache(\/|$)/,
+    /^\.cache(\/|$)/,
+    /^\.git(\/|$)/,
+    /^\.gitignore$/,
+    /\.DS_Store/,
+    /^\.rbenv-.*$/,
+    /^Gemfile$/,
+    /^Gemfile\.lock$/,
+    /~$/,
+    /(^|\/)\.?#/,
+    /^tmp\//,
+    /^source\/bower_components(\/|$)/
+  ]
 end
 
 configure :development do
   set :debug_assets, true
+
+  # Don't watch bower or gallery images
+  set :file_watcher_ignore, [
+    /^bin(\/|$)/,
+    /^\.bundle(\/|$)/,
+    /^vendor(\/|$)/,
+    /^node_modules(\/|$)/,
+    /^\.sass-cache(\/|$)/,
+    /^\.cache(\/|$)/,
+    /^\.git(\/|$)/,
+    /^\.gitignore$/,
+    /\.DS_Store/,
+    /^\.rbenv-.*$/,
+    /^Gemfile$/,
+    /^Gemfile\.lock$/,
+    /~$/,
+    /(^|\/)\.?#/,
+    /^tmp\//,
+    /^source\/bower_components(\/|$)/,
+    /^source\/images\/galleries(\/|$)/
+  ]
 end
 
 # ====================================

@@ -1,6 +1,10 @@
 require 'dimensions'
 require 'mini_magick'
 
+MiniMagick.configure do |config|
+  config.cli = :imagemagick
+end
+
 module Gallery
   class Photo < Item
     def prepare!
@@ -108,23 +112,25 @@ module Gallery
     end
 
     def write_resized_image
-      FileUtils.mkdir_p(full_destination_folder)
       image_file = ::MiniMagick::Image.open(source_path)
       image_file.combine_options do |i|
         i.resize "2500>x2500>"
         i.quality "90"
       end
+      FileUtils.mkdir_p(full_destination_folder)
       image_file.write full_destination_path
       image_file.destroy!
     rescue Exception => e
+      puts "ENV['PATHEXT']: #{ENV['PATHEXT']}"
+      puts "PATH: #{ENV['PATH']}"
+      puts "Mogrify: #{MiniMagick::Utilities.which('mogrify')}"
+      puts "Opening file: #{source_path}"
       puts "Error writing resized image to #{full_destination_path}"
-      binding.pry
+      puts "File.exists?: #{File.exists?(source_path)}"
       raise e
     end
 
     def write_processed_image
-      FileUtils.mkdir_p(destination_folder)
-
       image_file = ::MiniMagick::Image.open(source_path)
 
       commands = {}
@@ -137,11 +143,16 @@ module Gallery
         end
       end
 
+      FileUtils.mkdir_p(destination_folder)
       image_file.write destination_path
       image_file.destroy!
-    rescue Exeception => e
+    rescue Exception => e
+      puts "ENV['PATHEXT']: #{ENV['PATHEXT']}"
+      puts "PATH: #{ENV['PATH']}"
+      puts "Mogrify: #{MiniMagick::Utilities.which('mogrify')}"
+      puts "Opening file: #{source_path}"
       puts "Error Writing processed image to #{destination_path} with commands #{commands}"
-      binding.pry
+      puts "File.exists?: #{File.exists?(source_path)}"
       raise e
     end
 

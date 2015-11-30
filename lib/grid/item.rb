@@ -1,6 +1,5 @@
 require 'pathname'
 
-
 module Grid
   class Item
     attr_accessor :path, :columns, :full

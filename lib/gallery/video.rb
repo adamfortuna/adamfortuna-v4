@@ -11,6 +11,10 @@ module Gallery
       true
     end
 
+    def identical?(video)
+      true
+    end
+
     def different?
       false
     end
