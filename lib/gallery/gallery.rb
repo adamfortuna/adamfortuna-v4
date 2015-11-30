@@ -5,6 +5,7 @@ module Gallery
     def initialize starter
       if starter.is_a? String
         # starter = montreal/travel
+        starter = starter.gsub(/(.*)(data\/galleries\/.*)/, '\2').gsub('data/galleries/', '').gsub('.yml', '')
         @path = File.join(root, 'data', 'galleries', starter) + '.yml'
         @contents = YAML.load(file_contents)
       else
