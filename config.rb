@@ -139,7 +139,8 @@ configure :build do
     /~$/,
     /(^|\/)\.?#/,
     /^tmp\//,
-    /^source\/bower_components(\/|$)/
+    /^source\/bower_components(\/|$)/,
+    /^unpublished\//
   ]
 end
 
@@ -164,7 +165,8 @@ configure :development do
     /(^|\/)\.?#/,
     /^tmp\//,
     /^source\/bower_components(\/|$)/,
-    /^source\/images\/galleries(\/|$)/
+    /^source\/images\/galleries(\/|$)/,
+    /^unpublished\//
   ]
 end
 

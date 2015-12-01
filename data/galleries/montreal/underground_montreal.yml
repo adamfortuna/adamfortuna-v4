@@ -2,12 +2,6 @@
 - :file: montreal--underground_montreal-s125-r5.jpg
   :version: full
   :alt: Montreal--underground_montreal-s125-r5
-- :file: montreal--underground_montreal-s117-r4.jpg
-  :version: full
-  :alt: Montreal--underground_montreal-s117-r4
-- :file: montreal--underground_montreal-s121-r4.jpg
-  :version: full
-  :alt: Montreal--underground_montreal-s121-r4
 - :files:
   - :file: montreal--underground_montreal-s119-r3.jpg
     :version: col-6
@@ -16,12 +10,20 @@
     :version: col-6
     :alt: Montreal--underground_montreal-s118-r3
 - :files:
+  - :file: montreal--underground_montreal-s117-r4.jpg
+    :version: col-12
+    :alt: Montreal--underground_montreal-s117-r4
+- :files:
   - :file: montreal--underground_montreal-s122-r3.jpg
     :version: col-6
     :alt: Montreal--underground_montreal-s122-r3
   - :file: montreal--underground_montreal-s120-r3.jpg
     :version: col-6
     :alt: Montreal--underground_montreal-s120-r3
+- :files:
+  - :file: montreal--underground_montreal-s121-r4.jpg
+    :version: col-12
+    :alt: Montreal--underground_montreal-s121-r4
 - :files:
   - :file: montreal--underground_montreal-s123-r3.jpg
     :version: col-6

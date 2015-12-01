@@ -1,16 +1,18 @@
 ---
-- :file: montreal--views-s036-r4.jpg
-  :version: full
-  :alt: Montreal--views-s036-r4
-- :file: montreal--views-s039-r4.jpg
-  :version: full
-  :alt: Montreal--views-s039-r4
-- :file: montreal--views-s040-r4.jpg
-  :version: full
-  :alt: Montreal--views-s040-r4
 - :file: montreal--views-s059-r4.jpg
   :version: full
   :alt: Montreal--views-s059-r4
+- :files:
+  - :file: montreal--views-s036-r4.jpg
+    :version: col-6
+    :alt: Montreal--views-s036-r4
+  - :file: montreal--views-s040-r4.jpg
+    :version: col-6
+    :alt: Montreal--views-s040-r4
+- :files:
+  - :file: montreal--views-s039-r4.jpg
+    :version: col-12
+    :alt: Montreal--views-s039-r4
 - :files:
   - :file: montreal--views-s058-r3.jpg
     :version: col-6

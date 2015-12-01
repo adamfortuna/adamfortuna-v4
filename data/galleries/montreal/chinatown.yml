@@ -2,28 +2,29 @@
 - :file: montreal--chinatown-s042-r5.jpg
   :version: full
   :alt: Montreal--chinatown-s042-r5
-- :file: montreal--chinatown-s136-r4.mp4
-  :version: full
-  :alt: Montreal--chinatown-s136-r4
-  :video: true
 - :files:
   - :file: montreal--chinatown-s065-r3.jpg
-    :version: col-4
+    :version: col-5
     :alt: Montreal--chinatown-s065-r3
   - :file: montreal--chinatown-s066-r2.jpg
     :version: col-3
     :alt: Montreal--chinatown-s066-r2
   - :file: montreal--chinatown-s064-r3.jpg
-    :version: col-5
+    :version: col-4
     :alt: Montreal--chinatown-s064-r3
+- :files:
+  - :file: montreal--chinatown-s136-r4.mp4
+    :version: col-12
+    :alt: Montreal--chinatown-s136-r4
+    :video: true
 - :files:
   - :file: montreal--chinatown-s062-r3.jpg
     :version: col-6
     :alt: Montreal--chinatown-s062-r3
-  - :file: montreal--chinatown-s061-r3.jpg
-    :version: col-6
-    :alt: Montreal--chinatown-s061-r3
-- :files:
   - :file: montreal--chinatown-s063-r3.jpg
-    :version: col-12
+    :version: col-6
     :alt: Montreal--chinatown-s063-r3
+- :files:
+  - :file: montreal--chinatown-s061-r3.jpg
+    :version: col-12
+    :alt: Montreal--chinatown-s061-r3

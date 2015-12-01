@@ -1,13 +1,7 @@
 ---
-- :file: montreal--streets-s084-r4.jpg
-  :version: full
-  :alt: Montreal--streets-s084-r4
 - :file: montreal--streets-s107-r4.jpg
   :version: full
   :alt: Montreal--streets-s107-r4
-- :file: montreal--streets-s108-r4.jpg
-  :version: full
-  :alt: Montreal--streets-s108-r4
 - :files:
   - :file: montreal--streets-s082-r3.jpg
     :version: col-6
@@ -15,6 +9,10 @@
   - :file: montreal--streets-s081-r3.jpg
     :version: col-6
     :alt: Montreal--streets-s081-r3
+- :files:
+  - :file: montreal--streets-s084-r4.jpg
+    :version: col-12
+    :alt: Montreal--streets-s084-r4
 - :files:
   - :file: montreal--streets-s085-r2.jpg
     :version: col-2
@@ -28,6 +26,9 @@
   - :file: montreal--streets-s109-r3.jpg
     :version: col-4
     :alt: Montreal--streets-s109-r3
+- :file: montreal--streets-s108-r4.jpg
+  :version: col-12
+  :alt: Montreal--streets-s108-r4
 - :files:
   - :file: montreal--streets-s104-r3.jpg
     :version: col-4

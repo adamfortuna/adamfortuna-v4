@@ -1,19 +1,26 @@
 ---
-- :file: montreal--inside-s099-r4.mp4
-  :version: full
-  :alt: Montreal--inside-s099-r4
-  :video: true
+- :files:
+  - :file: montreal--inside-s099-r4.mp4
+    :version: col-12
+    :alt: Montreal--inside-s099-r4
+    :video: true
 - :files:
   - :file: montreal--inside-s091-r1.jpg
-    :version: col-2
+    :version: col-4
     :alt: Montreal--inside-s091-r1
+    :options:
+      height: 277
   - :file: montreal--inside-s098-r3.mp4
-    :version: col-7
+    :version: col-5
     :alt: Montreal--inside-s098-r3
     :video: true
+    :options:
+      height: 277
   - :file: montreal--inside-s113-r3.jpg
     :version: col-3
     :alt: Montreal--inside-s113-r3
+    :options:
+      height: 277
 - :files:
   - :file: montreal--inside-s112-r2.jpg
     :version: col-4
@@ -29,10 +36,10 @@
     :version: col-5
     :alt: Montreal--inside-s092-r3
   - :file: montreal--inside-s094-r2.jpg
-    :version: col-4
+    :version: col-3
     :alt: Montreal--inside-s094-r2
   - :file: montreal--inside-s095-r3.jpg
-    :version: col-3
+    :version: col-4
     :alt: Montreal--inside-s095-r3
 - :files:
   - :file: montreal--inside-s090-r2.jpg
