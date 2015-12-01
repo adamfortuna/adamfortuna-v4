@@ -13,7 +13,6 @@ stats:
   videos: 7
 description: Birthday getaway with Marilyn during August 2015
 short_description: Weekend getaway to Montreal
-published: false
 ---
 
 A year or so ago Marilyn and I were chatting about where we could go for a "quick-ish" trip that would still offer a new cultural perspective. We narrowed it down to a few places -- Central America, Cuba, Vancouver and Montreal. Food won the day, and Montreal's French influence lured us to come and check out the city.
