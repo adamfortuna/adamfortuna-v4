@@ -1,5 +1,5 @@
 ---
-title: How I Ended Up, and Stayed, at Code School
+title: How I Ended Up – and Stayed – at Code School
 date: 2015-11-30
 tags: Personal
 permalink: how-i-ended-up-at-codeschool
