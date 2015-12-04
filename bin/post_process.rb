@@ -68,9 +68,11 @@ results = galleries.uniq.collect do |gallery_path|
   g = Gallery::Gallery.new(gallery_path)
   g.prepare!
 <<-CONTENTS.strip_heredoc
+
 ## #{gallery_path.split('/').last.humanize}
 
 @gallery #{gallery_path}
+
 CONTENTS
 end
 

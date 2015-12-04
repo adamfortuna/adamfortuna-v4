@@ -1,4 +1,5 @@
 require 'pathname'
+require 'mini_exiftool'
 
 module Grid
   class Item
@@ -11,10 +12,6 @@ module Grid
 
     def filename
       @file.basename.to_s
-    end
-
-    def alt
-      filename.gsub(@file.extname, '').capitalize
     end
 
     def version
@@ -32,6 +29,7 @@ module Grid
     def to_gallery
       gallery = {
         file: filename,
+        title: title,
         version: version,
         alt: alt
       }
@@ -41,16 +39,58 @@ module Grid
       gallery
     end
 
+    def alt
+      return @alt if @alt
+      @alt = exif.description || filename.gsub(@file.extname, '').capitalize
+
+      if artist
+        @alt = "#{alt} (by #{artist})"
+      end
+    end
+
+    def artist
+      exif.artist
+    end
+
     def video?
       ['.mp4'].include? @file.extname
     end
 
+    def photo?
+      ['.jpg', '.png'].include? @file.extname.downcase
+    end
+
     def rating
       return @rating if @rating
+      @rating = rating_from_filename || rating_from_metadata
+    end
+
+    def title
+      exif.title
+    end
+
+    private
+
+    def rating_from_filename
       rating_token = @file.basename.to_s.split('.').first.split('-').last
-      @rating = (rating_token =~ /r(\d)/) ? $1.to_i : nil
+      rating = (rating_token =~ /r(\d)/) ? $1.to_i : nil
+      return rating if !rating
+
+      if rating >= 1 and rating <= 5
+        rating
+      else
+        nil
+      end
     rescue Exception => e
-      nil
+      binding.pry
+    end
+
+    def rating_from_metadata
+      exif.rating
+    end
+
+    def exif
+      @exif ||= MiniExiftool.new @path
     end
   end
 end

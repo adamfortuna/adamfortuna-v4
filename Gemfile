@@ -20,6 +20,7 @@ gem 'pry'
 
 # Gallery
 gem 'mini_magick', '~> 4.3'
+gem 'mini_exiftool'
 gem 'parallel'
 gem 'dimensions'
 
