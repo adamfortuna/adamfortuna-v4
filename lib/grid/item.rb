@@ -29,11 +29,11 @@ module Grid
     def to_gallery
       gallery = {
         file: filename,
-        title: title,
         version: version,
-        alt: alt
       }
 
+      gallery.merge!(title: title) if title
+      gallery.merge!(alt: alt) if alt
       gallery.merge!(video: true) if video?
 
       gallery
@@ -41,11 +41,13 @@ module Grid
 
     def alt
       return @alt if @alt
-      @alt = exif.description || filename.gsub(@file.extname, '').capitalize
+      @alt = exif.description
 
       if artist
-        @alt = "#{alt} (by #{artist})"
+        @alt = "#{@alt} (by #{artist})"
       end
+
+      @alt == '' ? nil : @alt
     end
 
     def artist

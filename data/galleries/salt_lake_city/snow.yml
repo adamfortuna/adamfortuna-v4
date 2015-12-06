@@ -1,0 +1,25 @@
+---
+- :file: montreal--snow-s014.jpg
+  :version: full
+  :title: Salt Lake City Park
+- :files:
+  - :file: montreal--snow-s004-r3.mp4
+    :version: col-6
+    :video: true
+    :options:
+      height: 325
+  - :file: montreal--snow-s013.jpg
+    :version: col-6
+    :title: Salt Lake City Park
+    :options:
+      height: 325
+- :files:
+  - :file: montreal--snow-s019.jpg
+    :version: col-3
+    :title: Snowy Tree
+  - :file: montreal--snow-s018.jpg
+    :version: col-5
+    :title: Snowy Trees
+  - :file: montreal--snow-s016.jpg
+    :version: col-4
+    :title: Tree

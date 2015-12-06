@@ -1,0 +1,22 @@
+---
+- :file: montreal--park_city_skiing-s008.jpg
+  :version: full
+  :title: Park City
+  :alt: Gregg, Carlos and Adam at Park City (by Carlos Souza)
+- :files:
+  - :file: montreal--park_city_skiing-s010.jpg
+    :version: col-6
+    :title: Selfie before skiing
+    :alt: "Adam on the Mountain (by Carlos Souza)"
+  - :file: montreal--park_city_skiing-s009.jpg
+    :version: col-6
+    :title: Adam Getting Setup (by Carlos Souza)
+    :alt: At Park city before heading down on the 2nd run of the day. (by Carlos Souza)
+- :file: montreal--park_city_skiing-s011.jpg
+  :version: col-12
+  :title: Adam on the Mountain
+  :alt: "Adam on the Mountain (by Carlos Souza)"
+- :files:
+  - :file: montreal--park_city_skiing-s012-r4.mp4
+    :version: col-12
+    :video: true

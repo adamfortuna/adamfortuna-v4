@@ -6,6 +6,8 @@ require 'yaml'
 
 module Grid
   class Gallery
+    attr_accessor :items
+
     def initialize path
       @path = path
       images = File.join(root, 'source', 'images', 'galleries', path, '*')

@@ -33,6 +33,10 @@ module Gallery
       @options.height
     end
 
+    def title
+      image[:title] || alt
+    end
+
     def to_html
       return @to_html if @to_html
       styles = []
@@ -51,7 +55,7 @@ module Gallery
 
       @to_html = <<-PIC
         <a href='#{full_src}' class='lazy gallery--photo #{column_class_for}'>
-          <span class='gallery-photo-about'>#{alt}</span>
+          <span class='gallery-photo-about'>#{title}</span>
           <img class='gallery--photo-image' data-src="#{src}" alt="#{alt}" style="#{styles.join(';')};" data-size="#{full_dimensions[0]}x#{full_dimensions[1]}"/>
         </a>
       PIC

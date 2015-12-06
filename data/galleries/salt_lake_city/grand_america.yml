@@ -1,0 +1,16 @@
+---
+- :files:
+  - :file: montreal--grand_america-s001.jpg
+    :version: col-12
+    :title: Grand America
+- :files:
+  - :file: montreal--grand_america-s002.jpg
+    :version: col-6
+    :title: Monopoly Window at Grand America
+  - :file: montreal--grand_america-s003.jpg
+    :version: col-6
+    :title: Grand America Window
+- :files:
+  - :file: montreal--snow-s017-r3.mp4
+    :version: col-12
+    :video: true
