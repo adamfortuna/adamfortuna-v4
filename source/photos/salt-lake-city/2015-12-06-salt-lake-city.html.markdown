@@ -16,7 +16,7 @@ stats:
 
 At the end of January to the beginning of February 2015, I was lucky enough to spend a week out in Salt Lake City. A few of us were in town for Pluralsight's Author Summit -- an event where Pluralsight brought in their authors from all around the world to meet each other, collaborate and learn. A few days later was ng-conf, Angular's largest conference.
 
-In between, I had another 2 days to kill.
+In between, I had another 2 days to kill, where I toured the town.
 
 ## From the Plane
 
