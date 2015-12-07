@@ -80,14 +80,14 @@ end
 root = '/Users/adam/code/personal/adamfortuna.com'
 now = Time.now
 uid = "example#{(Random.rand*1000).to_i}"
-date = "#{now.year}-#{now.month}-#{now.day}"
+date = now.strftime('%Y-%m-%d')
 file_name = "#{date}-#{uid}.html.markdown"
 path = File.join(root, 'source', 'photos', 'events', file_name)
 file = File.open(path, 'w')
 
 content = <<-CONTENTS.strip_heredoc
 ---
-title: #{gallery_root.humanize}
+title: #{gallery_root.humanize.titleize}
 date: #{date}
 collection: events
 permalink: #{uid}

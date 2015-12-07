@@ -103,7 +103,7 @@ module Grid
         high_rank_index = @remaining_items.collect(&:rating).index(5)
         item = @remaining_items.slice!(high_rank_index)
         item.columns = 12
-        item.full = 'full'
+        item.full = true
         row = [item]
 
       elsif @remaining_items.length > 2 && rank_remaining?(4)
@@ -114,7 +114,7 @@ module Grid
         item = @remaining_items.slice!(high_rank_index)
 
         item.columns = 12
-        item.full = 'col-12'
+        item.full = false
 
         row = [item]
 
