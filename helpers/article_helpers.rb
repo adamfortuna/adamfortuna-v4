@@ -1,5 +1,33 @@
 module ArticleHelpers
 
+  def recent_articles
+    return @recent_articles if @recent_articles
+    articles = blog('articles').articles[0..10] + blog('photos').articles[0..10]
+
+    results = articles.sort do |article1, article2|
+      article2.date <=> article1.date
+    end
+
+    @recent_articles = results[0..10]
+  end
+
+  def expand_urls(content)
+    content.gsub("href='/", "href='#{url_root}/")
+           .gsub("src='/", "src='#{url_root}/")
+           .gsub('href="/', "href=\"#{url_root}/")
+           .gsub('src="/', "src=\"#{url_root}/")
+  end
+
+  def adjust_content(content)
+    content.gsub(/<span class='gallery-photo-about'>(.*?)<\/span>/, '<br/><br/><p>\1</p>')
+           .gsub('data-src=', 'src=')
+           .gsub(/<video[\d|\D]*?<\/video>/, '')
+  end
+
+  def full_url(url)
+    "#{url_root}#{url}"
+  end
+
   def disqus_shortname
     if environment == :development
       data.config.disqus[environment]

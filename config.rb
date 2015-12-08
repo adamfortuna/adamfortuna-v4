@@ -56,6 +56,8 @@ end
 page "photos/*", :layout => :photo
 page "photos", :layout => :layout
 
+page "/feed.xml", :layout => false
+
 # ====================================
 #   Galleries
 # ====================================
@@ -123,6 +125,9 @@ configure :build do
   activate :relative_assets
   activate :gzip
 
+  set :url_root, "http://adamfortuna.com"
+
+
   set :file_watcher_ignore, [
     /^bin(\/|$)/,
     /^\.bundle(\/|$)/,
@@ -146,6 +151,7 @@ end
 
 configure :development do
   set :debug_assets, true
+  set :url_root, "http://localhost:4567"
 
   # Don't watch bower or gallery images
   set :file_watcher_ignore, [
