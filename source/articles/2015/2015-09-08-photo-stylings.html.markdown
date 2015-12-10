@@ -336,3 +336,7 @@ I'm very curious to see what other sites are doing similar things. [Exposure.co]
 [Paul Stamatiou](http://paulstamatiou.com/photos/) also has an amazing custom photo page which has inspired some parts of this iteration (namely the inline video -- which are a great addition).
 
 Do you know of other sites -- either personal or commercial, that showcase photos in a unique or interesting way? Please let me know in the comments.
+
+## Update
+
+A few months after this, I got around to using a post-process step in Lightroom to help automate the creation of the YML files that was a bottleneck. Check out the post on [Creating Photo Albums with Lightroom](/articles/creating-photo-albums-with-lightroom) and watch video demonstration!
