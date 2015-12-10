@@ -94,16 +94,20 @@ module Gallery
       File.join(root, 'source', 'images', 'galleries', path, 'resized')
     end
 
+    def gallery_path
+      File.join('/', 'images', 'galleries', path)
+    end
+
     def url
-      File.join('/', 'images', 'galleries', path, 'processed', version_file)
+      File.join(gallery_path, 'processed', version_file)
     end
 
     def full_url
-      File.join('/', 'images', 'galleries', path, 'resized', image[:file])
+      File.join(gallery_path, 'resized', image[:file])
     end
 
     def original_url
-      File.join('/', 'images', 'galleries', path, image[:file])
+      File.join(gallery_path, image[:file])
     end
 
     def root

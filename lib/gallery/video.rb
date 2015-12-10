@@ -21,8 +21,9 @@ module Gallery
 
     def to_html
       html = <<-PIC
-      <div class='lazy gallery--video controls #{column_class_for}'>
-        <video data-src='#{original_url}' #{autoplay} #{controls} #{repeat} class='gallery--video-video'>
+      <div class='lazy gallery--video #{column_class_for}'>
+        <video #{height} data-src='#{original_url}' #{autoplay} #{controls} #{repeat} #{poster} class='gallery--video-video video-js vjs-default-skin' data-lazy-setup='#{setup}'>
+          <source src='#{original_url}' type='video/mp4'>
           Your browser does not support the <code>video</code> element.
         </video>
       </div>
@@ -37,9 +38,22 @@ module Gallery
       html
     end
 
+    def setup
+      {
+        autoplay: options.options[:autoplay] || false,
+        loop: options.options[:repeat] || false,
+        controls: options.options[:controls] || false,
+        poster: poster_url || '/images/placeholder.gif',
+        preload: options.options[:preload] || false
+      }.to_json
+    end
 
     def autoplay
       options.options[:autoplay] ? 'data-autoplay="true"' : ''
+    end
+
+    def preload
+      options.options[:preload] ? 'preload' : ''
     end
 
     def controls
@@ -48,6 +62,22 @@ module Gallery
 
     def repeat
       options.options[:repeat] ? 'loop' : ''
+    end
+
+    def height
+      options.options[:height] ? "height='#{options.options[:height]}px'" : ''
+    end
+
+    def poster_url
+      @options.options['poster']
+    end
+
+    def poster
+      @poster = @options.options['poster']
+      if @poster
+        @poster = "poster='#{gallery_path}/#{@poster}'"
+      end
+      @poster
     end
   end
 end

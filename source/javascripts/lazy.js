@@ -24,17 +24,22 @@ function lazy() {
   $('.lazy video').unveil(200, function() {
     var video = $(this),
         videoEl = $(this)[0],
-        autoplay = video.attr('data-autoplay');
+        options = JSON.parse(video.attr('data-lazy-setup'));
 
-    if(autoplay) {
-      videoEl.play();
-      checkForVideo = function() {
-        if(!video.isOnScreen()) {
-          videoEl.pause();
-          clearInterval(videoInterval);
-        }
-      };
-      var videoInterval = setInterval(checkForVideo, 1000);
-    }
+    videojs(videoEl, options, function(){
+      debugger
+      // Player (this) is initialized and ready.
+    });
+
+    // if(autoplay) {
+    //   videoEl.play();
+    //   checkForVideo = function() {
+    //     if(!video.isOnScreen()) {
+    //       videoEl.pause();
+    //       clearInterval(videoInterval);
+    //     }
+    //   };
+    //   var videoInterval = setInterval(checkForVideo, 1000);
+    // }
   });
 }

@@ -30,3 +30,7 @@
     // Photo posts take up 8
     .photo &
       @include grid-column($columns: 8, $offset: 2, $last-column: true, $collapse: true)
+  .wrap--wide
+    // Articles take up 7 columns
+    .article &
+      @include grid-column($columns: 10, $offset: 1, $last-column: true, $collapse: true)
