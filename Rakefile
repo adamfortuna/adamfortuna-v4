@@ -51,14 +51,17 @@ namespace :gallery do
   end
 
   desc 'Converts any number of folder of images into a yml file'
-  task :yml do |t, args|
-    galleries = args.extras
+  task :yml, [:galleries] do |t, args|
+    galleries = args[:galleries].split(',')
+    puts "galleries: #{galleries}"
 
     statements = galleries.collect do |gallery_path|
       gallery = Grid::Gallery.new(gallery_path)
       if gallery.exists?
         gallery.save!
         "@gallery #{gallery_path}"
+      else
+        puts "Gallery #{gallery_path} does not exist"
       end
     end.compact
 

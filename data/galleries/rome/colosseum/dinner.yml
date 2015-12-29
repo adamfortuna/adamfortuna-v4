@@ -3,9 +3,13 @@
   - file: carbonera.jpg
     version: col-3
     alt: carbonera
+    options:
+      gravity: west
   - file: dessert.jpg
     version: col-5
     alt: dessert
   - file: cheesy.jpg
     version: col-4
     alt: cheesy
+    options:
+      gravity: west

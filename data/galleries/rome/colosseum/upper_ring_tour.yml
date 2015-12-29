@@ -1,0 +1,31 @@
+---
+- :file: rome_coloseum--upper_ring_tour-s018-r5.jpg
+  :version: full
+- :files:
+  - :file: rome_coloseum--upper_ring_tour-s016-r3.jpg
+    :version: col-6
+  - :file: rome_coloseum--upper_ring_tour-s021-r3.jpg
+    :version: col-6
+- :file: rome_coloseum--upper_ring_tour-s015-r5.jpg
+  :version: full
+- :files:
+  - :file: rome_coloseum--upper_ring_tour-s017-r4.jpg
+    :version: col-12
+- :file: rome_coloseum--upper_ring_tour-s023-r5.jpg
+  :version: full
+- :files:
+  - :file: rome_coloseum--upper_ring_tour-s019-r4.jpg
+    :version: col-12
+- :file: rome_coloseum--upper_ring_tour-s022-r5.jpg
+  :version: full
+- :files:
+  - :file: rome_coloseum--upper_ring_tour-s020-r4.jpg
+    :version: col-12
+- :file: rome_coloseum--upper_ring_tour-s024-r5.jpg
+  :version: full
+- :files:
+  - :file: rome_coloseum--upper_ring_tour-s040-r3.mp4
+    :version: col-12
+    :video: true
+    :options:
+      autoplay: true
