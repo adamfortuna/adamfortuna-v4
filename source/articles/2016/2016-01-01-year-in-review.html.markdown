@@ -27,7 +27,7 @@ So, let's see what made the list as interesting from this year!
 
 This year had a big push for more travel. I don't think we planned for that ahead of time -- other than our Rome/Amsterdam trip. Everything else came about as a way of using up some time off or having some of the trip covered by points/work.
 
-* [Rome for a Week](/photos/rome/a-week-in-rome) - With Marilyn for her work trip
+* [Rome for a Week](/photos/rome/a-week-in-rome) - Pompeii, Naples and Rome with Marilyn for her work trip
 * Amsterdam for a few days in January.
 * [Salt Lake City](/photos/salt-lake-city/utah) for the Pluralsight Authors Summit & ng-conf.
 * Amelia Island for JSConf
@@ -97,9 +97,9 @@ Aside from that, it's been trying to figure out and shape a growing company. Cod
 What else has been going on?
 
 * Slowly getting rid of as many possessions as I can. Down to half a closet of things I consider useless -- which includes anything sentimental.
-* Listened to a lot of audiobooks -- [77 or so](/books#/shelf/read?readAfter=2015-01-01&page=1). Mt favorites were The Dark Forest, The Practicing Mind, The Girl with the Gift, The First Fifteen Lives of Harry August and The Mote in God's Eye.
-* Lots of movies, but Star Wars 7 stands out as a favorite.
-* Continued going to CrossFit 2-3 days a week most weeks.
+* Listened to a lot of audiobooks -- [77 or so](/books#/shelf/read?readAfter=2015-01-01&readBefore=2016-01-02&page=1). Mt favorites were "The Dark Forest", "The Practicing Mind", "The Girl with the Gift", "The First Fifteen Lives of Harry August" and "The Mote in God's Eye".
+* [Lots of movies](https://letterboxd.com/adamfortuna/films/diary/year/2015/), but "Star Wars 7" and "The Hateful Eight" stands out as a favorite.
+* Continued going to CrossFit, but have struggled to make it there any more than 2 days a week.
 * Lots of board games with friends and Marilyn.
 * Lived relatively frugally, keeping track of what I spent and how much I saved.
 

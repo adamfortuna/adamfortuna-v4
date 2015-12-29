@@ -3,7 +3,7 @@ title: Making ng-guess.com
 date: 2015-12-28
 tags: Technical
 permalink: making-ng-guess
-description: Creating an launching a side project in a week
+description: Creating and launching a side project in a week
 ---
 
 A little over a week ago I was [reading a post on Reddit](https://www.reddit.com/r/angularjs/comments/3vv2x8/should_i_start_a_new_project_in_angular_1/) asking if someone should start a new project in Angular 1.x with Angular 2 "right around the corner". When it comes to open source projects, time and time again it's been a bad idea to try to make plans based on release dates. At [Code School](https://www.codeschool.com) this comes up a lot, since we try to put out content around the time when a technology is hitting major milestones -- but that's not always possible.

@@ -6,5 +6,3 @@ permalink: travel-or-vacation
 published: false
 description: Travel for exploration, vacation for recreation
 ---
-
-Losing track of time.
