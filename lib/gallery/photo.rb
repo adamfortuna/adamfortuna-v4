@@ -33,8 +33,25 @@ module Gallery
       @options.height
     end
 
+    def color
+      image[:color] || find_color
+    end
+
     def title
       image[:title] || alt
+    end
+
+    def to_gallery
+      gallery = {
+        file: image[:file],
+        version: version,
+        color: color
+      }
+
+      gallery.merge!(title: image[:title]) if image[:title]
+      gallery.merge!(alt: alt) if alt
+
+      gallery
     end
 
     def to_html
@@ -44,6 +61,7 @@ module Gallery
       if image[:version] == 'full'
         styles << "height:auto"
         styles << "width:auto"
+        styles << "min-height:600px"
       elsif image[:version] == 'col-12'
         styles << "width:1170px"
         calculated_height = (1170.0/width)*height
@@ -53,8 +71,13 @@ module Gallery
         styles << "height:#{height}px"
       end
 
+      if has_color?
+        styles << "background-color:#{color}"
+      end
+
       @to_html = <<-PIC
         <a href='#{full_src}' class='lazy gallery--photo #{column_class_for}'>
+          <span class='gallery-photo--placeholder' style="#{styles.join(';')};"></span>
           <span class='gallery-photo-about'>#{title}</span>
           <img class='gallery--photo-image' data-src="#{src}" alt="#{alt}" style="#{styles.join(';')};" data-size="#{full_dimensions[0]}x#{full_dimensions[1]}"/>
         </a>
@@ -213,6 +236,18 @@ module Gallery
       end
 
       return [horizontal_offset, vertical_offset]
+    end
+
+    def find_color
+      return @color if @color
+
+      convert = MiniMagick::Tool::Convert.new
+      convert << destination_path
+      convert.colors(1)
+      convert.unique_colors('txt:-')
+      result = convert.call
+
+      @color = result.match(/#[0-9A-F]{6}/).to_s
     end
   end
 end

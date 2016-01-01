@@ -37,6 +37,14 @@ module Gallery
       html
     end
 
+    def to_gallery
+      {
+        file: image[:src],
+        version: image[:version],
+        video: true,
+        options: image[:options]
+      }
+    end
 
     def autoplay
       options.options[:autoplay] ? 'data-autoplay="true"' : ''

@@ -25,13 +25,30 @@
   &.full
     display: block
     width: 100%
-    img
+    img,
+    .gallery-photo--placeholder
       margin: 0 auto
       display: block
       width: 100%
+
+
+.gallery--photo-image
+  opacity: 1
+  transition: opacity 1s
+  z-index: 10
+
+.gallery-photo--placeholder
+  z-index: 0
+  position: absolute
+  top: 0
+  .lazy--complete &
+    display: none
+
+
 .gallery-photo-about
   position: absolute
   display: block
+  z-index: 100
   top: 0
   right: 0
   left: 0

@@ -15,9 +15,13 @@ $.fn.isOnScreen = function(){
 };
 
 function lazy() {
-  $('.lazy img').unveil(2000, function() {
+  $('.lazy img').unveil(200, function() {
     $(this).load(function() {
-      $(this).closest('.lazy').removeClass('lazy');
+      var wrapper = $(this).closest('.lazy')
+      wrapper.removeClass('lazy');
+      setTimeout(function() {
+        wrapper.addClass('lazy--complete');
+      }, 1000);
     });
   });
 

@@ -7,7 +7,6 @@ collection: rome
 permalink: colosseum
 series: true
 parent: a-week-in-rome
-published: false
 poster: /images/galleries/rome/poster.jpg
 header: /images/galleries/rome/poster.jpg
 tags: Travel

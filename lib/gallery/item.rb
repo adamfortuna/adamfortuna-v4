@@ -30,6 +30,10 @@ module Gallery
       @global_options ||= ::Gallery.options['versions'][image[:version]] || {}
     end
 
+    def color
+      image[:color] || '#eee'
+    end
+
     def alt
       image[:alt]
     end
@@ -44,6 +48,10 @@ module Gallery
 
     def version
       image[:version]
+    end
+
+    def full?
+      image[:version] == 'full'
     end
 
     def version_file

@@ -65,6 +65,43 @@ module Gallery
       %(<div class='row'>#{items.collect(&:to_html).join("\n")}</div>)
     end
 
+    def folder_path
+      return @folder_path if @folder_path
+      @folder_path = @path.split('/')
+      @folder_path.pop()
+      @folder_path = @folder_path.join('/')
+      @folder_path
+    end
+
+    def save!
+      begin
+        # Create the folder
+        if !Dir.exists? folder_path
+          puts "Creating #{folder_path}"
+          #FileUtils.mkdir_p folder_path
+        end
+
+        puts "Writing file to #{@path}"
+        puts "With:"
+        puts to_gallery.to_yaml
+        file = File.open(@path, 'w')
+        file.write(to_gallery.to_yaml)
+        file.close
+      rescue Exception => e
+        raise StandardError.new "Error: #{e.message}"
+      end
+    end
+
+    def to_gallery
+      items.collect do |row|
+        group_from_row(row)
+      end
+    end
+
+    def colorize!
+
+    end
+
     # Used to update in the event of file changes
     def refresh!
       updated_contents = File.read(@path)
@@ -136,6 +173,20 @@ module Gallery
 
     def root
       '/Users/adam/code/personal/adamfortuna.com'
+    end
+
+    def group_from_row(row)
+      if row.is_a? Array
+        return {
+          files: row.collect { |item| item.to_gallery }
+        }
+      else
+        if row.full?
+          return row.to_gallery # version = full
+        else
+          return { files: row.to_gallery } # version = col-12
+        end
+      end
     end
   end
 end

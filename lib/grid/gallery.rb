@@ -38,6 +38,7 @@ module Grid
       end
     end
 
+    # in both
     def save!
       begin
         # Setup the yml file

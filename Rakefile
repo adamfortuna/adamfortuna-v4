@@ -68,6 +68,19 @@ namespace :gallery do
     puts statements.join("/n")
   end
 
+  desc 'Adds colors to a collection of galleries'
+  task :colorize, [:galleries] do |t, args|
+    galleries = args[:galleries].split(',')
+    puts "galleries: #{galleries}"
+
+    galleries.each do |gallery_path|
+      puts "Loading #{gallery_path}..."
+      gallery = Gallery::Gallery.new(gallery_path)
+      puts "Total files: #{gallery.files_count}"
+      gallery.save!
+    end
+  end
+
   desc 'Creates a new post from a collection of galleries'
   task :photo, [:path] do |t, args|
     root = args[:path]
