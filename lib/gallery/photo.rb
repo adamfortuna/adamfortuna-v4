@@ -37,6 +37,10 @@ module Gallery
       image[:color] || find_color
     end
 
+    def has_color?
+      image[:color]
+    end
+
     def title
       image[:title] || alt
     end
@@ -62,6 +66,7 @@ module Gallery
         styles << "height:auto"
         styles << "width:auto"
         styles << "min-height:600px"
+        styles << "min-width:100%"
       elsif image[:version] == 'col-12'
         styles << "width:1170px"
         calculated_height = (1170.0/width)*height
