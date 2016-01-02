@@ -1,64 +1,91 @@
 ---
 - :file: rome_coloseum--surrounding_park-s029-r4.jpg
   :version: full
+  :color: "#9A9096"
 - :files:
   - :file: rome_coloseum--surrounding_park-s051-r3.jpg
     :version: col-5
+    :color: "#96887D"
   - :file: rome_coloseum--surrounding_park-s053-r1.jpg
     :version: col-4
+    :color: "#B6AFAC"
   - :file: rome_coloseum--surrounding_park-s032-r1.jpg
     :version: col-3
+    :color: "#A39C89"
 - :files:
   - :file: rome_coloseum--surrounding_park-s048-r3.jpg
     :version: col-4
+    :color: "#6B8B63"
   - :file: rome_coloseum--surrounding_park-s049-r3.jpg
     :version: col-4
+    :color: "#A7A29B"
   - :file: rome_coloseum--surrounding_park-s054-r2.jpg
     :version: col-4
+    :color: "#A8A59C"
 - :files:
   - :file: rome_coloseum--surrounding_park-s027-r2.jpg
     :version: col-6
+    :color: "#B39794"
   - :file: rome_coloseum--surrounding_park-s026-r2.jpg
     :version: col-6
+    :color: "#A38981"
 - :files:
   - :file: rome_coloseum--surrounding_park-s047-r4.jpg
     :version: col-12
+    :color: "#848177"
 - :files:
   - :file: rome_coloseum--surrounding_park-s046-r3.jpg
     :version: col-5
+    :color: "#A0998C"
   - :file: rome_coloseum--surrounding_park-s050-r2.jpg
     :version: col-4
+    :color: "#938177"
   - :file: rome_coloseum--surrounding_park-s052-r2.jpg
     :version: col-3
+    :color: "#807B6D"
 - :files:
   - :file: rome_coloseum--surrounding_park-s042-r2.jpg
     :version: col-3
+    :color: "#98928E"
   - :file: rome_coloseum--surrounding_park-s045-r3.jpg
     :version: col-5
+    :color: "#BAB0A3"
   - :file: rome_coloseum--surrounding_park-s038-r3.jpg
     :version: col-4
+    :color: "#8A6C70"
 - :file: rome_coloseum--surrounding_park-s043-r4.jpg
   :version: full
+  :color: "#797970"
 - :files:
   - :file: rome_coloseum--surrounding_park-s041-r2.jpg
     :version: col-4
+    :color: "#958078"
   - :file: rome_coloseum--surrounding_park-s033-r3.jpg
     :version: col-3
+    :color: "#776C71"
   - :file: rome_coloseum--surrounding_park-s034-r3.jpg
     :version: col-2
+    :color: "#61706D"
   - :file: rome_coloseum--surrounding_park-s039-r2.jpg
     :version: col-3
+    :color: "#85836D"
 - :files:
   - :file: rome_coloseum--surrounding_park-s036-r2.jpg
     :version: col-5
+    :color: "#B49C9B"
   - :file: rome_coloseum--surrounding_park-s035-r2.jpg
     :version: col-4
+    :color: "#7F7B7C"
   - :file: rome_coloseum--surrounding_park-s037-r2.jpg
     :version: col-3
+    :color: "#848689"
 - :files:
   - :file: rome_coloseum--surrounding_park-s031-r2.jpg
     :version: col-3
+    :color: "#97A666"
   - :file: rome_coloseum--surrounding_park-s030-r2.jpg
     :version: col-4
+    :color: "#827B85"
   - :file: rome_coloseum--surrounding_park-s028-r2.jpg
     :version: col-5
+    :color: "#AE9491"

@@ -1,35 +1,45 @@
 ---
-- files:
-  - file: sat_dinner_fish.jpg
-    alt: Succulent fish.
-    version: col-6
-  - file: sat_dinner_sushi.jpg
-    alt:  Sushi plate.
-    version: col-6
-- files:
-  - file: sat_dinner_salad.jpg
-    alt: Seafood salad.
-    version: col-4
-  - file: sat_dinner_sushi_rolls.jpg
-    alt: Sushi wrapped in persimmon leaves.
-    version: col-5
-  - file: sat_dinner_soup.jpg
-    alt: Miso Soup
-    version: col-3
-- files:
-  - file: sat_dinner_tempura.jpg
-    alt: Tempura.
-    version: col-3
-  - file: sat_dinner_crabs.jpg
-    alt: Delicious crab with butter.
-    version: col-5
-  - file: sat_dinner_meat.jpg
-    alt: Fresh cooked meat.
-    version: col-4
-- files:
-  - file: sat_dinner_blowfish.jpg
-    alt: Blowfish and tofu.
-    version: col-6
-  - file: sat_dinner_dessert.jpg
-    alt: A sakura jelly and fresh fruit.
-    version: col-6
+- :files:
+  - :file: sat_dinner_fish.jpg
+    :version: col-6
+    :color: "#785B42"
+    :alt: Succulent fish.
+  - :file: sat_dinner_sushi.jpg
+    :version: col-6
+    :color: "#A07D65"
+    :alt: Sushi plate.
+- :files:
+  - :file: sat_dinner_salad.jpg
+    :version: col-4
+    :color: "#947446"
+    :alt: Seafood salad.
+  - :file: sat_dinner_sushi_rolls.jpg
+    :version: col-5
+    :color: "#9D7F51"
+    :alt: Sushi wrapped in persimmon leaves.
+  - :file: sat_dinner_soup.jpg
+    :version: col-3
+    :color: "#3D2E1D"
+    :alt: Miso Soup
+- :files:
+  - :file: sat_dinner_tempura.jpg
+    :version: col-3
+    :color: "#A48146"
+    :alt: Tempura.
+  - :file: sat_dinner_crabs.jpg
+    :version: col-5
+    :color: "#8A6138"
+    :alt: Delicious crab with butter.
+  - :file: sat_dinner_meat.jpg
+    :version: col-4
+    :color: "#A75F31"
+    :alt: Fresh cooked meat.
+- :files:
+  - :file: sat_dinner_blowfish.jpg
+    :version: col-6
+    :color: "#5E5040"
+    :alt: Blowfish and tofu.
+  - :file: sat_dinner_dessert.jpg
+    :version: col-6
+    :color: "#A68B66"
+    :alt: A sakura jelly and fresh fruit.

@@ -1,27 +1,37 @@
 ---
-- files:
-  - file: school_of_athens.jpg
-    alt: The School of Athens
-    version: col-4
-  - file: above_doors.jpg
-    alt: Above the Doors
-    version: col-4
-  - file: above_other_door.jpg
-    alt: Above Another Door
-    version: col-4
-- file: diogenes.jpg
-  alt: Diogenes Closeup
-  version: col-12
-- files:
-  - file: athens_closeup.jpg
-    alt: School of Athens closeup
-    version: col-4
-  - file: edge_of_ceiling.jpg
-    alt: Edge of the Ceiling
-    version: col-4
-  - file: corner.jpg
-    alt: Corner
-    version: col-4
-- file: amazing_ceiling.jpg
-  alt: Amazing Ceiling
-  version: col-12
+- :files:
+  - :file: school_of_athens.jpg
+    :version: col-4
+    :color: "#A08B74"
+    :alt: The School of Athens
+  - :file: above_doors.jpg
+    :version: col-4
+    :color: "#6E6E6A"
+    :alt: Above the Doors
+  - :file: above_other_door.jpg
+    :version: col-4
+    :color: "#585B59"
+    :alt: Above Another Door
+- :files:
+  - :file: diogenes.jpg
+    :version: col-12
+    :color: "#AA998B"
+    :alt: Diogenes Closeup
+- :files:
+  - :file: athens_closeup.jpg
+    :version: col-4
+    :color: "#9A6F65"
+    :alt: School of Athens closeup
+  - :file: edge_of_ceiling.jpg
+    :version: col-4
+    :color: "#9A8965"
+    :alt: Edge of the Ceiling
+  - :file: corner.jpg
+    :version: col-4
+    :color: "#78614B"
+    :alt: Corner
+- :files:
+  - :file: amazing_ceiling.jpg
+    :version: col-12
+    :color: "#917C67"
+    :alt: Amazing Ceiling

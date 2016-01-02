@@ -84,7 +84,8 @@ module Grid
         nil
       end
     rescue Exception => e
-      binding.pry
+      puts "#{e.message}"
+      raise e
     end
 
     def rating_from_metadata

@@ -1,41 +1,53 @@
 ---
 - :file: panama--downstairs-s085-r5.jpg
   :version: full
+  :color: "#8A7B65"
   :alt: Panama--downstairs-s085-r5
 - :files:
   - :file: panama--downstairs-s086-r4.jpg
     :version: col-6
+    :color: "#847C65"
     :alt: Panama--downstairs-s086-r4
   - :file: panama--downstairs-s088-r3.jpg
     :version: col-6
+    :color: "#878C74"
     :alt: Panama--downstairs-s088-r3
 - :files:
   - :file: panama--downstairs-s096-r4.jpg
     :version: col-4
+    :color: "#8C9653"
     :alt: Panama--downstairs-s096-r4
   - :file: panama--downstairs-s102-r2.jpg
     :version: col-5
+    :color: "#625C40"
     :alt: Panama--downstairs-s102-r2
   - :file: panama--downstairs-s084-r2.jpg
     :version: col-3
+    :color: "#B7AF72"
     :alt: Panama--downstairs-s084-r2
 - :file: panama--downstairs-s098-r5.jpg
   :version: full
+  :color: "#878052"
   :alt: Panama--downstairs-s098-r5
 - :files:
   - :file: panama--downstairs-s097-r3.jpg
     :version: col-4
+    :color: "#7E855A"
     :alt: Panama--downstairs-s097-r3
   - :file: panama--downstairs-s089-r4.jpg
     :version: col-8
+    :color: "#776E55"
     :alt: Panama--downstairs-s089-r4
 - :files:
   - :file: panama--downstairs-s090-r4.jpg
     :version: col-5
+    :color: "#92A840"
     :alt: Panama--downstairs-s090-r4
   - :file: panama--downstairs-s087-r4.jpg
     :version: col-3
+    :color: "#9EA397"
     :alt: Panama--downstairs-s087-r4
   - :file: panama--downstairs-s072-r3.jpg
     :version: col-4
+    :color: "#878663"
     :alt: Panama--downstairs-s072-r3

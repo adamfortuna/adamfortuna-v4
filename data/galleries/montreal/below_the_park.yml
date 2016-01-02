@@ -1,18 +1,23 @@
 ---
 - :file: montreal--below_the_park-s021-r4.jpg
   :version: full
+  :color: "#9E8D84"
   :alt: Montreal--below_the_park-s021-r4
 - :files:
   - :file: montreal--below_the_park-s020-r2.jpg
     :version: col-6
+    :color: "#7F965B"
     :alt: Montreal--below_the_park-s020-r2
   - :file: montreal--below_the_park-s019-r3.jpg
     :version: col-6
+    :color: "#ADA298"
     :alt: Montreal--below_the_park-s019-r3
 - :files:
   - :file: montreal--below_the_park-s022-r3.jpg
     :version: col-6
+    :color: "#988580"
     :alt: Montreal--below_the_park-s022-r3
   - :file: montreal--below_the_park-s025-r2.jpg
     :version: col-6
+    :color: "#697765"
     :alt: Montreal--below_the_park-s025-r2

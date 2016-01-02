@@ -1,26 +1,36 @@
 ---
-- file: side.jpg
-  version: full
-  alt: Apollo and Daphne
-- file: back.jpg
-  version: col-12
-  alt: Apollo and Daphne
-- files:
-  - file: hand.jpg
-    version: col-2
-    alt: Apollo and Daphne
-  - file: side_below.jpg
-    version: col-3
-    alt: Apollo and Daphne
-  - file: faces.jpg
-    version: col-4
-    alt: Apollo and Daphne. Photo by Marilyn
-  - file: front.jpg
-    version: col-3
-    alt: Apollo and Daphne
-- file: ceiling.jpg
-  version: col-12
-  alt: Apollo and Daphne. Photo by Marilyn
-- file: feet.jpg
-  version: full
-  alt: Apollo and Daphne
+- :file: side.jpg
+  :version: full
+  :color: "#8D6031"
+  :alt: Apollo and Daphne
+- :files:
+  - :file: back.jpg
+    :version: col-12
+    :color: "#946636"
+    :alt: Apollo and Daphne
+- :files:
+  - :file: hand.jpg
+    :version: col-2
+    :color: "#9E7045"
+    :alt: Apollo and Daphne
+  - :file: side_below.jpg
+    :version: col-3
+    :color: "#7B6D61"
+    :alt: Apollo and Daphne
+  - :file: faces.jpg
+    :version: col-4
+    :color: "#B38E64"
+    :alt: Apollo and Daphne. Photo by Marilyn
+  - :file: front.jpg
+    :version: col-3
+    :color: "#988C81"
+    :alt: Apollo and Daphne
+- :files:
+  - :file: ceiling.jpg
+    :version: col-12
+    :color: "#9B8D7F"
+    :alt: Apollo and Daphne. Photo by Marilyn
+- :file: feet.jpg
+  :version: full
+  :color: "#8B673F"
+  :alt: Apollo and Daphne

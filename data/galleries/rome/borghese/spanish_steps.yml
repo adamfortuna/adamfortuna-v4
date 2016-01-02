@@ -1,4 +1,5 @@
 ---
-- file: steps.jpg
-  alt: View from atop the Spanish Steps
-  version: full
+- :file: steps.jpg
+  :version: full
+  :color: "#907D7A"
+  :alt: View from atop the Spanish Steps

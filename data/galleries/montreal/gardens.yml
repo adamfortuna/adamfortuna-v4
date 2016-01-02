@@ -1,61 +1,76 @@
 ---
 - :file: montreal--gardens-s071-r4.jpg
   :version: full
+  :color: "#757F59"
   :alt: Montreal--gardens-s071-r4
 - :files:
   - :file: montreal--gardens-s077-r2.jpg
     :version: col-3
+    :color: "#859839"
     :alt: Montreal--gardens-s077-r2
   - :file: montreal--gardens-s110-r3.jpg
     :version: col-3
+    :color: "#8D917C"
     :alt: Montreal--gardens-s110-r3
   - :file: montreal--gardens-s080-r3.jpg
     :version: col-4
+    :color: "#84945D"
     :alt: Montreal--gardens-s080-r3
   - :file: montreal--gardens-s072-r2.jpg
     :version: col-2
+    :color: "#80956B"
     :alt: Montreal--gardens-s072-r2
 - :files:
   - :file: montreal--gardens-s079-r4.mp4
     :version: col-12
-    :alt: Montreal--gardens-s079-r4
     :video: true
 - :files:
   - :file: montreal--gardens-s076-r3.jpg
     :version: col-4
+    :color: "#928C3D"
     :alt: Montreal--gardens-s076-r3
   - :file: montreal--gardens-s034-r2.jpg
     :version: col-3
+    :color: "#75964A"
     :alt: Montreal--gardens-s034-r2
   - :file: montreal--gardens-s078-r3.jpg
     :version: col-5
+    :color: "#999971"
     :alt: Montreal--gardens-s078-r3
 - :files:
   - :file: montreal--gardens-s032-r2.jpg
     :version: col-6
+    :color: "#879D55"
     :alt: Montreal--gardens-s032-r2
   - :file: montreal--gardens-s074-r3.jpg
     :version: col-6
+    :color: "#6D904B"
     :alt: Montreal--gardens-s074-r3
 - :files:
   - :file: montreal--gardens-s075-r4.jpg
     :version: col-12
+    :color: "#90985D"
     :alt: Montreal--gardens-s075-r4
 - :files:
   - :file: montreal--gardens-s033-r3.jpg
     :version: col-4
+    :color: "#80876C"
     :alt: Montreal--gardens-s033-r3
   - :file: montreal--gardens-s056-r3.jpg
     :version: col-8
+    :color: "#97A64E"
     :alt: Montreal--gardens-s056-r3
 - :files:
   - :file: montreal--gardens-s035-r3.jpg
     :version: col-8
+    :color: "#8CA24A"
     :alt: Montreal--gardens-s035-r3
   - :file: montreal--gardens-s057-r3.jpg
     :version: col-4
+    :color: "#84956D"
     :alt: Montreal--gardens-s057-r3
 - :files:
   - :file: montreal--gardens-s073-r4.jpg
     :version: col-12
+    :color: "#72755E"
     :alt: Montreal--gardens-s073-r4

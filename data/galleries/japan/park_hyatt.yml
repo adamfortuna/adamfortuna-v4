@@ -1,24 +1,31 @@
 ---
-- file: menus.jpg
-  alt: Sitting down for cocktails.
-  version: full
-- files:
-  - file: adam.jpg
-    alt: Adam with a cocktail.
-    version: col-5
-  - file: view3.jpg
-    alt: View from up top.
-    version: col-3
-  - file: cocktail.jpg
-    alt: Marilyns cocktail.
-    version: col-4
-- files:
-  - file: view4.jpg
-    alt: Park view.
-    version: col-4
-  - file: view2.jpg
-    alt: Twin points.
-    version: col-3
-  - file: us.jpg
-    alt: Us with the view.
-    version: col-5
+- :file: menus.jpg
+  :version: full
+  :color: "#838285"
+  :alt: Sitting down for cocktails.
+- :files:
+  - :file: adam.jpg
+    :version: col-5
+    :color: "#AAA7A4"
+    :alt: Adam with a cocktail.
+  - :file: view3.jpg
+    :version: col-3
+    :color: "#8F8C8D"
+    :alt: View from up top.
+  - :file: cocktail.jpg
+    :version: col-4
+    :color: "#A19B95"
+    :alt: Marilyns cocktail.
+- :files:
+  - :file: view4.jpg
+    :version: col-4
+    :color: "#8B8D93"
+    :alt: Park view.
+  - :file: view2.jpg
+    :version: col-3
+    :color: "#80828B"
+    :alt: Twin points.
+  - :file: us.jpg
+    :version: col-5
+    :color: "#9A9C9F"
+    :alt: Us with the view.

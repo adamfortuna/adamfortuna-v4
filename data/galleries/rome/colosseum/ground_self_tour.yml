@@ -2,64 +2,80 @@
 - :files:
   - :file: Bricks.jpg
     :version: col-3
+    :color: "#988D85"
     :alt: Bricks
   - :file: Adam and Marilyn 2.jpg
     :version: col-5
+    :color: "#887678"
     :alt: Adam and marilyn 2
-    options:
+    :options:
       gravity: west
   - :file: Green Ground.jpg
     :version: col-4
+    :color: "#809451"
     :alt: Green ground
 - :files:
   - :file: Adam Side View.jpg
     :version: col-6
+    :color: "#766870"
     :alt: Adam side view
-    options:
+    :options:
       gravity: west
   - :file: Green Walkway.jpg
     :version: col-6
+    :color: "#7B785D"
     :alt: Green walkway
 - :file: Marilyn Looking Around.jpg
   :version: full
+  :color: "#7F7167"
   :alt: Marilyn looking around
-  options:
+  :options:
     gravity: west
 - :files:
   - :file: Adam and Marilyn at Lower Level.jpg
     :version: col-5
+    :color: "#9D95A0"
     :alt: Adam and marilyn at lower level
-    options:
+    :options:
       gravity: north
   - :file: Hallway.jpg
     :version: col-3
+    :color: "#83635C"
     :alt: Hallway
   - :file: Lower Ring View.jpg
     :version: col-4
+    :color: "#837269"
     :alt: Lower ring view
 - :files:
   - :file: Lower Ring.jpg
     :version: col-6
+    :color: "#858473"
     :alt: Lower ring
   - :file: Ring Wide.jpg
     :version: col-6
+    :color: "#9F9779"
     :alt: Ring wide
-- files:
+- :files:
   - :file: Marilyn Thumbs Up.jpg
     :version: col-4
+    :color: "#625765"
     :alt: Marilyn thumbs up
-    options:
+    :options:
       gravity: west
-  - file: Umbrella.jpg
-    version: col-8
-    alt: Umbrella
+  - :file: Umbrella.jpg
+    :version: col-8
+    :color: "#A09B80"
+    :alt: Umbrella
 - :file: Panorama.jpg
   :version: full
+  :color: "#958E95"
   :alt: Panorama
 - :files:
   - :file: Adam.jpg
     :version: col-6
+    :color: "#857E7F"
     :alt: Adam
   - :file: Marilyn.jpg
     :version: col-6
+    :color: "#897F80"
     :alt: Marilyn

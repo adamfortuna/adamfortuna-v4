@@ -1,4 +1,5 @@
 ---
-- file: cuneiform.jpg
-  alt: Cuneiform
-  version: full
+- :file: cuneiform.jpg
+  :version: full
+  :color: "#664C37"
+  :alt: Cuneiform

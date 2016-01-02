@@ -2,39 +2,50 @@
 - :files:
   - :file: montreal--plateau-s140-r5.jpg
     :version: col-12
+    :color: "#937763"
     :alt: Montreal--plateau-s140-r5
 - :files:
   - :file: montreal--plateau-s103-r1.jpg
     :version: col-4
+    :color: "#4C4F46"
     :alt: Montreal--plateau-s103-r1
   - :file: montreal--plateau-s137-r4.jpg
     :version: col-8
+    :color: "#43423F"
     :alt: Montreal--plateau-s137-r4
 - :files:
   - :file: montreal--plateau-s130-r4.jpg
     :version: col-12
+    :color: "#9C8771"
     :alt: Montreal--plateau-s130-r4
 - :files:
   - :file: montreal--plateau-s138-r3.jpg
     :version: col-6
+    :color: "#797168"
     :alt: Montreal--plateau-s138-r3
   - :file: montreal--plateau-s139-r3.jpg
     :version: col-6
+    :color: "#9D948F"
     :alt: Montreal--plateau-s139-r3
 - :files:
   - :file: montreal--plateau-s131-r3.jpg
     :version: col-4
+    :color: "#988A84"
     :alt: Montreal--plateau-s131-r3
   - :file: montreal--plateau-s134-r3.jpg
     :version: col-5
+    :color: "#7D685E"
     :alt: Montreal--plateau-s134-r3
   - :file: montreal--plateau-s135-r3.jpg
     :version: col-3
+    :color: "#99736A"
     :alt: Montreal--plateau-s135-r3
 - :files:
   - :file: montreal--plateau-s129-r4.jpg
     :version: col-8
+    :color: "#84756D"
     :alt: Montreal--plateau-s129-r4
   - :file: montreal--plateau-s133-r2.jpg
     :version: col-4
+    :color: "#8D857B"
     :alt: Montreal--plateau-s133-r2

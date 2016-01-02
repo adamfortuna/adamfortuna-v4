@@ -1,44 +1,56 @@
 ---
-- file: us.jpg
-  alt: Us at Owakudani
-  version: full
-- files:
-  - file: cable_car.jpg
-    alt: This cable car connects Hakone with the next small stop where the Hakone ropeway leaves from.
-    version: col-4
-  - file: ropeway_loading.jpg
-    alt: The ropeway had a huge line early in the morning, but went fast.
-    version: col-5
-  - file: ropeway_down.jpg
-    alt: One ropeway takes you up to Owakudani, another takes you down to Lake Ashinoko.
-    version: col-3
-- files:
-  - file: hot_water.jpg
-    alt: A view of the hot water.
-    version: col-3
-  - file: adam_ropeway.jpg
-    alt: Adam on the ropeway.
-    version: col-5
-  - file: ropeway_view.jpg
-    alt: A view of the ropeway.
-    version: col-4
-- file: marilyn_sky.jpg
-  alt: Marilyn taking a break from pictures.
-  version: col-12
-- options:
-    height: 489
-  files:
-  - file: steamy.jpg
-    alt: Steam rising from the hot water.
-    version: col-3
-  - file: eggs.mp4
-    alt: Cooking eggs
-    version: col-9
-    video: true
-- files:
-  - file: cooking_eggs.jpg
-    alt: Eggs preparing to be boiled.
-    version: col-6
-  - file: eating_eggs.jpg
-    alt: The eggs were black after boiling, but tasted the same.
-    version: col-6
+- :file: us.jpg
+  :version: full
+  :color: "#A69689"
+  :alt: Us at Owakudani
+- :files:
+  - :file: cable_car.jpg
+    :version: col-4
+    :color: "#827A71"
+    :alt: This cable car connects Hakone with the next small stop where the Hakone
+      ropeway leaves from.
+  - :file: ropeway_loading.jpg
+    :version: col-5
+    :color: "#655953"
+    :alt: The ropeway had a huge line early in the morning, but went fast.
+  - :file: ropeway_down.jpg
+    :version: col-3
+    :color: "#7C7570"
+    :alt: One ropeway takes you up to Owakudani, another takes you down to Lake Ashinoko.
+- :files:
+  - :file: hot_water.jpg
+    :version: col-3
+    :color: "#CAC6CB"
+    :alt: A view of the hot water.
+  - :file: adam_ropeway.jpg
+    :version: col-5
+    :color: "#B3AAAA"
+    :alt: Adam on the ropeway.
+  - :file: ropeway_view.jpg
+    :version: col-4
+    :color: "#DCC2AC"
+    :alt: A view of the ropeway.
+- :files:
+  - :file: marilyn_sky.jpg
+    :version: col-12
+    :color: "#796573"
+    :alt: Marilyn taking a break from pictures.
+- :files:
+  - :file: steamy.jpg
+    :version: col-3
+    :color: "#C1BAB6"
+    :alt: Steam rising from the hot water.
+    :options:
+      height: 489
+  - :file: eggs.mp4
+    :version: col-9
+    :video: true
+- :files:
+  - :file: cooking_eggs.jpg
+    :version: col-6
+    :color: "#8D949E"
+    :alt: Eggs preparing to be boiled.
+  - :file: eating_eggs.jpg
+    :version: col-6
+    :color: "#A1846C"
+    :alt: The eggs were black after boiling, but tasted the same.

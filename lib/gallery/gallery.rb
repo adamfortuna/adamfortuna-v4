@@ -184,7 +184,7 @@ module Gallery
         if row.full?
           return row.to_gallery # version = full
         else
-          return { files: row.to_gallery } # version = col-12
+          return { files: [row.to_gallery] } # version = col-12
         end
       end
     end

@@ -1,16 +1,25 @@
 ---
-- file: david.jpg
-  alt: David
-  version: col-12
-- options:
-    height: 600
-  files:
-  - file: david1.jpg
-    version: col-4
-    alt: David
-  - file: david2.jpg
-    version: col-4
-    alt: David
-  - file: david3.jpg
-    version: col-4
-    alt: David
+- :files:
+  - :file: david.jpg
+    :version: col-12
+    :color: "#6F4B2F"
+    :alt: David
+- :files:
+  - :file: david1.jpg
+    :version: col-4
+    :color: "#8C6039"
+    :alt: David
+    :options:
+      height: 600
+  - :file: david2.jpg
+    :version: col-4
+    :color: "#704B2B"
+    :alt: David
+    :options:
+      height: 600
+  - :file: david3.jpg
+    :version: col-4
+    :color: "#92633C"
+    :alt: David
+    :options:
+      height: 600

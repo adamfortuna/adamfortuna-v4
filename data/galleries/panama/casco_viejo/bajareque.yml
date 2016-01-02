@@ -1,15 +1,19 @@
 ---
 - :file: panama--Bajareque Coffee House-s017-r4.jpg
   :version: full
+  :color: "#A19894"
   :alt: Panama--bajareque coffee house-s017-r4
 - :files:
   - :file: panama--Bajareque Coffee House-s018-r3.jpg
     :version: col-6
+    :color: "#9A7F6B"
     :alt: Panama--bajareque coffee house-s018-r3
   - :file: panama--Bajareque Coffee House-s020-r3.jpg
     :version: col-6
+    :color: "#AD9E9B"
     :alt: Panama--bajareque coffee house-s020-r3
 - :files:
   - :file: panama--Bajareque Coffee House-s019-r4.jpg
     :version: col-12
+    :color: "#716A62"
     :alt: Panama--bajareque coffee house-s019-r4

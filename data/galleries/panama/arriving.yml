@@ -1,51 +1,64 @@
 ---
-
 - :file: panama--arriving-017.jpg
   :version: full
+  :color: "#4D7E9B"
   :alt: Panama--arriving-017
 - :files:
   - :file: panama--arriving-018.jpg
     :version: col-6
+    :color: "#9EB2B9"
     :alt: Panama--arriving-018
   - :file: panama--arriving-019.jpg
     :version: col-6
+    :color: "#8C9C9D"
     :alt: Panama--arriving-019
 - :files:
   - :file: panama--arriving-001.jpg
     :version: col-3
+    :color: "#BDB8AE"
     :alt: Panama--arriving-001
   - :file: panama--arriving-002.jpg
     :version: col-5
+    :color: "#A49C80"
     :alt: Panama--arriving-002
   - :file: panama--arriving-003.jpg
     :version: col-4
+    :color: "#B8B393"
     :alt: Panama--arriving-003
 - :files:
   - :file: panama--arriving-004.jpg
     :version: col-6
+    :color: "#B7AEA1"
     :alt: Panama--arriving-004
   - :file: panama--arriving-005.jpg
     :version: col-6
+    :color: "#9D9282"
     :alt: Panama--arriving-005
 - :files:
   - :file: panama--arriving-008.jpg
     :version: col-12
+    :color: "#9E9D82"
     :alt: Panama--arriving-008
 - :files:
   - :file: panama--arriving-007.jpg
     :version: col-6
+    :color: "#7A725D"
     :alt: Panama--arriving-007
   - :file: panama--arriving-009.jpg
     :version: col-6
+    :color: "#A4A698"
     :alt: Panama--arriving-009
 - :files:
   - :file: panama--arriving-011.jpg
     :version: col-12
+    :color: "#ADC5DE"
     :alt: Panama--arriving-011
 - :files:
   - :file: panama--arriving-010.jpg
     :version: col-6
+    :color: "#725144"
     :alt: Panama--arriving-010
   - :file: panama--arriving-014.jpg
     :version: col-6
+    :color: "#A49F9C"
     :alt: Panama--arriving-014

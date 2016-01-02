@@ -1,28 +1,44 @@
 ---
-- file: akihabara.jpg
-  alt: Streets of Akihabara
-  version: col-12
-- options:
-    height: 244
-  files:
-    - file: akihabara_station.jpg
-      alt: Akibarahara Station.
-      version: col-4
-    - file: sega.jpg
-      alt: Sega Arcade.
-      version: col-5
-    - file: akihabara_station_marilyn.jpg
-      alt: Akibarahara Station.
-      version: col-3
-- options:
-    height: 244
-  files:
-    - file: noodles.jpg
-      alt: Cup of noodles vending machine in an arcade.
-      version: col-3
-    - file: akihabara_streets.jpg
-      alt: Streets of Akihabara
-      version: col-5
-    - file: gundam_cafe.jpg
-      alt: Gundam Cafe
-      version: col-4
+- :files:
+  - :file: akihabara.jpg
+    :version: col-12
+    :color: "#72706F"
+    :alt: Streets of Akihabara
+- :files:
+  - :file: akihabara_station.jpg
+    :version: col-4
+    :color: "#605A5D"
+    :alt: Akibarahara Station.
+    :options:
+      height: 244
+  - :file: sega.jpg
+    :version: col-5
+    :color: "#6D5A57"
+    :alt: Sega Arcade.
+    :options:
+      height: 244
+  - :file: akihabara_station_marilyn.jpg
+    :version: col-3
+    :color: "#585A59"
+    :alt: Akibarahara Station.
+    :options:
+      height: 244
+- :files:
+  - :file: noodles.jpg
+    :version: col-3
+    :color: "#302C2D"
+    :alt: Cup of noodles vending machine in an arcade.
+    :options:
+      height: 244
+  - :file: akihabara_streets.jpg
+    :version: col-5
+    :color: "#6C6162"
+    :alt: Streets of Akihabara
+    :options:
+      height: 244
+  - :file: gundam_cafe.jpg
+    :version: col-4
+    :color: "#7D6956"
+    :alt: Gundam Cafe
+    :options:
+      height: 244

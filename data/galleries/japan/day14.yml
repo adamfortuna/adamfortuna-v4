@@ -1,21 +1,25 @@
 ---
-- file: ramen.jpg
-  alt: Delicious ramen.
-  version: col-12
-- files:
-  - file: sides.jpg
-    alt: Fresh garlic at your table.
-    version: col-6
-  - file: takoyaki.jpg
-    alt: Finally tried some takoyaki.
-    version: col-6
-- options:
-    height: 434
-  files:
-  - file: takoyaki.mp4
-    version: col-8
-    alt: Turning some Takoyaki
-    video: true
-  - file: streets.jpg
-    alt: A school that Marilyn confused with a prison.
-    version: col-4
+- :files:
+  - :file: ramen.jpg
+    :version: col-12
+    :color: "#8B6F58"
+    :alt: Delicious ramen.
+- :files:
+  - :file: sides.jpg
+    :version: col-6
+    :color: "#5A4139"
+    :alt: Fresh garlic at your table.
+  - :file: takoyaki.jpg
+    :version: col-6
+    :color: "#67605A"
+    :alt: Finally tried some takoyaki.
+- :files:
+  - :file: takoyaki.mp4
+    :version: col-8
+    :video: true
+  - :file: streets.jpg
+    :version: col-4
+    :color: "#5B5A5D"
+    :alt: A school that Marilyn confused with a prison.
+    :options:
+      height: 434

@@ -1,32 +1,41 @@
 ---
-- file: todaiji.jpg
-  alt: Todai-ji temple.
-  version: full
-- options:
-    height: 400
-  files:
-  - file: marilyn_door.jpg
-    alt: Marilyn seeing how huge the door is.
-    version: col-3
-    options:
+- :file: todaiji.jpg
+  :version: full
+  :color: "#B3AFA1"
+  :alt: Todai-ji temple.
+- :files:
+  - :file: marilyn_door.jpg
+    :version: col-3
+    :color: "#6F645F"
+    :alt: Marilyn seeing how huge the door is.
+    :options:
+      height: 400
       gravity: north
-  - file: guardian.jpg
-    alt: Temple Guardian.
-    version: col-5
-    options:
+  - :file: guardian.jpg
+    :version: col-5
+    :color: "#82594A"
+    :alt: Temple Guardian.
+    :options:
+      height: 400
       gravity: north
-  - file: squeeze.jpg
-    alt: Its good luck to squeeze though this support beam.
-    version: col-4
-- files:
-  - file: large_buddha.jpg
-    alt: The huge buddha inside Todaiji temple.
-    version: col-4
-  - file: opening_gate.jpg
-    alt: The opening gate to the temple.
-    version: col-5
-  - file: gold_buddha.jpg
-    alt: A huge gold buddha.
-    version: col-3
-    options:
+  - :file: squeeze.jpg
+    :version: col-4
+    :color: "#6B524A"
+    :alt: Its good luck to squeeze though this support beam.
+    :options:
+      height: 400
+- :files:
+  - :file: large_buddha.jpg
+    :version: col-4
+    :color: "#6C4A40"
+    :alt: The huge buddha inside Todaiji temple.
+  - :file: opening_gate.jpg
+    :version: col-5
+    :color: "#54514E"
+    :alt: The opening gate to the temple.
+  - :file: gold_buddha.jpg
+    :version: col-3
+    :color: "#604A3F"
+    :alt: A huge gold buddha.
+    :options:
       gravity: east

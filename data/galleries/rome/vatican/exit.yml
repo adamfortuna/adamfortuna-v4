@@ -1,11 +1,14 @@
 ---
-- file: down.jpg
-  alt: Stairway Out
-  version: full
-- files:
-  - file: stairs.jpg
-    alt: Stairs
-    version: col-6
-  - file: looking_up.jpg
-    alt: Looking Up
-    version: col-6
+- :file: down.jpg
+  :version: full
+  :color: "#896C61"
+  :alt: Stairway Out
+- :files:
+  - :file: stairs.jpg
+    :version: col-6
+    :color: "#977B6C"
+    :alt: Stairs
+  - :file: looking_up.jpg
+    :version: col-6
+    :color: "#8E8274"
+    :alt: Looking Up

@@ -1,34 +1,45 @@
 ---
-- file: dotonbori.jpg
-  alt: Dōtonbori street.
-  version: full
-- files:
-  - file: crabs_host_club.jpg
-    alt: A crab restaurant next to a host cafe.
-    version: col-4
-  - file: takoyaki.jpg
-    alt: This takoyaki vendor had a huge line.
-    version: col-5
-  - file: bars.jpg
-    alt: An apartment building filled with bars.
-    version: col-3
-- files:
-  - file: okonomiyaki_osaka.jpg
-    alt: Okonomiyaki (pancake) served Osaka style.
-    version: col-6
-  - file: okonomiyaki_tokyo.jpg
-    alt: Okonomiyaki (pancake) served Tokyo style.
-    version: col-6
-- file: takoyaki_octopus.jpg
-  alt: This octopus moved and played a song.
-  version: col-12
-- files:
-  - file: shinsaibashi_street.jpg
-    alt: Shinsaibashi Streets entrance.
-    version: col-3
-  - file: anime_costumes.jpg
-    alt: A selection of anime wigs at a costume store.
-    version: col-5
-  - file: apartment_bars.jpg
-    alt: A look down the hallway of an apartment building bar.
-    version: col-4
+- :file: dotonbori.jpg
+  :version: full
+  :color: "#644737"
+  :alt: Dōtonbori street.
+- :files:
+  - :file: crabs_host_club.jpg
+    :version: col-4
+    :color: "#4F4433"
+    :alt: A crab restaurant next to a host cafe.
+  - :file: takoyaki.jpg
+    :version: col-5
+    :color: "#7E5D4A"
+    :alt: This takoyaki vendor had a huge line.
+  - :file: bars.jpg
+    :version: col-3
+    :color: "#2B2725"
+    :alt: An apartment building filled with bars.
+- :files:
+  - :file: okonomiyaki_osaka.jpg
+    :version: col-6
+    :color: "#553F37"
+    :alt: Okonomiyaki (pancake) served Osaka style.
+  - :file: okonomiyaki_tokyo.jpg
+    :version: col-6
+    :color: "#784D36"
+    :alt: Okonomiyaki (pancake) served Tokyo style.
+- :files:
+  - :file: takoyaki_octopus.jpg
+    :version: col-12
+    :color: "#A16657"
+    :alt: This octopus moved and played a song.
+- :files:
+  - :file: shinsaibashi_street.jpg
+    :version: col-3
+    :color: "#473430"
+    :alt: Shinsaibashi Streets entrance.
+  - :file: anime_costumes.jpg
+    :version: col-5
+    :color: "#75685E"
+    :alt: A selection of anime wigs at a costume store.
+  - :file: apartment_bars.jpg
+    :version: col-4
+    :color: "#7C6E51"
+    :alt: A look down the hallway of an apartment building bar.

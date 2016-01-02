@@ -1,15 +1,19 @@
 ---
 - :file: montreal--montreal_botanical_garden-s101-r5.jpg
   :version: full
+  :color: "#787B5F"
   :alt: Montreal--montreal_botanical_garden-s101-r5
 - :files:
   - :file: montreal--montreal_botanical_garden-s100-r3.jpg
     :version: col-6
+    :color: "#70985F"
     :alt: Montreal--montreal_botanical_garden-s100-r3
   - :file: montreal--montreal_botanical_garden-s116-r3.jpg
     :version: col-6
+    :color: "#8E9D85"
     :alt: Montreal--montreal_botanical_garden-s116-r3
 - :files:
   - :file: montreal--montreal_botanical_garden-s115-r5.jpg
     :version: col-12
+    :color: "#709754"
     :alt: Montreal--montreal_botanical_garden-s115-r5

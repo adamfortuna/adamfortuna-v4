@@ -1,11 +1,14 @@
 ---
 - :file: panama--canons-s104-r5.jpg
   :version: full
+  :color: "#A3847D"
   :alt: Panama--canons-s104-r5
 - :files:
   - :file: panama--canons-s080-r2.jpg
     :version: col-4
+    :color: "#98A668"
     :alt: Panama--canons-s080-r2
   - :file: panama--canons-s079-r4.jpg
     :version: col-8
+    :color: "#848568"
     :alt: Panama--canons-s079-r4

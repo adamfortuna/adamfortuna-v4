@@ -1,33 +1,42 @@
 ---
 - :file: montreal--underground_montreal-s125-r5.jpg
   :version: full
+  :color: "#6E6E6E"
   :alt: Montreal--underground_montreal-s125-r5
 - :files:
   - :file: montreal--underground_montreal-s119-r3.jpg
     :version: col-6
+    :color: "#757168"
     :alt: Montreal--underground_montreal-s119-r3
   - :file: montreal--underground_montreal-s118-r3.jpg
     :version: col-6
+    :color: "#6B6D60"
     :alt: Montreal--underground_montreal-s118-r3
 - :files:
   - :file: montreal--underground_montreal-s117-r4.jpg
     :version: col-12
+    :color: "#6C6658"
     :alt: Montreal--underground_montreal-s117-r4
 - :files:
   - :file: montreal--underground_montreal-s122-r3.jpg
     :version: col-6
+    :color: "#69645D"
     :alt: Montreal--underground_montreal-s122-r3
   - :file: montreal--underground_montreal-s120-r3.jpg
     :version: col-6
+    :color: "#7A766D"
     :alt: Montreal--underground_montreal-s120-r3
 - :files:
   - :file: montreal--underground_montreal-s121-r4.jpg
     :version: col-12
+    :color: "#3E3932"
     :alt: Montreal--underground_montreal-s121-r4
 - :files:
   - :file: montreal--underground_montreal-s123-r3.jpg
     :version: col-6
+    :color: "#646764"
     :alt: Montreal--underground_montreal-s123-r3
   - :file: montreal--underground_montreal-s124-r3.jpg
     :version: col-6
+    :color: "#7F8175"
     :alt: Montreal--underground_montreal-s124-r3

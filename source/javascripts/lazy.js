@@ -15,7 +15,7 @@ $.fn.isOnScreen = function(){
 };
 
 function lazy() {
-  $('.lazy img').unveil(200, function() {
+  $('.lazy img').unveil(2000, function() {
     $(this).load(function() {
       var wrapper = $(this).closest('.lazy')
       wrapper.removeClass('lazy');

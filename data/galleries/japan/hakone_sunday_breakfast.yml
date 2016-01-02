@@ -1,25 +1,32 @@
 ---
-- files:
-  - file: sun_adam_eating.jpg
-    alt: Adam eating breakfast.
-    version: col-6
-  - file: sun_marilyn_eating.jpg
-    alt: Marilyn eating breakfast.
-    version: col-6
-- files:
-  - file: sun_salad.jpg
-    alt: Morning salad.
-    version: col-3
-  - file: sun_soup.jpg
-    alt: Crab miso soup.
-    version: col-5
-  - file: sun_omlet.jpg
-    alt: This omlet was a foot long.
-    version: col-4
-- files:
-  - file: sun_fish.jpg
-    alt: Another delicious, crunchy, whole fish.
-    version: col-6
-  - file: sun_sampler.jpg
-    alt: A sampler of a few things.
-    version: col-6
+- :files:
+  - :file: sun_adam_eating.jpg
+    :version: col-6
+    :color: "#827C7A"
+    :alt: Adam eating breakfast.
+  - :file: sun_marilyn_eating.jpg
+    :version: col-6
+    :color: "#A7876F"
+    :alt: Marilyn eating breakfast.
+- :files:
+  - :file: sun_salad.jpg
+    :version: col-3
+    :color: "#707140"
+    :alt: Morning salad.
+  - :file: sun_soup.jpg
+    :version: col-5
+    :color: "#71502C"
+    :alt: Crab miso soup.
+  - :file: sun_omlet.jpg
+    :version: col-4
+    :color: "#756356"
+    :alt: This omlet was a foot long.
+- :files:
+  - :file: sun_fish.jpg
+    :version: col-6
+    :color: "#93775A"
+    :alt: Another delicious, crunchy, whole fish.
+  - :file: sun_sampler.jpg
+    :version: col-6
+    :color: "#6B6035"
+    :alt: A sampler of a few things.

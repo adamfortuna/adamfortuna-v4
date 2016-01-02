@@ -1,11 +1,14 @@
 ---
-- files:
-    - file: marilyn.jpg
-      alt: Marilyn in Orlando
-      version: col-4
-    - file: us.jpg
-      alt: Adam and Marilyn in Orlando
-      version: col-4
-    - file: adam.jpg
-      alt: Adam in Orlando
-      version: col-4
+- :files:
+  - :file: marilyn.jpg
+    :version: col-4
+    :color: "#5A5654"
+    :alt: Marilyn in Orlando
+  - :file: us.jpg
+    :version: col-4
+    :color: "#796D5F"
+    :alt: Adam and Marilyn in Orlando
+  - :file: adam.jpg
+    :version: col-4
+    :color: "#383637"
+    :alt: Adam in Orlando

@@ -1,28 +1,37 @@
 ---
-- files:
-  - file: adam_inside.jpg
-    alt: Adam Inside the Vatican (by Marilyn)
-    version: col-4
-  - file: building.jpg
-    alt: Side of the Museum
-    version: col-4
-  - file: view.jpg
-    alt: View Outside (by Marilyn)
-    version: col-4
-- files:
-  - file: entrance.jpg
-    alt: Vatican Museum Entrance (by Marilyn)
-    version: col-6
-  - file: adam_superman.jpg
-    alt: Adam at the Vatican (by Marilyn)
-    version: col-6
-- file: outside.jpg
-  alt: Outside the Vatican
-  version: col-12
-- files:
-  - file: marilyn.jpg
-    alt: Marilyn taking a photo
-    version: col-6
-  - file: entrance_statue.jpg
-    alt: Entrance Statue
-    version: col-6
+- :files:
+  - :file: adam_inside.jpg
+    :version: col-4
+    :color: "#BFB9B2"
+    :alt: Adam Inside the Vatican (by Marilyn)
+  - :file: building.jpg
+    :version: col-4
+    :color: "#9A8568"
+    :alt: Side of the Museum
+  - :file: view.jpg
+    :version: col-4
+    :color: "#B5AEA8"
+    :alt: View Outside (by Marilyn)
+- :files:
+  - :file: entrance.jpg
+    :version: col-6
+    :color: "#85827F"
+    :alt: Vatican Museum Entrance (by Marilyn)
+  - :file: adam_superman.jpg
+    :version: col-6
+    :color: "#C2B4A3"
+    :alt: Adam at the Vatican (by Marilyn)
+- :files:
+  - :file: outside.jpg
+    :version: col-12
+    :color: "#B2A495"
+    :alt: Outside the Vatican
+- :files:
+  - :file: marilyn.jpg
+    :version: col-6
+    :color: "#66635F"
+    :alt: Marilyn taking a photo
+  - :file: entrance_statue.jpg
+    :version: col-6
+    :color: "#B1A69A"
+    :alt: Entrance Statue

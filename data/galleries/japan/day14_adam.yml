@@ -1,5 +1,6 @@
 ---
-- files:
-  - file: adam.jpg
-    alt: Adam ready to go home.
-    version: full
+- :files:
+  - :file: adam.jpg
+    :version: full
+    :color: "#92683C"
+    :alt: Adam ready to go home.

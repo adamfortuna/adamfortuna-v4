@@ -2,13 +2,16 @@
 - :files:
   - :file: montreal--ng-conf-s027.jpg
     :version: col-12
+    :color: "#2E2BA0"
     :title: Angular Release Mascots
 - :files:
   - :file: montreal--ng-conf-s025.jpg
     :version: col-6
+    :color: "#766965"
     :title: Werewolf at ng-conf
   - :file: montreal--ng-conf-s026.jpg
     :version: col-6
+    :color: "#8C5C45"
     :title: Red Iguana 2
     :alt: The almond mole was delicious
 - :files:
@@ -24,6 +27,7 @@
       autoplay: false
   - :file: montreal--ng-conf-s028.jpg
     :version: col-6
+    :color: "#4033CC"
     :title: Kawehi
     :options:
       height: 325

@@ -1,14 +1,18 @@
 ---
 - :file: montreal--sushi-s020.jpg
   :version: full
+  :color: "#B23E3B"
   :title: Takashi Sushi Sashimi
 - :files:
   - :file: montreal--sushi-s022.jpg
     :version: col-5
+    :color: "#B89C8F"
     :title: Arctic Char
   - :file: montreal--sushi-s021.jpg
     :version: col-3
+    :color: "#A89182"
     :title: Takashi Scallops
   - :file: montreal--sushi-s023.jpg
     :version: col-4
+    :color: "#AE9689"
     :title: Fatty Tuna

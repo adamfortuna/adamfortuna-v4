@@ -1,31 +1,40 @@
 ---
-- file: octopus.jpg
-  alt: Octopus
-  version: full
-- files:
-  - file: marilyn_skewer.jpg
-    alt: Marilyn with a skewer.
-    version: col-6
-  - file: fish2.jpg
-    alt: Fish cooking.
-    version: col-6
-- files:
-  - file: tempura.jpg
-    alt: Tempura
-    version: col-4
-  - file: banana.jpg
-    alt: Bananas
-    version: col-3
-  - file: scallops.jpg
-    alt: Scallops
-    version: col-5
-- files:
-  - file: rice.jpg
-    alt: Rice
-    version: col-5
-  - file: skewer.jpg
-    alt: Pork skewers.
-    version: col-4
-  - file: fried_chicken.jpg
-    alt: Friend chicken
-    version: col-3
+- :file: octopus.jpg
+  :version: full
+  :color: "#917269"
+  :alt: Octopus
+- :files:
+  - :file: marilyn_skewer.jpg
+    :version: col-6
+    :color: "#64605E"
+    :alt: Marilyn with a skewer.
+  - :file: fish2.jpg
+    :version: col-6
+    :color: "#976A67"
+    :alt: Fish cooking.
+- :files:
+  - :file: tempura.jpg
+    :version: col-4
+    :color: "#7E5B51"
+    :alt: Tempura
+  - :file: banana.jpg
+    :version: col-3
+    :color: "#5F3E30"
+    :alt: Bananas
+  - :file: scallops.jpg
+    :version: col-5
+    :color: "#7C6456"
+    :alt: Scallops
+- :files:
+  - :file: rice.jpg
+    :version: col-5
+    :color: "#A47E6D"
+    :alt: Rice
+  - :file: skewer.jpg
+    :version: col-4
+    :color: "#8A6D62"
+    :alt: Pork skewers.
+  - :file: fried_chicken.jpg
+    :version: col-3
+    :color: "#7A625B"
+    :alt: Friend chicken

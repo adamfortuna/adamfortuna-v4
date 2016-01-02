@@ -1,45 +1,54 @@
 ---
-- file: finale.jpg
-  alt: Part of the finale.
-  version: full
-- files:
-  - file: adam.jpg
-    alt: Adan looking confused.
-    version: col-8
-  - file: entrance.jpg
-    alt: The entrance to the restaurant.
-    version: col-4
-- options:
-    height: 325
-  files:
-  - file: distractions.mp4
-    alt: Where would you look?
-    video: true
-    version: col-6
-  - file: robot_horse.jpg
-    alt: Robots and a horse.
-    version: col-6
-- files:
-  - file: drums.jpg
-    alt: two groups like this were playing drums on separate platforms.
-    version: col-4
-  - file: adam_marilyn.jpg
-    alt: We got glowsticks.
-    version: col-8
-- file: nausicaa.mp4
-  alt: Song form Nausicaa performed.
-  video: true
-  version: col-12
-- file: path.jpg
-  alt: The walk down to the show.
-  version: full
-- files:
-  - file: robot_lights.jpg
-    alt: Robots and lights.
-    version: col-4
-  - file: not_sure.jpg
-    alt: I have no idea what was going on here.
-    version: col-4
-  - file: piano.jpg
-    alt: This guy was playing the piano.
-    version: col-4
+- :file: finale.jpg
+  :version: full
+  :color: "#4E5388"
+  :alt: Part of the finale.
+- :files:
+  - :file: adam.jpg
+    :version: col-8
+    :color: "#5D4369"
+    :alt: Adan looking confused.
+  - :file: entrance.jpg
+    :version: col-4
+    :color: "#586972"
+    :alt: The entrance to the restaurant.
+- :files:
+  - :file: distractions.mp4
+    :version: col-6
+    :video: true
+  - :file: robot_horse.jpg
+    :version: col-6
+    :color: "#543D5F"
+    :alt: Robots and a horse.
+    :options:
+      height: 325
+- :files:
+  - :file: drums.jpg
+    :version: col-4
+    :color: "#331F37"
+    :alt: two groups like this were playing drums on separate platforms.
+  - :file: adam_marilyn.jpg
+    :version: col-8
+    :color: "#A55367"
+    :alt: We got glowsticks.
+- :files:
+  - :file: nausicaa.mp4
+    :version: col-12
+    :video: true
+- :file: path.jpg
+  :version: full
+  :color: "#773758"
+  :alt: The walk down to the show.
+- :files:
+  - :file: robot_lights.jpg
+    :version: col-4
+    :color: "#2D4560"
+    :alt: Robots and lights.
+  - :file: not_sure.jpg
+    :version: col-4
+    :color: "#251C2E"
+    :alt: I have no idea what was going on here.
+  - :file: piano.jpg
+    :version: col-4
+    :color: "#222258"
+    :alt: This guy was playing the piano.

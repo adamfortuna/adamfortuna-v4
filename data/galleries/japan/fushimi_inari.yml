@@ -1,37 +1,51 @@
 ---
-- file: us_at_split_paths.jpg
-  alt: Marilyn and I where the torii split. It's funny to think how many people were lining up to take photos at this location.
-  version: full
-- files:
-  - file: entrance.jpg
-    alt: The huge torii at the entrance to the shrine.
-    version: col-4
-  - file: shrine_building.jpg
-    alt: Beautiful shrine building.
-    version: col-4
-  - file: split_paths_side.jpg
-    alt: A look through the middle of the split torii.
-    version: col-4
-- file: split_paths.jpg
-  alt: A look down the right path when the torii split.
-  version: col-12
-- files:
-  - file: close_gates.jpg
-    alt: Many torii, all close together. Brilliantly orange inside.
-    version: col-6
-  - file: gates_back.jpg
-    alt: Looking back at the torii you see peoples words on each.
-    version: col-6
-- file: shrine_prayers.jpg
-  alt: Complete the fox face!
-  version: full
-- files:
-  - file: getting_dark.jpg
-    alt: All the way up the mountain as things start to get dark.
-    version: col-5
-  - file: half_way.jpg
-    alt: We only went a short way up the mountain, but gates go on like this for ages.
-    version: col-4
-  - file: path_not_taken.jpg
-    alt: We decided to take a path back at this point, but this is the path onward.
-    version: col-3
+- :file: us_at_split_paths.jpg
+  :version: full
+  :color: "#9A6054"
+  :alt: Marilyn and I where the torii split. It's funny to think how many people were
+    lining up to take photos at this location.
+- :files:
+  - :file: entrance.jpg
+    :version: col-4
+    :color: "#C7AAA7"
+    :alt: The huge torii at the entrance to the shrine.
+  - :file: shrine_building.jpg
+    :version: col-4
+    :color: "#9C5751"
+    :alt: Beautiful shrine building.
+  - :file: split_paths_side.jpg
+    :version: col-4
+    :color: "#6A5651"
+    :alt: A look through the middle of the split torii.
+- :files:
+  - :file: split_paths.jpg
+    :version: col-12
+    :color: "#995C4F"
+    :alt: A look down the right path when the torii split.
+- :files:
+  - :file: close_gates.jpg
+    :version: col-6
+    :color: "#964026"
+    :alt: Many torii, all close together. Brilliantly orange inside.
+  - :file: gates_back.jpg
+    :version: col-6
+    :color: "#A63B27"
+    :alt: Looking back at the torii you see peoples words on each.
+- :file: shrine_prayers.jpg
+  :version: full
+  :color: "#614F4E"
+  :alt: Complete the fox face!
+- :files:
+  - :file: getting_dark.jpg
+    :version: col-5
+    :color: "#462D25"
+    :alt: All the way up the mountain as things start to get dark.
+  - :file: half_way.jpg
+    :version: col-4
+    :color: "#664C45"
+    :alt: We only went a short way up the mountain, but gates go on like this for
+      ages.
+  - :file: path_not_taken.jpg
+    :version: col-3
+    :color: "#58463C"
+    :alt: We decided to take a path back at this point, but this is the path onward.

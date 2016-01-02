@@ -1,41 +1,54 @@
 ---
 - :file: montreal--streets-s107-r4.jpg
   :version: full
+  :color: "#806F6B"
   :alt: Montreal--streets-s107-r4
 - :files:
   - :file: montreal--streets-s082-r3.jpg
     :version: col-6
+    :color: "#857B7A"
     :alt: Montreal--streets-s082-r3
   - :file: montreal--streets-s081-r3.jpg
     :version: col-6
+    :color: "#797376"
     :alt: Montreal--streets-s081-r3
 - :files:
   - :file: montreal--streets-s084-r4.jpg
     :version: col-12
+    :color: "#9A755A"
     :alt: Montreal--streets-s084-r4
 - :files:
   - :file: montreal--streets-s085-r2.jpg
     :version: col-2
+    :color: "#8D908D"
     :alt: Montreal--streets-s085-r2
   - :file: montreal--streets-s088-r2.jpg
     :version: col-3
+    :color: "#888884"
     :alt: Montreal--streets-s088-r2
   - :file: montreal--streets-s106-r3.jpg
     :version: col-3
+    :color: "#AEB2AA"
     :alt: Montreal--streets-s106-r3
   - :file: montreal--streets-s109-r3.jpg
     :version: col-4
+    :color: "#B8B3A1"
     :alt: Montreal--streets-s109-r3
-- :file: montreal--streets-s108-r4.jpg
-  :version: col-12
-  :alt: Montreal--streets-s108-r4
+- :files:
+  - :file: montreal--streets-s108-r4.jpg
+    :version: col-12
+    :color: "#979385"
+    :alt: Montreal--streets-s108-r4
 - :files:
   - :file: montreal--streets-s104-r3.jpg
     :version: col-4
+    :color: "#AA9F90"
     :alt: Montreal--streets-s104-r3
   - :file: montreal--streets-s087-r3.jpg
     :version: col-5
+    :color: "#88908A"
     :alt: Montreal--streets-s087-r3
   - :file: montreal--streets-s086-r3.jpg
     :version: col-3
+    :color: "#A6917F"
     :alt: Montreal--streets-s086-r3

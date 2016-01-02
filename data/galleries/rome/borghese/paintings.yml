@@ -1,35 +1,53 @@
 ---
-- options:
-    height: 300
-  files:
-  - file: painting3.jpg
-    version: col-4
-    alt: Photo by Marilyn
-  - file: bathing.jpg
-    version: col-4
-    alt: Photo by Marilyn
-  - file: painting.jpg
-    version: col-4
-    alt: Photo by Marilyn
-- file: point.jpg
-  version: col-12
-  alt: Photo by Adam
-- options:
-    height: 300
-  files:
-  - file: angel.jpg
-    version: col-4
-    alt: Photo by Marilyn
-  - file: black_and_white.jpg
-    version: col-4
-    alt: Photo by Marilyn
-  - file: church.jpg
-    version: col-4
-    alt: Photo by Marilyn
-- files:
-  - file: leering.jpg
-    version: col-6
-    alt: Photo by Marilyn
-  - file: painting2.jpg
-    version: col-6
-    alt: Photo by Marilyn
+- :files:
+  - :file: painting3.jpg
+    :version: col-4
+    :color: "#A99D8F"
+    :alt: Photo by Marilyn
+    :options:
+      height: 300
+  - :file: bathing.jpg
+    :version: col-4
+    :color: "#83745F"
+    :alt: Photo by Marilyn
+    :options:
+      height: 300
+  - :file: painting.jpg
+    :version: col-4
+    :color: "#7D7977"
+    :alt: Photo by Marilyn
+    :options:
+      height: 300
+- :files:
+  - :file: point.jpg
+    :version: col-12
+    :color: "#CDB596"
+    :alt: Photo by Adam
+- :files:
+  - :file: angel.jpg
+    :version: col-4
+    :color: "#A09890"
+    :alt: Photo by Marilyn
+    :options:
+      height: 300
+  - :file: black_and_white.jpg
+    :version: col-4
+    :color: "#948C84"
+    :alt: Photo by Marilyn
+    :options:
+      height: 300
+  - :file: church.jpg
+    :version: col-4
+    :color: "#B08B6C"
+    :alt: Photo by Marilyn
+    :options:
+      height: 300
+- :files:
+  - :file: leering.jpg
+    :version: col-6
+    :color: "#B88A65"
+    :alt: Photo by Marilyn
+  - :file: painting2.jpg
+    :version: col-6
+    :color: "#C39E6F"
+    :alt: Photo by Marilyn

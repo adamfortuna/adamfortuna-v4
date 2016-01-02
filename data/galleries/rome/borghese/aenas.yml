@@ -1,4 +1,5 @@
 ---
-- file: aenas.jpg
-  alt: Aeneas, Anchises and Ascanius. Photo by Marilyn
-  version: full
+- :file: aenas.jpg
+  :version: full
+  :color: "#907555"
+  :alt: Aeneas, Anchises and Ascanius. Photo by Marilyn

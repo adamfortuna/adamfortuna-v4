@@ -2,49 +2,63 @@
 - :files:
   - :file: panama--manolo-caracol-001.jpg
     :version: col-6
+    :color: "#B58E67"
     :alt: Panama--manolo-caracol-001
   - :file: panama--manolo-caracol-002.jpg
     :version: col-6
+    :color: "#9D6D55"
     :alt: Panama--manolo-caracol-002
 - :files:
   - :file: panama--manolo-caracol-003.jpg
     :version: full
+    :color: "#8A7D70"
     :alt: Panama--manolo-caracol-003
 - :files:
   - :file: panama--manolo-caracol-004.jpg
     :version: col-5
+    :color: "#AA8E82"
     :alt: Panama--manolo-caracol-004
   - :file: panama--manolo-caracol-006.jpg
     :version: col-4
+    :color: "#C6AF8C"
     :alt: Panama--manolo-caracol-006
   - :file: panama--manolo-caracol-007.jpg
     :version: col-3
+    :color: "#C6A17B"
     :alt: Panama--manolo-caracol-007
 - :files:
   - :file: panama--manolo-caracol-005.jpg
     :version: col-3
+    :color: "#83695C"
     :alt: Panama--manolo-caracol-005
   - :file: panama--manolo-caracol-010.jpg
     :version: col-5
+    :color: "#7C6B64"
     :alt: Panama--manolo-caracol-010
   - :file: panama--manolo-caracol-009.jpg
     :version: col-4
+    :color: "#907D72"
     :alt: Panama--manolo-caracol-009
 - :files:
   - :file: panama--manolo-caracol-008.jpg
     :version: full
+    :color: "#A78C7B"
     :alt: Panama--manolo-caracol-008
 - :files:
   - :file: panama--manolo-caracol-011.jpg
     :version: col-4
+    :color: "#C1B8AE"
     :alt: Panama--manolo-caracol-011
   - :file: panama--manolo-caracol-013.jpg
     :version: col-5
+    :color: "#CFAD91"
     :alt: Panama--manolo-caracol-013
   - :file: panama--manolo-caracol-014.jpg
     :version: col-3
+    :color: "#806C70"
     :alt: Panama--manolo-caracol-014
 - :files:
   - :file: panama--manolo-caracol-012.jpg
     :version: col-12
+    :color: "#8F6F6A"
     :alt: Panama--manolo-caracol-012

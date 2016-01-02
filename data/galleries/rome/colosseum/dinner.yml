@@ -1,15 +1,18 @@
 ---
-- files:
-  - file: carbonera.jpg
-    version: col-3
-    alt: carbonera
-    options:
+- :files:
+  - :file: carbonera.jpg
+    :version: col-3
+    :color: "#C49A6D"
+    :alt: carbonera
+    :options:
       gravity: west
-  - file: dessert.jpg
-    version: col-5
-    alt: dessert
-  - file: cheesy.jpg
-    version: col-4
-    alt: cheesy
-    options:
+  - :file: dessert.jpg
+    :version: col-5
+    :color: "#8F7C73"
+    :alt: dessert
+  - :file: cheesy.jpg
+    :version: col-4
+    :color: "#AE936E"
+    :alt: cheesy
+    :options:
       gravity: west

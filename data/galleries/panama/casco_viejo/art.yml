@@ -1,24 +1,31 @@
 ---
 - :file: panama--Street Art-s044-r4.jpg
   :version: full
+  :color: "#9D8A7C"
   :alt: Panama--street art-s044-r4
 - :files:
   - :file: panama--Street Art-s048-r3.jpg
     :version: col-3
+    :color: "#A0A2AC"
     :alt: Panama--street art-s048-r3
   - :file: panama--Street Art-s046-r3.jpg
     :version: col-4
+    :color: "#8E847E"
     :alt: Panama--street art-s046-r3
   - :file: panama--Street Art-s047-r3.jpg
     :version: col-5
+    :color: "#92998F"
     :alt: Panama--street art-s047-r3
 - :files:
   - :file: panama--Street Art-s026-r3.jpg
     :version: col-3
+    :color: "#958579"
     :alt: Panama--street art-s026-r3
   - :file: panama--Street Art-s025-r3.jpg
     :version: col-5
+    :color: "#9A9087"
     :alt: Panama--street art-s025-r3
   - :file: panama--Street Art-s027-r3.jpg
     :version: col-4
+    :color: "#AA8766"
     :alt: Panama--street art-s027-r3

@@ -1,11 +1,14 @@
 ---
 - :file: panama--inside-s092-r5.jpg
   :version: full
+  :color: "#5A5344"
   :alt: Panama--inside-s092-r5
 - :files:
   - :file: panama--inside-s093-r2.jpg
     :version: col-6
+    :color: "#B89157"
     :alt: Panama--inside-s093-r2
   - :file: panama--inside-s091-r4.jpg
     :version: col-6
+    :color: "#38342A"
     :alt: Panama--inside-s091-r4

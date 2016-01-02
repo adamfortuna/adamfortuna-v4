@@ -2,11 +2,14 @@
 - :files:
   - :file: panama--views-s059-r4.jpg
     :version: col-12
+    :color: "#B7B3A7"
     :alt: Panama--views-s059-r4
 - :files:
   - :file: panama--views-s099-r3.jpg
     :version: col-6
+    :color: "#959C8E"
     :alt: Panama--views-s099-r3
   - :file: panama--views-s100-r2.jpg
     :version: col-6
+    :color: "#808D63"
     :alt: Panama--views-s100-r2

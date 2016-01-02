@@ -6,15 +6,19 @@ module Gallery
       @image = image.with_indifferent_access
       @path = path
       @gallery = gallery
-      gallery_options = options || {}
+      @gallery_options = options || {}
       image_options = image[:options] || {}
-      combined_options = global_options.merge(gallery_options).merge(image_options)
+      combined_options = global_options.merge(@gallery_options).merge(image_options)
       @options = PhotoOptions.new(combined_options)
     end
 
     def self.create item, path, options, gallery
-      klass = item[:video] ? Video : Photo
-      klass.new(item, path, options, gallery)
+      begin
+        klass = item[:video] ? Video : Photo
+        klass.new(item, path, options, gallery)
+      rescue Exception => e
+        raise e
+      end
     end
 
     def force_reload?
@@ -62,7 +66,6 @@ module Gallery
       end
     rescue Exception => e
       puts "Could not determine a version for image #{image}"
-      binding.pry
       raise e
     end
 

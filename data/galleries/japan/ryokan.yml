@@ -1,34 +1,46 @@
 ---
-- file: mikawaya.jpg
-  alt: The entrance to Mikawaya Ryokan.
-  version: col-12
-- options:
-    height: 780
-  files:
-  - file: entrance.jpg
-    alt: The main room, where we ate and slept one night.
-    version: col-6
-  - file: view.jpg
-    alt: The main view from the room.
-    version: col-6
-- file: walkthrough.mp4
-  alt: A Walkthrough of our Ryokaan
-  version: col-12
-  video: true
-- files:
-  - file: overlook.jpg
-    alt: Two pairs of chairs, each with a view.
-    version: col-5
-  - file: beds.jpg
-    alt: Traditional beds if you prefer them over the futons.
-    version: col-4
-  - file: bathroom.jpg
-    alt: You're supposed to walk around your room in socks, but if you use the bathroom then use slippers.
-    version: col-3
-- files:
-  - file: beer.jpg
-    alt: A local Hakone red ale we picked up.
-    version: col-6
-  - file: bath.jpg
-    alt: Our mineral bath with its always flowing water.
-    version: col-6
+- :files:
+  - :file: mikawaya.jpg
+    :version: col-12
+    :color: "#68645B"
+    :alt: The entrance to Mikawaya Ryokan.
+- :files:
+  - :file: entrance.jpg
+    :version: col-6
+    :color: "#8A5C32"
+    :alt: The main room, where we ate and slept one night.
+    :options:
+      height: 780
+  - :file: view.jpg
+    :version: col-6
+    :color: "#857F74"
+    :alt: The main view from the room.
+    :options:
+      height: 780
+- :files:
+  - :file: walkthrough.mp4
+    :version: col-12
+    :video: true
+- :files:
+  - :file: overlook.jpg
+    :version: col-5
+    :color: "#81634C"
+    :alt: Two pairs of chairs, each with a view.
+  - :file: beds.jpg
+    :version: col-4
+    :color: "#5E534C"
+    :alt: Traditional beds if you prefer them over the futons.
+  - :file: bathroom.jpg
+    :version: col-3
+    :color: "#40322B"
+    :alt: You're supposed to walk around your room in socks, but if you use the bathroom
+      then use slippers.
+- :files:
+  - :file: beer.jpg
+    :version: col-6
+    :color: "#4C393B"
+    :alt: A local Hakone red ale we picked up.
+  - :file: bath.jpg
+    :version: col-6
+    :color: "#4E463F"
+    :alt: Our mineral bath with its always flowing water.

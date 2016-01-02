@@ -1,236 +1,290 @@
 ---
 - :file: group.jpg
   :version: full
+  :color: "#878582"
   :alt: Group Photo from Marilyn
 - :files:
   - :file: Code School Epcot 2015 - 001.jpg
     :version: col-4
+    :color: "#957069"
     :alt: Code school epcot 2015 - 001
     :options:
-      :gravity: west
+      gravity: west
   - :file: Code School Epcot 2015 - 004.jpg
     :version: col-4
+    :color: "#958583"
     :alt: Code school epcot 2015 - 004
   - :file: Code School Epcot 2015 - 012.jpg
     :version: col-4
+    :color: "#7B9C91"
     :alt: Code school epcot 2015 - 012
     :options:
-      :gravity: north
+      gravity: north
 - :files:
   - :file: Code School Epcot 2015 - 007.jpg
     :version: col-6
+    :color: "#978276"
     :alt: Code school epcot 2015 - 007
     :options:
-      :height: 800
+      height: 800
   - :file: Code School Epcot 2015 - 005.jpg
     :version: col-6
+    :color: "#8D7F93"
     :alt: Code school epcot 2015 - 005
     :options:
-      :height: 800
+      height: 800
 - :files:
   - :file: Code School Epcot 2015 - 008.jpg
     :version: col-6
+    :color: "#5C575C"
     :alt: Code school epcot 2015 - 008
   - :file: Code School Epcot 2015 - 009.jpg
     :version: col-6
+    :color: "#645D5D"
     :alt: Code school epcot 2015 - 009
 - :files:
   - :file: Code School Epcot 2015 - 010.jpg
     :version: col-8
+    :color: "#6F7483"
     :alt: Code school epcot 2015 - 010
     :options:
-      :height: 600
+      height: 600
   - :file: Code School Epcot 2015 - 011.jpg
     :version: col-4
+    :color: "#857277"
     :alt: Code school epcot 2015 - 011
     :options:
-      :height: 600
+      height: 600
 - :file: Code School Epcot 2015 - 014.jpg
   :version: full
+  :color: "#DD843D"
   :alt: Code school epcot 2015 - 014
 - :files:
   - :file: Code School Epcot 2015 - 013.jpg
     :version: col-4
+    :color: "#685551"
     :alt: Code school epcot 2015 - 013
     :options:
-      :gravity: north
+      gravity: north
   - :file: Code School Epcot 2015 - 015.jpg
     :version: col-4
+    :color: "#82746C"
     :alt: Code school epcot 2015 - 015
   - :file: Code School Epcot 2015 - 016.jpg
     :version: col-4
+    :color: "#847F78"
     :alt: Code school epcot 2015 - 016
 - :file: Code School Epcot 2015 - 020.jpg
   :version: full
+  :color: "#8D6B4F"
   :alt: Code school epcot 2015 - 020
 - :files:
   - :file: Code School Epcot 2015 - 019.jpg
     :version: col-4
+    :color: "#8C7169"
     :alt: Code school epcot 2015 - 019
   - :file: Code School Epcot 2015 - 021.jpg
     :version: col-4
+    :color: "#8E6B52"
     :alt: Code school epcot 2015 - 021
   - :file: Code School Epcot 2015 - 049.jpg
     :version: col-4
+    :color: "#5D595E"
     :alt: Code school epcot 2015 - 049
 - :files:
   - :file: Code School Epcot 2015 - 024.jpg
     :version: col-3
+    :color: "#9D7257"
     :alt: Code school epcot 2015 - 024
     :options:
-      :gravity: east
+      gravity: east
   - :file: Code School Epcot 2015 - 023.jpg
     :version: col-5
+    :color: "#785C4A"
     :alt: Code school epcot 2015 - 023
   - :file: Code School Epcot 2015 - 029.jpg
     :version: col-4
+    :color: "#917056"
     :alt: Code school epcot 2015 - 029
     :options:
-      :gravity: north
+      gravity: north
 - :files:
   - :file: Code School Epcot 2015 - 025.jpg
     :version: col-12
+    :color: "#73503A"
     :alt: Code school epcot 2015 - 025
 - :files:
   - :file: Code School Epcot 2015 - 022.jpg
     :version: col-6
+    :color: "#937666"
     :alt: Code school epcot 2015 - 022
     :options:
-      :gravity: west
+      gravity: west
   - :file: Code School Epcot 2015 - 026.jpg
     :version: col-6
+    :color: "#6F5C4B"
     :alt: Code school epcot 2015 - 026
 - :files:
   - :file: Code School Epcot 2015 - 028.jpg
     :version: col-4
+    :color: "#665247"
     :alt: Code school epcot 2015 - 028
   - :file: Code School Epcot 2015 - 033.jpg
     :version: col-4
+    :color: "#5C3D61"
     :alt: Code school epcot 2015 - 033
   - :file: Code School Epcot 2015 - 031.jpg
     :version: col-4
+    :color: "#604F43"
     :alt: Code school epcot 2015 - 031
 - :files:
   - :file: Code School Epcot 2015 - 034.jpg
     :version: col-12
+    :color: "#5E2636"
     :alt: Code school epcot 2015 - 034
 - :files:
   - :file: Code School Epcot 2015 - 035.jpg
     :version: col-6
+    :color: "#653532"
     :alt: Code school epcot 2015 - 035
   - :file: Code School Epcot 2015 - 036.jpg
     :version: col-6
+    :color: "#58312E"
     :alt: Code school epcot 2015 - 036
 - :files:
   - :file: Code School Epcot 2015 - 037.jpg
     :version: col-4
+    :color: "#A95970"
     :alt: Code school epcot 2015 - 037
   - :file: Code School Epcot 2015 - 038.jpg
     :version: col-4
+    :color: "#634848"
     :alt: Code school epcot 2015 - 038
     :options:
-      :gravity: center
+      gravity: center
   - :file: Code School Epcot 2015 - 039.jpg
     :version: col-4
+    :color: "#73655D"
     :alt: Code school epcot 2015 - 039
     :options:
-      :gravity: north
+      gravity: north
 - :file: Code School Epcot 2015 - 041.jpg
   :version: full
+  :color: "#86564D"
   :alt: Code school epcot 2015 - 041
 - :files:
   - :file: Code School Epcot 2015 - 040.jpg
     :version: col-6
+    :color: "#724640"
     :alt: Code school epcot 2015 - 040
   - :file: Code School Epcot 2015 - 044.jpg
     :version: col-6
+    :color: "#834557"
     :alt: Code school epcot 2015 - 044
 - :files:
   - :file: Code School Epcot 2015 - 045.jpg
     :version: col-12
+    :color: "#543332"
     :alt: Code school epcot 2015 - 045
 - :files:
   - :file: Code School Epcot 2015 - 047.jpg
     :version: col-4
+    :color: "#875672"
     :alt: Code school epcot 2015 - 047
     :options:
-      :gravity: north
+      gravity: north
   - :file: Code School Epcot 2015 - 046.jpg
     :version: col-4
+    :color: "#918076"
     :alt: Code school epcot 2015 - 046
   - :file: Code School Epcot 2015 - 048.jpg
     :version: col-4
+    :color: "#61393D"
     :alt: Code school epcot 2015 - 048
 - :file: Code School Epcot 2015 - 051.jpg
   :version: full
+  :color: "#733C34"
   :alt: Code school epcot 2015 - 051
 - :files:
   - :file: Code School Epcot 2015 - 050.jpg
     :version: col-6
+    :color: "#8E4B43"
     :alt: Code school epcot 2015 - 050
     :options:
-      :gravity: west
+      gravity: west
   - :file: Code School Epcot 2015 - 053.jpg
     :version: col-6
+    :color: "#6D3933"
     :alt: Code school epcot 2015 - 053
     :options:
-      :gravity: west
+      gravity: west
 - :files:
   - :file: Code School Epcot 2015 - 055.jpg
     :version: col-3
+    :color: "#8A4247"
     :alt: Code school epcot 2015 - 055
   - :file: Code School Epcot 2015 - 054.jpg
     :version: col-4
+    :color: "#7B5D59"
     :alt: Code school epcot 2015 - 054
     :options:
-      :gravity: west
+      gravity: west
   - :file: Code School Epcot 2015 - 057.jpg
     :version: col-5
+    :color: "#643E2D"
     :alt: Code school epcot 2015 - 057
     :options:
-      :gravity: west
+      gravity: west
 - :files:
   - :file: Code School Epcot 2015 - 058.jpg
     :version: col-6
+    :color: "#2C1C18"
     :alt: Code school epcot 2015 - 058
     :options:
-      :gravity: north
-      :height: 600
+      gravity: north
+      height: 600
   - :file: Code School Epcot 2015 - 059.jpg
     :version: col-6
+    :color: "#634431"
     :alt: Code school epcot 2015 - 059
     :options:
-      :gravity: north
-      :height: 600
+      gravity: north
+      height: 600
 - :files:
   - :file: Code School Epcot 2015 - 063.jpg
     :version: col-5
+    :color: "#734945"
     :alt: Code school epcot 2015 - 063
     :options:
-      :gravity: west
+      gravity: west
   - :file: Code School Epcot 2015 - 064.jpg
     :version: col-4
+    :color: "#A276B0"
     :alt: Code school epcot 2015 - 064
     :options:
-      :gravity: west
+      gravity: west
   - :file: Code School Epcot 2015 - 062.jpg
     :version: col-3
+    :color: "#905356"
     :alt: Code school epcot 2015 - 062
     :options:
-      :gravity: north
+      gravity: north
 - :files:
   - :file: Code School Epcot 2015 - 065.jpg
     :version: col-6
+    :color: "#9E668A"
     :alt: Code school epcot 2015 - 065
     :options:
-      :gravity: north
-      :height: 800
+      gravity: north
+      height: 800
   - :file: Code School Epcot 2015 - 060.jpg
     :version: col-6
+    :color: "#9F8363"
     :alt: Code school epcot 2015 - 060
     :options:
-      :gravity: north
-      :height: 800
+      gravity: north
+      height: 800
 - :file: Code School Epcot 2015 - 002.jpg
   :version: full
+  :color: "#7B94B6"
   :alt: Code school epcot 2015 - 012

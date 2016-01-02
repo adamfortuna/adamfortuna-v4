@@ -70,13 +70,20 @@ namespace :gallery do
 
   desc 'Adds colors to a collection of galleries'
   task :colorize, [:galleries] do |t, args|
-    galleries = args[:galleries].split(',')
+    if args[:galleries]
+      galleries = args[:galleries].split(',')
+    else
+      galleries = []
+      Dir['data/galleries/**/*.yml'].each do |full_path|
+        path = full_path.gsub(/(.*)(data\/galleries\/.*)/, '\2').gsub('data/galleries/', '').gsub('.yml', '')
+        galleries << path
+      end
+    end
     puts "galleries: #{galleries}"
 
     galleries.each do |gallery_path|
       puts "Loading #{gallery_path}..."
       gallery = Gallery::Gallery.new(gallery_path)
-      puts "Total files: #{gallery.files_count}"
       gallery.save!
     end
   end

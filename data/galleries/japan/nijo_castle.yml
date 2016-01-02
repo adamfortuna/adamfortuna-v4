@@ -1,63 +1,83 @@
 ---
-- file: guardhouse.jpg
-  alt: The guardhouse and blooming plum blossom.
-  version: col-12
-- files:
-  - file: entrance.jpg
-    alt: A close up of the blossoms.
-    version: col-4
-  - file: shoes.jpg
-    alt: Taking off our shoes for the palace tour.
-    version: col-5
-  - file: blossoms.jpg
-    alt: A close up of the blossoms.
-    version: col-3
-- options:
-    height: 780
-  files:
-  - file: shrine.jpg
-    alt: A stone shrine.
-    version: col-6
-  - file: path_up.jpg
-    alt: These stairs were extremely steep, but regardless of age people were climbing up in the rain.
-    version: col-6
-- file: castle_corner.jpg
-  alt: Plum blossoms around the castle moat.
-  version: col-12
-- files:
-  - file: plum_blossom.jpg
-    alt: Close up of a plum blossom.
-    version: col-6
-  - file: yellow_flowers.jpg
-    alt: Close up of a yellow flower.
-    version: col-6
-- options:
-    height: 489
-  files:
-  - file: moat.jpg
-    alt: The moat was larger than it looked.
-    version: col-3
-  - file: nijo_rain.mp4
-    alt: Rain and cherry blossoms.
-    version: col-9
-    video: true
-- files:
-  - file: view.jpg
-    alt: View from up top.
-    version: col-6
-  - file: building_courtyard.jpg
-    alt: Courtyard of the building.
-    version: col-6
-- file: marilyn_blossoms.jpg
-  alt: Marilyn in the rain under the blossoms.
-  version: full
-- files:
-  - file: raining_garden.jpg
-    alt: Rain coming down on the garden.
-    version: col-4
-  - file: blossom_path.jpg
-    alt: Down the plum blossom path.
-    version: col-5
-  - file: single_branch.jpg
-    alt: A single plum blossom branch.
-    version: col-3
+- :files:
+  - :file: guardhouse.jpg
+    :version: col-12
+    :color: "#7D7B6E"
+    :alt: The guardhouse and blooming plum blossom.
+- :files:
+  - :file: entrance.jpg
+    :version: col-4
+    :color: "#5C5854"
+    :alt: A close up of the blossoms.
+  - :file: shoes.jpg
+    :version: col-5
+    :color: "#555253"
+    :alt: Taking off our shoes for the palace tour.
+  - :file: blossoms.jpg
+    :version: col-3
+    :color: "#948384"
+    :alt: A close up of the blossoms.
+- :files:
+  - :file: shrine.jpg
+    :version: col-6
+    :color: "#686D5B"
+    :alt: A stone shrine.
+    :options:
+      height: 780
+  - :file: path_up.jpg
+    :version: col-6
+    :color: "#696C4E"
+    :alt: These stairs were extremely steep, but regardless of age people were climbing
+      up in the rain.
+    :options:
+      height: 780
+- :files:
+  - :file: castle_corner.jpg
+    :version: col-12
+    :color: "#82817C"
+    :alt: Plum blossoms around the castle moat.
+- :files:
+  - :file: plum_blossom.jpg
+    :version: col-6
+    :color: "#9A8686"
+    :alt: Close up of a plum blossom.
+  - :file: yellow_flowers.jpg
+    :version: col-6
+    :color: "#949053"
+    :alt: Close up of a yellow flower.
+- :files:
+  - :file: moat.jpg
+    :version: col-3
+    :color: "#979895"
+    :alt: The moat was larger than it looked.
+    :options:
+      height: 489
+  - :file: nijo_rain.mp4
+    :version: col-9
+    :video: true
+- :files:
+  - :file: view.jpg
+    :version: col-6
+    :color: "#71706C"
+    :alt: View from up top.
+  - :file: building_courtyard.jpg
+    :version: col-6
+    :color: "#6C655D"
+    :alt: Courtyard of the building.
+- :file: marilyn_blossoms.jpg
+  :version: full
+  :color: "#706B5A"
+  :alt: Marilyn in the rain under the blossoms.
+- :files:
+  - :file: raining_garden.jpg
+    :version: col-4
+    :color: "#87877A"
+    :alt: Rain coming down on the garden.
+  - :file: blossom_path.jpg
+    :version: col-5
+    :color: "#797269"
+    :alt: Down the plum blossom path.
+  - :file: single_branch.jpg
+    :version: col-3
+    :color: "#6A6950"
+    :alt: A single plum blossom branch.

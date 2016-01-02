@@ -2,7 +2,9 @@
 - :files:
   - :file: montreal--hotel-s003-r2.jpg
     :version: col-6
+    :color: "#8C867B"
     :alt: Montreal--hotel-s003-r2
   - :file: montreal--hotel-s004-r2.jpg
     :version: col-6
+    :color: "#90877B"
     :alt: Montreal--hotel-s004-r2

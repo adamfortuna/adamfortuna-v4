@@ -2,14 +2,18 @@
 - :files:
   - :file: panama--around_the_fort-s075-r2.jpg
     :version: col-6
+    :color: "#626F41"
     :alt: Panama--around_the_fort-s075-r2
   - :file: panama--around_the_fort-s076-r2.jpg
     :version: col-6
+    :color: "#737D5B"
     :alt: Panama--around_the_fort-s076-r2
 - :files:
   - :file: panama--around_the_fort-s101-r1.jpg
     :version: col-3
+    :color: "#7A7B4E"
     :alt: Panama--around_the_fort-s101-r1
   - :file: panama--around_the_fort-s077-r3.jpg
     :version: col-9
+    :color: "#808575"
     :alt: Panama--around_the_fort-s077-r3

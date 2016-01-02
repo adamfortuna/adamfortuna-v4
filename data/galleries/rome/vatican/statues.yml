@@ -1,41 +1,52 @@
 ---
-- options:
-    height: 300
-  files:
-  - file: fountain.jpg
-    alt: Living Fountain
-    version: col-8
-    options:
+- :files:
+  - :file: fountain.jpg
+    :version: col-8
+    :color: "#989082"
+    :alt: Living Fountain
+    :options:
+      height: 300
       gravity: north
-  - file: lion.jpg
-    alt: Lion Head (by Marilyn)
-    version: col-4
-- files:
-  - file: muse.jpg
-    alt: Muses Statue
-    version: col-3
-  - file: statue.jpg
-    alt: Statue (by Marilyn)
-    version: col-9
-    options:
+  - :file: lion.jpg
+    :version: col-4
+    :color: "#ACA399"
+    :alt: Lion Head (by Marilyn)
+    :options:
+      height: 300
+- :files:
+  - :file: muse.jpg
+    :version: col-3
+    :color: "#8C5358"
+    :alt: Muses Statue
+  - :file: statue.jpg
+    :version: col-9
+    :color: "#7B6E65"
+    :alt: Statue (by Marilyn)
+    :options:
       gravity: north
-- file: picolo.jpg
-  alt: Picolo Player
-  version: col-12
-- files:
-  - file: small_statue.jpg
-    alt: Statue (by Marilyn)
-    version: col-3
-    options:
+- :files:
+  - :file: picolo.jpg
+    :version: col-12
+    :color: "#9A7252"
+    :alt: Picolo Player
+- :files:
+  - :file: small_statue.jpg
+    :version: col-3
+    :color: "#AC9C93"
+    :alt: Statue (by Marilyn)
+    :options:
       gravity: west
-  - file: shadow_art.jpg
-    alt: Shadow Art
-    version: col-4
-    options:
+  - :file: shadow_art.jpg
+    :version: col-4
+    :color: "#796C57"
+    :alt: Shadow Art
+    :options:
       gravity: north
-  - file: angels_playing.jpg
-    alt: Angels Playing (by Marilyn)
-    version: col-5
-- file: angel.jpg
-  alt: Angel
-  version: full
+  - :file: angels_playing.jpg
+    :version: col-5
+    :color: "#C29C45"
+    :alt: Angels Playing (by Marilyn)
+- :file: angel.jpg
+  :version: full
+  :color: "#625132"
+  :alt: Angel

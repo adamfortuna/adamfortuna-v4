@@ -1,27 +1,36 @@
 ---
-- file: adam_ships.jpg
-  alt: Adam between ships.
-  version: col-12
-- files:
-  - file: marilyn_camera.jpg
-    alt: Marilyn taking pictures.
-    version: col-3
-  - file: lake.jpg
-    alt: Lake view from the ship.
-    version: col-5
-  - file: shore.jpg
-    alt: The south shoreline of Lake Ashinoko.
-    version: col-4
-- file: adam_boat.jpg
-  alt: Adam out on the deck on Lake Ashinoko.
-  version: full
-- files:
-  - file: lake_boats.jpg
-    alt: Fishermans boats.
-    version: col-4
-  - file: smelt.jpg
-    alt: Smelt for lunch
-    version: col-5
-  - file: fisherman.jpg
-    alt: Fisherman at Lake Ashinoko
-    version: col-3
+- :files:
+  - :file: adam_ships.jpg
+    :version: col-12
+    :color: "#88858B"
+    :alt: Adam between ships.
+- :files:
+  - :file: marilyn_camera.jpg
+    :version: col-3
+    :color: "#464145"
+    :alt: Marilyn taking pictures.
+  - :file: lake.jpg
+    :version: col-5
+    :color: "#A9B8CB"
+    :alt: Lake view from the ship.
+  - :file: shore.jpg
+    :version: col-4
+    :color: "#8EA3B9"
+    :alt: The south shoreline of Lake Ashinoko.
+- :file: adam_boat.jpg
+  :version: full
+  :color: "#BDB1B1"
+  :alt: Adam out on the deck on Lake Ashinoko.
+- :files:
+  - :file: lake_boats.jpg
+    :version: col-4
+    :color: "#687078"
+    :alt: Fishermans boats.
+  - :file: smelt.jpg
+    :version: col-5
+    :color: "#786B58"
+    :alt: Smelt for lunch
+  - :file: fisherman.jpg
+    :version: col-3
+    :color: "#686664"
+    :alt: Fisherman at Lake Ashinoko

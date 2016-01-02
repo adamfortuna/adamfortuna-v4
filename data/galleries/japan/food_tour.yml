@@ -1,61 +1,85 @@
 ---
-- file: tempura.jpg
-  version: col-12
-  alt: A few of the tempura options available. Not the crispy you see in the west, but a softer with a cod batter.
-- options:
-    height: 270
-  files:
-    - file: croquette.jpg
-      version: col-3
-      alt: Freshly fried croquette. I chose squash as my flavor.
-    - file: shaving_bonito.mp4
-      version: col-5
-      alt: A bonito vendor shaving bonito.
-      video: true
-    - file: bonito.jpg
-      version: col-4
-      alt: Bonito (dried, fermented fish) at a bonito store.
-- file: pancackes_and_takoyaki.jpg
-  version: col-12
-  alt: Freshly made stuffed pancakes and takoyaki.
-  options:
-    height: 900
-- files:
-    - file: 30_watermelon.jpg
-      version: col-4
-      alt: $30 for a watermelon seems a bit expensive.
-    - file: sampler_plate.jpg
-      version: col-5
-      alt: A sampler plate of various Japanese staples.
-    - file: sweet_potato_pancake.jpg
-      version: col-3
-      alt: I went with the sweet potato pancake. Marilyn had the sakura stuffed version.
-- files:
-    - file: egg_stuffed_with_eel.jpg
-      version: col-6
-      alt: Egg omlet stuffed with eel.
-    - file: sushi_plate.jpg
-      version: col-6
-      alt: Small sampler from the fish vendor. The squid coated my mouth in a way different from any squid I've tried.
-- file: fish_vendor.jpg
-  version: col-12
-  alt: All fish was trucked in this morning.
-- files:
-    - file: pickels.jpg
-      version: col-4
-      alt: Kyoto is famous for its pickles.
-    - file: tea_sweet_rice.jpg
-      version: col-5
-      alt: Roasted green tea and green tea sweets.
-    - file: characters.jpg
-      version: col-3
-      alt: Japan loves their characters. These were the characters for the market we were in.
-- options:
-    height: 975
-  files:
-    - file: teahouse_hallway.jpg
-      version: col-6
-      alt: Hallway outside of the teahouse.
-    - file: tea_boxes.jpg
-      version: col-6
-      alt: 100 year old boxes for storing tea.
+- :files:
+  - :file: tempura.jpg
+    :version: col-12
+    :color: "#85796F"
+    :alt: A few of the tempura options available. Not the crispy you see in the west,
+      but a softer with a cod batter.
+- :files:
+  - :file: croquette.jpg
+    :version: col-3
+    :color: "#8A573A"
+    :alt: Freshly fried croquette. I chose squash as my flavor.
+    :options:
+      height: 270
+  - :file: shaving_bonito.mp4
+    :version: col-5
+    :video: true
+  - :file: bonito.jpg
+    :version: col-4
+    :color: "#918172"
+    :alt: Bonito (dried, fermented fish) at a bonito store.
+    :options:
+      height: 270
+- :files:
+  - :file: pancackes_and_takoyaki.jpg
+    :version: col-12
+    :color: "#927E71"
+    :alt: Freshly made stuffed pancakes and takoyaki.
+    :options:
+      height: 900
+- :files:
+  - :file: 30_watermelon.jpg
+    :version: col-4
+    :color: "#867E64"
+    :alt: "$30 for a watermelon seems a bit expensive."
+  - :file: sampler_plate.jpg
+    :version: col-5
+    :color: "#6B574F"
+    :alt: A sampler plate of various Japanese staples.
+  - :file: sweet_potato_pancake.jpg
+    :version: col-3
+    :color: "#5B4F48"
+    :alt: I went with the sweet potato pancake. Marilyn had the sakura stuffed version.
+- :files:
+  - :file: egg_stuffed_with_eel.jpg
+    :version: col-6
+    :color: "#817055"
+    :alt: Egg omlet stuffed with eel.
+  - :file: sushi_plate.jpg
+    :version: col-6
+    :color: "#AC9E96"
+    :alt: Small sampler from the fish vendor. The squid coated my mouth in a way different
+      from any squid I've tried.
+- :files:
+  - :file: fish_vendor.jpg
+    :version: col-12
+    :color: "#6C5845"
+    :alt: All fish was trucked in this morning.
+- :files:
+  - :file: pickels.jpg
+    :version: col-4
+    :color: "#65583D"
+    :alt: Kyoto is famous for its pickles.
+  - :file: tea_sweet_rice.jpg
+    :version: col-5
+    :color: "#635248"
+    :alt: Roasted green tea and green tea sweets.
+  - :file: characters.jpg
+    :version: col-3
+    :color: "#786F61"
+    :alt: Japan loves their characters. These were the characters for the market we
+      were in.
+- :files:
+  - :file: teahouse_hallway.jpg
+    :version: col-6
+    :color: "#746855"
+    :alt: Hallway outside of the teahouse.
+    :options:
+      height: 975
+  - :file: tea_boxes.jpg
+    :version: col-6
+    :color: "#635449"
+    :alt: 100 year old boxes for storing tea.
+    :options:
+      height: 975

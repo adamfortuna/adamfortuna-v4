@@ -1,8 +1,10 @@
 ---
-- files:
-  - file: beer.jpg
-    alt: First Beers of the trip
-    version: col-6
-  - file: pasta.jpg
-    alt: First pasta of the trip
-    version: col-6
+- :files:
+  - :file: beer.jpg
+    :version: col-6
+    :color: "#736450"
+    :alt: First Beers of the trip
+  - :file: pasta.jpg
+    :version: col-6
+    :color: "#D89661"
+    :alt: First pasta of the trip

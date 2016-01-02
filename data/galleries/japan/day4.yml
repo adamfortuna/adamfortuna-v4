@@ -1,13 +1,22 @@
 ---
-- options:
-    height: 350
-  files:
-  - file: 711-breakfast.jpg
-    alt: A cheap breakfast from 7-11. With most places closed for breakfast, this was one of a few options that would let us eat and start visiting sites early.
-    version: col-3
-  - file: grocery_sushi.jpg
-    alt: For less than $6 you can get a delicious sashimi platter at most grocery stores.
-    version: col-4
-  - file: grocery_tempura.jpg
-    alt: This delicious set of tempura was available at a supermarket.
-    version: col-5
+- :files:
+  - :file: 711-breakfast.jpg
+    :version: col-3
+    :color: "#3F3832"
+    :alt: A cheap breakfast from 7-11. With most places closed for breakfast, this
+      was one of a few options that would let us eat and start visiting sites early.
+    :options:
+      height: 350
+  - :file: grocery_sushi.jpg
+    :version: col-4
+    :color: "#7B6454"
+    :alt: For less than $6 you can get a delicious sashimi platter at most grocery
+      stores.
+    :options:
+      height: 350
+  - :file: grocery_tempura.jpg
+    :version: col-5
+    :color: "#735745"
+    :alt: This delicious set of tempura was available at a supermarket.
+    :options:
+      height: 350

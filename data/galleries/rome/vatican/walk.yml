@@ -1,20 +1,27 @@
-- files:
-  - file: building.jpg
-    alt: Above an entrance
-    version: col-4
-  - file: park.jpg
-    alt: Corner of a park
-    version: col-5
-  - file: phone.jpg
-    alt: Telephone
-    version: col-3
-- file: river.jpg
-  alt: Crossing the river
-  version: full
-- files:
-  - file: tourists.jpg
-    alt: Tourists Traveling (by Marilyn)
-    version: col-6
-  - file: roof.jpg
-    alt: Rooftop
-    version: col-6
+---
+- :files:
+  - :file: building.jpg
+    :version: col-4
+    :color: "#897D74"
+    :alt: Above an entrance
+  - :file: park.jpg
+    :version: col-5
+    :color: "#6C766D"
+    :alt: Corner of a park
+  - :file: phone.jpg
+    :version: col-3
+    :color: "#9A908A"
+    :alt: Telephone
+- :file: river.jpg
+  :version: full
+  :color: "#798893"
+  :alt: Crossing the river
+- :files:
+  - :file: tourists.jpg
+    :version: col-6
+    :color: "#9B918C"
+    :alt: Tourists Traveling (by Marilyn)
+  - :file: roof.jpg
+    :version: col-6
+    :color: "#6C6D7C"
+    :alt: Rooftop

@@ -1,35 +1,45 @@
 ---
 - :file: montreal--trip_up-s029-r5.jpg
   :version: full
+  :color: "#8A8777"
   :alt: Montreal--trip_up-s029-r5
 - :files:
   - :file: montreal--trip_up-s023-r2.jpg
     :version: col-6
+    :color: "#708557"
     :alt: Montreal--trip_up-s023-r2
   - :file: montreal--trip_up-s024-r2.jpg
     :version: col-6
+    :color: "#A19989"
     :alt: Montreal--trip_up-s024-r2
 - :files:
   - :file: montreal--trip_up-s052-r3.jpg
     :version: col-4
+    :color: "#83B458"
     :alt: Montreal--trip_up-s052-r3
   - :file: montreal--trip_up-s053-r3.jpg
     :version: col-4
+    :color: "#83A17B"
     :alt: Montreal--trip_up-s053-r3
   - :file: montreal--trip_up-s054-r2.jpg
     :version: col-4
+    :color: "#759058"
     :alt: Montreal--trip_up-s054-r2
 - :files:
   - :file: montreal--trip_up-s027-r3.jpg
     :version: col-6
+    :color: "#819C5E"
     :alt: Montreal--trip_up-s027-r3
   - :file: montreal--trip_up-s026-r3.jpg
     :version: col-6
+    :color: "#A59CA2"
     :alt: Montreal--trip_up-s026-r3
 - :files:
   - :file: montreal--trip_up-s030-r3.jpg
     :version: col-6
+    :color: "#918D7D"
     :alt: Montreal--trip_up-s030-r3
   - :file: montreal--trip_up-s028-r3.jpg
     :version: col-6
+    :color: "#72933C"
     :alt: Montreal--trip_up-s028-r3

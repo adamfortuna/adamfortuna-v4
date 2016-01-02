@@ -1,14 +1,19 @@
 ---
-- file: hotel_front.jpg
-  alt: A beautiful cherry blossom in front of our hotel.
-  version: col-12
-- files:
-  - file: bed.jpg
-    alt: Our room was big, but not designed for 2 people.
-    version: col-4
-  - file: hotel_outside.jpg
-    alt: A view of the hotel from the side.
-    version: col-5
-  - file: hallway.jpg
-    alt: The hallway to our room. What kind of hotel room has a hallway?
-    version: col-3
+- :files:
+  - :file: hotel_front.jpg
+    :version: col-12
+    :color: "#7B8188"
+    :alt: A beautiful cherry blossom in front of our hotel.
+- :files:
+  - :file: bed.jpg
+    :version: col-4
+    :color: "#B69B8B"
+    :alt: Our room was big, but not designed for 2 people.
+  - :file: hotel_outside.jpg
+    :version: col-5
+    :color: "#848790"
+    :alt: A view of the hotel from the side.
+  - :file: hallway.jpg
+    :version: col-3
+    :color: "#BA8550"
+    :alt: The hallway to our room. What kind of hotel room has a hallway?

@@ -1,31 +1,41 @@
 ---
-- file: torii.jpg
-  alt: Entrance to the Meiji Shrine
-  version: col-12
-- files:
-  - file: shiny.jpg
-    alt: These dotted the path to the shrine.
-    version: col-4
-  - file: flowers.jpg
-    alt: Wild flowers on the side of the road.
-    version: col-3
-  - file: entrance.jpg
-    alt: Entrance to shrine itself.
-    version: col-5
-- files:
-  - file: blossom.jpg
-    alt: Cherry blossoms in bloom.
-    version: col-6
-  - file: courtyard.jpg
-    alt: The courtyard of the shrine.
-    version: col-6
-- files:
-  - file: old_and_new.jpg
-    alt: Old shrine and new buildings.
-    version: col-4
-  - file: hallway.jpg
-    alt: Hallways at the shrine.
-    version: col-5
-  - file: prayers.jpg
-    alt: Some prayers.
-    version: col-3
+- :files:
+  - :file: torii.jpg
+    :version: col-12
+    :color: "#71756C"
+    :alt: Entrance to the Meiji Shrine
+- :files:
+  - :file: shiny.jpg
+    :version: col-4
+    :color: "#6C6456"
+    :alt: These dotted the path to the shrine.
+  - :file: flowers.jpg
+    :version: col-3
+    :color: "#7C6A5F"
+    :alt: Wild flowers on the side of the road.
+  - :file: entrance.jpg
+    :version: col-5
+    :color: "#646162"
+    :alt: Entrance to shrine itself.
+- :files:
+  - :file: blossom.jpg
+    :version: col-6
+    :color: "#6B6765"
+    :alt: Cherry blossoms in bloom.
+  - :file: courtyard.jpg
+    :version: col-6
+    :color: "#959592"
+    :alt: The courtyard of the shrine.
+- :files:
+  - :file: old_and_new.jpg
+    :version: col-4
+    :color: "#6F726F"
+    :alt: Old shrine and new buildings.
+  - :file: hallway.jpg
+    :version: col-5
+    :color: "#978F8B"
+    :alt: Hallways at the shrine.
+  - :file: prayers.jpg
+    :version: col-3
+    :color: "#5D6256"
+    :alt: Some prayers.

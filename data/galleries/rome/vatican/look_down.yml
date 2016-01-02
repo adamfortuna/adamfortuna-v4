@@ -1,20 +1,27 @@
 ---
-- files:
-  - file: tiles.jpg
-    alt: Tile Floor
-    version: col-4
-  - file: horse.jpg
-    alt: Horse-Dragon-Ram?
-    version: col-4
-  - file: colorful.jpg
-    alt: Colorful Tiles
-    version: col-4
-- options:
-    height: 550
-  files:
-  - file: marble.jpg
-    alt: Marble Floor
-    version: col-3
-  - file: protein.jpg
-    alt: Protein for Dinner (by Marilyn)
-    version: col-9
+- :files:
+  - :file: tiles.jpg
+    :version: col-4
+    :color: "#877068"
+    :alt: Tile Floor
+  - :file: horse.jpg
+    :version: col-4
+    :color: "#949083"
+    :alt: Horse-Dragon-Ram?
+  - :file: colorful.jpg
+    :version: col-4
+    :color: "#918D9F"
+    :alt: Colorful Tiles
+- :files:
+  - :file: marble.jpg
+    :version: col-3
+    :color: "#959C95"
+    :alt: Marble Floor
+    :options:
+      height: 550
+  - :file: protein.jpg
+    :version: col-9
+    :color: "#989598"
+    :alt: Protein for Dinner (by Marilyn)
+    :options:
+      height: 550

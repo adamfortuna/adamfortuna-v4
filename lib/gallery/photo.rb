@@ -54,8 +54,13 @@ module Gallery
 
       gallery.merge!(title: image[:title]) if image[:title]
       gallery.merge!(alt: alt) if alt
+      gallery.merge!(options: localized_options.to_hash) unless localized_options.empty?
 
       gallery
+    end
+
+    def localized_options
+      @gallery_options.merge(image[:options] || {})
     end
 
     def to_html
@@ -77,7 +82,7 @@ module Gallery
       end
 
       if has_color?
-        styles << "background-color:#{color}"
+        styles << "background-color:#{image[:color]}"
       end
 
       @to_html = <<-PIC

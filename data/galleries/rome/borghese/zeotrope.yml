@@ -1,21 +1,26 @@
 ---
-
-- file: zeotrope.mp4
-  version: col-12
-  alt: Zeotrope in action
-  video: true
-  options:
-    autoplay: true
-- files:
-  - file: dark.jpg
-    version: col-6
-    alt: Zeotrope. Photo by Marilyn
-  - file: light.jpg
-    version: col-6
-    alt: Photo by Marilyn
-- file: lower.jpg
-  version: col-12
-  alt: Zeotrope. Photo by Marilyn
-- file: upper.jpg
-  version: col-12
-  alt: Zeotrope. Photo by Marilyn
+- :files:
+  - :file: zeotrope.mp4
+    :version: col-12
+    :video: true
+    :options:
+      autoplay: true
+- :files:
+  - :file: dark.jpg
+    :version: col-6
+    :color: "#797673"
+    :alt: Zeotrope. Photo by Marilyn
+  - :file: light.jpg
+    :version: col-6
+    :color: "#857A6B"
+    :alt: Photo by Marilyn
+- :files:
+  - :file: lower.jpg
+    :version: col-12
+    :color: "#948E83"
+    :alt: Zeotrope. Photo by Marilyn
+- :files:
+  - :file: upper.jpg
+    :version: col-12
+    :color: "#B8AD9D"
+    :alt: Zeotrope. Photo by Marilyn

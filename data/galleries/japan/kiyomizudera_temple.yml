@@ -1,57 +1,76 @@
 ---
-- file: temple.jpg
-  alt: A look at the main temple.
-  version: col-12
-- files:
-  - file: look_from_top.jpg
-    alt: Store view from the top.
-    version: col-4
-  - file: marilyn_entrance.jpg
-    alt: Marilyn by the entrance to the shrine.
-    version: col-5
-  - file: blossom_entrance.jpg
-    alt: A blooming plum blossom greets visitors.
-    version: col-3
-- files:
-  - file: laputa.jpg
-    alt: A robot soldier planter.
-    version: col-3
-  - file: ghibli_store.jpg
-    alt: A look at the Ghibli store.
-    version: col-5
-  - file: storefronts.jpg
-    alt: Stores on the route up.
-    version: col-4
-- file: pagoda.jpg
-  alt: A beautiful pagoda.
-  version: full
-- files:
-  - file: adam_temple.jpg
-    alt: Me with a view of the temple.
-    version: col-6
-  - file: marilyn_temple.jpg
-    alt: Marilyn with a view of the temple.
-    version: col-6
-- files:
-  - file: stones.jpg
-    alt: Stones along the side of the path.
-    version: col-4
-  - file: temple_view.jpg
-    alt: Hundreds of feet up, the temple looks like it sits on the trees.
-    version: col-4
-  - file: winding_path.jpg
-    alt: Winding path down the mountain.
-    version: col-4
-- file: water.jpg
-  alt: People of all shapes and sizes sampling the water.
-  version: col-12
-- files:
-  - file: cream_puff.jpg
-    alt: A sakura filled cream puff.
-    version: col-4
-  - file: teahouse.jpg
-    alt: Stopping for tea on the way down.
-    version: col-5
-  - file: tempura_sweetpotato.jpg
-    alt: Sweet potato and pumpkin tempura.
-    version: col-3
+- :files:
+  - :file: temple.jpg
+    :version: col-12
+    :color: "#786F6E"
+    :alt: A look at the main temple.
+- :files:
+  - :file: look_from_top.jpg
+    :version: col-4
+    :color: "#968E8C"
+    :alt: Store view from the top.
+  - :file: marilyn_entrance.jpg
+    :version: col-5
+    :color: "#7E6E6B"
+    :alt: Marilyn by the entrance to the shrine.
+  - :file: blossom_entrance.jpg
+    :version: col-3
+    :color: "#5D515A"
+    :alt: A blooming plum blossom greets visitors.
+- :files:
+  - :file: laputa.jpg
+    :version: col-3
+    :color: "#71685F"
+    :alt: A robot soldier planter.
+  - :file: ghibli_store.jpg
+    :version: col-5
+    :color: "#7B736D"
+    :alt: A look at the Ghibli store.
+  - :file: storefronts.jpg
+    :version: col-4
+    :color: "#494443"
+    :alt: Stores on the route up.
+- :file: pagoda.jpg
+  :version: full
+  :color: "#A59C79"
+  :alt: A beautiful pagoda.
+- :files:
+  - :file: adam_temple.jpg
+    :version: col-6
+    :color: "#77716E"
+    :alt: Me with a view of the temple.
+  - :file: marilyn_temple.jpg
+    :version: col-6
+    :color: "#5F5B5E"
+    :alt: Marilyn with a view of the temple.
+- :files:
+  - :file: stones.jpg
+    :version: col-4
+    :color: "#897D6E"
+    :alt: Stones along the side of the path.
+  - :file: temple_view.jpg
+    :version: col-4
+    :color: "#5B504A"
+    :alt: Hundreds of feet up, the temple looks like it sits on the trees.
+  - :file: winding_path.jpg
+    :version: col-4
+    :color: "#72775E"
+    :alt: Winding path down the mountain.
+- :files:
+  - :file: water.jpg
+    :version: col-12
+    :color: "#797972"
+    :alt: People of all shapes and sizes sampling the water.
+- :files:
+  - :file: cream_puff.jpg
+    :version: col-4
+    :color: "#A27D5E"
+    :alt: A sakura filled cream puff.
+  - :file: teahouse.jpg
+    :version: col-5
+    :color: "#918F8A"
+    :alt: Stopping for tea on the way down.
+  - :file: tempura_sweetpotato.jpg
+    :version: col-3
+    :color: "#B59571"
+    :alt: Sweet potato and pumpkin tempura.

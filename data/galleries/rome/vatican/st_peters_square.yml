@@ -1,24 +1,33 @@
 ---
-- file: building.jpg
-  alt: St. Peters Square
-  version: col-12
-- files:
-  - file: marilyn.jpg
-    alt: Marilyn at St. Peters
-    version: col-4
-  - file: gelato.jpg
-    alt: Gelato Shop next to St. Peters
-    version: col-4
-  - file: adam.jpg
-    alt: Adam at St. Peters (by Marilyn)
-    version: col-4
-- file: left.jpg
-  alt: Left Panorama
-  version: col-12
-  options:
-    height: 300
-- file: right.jpg
-  alt: Right Panorama
-  version: col-12
-  options:
-    height: 300
+- :files:
+  - :file: building.jpg
+    :version: col-12
+    :color: "#A89988"
+    :alt: St. Peters Square
+- :files:
+  - :file: marilyn.jpg
+    :version: col-4
+    :color: "#7D7A7D"
+    :alt: Marilyn at St. Peters
+  - :file: gelato.jpg
+    :version: col-4
+    :color: "#A99F93"
+    :alt: Gelato Shop next to St. Peters
+  - :file: adam.jpg
+    :version: col-4
+    :color: "#8D7F75"
+    :alt: Adam at St. Peters (by Marilyn)
+- :files:
+  - :file: left.jpg
+    :version: col-12
+    :color: "#9D908A"
+    :alt: Left Panorama
+    :options:
+      height: 300
+- :files:
+  - :file: right.jpg
+    :version: col-12
+    :color: "#AA9D95"
+    :alt: Right Panorama
+    :options:
+      height: 300

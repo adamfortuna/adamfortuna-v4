@@ -1,12 +1,15 @@
 ---
 - :file: montreal--summit-s005.jpg
   :version: full
+  :color: "#473222"
   :title: Lights at PS Author Summit
 - :files:
   - :file: montreal--summit-s006.jpg
     :version: col-6
+    :color: "#855232"
     :title: Ups and Downs
     :alt: Ups and downs from Jobs iphone launch presentation.
   - :file: montreal--summit-s007.jpg
     :version: col-6
+    :color: "#9C664B"
     :title: Code School Crew at Author Summit

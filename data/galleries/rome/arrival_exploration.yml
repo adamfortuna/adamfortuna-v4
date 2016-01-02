@@ -1,29 +1,37 @@
 ---
-
-- files:
-  - file: trevi.jpg
-    alt: Trevi Fountain
-    version: col-6
-  - file: pantheon_statue.jpg
-    alt: Pantheon Statue
-    version: col-6
-- file: collumns.jpg
-  alt: Collumns
-  version: col-12
-- files:
-  - file: pantheon_statue2.jpg
-    alt: Pantheron Statue
-    version: col-3
-  - file: pantheon_pillar.jpg
-    alt: Inside the Pantheon
-    version: col-4
-  - file: pantheon.jpg
-    alt: Pantheon Entrance
-    version: col-5
-- files:
-  - file: inside_pantheon.jpg
-    alt: Inside the Pantheon
-    version: col-6
-  - file: marilyn_coffee.jpg
-    alt: Marilyn at a Cafe
-    version: col-6
+- :files:
+  - :file: trevi.jpg
+    :version: col-6
+    :color: "#A08C7E"
+    :alt: Trevi Fountain
+  - :file: pantheon_statue.jpg
+    :version: col-6
+    :color: "#6A5D51"
+    :alt: Pantheon Statue
+- :files:
+  - :file: collumns.jpg
+    :version: col-12
+    :color: "#7E7666"
+    :alt: Collumns
+- :files:
+  - :file: pantheon_statue2.jpg
+    :version: col-3
+    :color: "#6F5F58"
+    :alt: Pantheron Statue
+  - :file: pantheon_pillar.jpg
+    :version: col-4
+    :color: "#52463B"
+    :alt: Inside the Pantheon
+  - :file: pantheon.jpg
+    :version: col-5
+    :color: "#736E5D"
+    :alt: Pantheon Entrance
+- :files:
+  - :file: inside_pantheon.jpg
+    :version: col-6
+    :color: "#6E6447"
+    :alt: Inside the Pantheon
+  - :file: marilyn_coffee.jpg
+    :version: col-6
+    :color: "#98856A"
+    :alt: Marilyn at a Cafe

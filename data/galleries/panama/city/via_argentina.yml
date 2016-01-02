@@ -1,28 +1,36 @@
 ---
 - :file: panama--Via Angentina Street-s026-r5.jpg
   :version: full
+  :color: "#67584F"
   :alt: Panama--via angentina street-s026-r5
 - :files:
   - :file: panama--Via Angentina Street-s027-r4.jpg
     :version: col-3
+    :color: "#827B77"
     :alt: Panama--via angentina street-s027-r4
   - :file: panama--Via Angentina Street-s018-r4.jpg
     :version: col-7
+    :color: "#88857B"
     :alt: Panama--via angentina street-s018-r4
   - :file: panama--Via Angentina Street-s024-r1.jpg
     :version: col-2
+    :color: "#839668"
     :alt: Panama--via angentina street-s024-r1
 - :files:
   - :file: panama--Via Angentina Street-s023-r1.jpg
     :version: col-3
+    :color: "#6C8484"
     :alt: Panama--via angentina street-s023-r1
   - :file: panama--Via Angentina Street-s017-r3.jpg
     :version: col-9
+    :color: "#918280"
     :alt: Panama--via angentina street-s017-r3
 - :files:
   - :file: panama--Via Angentina Street-s029-r3.jpg
     :version: col-6
+    :color: "#888764"
     :alt: Panama--via angentina street-s029-r3
   - :file: panama--Via Angentina Street-s025-r2.jpg
     :version: col-6
+    :color: "#807571"
     :alt: Panama--via angentina street-s025-r2

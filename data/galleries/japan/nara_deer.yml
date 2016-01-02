@@ -1,40 +1,51 @@
 ---
-- file: shrine_deer.jpg
-  alt: Hiding between the shrines.
-  version: col-12
-- files:
-  - file: deer_in_forest.jpg
-    alt: Deer chew down everything green, so they fence off some to grow before unleashing the deer on them.
-    version: col-6
-  - file: marilyn_small_deer.jpg
-    alt: Marilyn feeding one of the smallest deer. It was tough to not be overwhelmed by the other deer during the taking of this photo.
-    version: col-6
-- options:
-    height: 489
-  files:
-  - file: nara_feeding.mp4
-    alt: Feeding Deer at Nara
-    version: col-9
-    video: true
-  - file: deer_chewing.jpg
-    alt: Deer chewing on chains.
-    version: col-3
-    options:
+- :files:
+  - :file: shrine_deer.jpg
+    :version: col-12
+    :color: "#71755A"
+    :alt: Hiding between the shrines.
+- :files:
+  - :file: deer_in_forest.jpg
+    :version: col-6
+    :color: "#786F65"
+    :alt: Deer chew down everything green, so they fence off some to grow before unleashing
+      the deer on them.
+  - :file: marilyn_small_deer.jpg
+    :version: col-6
+    :color: "#858278"
+    :alt: Marilyn feeding one of the smallest deer. It was tough to not be overwhelmed
+      by the other deer during the taking of this photo.
+- :files:
+  - :file: nara_feeding.mp4
+    :version: col-9
+    :video: true
+  - :file: deer_chewing.jpg
+    :version: col-3
+    :color: "#73716E"
+    :alt: Deer chewing on chains.
+    :options:
+      height: 489
       gravity: west
-- files:
-  - file: adam_feeding.jpg
-    alt: Adam feeding the deer.
-    version: col-6
-  - file: marilyn_deer.jpg
-    alt: Marilyn feeding the deer.
-    version: col-6
-- files:
-  - file: deer_food_vendor.jpg
-    alt: For $1.50, you can buy a handful of crackers to feed to the deer.
-    version: col-4
-  - file: deer_horns.jpg
-    alt: Every year, they cut the antlers off all deer, making them safe for tourists.
-    version: col-5
-  - file: engagement_shoot.jpg
-    alt: This couple was doing an engagement shoot, but more and more deer kept approaching them.
-    version: col-3
+- :files:
+  - :file: adam_feeding.jpg
+    :version: col-6
+    :color: "#75756D"
+    :alt: Adam feeding the deer.
+  - :file: marilyn_deer.jpg
+    :version: col-6
+    :color: "#97948A"
+    :alt: Marilyn feeding the deer.
+- :files:
+  - :file: deer_food_vendor.jpg
+    :version: col-4
+    :color: "#6A6F71"
+    :alt: For $1.50, you can buy a handful of crackers to feed to the deer.
+  - :file: deer_horns.jpg
+    :version: col-5
+    :color: "#938B84"
+    :alt: Every year, they cut the antlers off all deer, making them safe for tourists.
+  - :file: engagement_shoot.jpg
+    :version: col-3
+    :color: "#828474"
+    :alt: This couple was doing an engagement shoot, but more and more deer kept approaching
+      them.

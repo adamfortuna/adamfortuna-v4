@@ -1,26 +1,38 @@
 ---
-- options:
-    height: 700
-  files:
-  - file: legend.jpg
-    alt: Map Room Legend
-    version: col-4
-  - file: island.jpg
-    alt: Island
-    version: col-4
-  - file: map_island.jpg
-    alt: Map Island
-    version: col-4
-- file: italy.jpg
-  alt: Italy
-  version: col-12
-- files:
-  - file: compass.jpg
-    alt: Compass (by Marilyn)
-    version: col-5
-  - file: atlantic.jpg
-    alt: Atlantic
-    version: col-4
-  - file: info.jpg
-    alt: Map Information
-    version: col-3
+- :files:
+  - :file: legend.jpg
+    :version: col-4
+    :color: "#8D8F82"
+    :alt: Map Room Legend
+    :options:
+      height: 700
+  - :file: island.jpg
+    :version: col-4
+    :color: "#81968C"
+    :alt: Island
+    :options:
+      height: 700
+  - :file: map_island.jpg
+    :version: col-4
+    :color: "#517985"
+    :alt: Map Island
+    :options:
+      height: 700
+- :files:
+  - :file: italy.jpg
+    :version: col-12
+    :color: "#808982"
+    :alt: Italy
+- :files:
+  - :file: compass.jpg
+    :version: col-5
+    :color: "#6E8AA2"
+    :alt: Compass (by Marilyn)
+  - :file: atlantic.jpg
+    :version: col-4
+    :color: "#BBB2A1"
+    :alt: Atlantic
+  - :file: info.jpg
+    :version: col-3
+    :color: "#A79B7F"
+    :alt: Map Information

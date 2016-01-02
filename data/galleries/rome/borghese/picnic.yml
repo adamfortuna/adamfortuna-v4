@@ -1,11 +1,14 @@
 ---
-- files:
-  - file: picnic.jpg
-    alt: Picnic in the Park. Photo by Marilyn
-    version: col-4
-  - file: picnic2.jpg
-    alt: Picnic in the Park
-    version: col-4
-  - file: sandwich.jpg
-    alt: Delicious Sandwich. Photo by Marilyn
-    version: col-4
+- :files:
+  - :file: picnic.jpg
+    :version: col-4
+    :color: "#7F735E"
+    :alt: Picnic in the Park. Photo by Marilyn
+  - :file: picnic2.jpg
+    :version: col-4
+    :color: "#888C7A"
+    :alt: Picnic in the Park
+  - :file: sandwich.jpg
+    :version: col-4
+    :color: "#9C8E74"
+    :alt: Delicious Sandwich. Photo by Marilyn

@@ -1,17 +1,23 @@
 ---
-- file: dog.jpg
-  version: col-12
-  alt: Photo by Adam
-- files:
-  - file: ceiling.jpg
-    version: col-2
-    alt: Photo by Adam
-  - file: leaf.jpg
-    version: col-2
-    alt: Photo by Adam
-  - file: side.jpg
-    version: col-6
-    alt: Wall
-  - file: bust.jpg
-    version: col-2
-    alt: Bust
+- :files:
+  - :file: dog.jpg
+    :version: col-12
+    :color: "#8F6341"
+    :alt: Photo by Adam
+- :files:
+  - :file: ceiling.jpg
+    :version: col-2
+    :color: "#875C3B"
+    :alt: Photo by Adam
+  - :file: leaf.jpg
+    :version: col-2
+    :color: "#9D8A74"
+    :alt: Photo by Adam
+  - :file: side.jpg
+    :version: col-6
+    :color: "#C2AD9E"
+    :alt: Wall
+  - :file: bust.jpg
+    :version: col-2
+    :color: "#A77E4F"
+    :alt: Bust

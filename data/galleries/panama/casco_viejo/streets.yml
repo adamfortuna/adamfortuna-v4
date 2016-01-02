@@ -1,28 +1,36 @@
 ---
 - :file: panama--Streets-s033-r4.jpg
   :version: full
+  :color: "#8F7A71"
   :alt: Panama--streets-s033-r4
 - :files:
   - :file: panama--Streets-s035-r2.jpg
     :version: col-4
+    :color: "#927665"
     :alt: Panama--streets-s035-r2
   - :file: panama--Streets-s037-r2.jpg
     :version: col-3
+    :color: "#AF9792"
     :alt: Panama--streets-s037-r2
   - :file: panama--Streets-s045-r3.jpg
     :version: col-5
+    :color: "#857C7B"
     :alt: Panama--streets-s045-r3
 - :file: panama--Streets-s034-r4.jpg
   :version: full
+  :color: "#938678"
   :alt: Panama--streets-s034-r4
 - :files:
   - :file: panama--Streets-s022-r2.jpg
     :version: col-6
+    :color: "#A09C93"
     :alt: Panama--streets-s022-r2
   - :file: panama--Streets-s021-r2.jpg
     :version: col-6
+    :color: "#B4AEA1"
     :alt: Panama--streets-s021-r2
 - :files:
   - :file: panama--Streets-s036-r3.jpg
     :version: col-12
+    :color: "#9B8273"
     :alt: Panama--streets-s036-r3

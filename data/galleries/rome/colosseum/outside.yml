@@ -1,10 +1,14 @@
 ---
-- options:
-    height: 500
-  files:
-    - file: street.jpg
-      alt: View from the street
-      version: col-6
-    - file: side.jpg
-      alt: Looking up from the outside
-      version: col-6
+- :files:
+  - :file: street.jpg
+    :version: col-6
+    :color: "#7F7A84"
+    :alt: View from the street
+    :options:
+      height: 500
+  - :file: side.jpg
+    :version: col-6
+    :color: "#877F7A"
+    :alt: Looking up from the outside
+    :options:
+      height: 500

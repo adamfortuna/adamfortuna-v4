@@ -1,14 +1,19 @@
 ---
-- file: train_station.jpg
-  alt: The Hakone train station.
-  version: col-col-12
-- files:
-  - file: train_snack.jpg
-    alt: A train station snack for the ride.
-    version: col-3
-  - file: train_stop.jpg
-    alt: A tiny mountain train stop.
-    version: col-5
-  - file: train_view.jpg
-    alt: View out the shinkansen window.
-    version: col-4
+- :files:
+  - :file: train_station.jpg
+    :version: col-col-12
+    :color: "#52473D"
+    :alt: The Hakone train station.
+- :files:
+  - :file: train_snack.jpg
+    :version: col-3
+    :color: "#8D8180"
+    :alt: A train station snack for the ride.
+  - :file: train_stop.jpg
+    :version: col-5
+    :color: "#6F6A69"
+    :alt: A tiny mountain train stop.
+  - :file: train_view.jpg
+    :version: col-4
+    :color: "#7F868E"
+    :alt: View out the shinkansen window.

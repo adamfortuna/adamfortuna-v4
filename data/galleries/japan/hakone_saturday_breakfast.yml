@@ -1,28 +1,36 @@
 ---
-- files:
-  - file: sat_breakfast_tofu.jpg
-    alt: Tofu with small shrimp.
-    version: col-6
-  - file: sat_breakfast_fish.jpg
-    alt: All that was left of this fish was bones.
-    version: col-6
-- files:
-  - file: sat_breakfast_overview.jpg
-    alt: All of the small plates.
-    version: col-5
-  - file: sat_breakfast_pickles.jpg
-    alt: Collection of pickled items.
-    version: col-4
-  - file: sat_breakfast_beans.jpg
-    alt: Soy beans in a sweet sauce.
-    version: col-3
-- files:
-  - file: sat_breakfast_tofu_soup.jpg
-    alt: A light tofu, almost soup-like.
-    version: col-3
-  - file: sat_breakfast_tempura.jpg
-    alt: Tempura side dish.
-    version: col-4
-  - file: sat_breakfast_fish_tofu.jpg
-    alt: Tofu with small shrimp.
-    version: col-5
+- :files:
+  - :file: sat_breakfast_tofu.jpg
+    :version: col-6
+    :color: "#8C744C"
+    :alt: Tofu with small shrimp.
+  - :file: sat_breakfast_fish.jpg
+    :version: col-6
+    :color: "#866E49"
+    :alt: All that was left of this fish was bones.
+- :files:
+  - :file: sat_breakfast_overview.jpg
+    :version: col-5
+    :color: "#6E5A40"
+    :alt: All of the small plates.
+  - :file: sat_breakfast_pickles.jpg
+    :version: col-4
+    :color: "#6E5842"
+    :alt: Collection of pickled items.
+  - :file: sat_breakfast_beans.jpg
+    :version: col-3
+    :color: "#735543"
+    :alt: Soy beans in a sweet sauce.
+- :files:
+  - :file: sat_breakfast_tofu_soup.jpg
+    :version: col-3
+    :color: "#5A482E"
+    :alt: A light tofu, almost soup-like.
+  - :file: sat_breakfast_tempura.jpg
+    :version: col-4
+    :color: "#A07730"
+    :alt: Tempura side dish.
+  - :file: sat_breakfast_fish_tofu.jpg
+    :version: col-5
+    :color: "#66594A"
+    :alt: Tofu with small shrimp.

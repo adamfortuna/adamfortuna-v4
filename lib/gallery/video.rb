@@ -38,12 +38,14 @@ module Gallery
     end
 
     def to_gallery
-      {
-        file: image[:src],
+      gallery = {
+        file: image[:file],
         version: image[:version],
-        video: true,
-        options: image[:options]
+        video: true
       }
+
+      gallery[:options] = image[:options].to_hash if image[:options]
+      gallery
     end
 
     def autoplay

@@ -1,18 +1,23 @@
 ---
 - :file: montreal--notre_dame-s105-r5.jpg
   :version: full
+  :color: "#9EA29F"
   :alt: Montreal--notre_dame-s105-r5
 - :files:
   - :file: montreal--notre_dame-s069-r3.jpg
     :version: col-4
+    :color: "#8F8E94"
     :alt: Montreal--notre_dame-s069-r3
   - :file: montreal--notre_dame-s068-r3.jpg
     :version: col-8
+    :color: "#9B999E"
     :alt: Montreal--notre_dame-s068-r3
 - :files:
   - :file: montreal--notre_dame-s070-r4.jpg
     :version: col-8
+    :color: "#837B80"
     :alt: Montreal--notre_dame-s070-r4
   - :file: montreal--notre_dame-s067-r3.jpg
     :version: col-4
+    :color: "#80818B"
     :alt: Montreal--notre_dame-s067-r3

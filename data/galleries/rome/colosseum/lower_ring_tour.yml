@@ -2,13 +2,18 @@
 - :files:
   - :file: rome_coloseum--lower_ring_tour-s013-r4.jpg
     :version: col-12
+    :color: "#A5928C"
 - :files:
   - :file: rome_coloseum--lower_ring_tour-s011-r3.jpg
     :version: col-8
+    :color: "#71583F"
   - :file: rome_coloseum--lower_ring_tour-s012-r3.jpg
     :version: col-4
+    :color: "#AD8038"
 - :files:
   - :file: rome_coloseum--lower_ring_tour-s044-r3.jpg
     :version: col-4
+    :color: "#5D5348"
   - :file: rome_coloseum--lower_ring_tour-s014-r3.jpg
     :version: col-8
+    :color: "#8A9675"

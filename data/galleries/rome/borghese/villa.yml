@@ -1,28 +1,36 @@
 ---
-- file: room.jpg
-  version: full
-  alt: Every room is this amazing.
-- files:
-  - file: up.jpg
-    version: col-4
-    alt: Looking up. Photo by Marilyn
-  - file: gold_corner.jpg
-    version: col-4
-    alt: Looking Up
-  - file: painting_corner.jpg
-    version: col-4
-    alt: Looking Up
-- files:
-  - file: statues.jpg
-    version: col-6
-    alt: Statues.
-  - file: painting_wall.jpg
-    version: col-6
-    alt: Looking up.
-- files:
-  - file: tile1.jpg
-    version: col-6
-    alt: Tile Floor
-  - file: tile2.jpg
-    version: col-6
-    alt: Tile
+- :file: room.jpg
+  :version: full
+  :color: "#8B8579"
+  :alt: Every room is this amazing.
+- :files:
+  - :file: up.jpg
+    :version: col-4
+    :color: "#B3A89E"
+    :alt: Looking up. Photo by Marilyn
+  - :file: gold_corner.jpg
+    :version: col-4
+    :color: "#BCAF9B"
+    :alt: Looking Up
+  - :file: painting_corner.jpg
+    :version: col-4
+    :color: "#7E786B"
+    :alt: Looking Up
+- :files:
+  - :file: statues.jpg
+    :version: col-6
+    :color: "#8B826D"
+    :alt: Statues.
+  - :file: painting_wall.jpg
+    :version: col-6
+    :color: "#958D81"
+    :alt: Looking up.
+- :files:
+  - :file: tile1.jpg
+    :version: col-6
+    :color: "#AE9475"
+    :alt: Tile Floor
+  - :file: tile2.jpg
+    :version: col-6
+    :color: "#B37C3D"
+    :alt: Tile

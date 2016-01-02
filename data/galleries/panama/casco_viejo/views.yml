@@ -1,17 +1,22 @@
 ---
 - :file: panama--Views-s031-r4.jpg
   :version: full
+  :color: "#8F9699"
   :alt: Panama--views-s031-r4
 - :files:
   - :file: panama--Views-s030-r3.jpg
     :version: col-3
+    :color: "#CBC0BE"
     :alt: Panama--views-s030-r3
   - :file: panama--Views-s032-r2.jpg
     :version: col-3
+    :color: "#CDCFCC"
     :alt: Panama--views-s032-r2
   - :file: panama--Views-s023-r1.jpg
     :version: col-3
+    :color: "#7498B6"
     :alt: Panama--views-s023-r1
   - :file: panama--Views-s024-r3.jpg
     :version: col-3
+    :color: "#AAA094"
     :alt: Panama--views-s024-r3

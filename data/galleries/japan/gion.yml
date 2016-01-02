@@ -1,41 +1,54 @@
 ---
-- file: gion.jpg
-  alt: The main street in the Gion district.
-  version: col-12
-- files:
-  - file: side_garden.jpg
-    alt: A small garden alongside a restaurant.
-    version: col-3
-  - file: flower.jpg
-    alt: A small flower.
-    version: col-4
-  - file: gion_corner.jpg
-    alt: Gion Corner, a theater for Maiko performances.
-    version: col-5
-- file: pathup.jpg
-  alt: The path up to a temple in Gion.
-  version: full
-- files:
-  - file: dessert.jpg
-    alt: A parfait with ice cream, mochi and red bean paste.
-    version: col-6
-  - file: ice_cream_sampler.jpg
-    alt: Red bean paste and other ice cream flavors.
-    version: col-6
-- files:
-  - file: entrance.jpg
-    alt: Entrance to the dessert shop.
-    version: col-4
-  - file: shrine.jpg
-    alt: Entrance to a shrine.
-    version: col-4
-  - file: adam_dessert.jpg
-    alt: Dessert time!
-    version: col-4
-- files:
-  - file: ramen.jpg
-    alt: Delicious Hokaido style ramen from Ramen Santouka.
-    version: col-6
-  - file: ramen_santouka.jpg
-    alt: Open kitchen surrounds the seating area at Ramen Santouka.
-    version: col-6
+- :files:
+  - :file: gion.jpg
+    :version: col-12
+    :color: "#9C9291"
+    :alt: The main street in the Gion district.
+- :files:
+  - :file: side_garden.jpg
+    :version: col-3
+    :color: "#74715B"
+    :alt: A small garden alongside a restaurant.
+  - :file: flower.jpg
+    :version: col-4
+    :color: "#484C3D"
+    :alt: A small flower.
+  - :file: gion_corner.jpg
+    :version: col-5
+    :color: "#C7BCB6"
+    :alt: Gion Corner, a theater for Maiko performances.
+- :file: pathup.jpg
+  :version: full
+  :color: "#808871"
+  :alt: The path up to a temple in Gion.
+- :files:
+  - :file: dessert.jpg
+    :version: col-6
+    :color: "#836652"
+    :alt: A parfait with ice cream, mochi and red bean paste.
+  - :file: ice_cream_sampler.jpg
+    :version: col-6
+    :color: "#715949"
+    :alt: Red bean paste and other ice cream flavors.
+- :files:
+  - :file: entrance.jpg
+    :version: col-4
+    :color: "#544B4A"
+    :alt: Entrance to the dessert shop.
+  - :file: shrine.jpg
+    :version: col-4
+    :color: "#A19B90"
+    :alt: Entrance to a shrine.
+  - :file: adam_dessert.jpg
+    :version: col-4
+    :color: "#6E5240"
+    :alt: Dessert time!
+- :files:
+  - :file: ramen.jpg
+    :version: col-6
+    :color: "#877160"
+    :alt: Delicious Hokaido style ramen from Ramen Santouka.
+  - :file: ramen_santouka.jpg
+    :version: col-6
+    :color: "#3A3632"
+    :alt: Open kitchen surrounds the seating area at Ramen Santouka.

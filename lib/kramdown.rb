@@ -183,7 +183,6 @@ module Middleman
         # Generate the HTML for this gallery
         gallery.to_html
       rescue Exception => e
-        binding.pry
         %(<section class='gallery row'><p>GALLERY IN PROCESS</p><p>#{e.message}</p><p>#{e.backtrace}</p></section>)
       end
     end

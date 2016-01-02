@@ -1,4 +1,6 @@
 ---
-- file: kabuki.jpg
-  alt: Seats at the show.
-  version: col-12
+- :files:
+  - :file: kabuki.jpg
+    :version: col-12
+    :color: "#B27860"
+    :alt: Seats at the show.

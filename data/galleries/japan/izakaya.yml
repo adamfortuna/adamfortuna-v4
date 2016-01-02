@@ -1,4 +1,6 @@
 ---
-- file: streets.jpg
-  alt: The busy streets of Shinjuku.
-  version: col-12
+- :files:
+  - :file: streets.jpg
+    :version: col-12
+    :color: "#4D3C35"
+    :alt: The busy streets of Shinjuku.

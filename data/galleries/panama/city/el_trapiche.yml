@@ -2,14 +2,18 @@
 - :files:
   - :file: panama--El Trapiche-s020-r3.jpg
     :version: col-8
+    :color: "#B69E85"
     :alt: Panama--el trapiche-s020-r3
   - :file: panama--El Trapiche-s019-r3.jpg
     :version: col-4
+    :color: "#B89190"
     :alt: Panama--el trapiche-s019-r3
 - :files:
   - :file: panama--El Trapiche-s022-r3.jpg
     :version: col-4
+    :color: "#AF8958"
     :alt: Panama--el trapiche-s022-r3
   - :file: panama--El Trapiche-s021-r3.jpg
     :version: col-8
+    :color: "#A68A5D"
     :alt: Panama--el trapiche-s021-r3

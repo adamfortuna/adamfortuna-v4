@@ -227,7 +227,7 @@ module Grid
         min_index = ratings.rindex(ratings.min)
         @remaining_items.slice!(min_index)
       rescue Exception => e
-        binding.pry
+        raise e
       end
     end
 
@@ -239,7 +239,7 @@ module Grid
         max_index = ratings.rindex(ratings.max)
         @remaining_items.slice!(max_index)
       rescue Exception => e
-        binding.pry
+        raise e
       end
     end
 

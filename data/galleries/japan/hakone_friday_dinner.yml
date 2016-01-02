@@ -1,33 +1,42 @@
 ---
-- files:
-  - file: friday_sushi.jpg
-    alt: Sushi plate.
-    version: col-4
-  - file: friday_marilyn.jpg
-    alt: Marilyn excited about dinner.
-    version: col-5
-    options:
+- :files:
+  - :file: friday_sushi.jpg
+    :version: col-4
+    :color: "#67512B"
+    :alt: Sushi plate.
+  - :file: friday_marilyn.jpg
+    :version: col-5
+    :color: "#8E6349"
+    :alt: Marilyn excited about dinner.
+    :options:
       gravity: north
-  - file: friday_food.jpg
-    alt: Sampler of a few small plates.
-    version: col-3
-- files:
-  - file: friday_tempura.jpg
-    alt: Tempura with sakura salt.
-    version: col-3
-  - file: friday_fish.jpg
-    alt: Fish with pickled things.
-    version: col-4
-  - file: friday_broth.jpg
-    alt: This broth was absolutely amazing. It cooked at the table.
-    version: col-5
-- files:
-  - file: friday_meat.jpg
-    alt: This cooked under a candle at the table.
-    version: col-4
-  - file: friday_salad.jpg
-    alt: A fresh salad.
-    version: col-4
-  - file: friday_dessert.jpg
-    alt: Fresh fruit for dessert.
-    version: col-4
+  - :file: friday_food.jpg
+    :version: col-3
+    :color: "#49392A"
+    :alt: Sampler of a few small plates.
+- :files:
+  - :file: friday_tempura.jpg
+    :version: col-3
+    :color: "#55432C"
+    :alt: Tempura with sakura salt.
+  - :file: friday_fish.jpg
+    :version: col-4
+    :color: "#B69472"
+    :alt: Fish with pickled things.
+  - :file: friday_broth.jpg
+    :version: col-5
+    :color: "#594D34"
+    :alt: This broth was absolutely amazing. It cooked at the table.
+- :files:
+  - :file: friday_meat.jpg
+    :version: col-4
+    :color: "#7F5C37"
+    :alt: This cooked under a candle at the table.
+  - :file: friday_salad.jpg
+    :version: col-4
+    :color: "#886E41"
+    :alt: A fresh salad.
+  - :file: friday_dessert.jpg
+    :version: col-4
+    :color: "#846848"
+    :alt: Fresh fruit for dessert.

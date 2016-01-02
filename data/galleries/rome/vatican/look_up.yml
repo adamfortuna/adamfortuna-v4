@@ -1,32 +1,47 @@
 ---
-- files:
-  - file: gold.jpg
-    alt: Gold Ceiling
-    version: col-4
-  - file: rotunda.jpg
-    alt: Rotunda
-    version: col-4
-  - file: gold_center.jpg
-    alt: Gold Ceiling
-    version: col-4
-- file: shadow_hall.jpg
-  alt: Shadow Hall
-  version: full
-- options:
-    height: 500
-  files:
-  - file: ceiling_art.jpg
-    alt: Ceiling Art
-    version: col-3
-  - file: ceiling_cameo.jpg
-    alt: Ceiling Cameo
-    version: col-3
-  - file: more_cameos.jpg
-    alt: More Cameos
-    version: col-3
-  - file: staggered_ceiling.jpg
-    alt: Staggered Ceiling
-    version: col-3
-- file: 3d_ceiling.jpg
-  alt: 3d Ceiling
-  version: full
+- :files:
+  - :file: gold.jpg
+    :version: col-4
+    :color: "#897C69"
+    :alt: Gold Ceiling
+  - :file: rotunda.jpg
+    :version: col-4
+    :color: "#8C7972"
+    :alt: Rotunda
+  - :file: gold_center.jpg
+    :version: col-4
+    :color: "#916C54"
+    :alt: Gold Ceiling
+- :file: shadow_hall.jpg
+  :version: full
+  :color: "#846651"
+  :alt: Shadow Hall
+- :files:
+  - :file: ceiling_art.jpg
+    :version: col-3
+    :color: "#9B7A5A"
+    :alt: Ceiling Art
+    :options:
+      height: 500
+  - :file: ceiling_cameo.jpg
+    :version: col-3
+    :color: "#D0A577"
+    :alt: Ceiling Cameo
+    :options:
+      height: 500
+  - :file: more_cameos.jpg
+    :version: col-3
+    :color: "#A3896E"
+    :alt: More Cameos
+    :options:
+      height: 500
+  - :file: staggered_ceiling.jpg
+    :version: col-3
+    :color: "#736243"
+    :alt: Staggered Ceiling
+    :options:
+      height: 500
+- :file: 3d_ceiling.jpg
+  :version: full
+  :color: "#AA7733"
+  :alt: 3d Ceiling
