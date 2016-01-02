@@ -4,7 +4,6 @@ date: 2016-01-01
 tags: Personal
 permalink: 2015-year-in-review
 description: Code School, Pluralsight, Travel, Blogging, Cocktails
-published: false
 ---
 
 So, what's happened in the last year? This is my annual recap to answer that question. The past year had a major focus on travel. Somehow I ended up doing on quite a few memorable trips throughout the year. As an introvert, this has been fun, but exhausting.
@@ -108,9 +107,9 @@ It should be clear when these are done.
 
 __Narrow down possessions to fit in half of a closet.__ I've whittled down a lot of what I've inherited from my mom, but there's still a number of things to figure out. I'd like to have these all fit in the area at the top of a closet. I've never been a fan of keeping things in attics, but [The Life-Changing Magic of Tidying Up](http://www.amazon.com/The-Life-Changing-Magic-Tidying-Decluttering/dp/1607747308) helped clarify the decision not to store things up there.
 
-__Complete and release a new project using Rails 5, ES 2015, Neo4j and React w/an accompanying iPhone app.__ Have something in mind that I've hacked together for this, with the domain and all that already. More of a for fun / for me project than a make-money thing.
+__Complete and release a new project using some new technologies (maybe Rails 5, ES 2015, Neo4j and React / React Native).__ Have a few things in mind that I've hacked together for this, but need to decide which I'd commit to really working on. More of a for fun / for me project than a make-money thing.
 
-__Release the D3.js course I'm working on at Code School.__ Looking like this will be April or March. Not working on it full-time until then.
+__Release the D3.js course I'm working on at Code School.__ I've learned a lot making this course, and really excited to share it.
 
 __Exercise for at least 10 minutes, 3 times a week when in town.__ I've been slacking on exercise lately. I'd like to do a better job of this -- even a mile and half 3x a week would be good. This doesn't have to be all CrossFit, but at least 2 of them should be.
 
