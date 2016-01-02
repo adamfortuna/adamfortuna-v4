@@ -96,6 +96,7 @@ What else has been going on?
 * Continued going to CrossFit, but have struggled to make it there any more than 2 days a week.
 * Lots of board games with friends and Marilyn.
 * Lived relatively frugally, keeping track of what I spent and how much I saved (> 50%).
+* Got engaged to Marilyn!
 
 ## Next Year
 
