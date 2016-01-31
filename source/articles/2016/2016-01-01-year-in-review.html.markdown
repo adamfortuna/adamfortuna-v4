@@ -73,12 +73,13 @@ This seemed like an odd year for programming. I didn't learn anything new that c
 * Created a basic Angular.js app for the challenge interface on [javascript.com](https://www.javascript.com/try)
 * Redid my blog using Middleman, and iterated on it quite a bit
 * Made a number of [photo posts](/photos), and [optimized how these are made](/articles/creating-photo-albums-with-lightroom)
+* Worked on Code School's [Unmasking HTML Emails](https://www.codeschool.com/courses/unmasking-html-emails) course, which shows the dark art of HTML emails using a luchador theme.
 * Worked on Code Schools [Adventures in Web Animations](https://www.codeschool.com/courses/adventures-in-web-animations) course which helped me learn more about an area I was very weak in
 * Started learning [Neo4j](http://neo4j.com/), a graph database with some amazing potential
 * Started learning [D3.js](http://d3js.org/) and writing a Code School course on it which will come out in 2016
 * Began learning how to edit and manage photos in Lightroom in an attempt to learn how to take better photos
 
-Sadly I feel like there were a lot of things I wanted to learn this year but didn't -- ES 2015, Angular 2, React.js, Ember 2. JavaScript is is moving way too fast. I do have a project I'm working on using some cool new technologies, but it's a bit too early to say.
+Sadly I feel like there were a lot of things I wanted to learn this year but didn't -- ES 2015, Angular 2, React.js, Ember 2. JavaScript is moving way too fast. I do have a project I'm working on using some cool new technologies, but it's a bit too early to say.
 
 ## Code School
 
