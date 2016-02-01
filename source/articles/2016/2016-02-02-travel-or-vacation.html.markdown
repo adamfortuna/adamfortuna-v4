@@ -1,6 +1,6 @@
 ---
 title: Do You Travel or Vacation?
-date: 2016-01-08
+date: 2016-02-02
 tags: Personal
 permalink: travel-or-vacation
 published: false
