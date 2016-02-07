@@ -1,0 +1,36 @@
+---
+- :files:
+  - :file: helsinki--throwing_snow-s014-r3.jpg
+    :version: col-3
+    :color: "#6E7075"
+  - :file: helsinki--throwing_snow-s012-r3.jpg
+    :version: col-4
+    :color: "#868DA1"
+  - :file: helsinki--throwing_snow-s013-r3.jpg
+    :version: col-5
+    :color: "#81889F"
+- :files:
+  - :file: helsinki--throwing_snow-s005-r3.jpg
+    :version: col-6
+    :color: "#9094A6"
+  - :file: helsinki--throwing_snow-s006-r3.jpg
+    :version: col-6
+    :color: "#9496A6"
+- :files:
+  - :file: helsinki--throwing_snow-s008-r3.jpg
+    :version: col-6
+    :color: "#9597A9"
+  - :file: helsinki--throwing_snow-s007-r3.jpg
+    :version: col-6
+    :color: "#9496A9"
+- :files:
+  - :file: helsinki--throwing_snow-s009-r3.jpg
+    :version: col-6
+    :color: "#9C9DAE"
+  - :file: helsinki--throwing_snow-s010-r3.jpg
+    :version: col-6
+    :color: "#9E9EAF"
+- :files:
+  - :file: helsinki--throwing_snow-s011-r3.jpg
+    :version: col-12
+    :color: "#9D9DAF"

@@ -1,0 +1,10 @@
+---
+- :files:
+  - :file: helsinki--dessert-s064-r4.jpg
+    :version: col-12
+    :color: "#B98064"
+- :files:
+  - :file: helsinki--dessert-s078-r4.jpg
+    :version: col-12
+    :color: "#B56F42"
+    :alt: " (by Marilyn Torres)"

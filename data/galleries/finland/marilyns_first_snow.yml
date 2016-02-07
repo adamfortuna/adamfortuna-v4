@@ -1,0 +1,38 @@
+---
+- :files:
+  - :file: marilyn-throwing-snow.mp4
+    :version: col-12
+    :video: true
+    :color: "#BEBFC5"
+- :files:
+  - :file: helsinki--marilyns_first_snow-s018-r3.jpg
+    :version: col-4
+    :color: "#B3ACA4"
+  - :file: helsinki--marilyns_first_snow-s019-r3.jpg
+    :version: col-4
+    :color: "#9E9B98"
+  - :file: helsinki--marilyns_first_snow-s016-r3.jpg
+    :version: col-4
+    :color: "#93918E"
+    :options:
+      :gravity: north
+- :files:
+  - :file: helsinki--marilyns_first_snow-s017-r3.jpg
+    :version: col-12
+    :color: "#BEBFC5"
+- :files:
+  - :file: helsinki--marilyns_first_snow-s004-r3.jpg
+    :version: col-3
+    :color: "#8E806E"
+  - :file: helsinki--marilyns_first_snow-s002-r3.jpg
+    :version: col-2
+    :color: "#AC8A74"
+    :alt: " (by Marilyn Torres)"
+  - :file: helsinki--marilyns_first_snow-s015-r3.jpg
+    :version: col-4
+    :color: "#9C7B7D"
+    :alt: " (by Marilyn Torres)"
+  - :file: helsinki--marilyns_first_snow-s003-r3.jpg
+    :version: col-3
+    :color: "#AA9D93"
+    :alt: " (by Marilyn Torres)"

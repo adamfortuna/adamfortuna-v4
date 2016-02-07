@@ -1,0 +1,52 @@
+---
+- :file: helsinki--all-s098-r5.jpg
+  :version: full
+  :color: "#797883"
+- :files:
+  - :file: helsinki--all-s080-r4.jpg
+    :version: col-12
+    :color: "#979BAC"
+- :files:
+  - :file: helsinki--all-s148-r4.jpg
+    :version: col-12
+    :color: "#ADA29B"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: helsinki--all-s091-r3.jpg
+    :version: col-6
+    :color: "#8899B5"
+  - :file: helsinki--all-s079-r3.jpg
+    :version: col-6
+    :color: "#A9B9D0"
+- :files:
+  - :file: helsinki--all-s092-r3.jpg
+    :version: col-6
+    :color: "#A0B5CA"
+  - :file: helsinki--all-s096-r3.jpg
+    :version: col-6
+    :color: "#9CA7BF"
+- :files:
+  - :file: helsinki--all-s140-r3.jpg
+    :version: col-3
+    :color: "#8AA5BD"
+    :alt: " (by Marilyn Torres)"
+  - :file: helsinki--all-s130-r2.jpg
+    :version: col-4
+    :color: "#ABBBCA"
+    :alt: " (by Marilyn Torres)"
+  - :file: helsinki--all-s158-r3.jpg
+    :version: col-5
+    :color: "#95A7BD"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: helsinki--all-s099-r3.jpg
+    :version: col-6
+    :color: "#6A7F9D"
+  - :file: helsinki--all-s097-r3.jpg
+    :version: col-6
+    :color: "#C7C3C2"
+- :files:
+  - :file: helsinki--all-s122-r3.jpg
+    :version: col-12
+    :color: "#928B7F"
+    :alt: " (by Marilyn Torres)"

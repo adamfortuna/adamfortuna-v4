@@ -1,0 +1,49 @@
+---
+- :file: helsinki--helsinki_streets-s060-r5.jpg
+  :version: full
+  :color: "#858D96"
+  :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: helsinki--helsinki_streets-s134-r4.jpg
+    :version: col-12
+    :color: "#7A92A8"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: helsinki--helsinki_streets-s136-r4.jpg
+    :version: col-12
+    :color: "#8E9DA4"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: helsinki--helsinki_streets-s049-r3.jpg
+    :version: col-6
+    :color: "#8F8E8D"
+    :alt: " (by Marilyn Torres)"
+  - :file: helsinki--helsinki_streets-s048-r3.jpg
+    :version: col-6
+    :color: "#958D84"
+- :files:
+  - :file: helsinki--helsinki_streets-s135-r3.jpg
+    :version: col-5
+    :color: "#7995AB"
+    :alt: " (by Marilyn Torres)"
+  - :file: helsinki--helsinki_streets-s138-r3.jpg
+    :version: col-3
+    :color: "#768391"
+    :alt: " (by Marilyn Torres)"
+  - :file: helsinki--helsinki_streets-s137-r3.jpg
+    :version: col-4
+    :color: "#828B96"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: helsinki--helsinki_streets-s050-r3.jpg
+    :version: col-6
+    :color: "#8F8C89"
+    :alt: " (by Marilyn Torres)"
+  - :file: helsinki--helsinki_streets-s065-r3.jpg
+    :version: col-6
+    :color: "#41799B"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: helsinki--helsinki_streets-s118-r3.jpg
+    :version: col-12
+    :color: "#667F9B"

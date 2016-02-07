@@ -1,0 +1,30 @@
+---
+- :files:
+  - :file: travel--planes-s002-r4.jpg
+    :version: col-12
+    :color: "#9E9B94"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: travel--planes-s001-r3.jpg
+    :version: col-6
+    :color: "#888279"
+    :alt: " (by Marilyn Torres)"
+    :options:
+      :gravity: north
+  - :file: travel--planes-s003-r3.jpg
+    :version: col-6
+    :color: "#6E6A62"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: travel--planes-s004-r2.jpg
+    :version: col-6
+    :color: "#716962"
+  - :file: travel--planes-s005-r2.jpg
+    :version: col-6
+    :color: "#65605C"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: travel--planes-s006-r3.jpg
+    :version: col-12
+    :color: "#6C656A"
+    :alt: " (by Marilyn Torres)"

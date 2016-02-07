@@ -1,0 +1,13 @@
+---
+- :files:
+  - :file: helsinki--design_district-s114-r2.jpg
+    :version: col-3
+    :color: "#696969"
+  - :file: helsinki--design_district-s133-r3.jpg
+    :version: col-3
+    :color: "#B3A18C"
+    :alt: " (by Marilyn Torres)"
+  - :file: helsinki--design_district-s132-r3.jpg
+    :version: col-6
+    :color: "#AA9D7E"
+    :alt: " (by Marilyn Torres)"

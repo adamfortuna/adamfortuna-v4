@@ -1,0 +1,15 @@
+---
+- :files:
+  - :file: travel--views-s009-r4.jpg
+    :version: col-12
+    :color: "#A1A8A7"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: travel--views-s010-r3.jpg
+    :version: col-6
+    :color: "#B2B99E"
+    :alt: " (by Marilyn Torres)"
+  - :file: travel--views-s008-r3.jpg
+    :version: col-6
+    :color: "#BBB0A0"
+    :alt: " (by Marilyn Torres)"

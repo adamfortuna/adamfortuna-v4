@@ -1,0 +1,11 @@
+---
+- :file: helsinki--plootu_coffee-s117-r5.jpg
+  :version: full
+  :color: "#7A6D8A"
+- :files:
+  - :file: helsinki--plootu_coffee-s115-r3.jpg
+    :version: col-6
+    :color: "#655651"
+  - :file: helsinki--plootu_coffee-s116-r3.jpg
+    :version: col-6
+    :color: "#8A7667"

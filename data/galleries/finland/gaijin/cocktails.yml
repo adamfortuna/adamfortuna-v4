@@ -1,0 +1,14 @@
+---
+- :files:
+  - :file: helsinki--cocktails-s067-r4.jpg
+    :version: col-12
+    :color: "#916B3B"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: helsinki--cocktails-s063-r3.jpg
+    :version: col-6
+    :color: "#B97D4E"
+    :alt: " (by Marilyn Torres)"
+  - :file: helsinki--cocktails-s053-r3.jpg
+    :version: col-6
+    :color: "#B08669"

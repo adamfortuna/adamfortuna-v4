@@ -1,0 +1,30 @@
+---
+- :file: helsinki--helsinki_cathedral-s032-r5.jpg
+  :version: full
+  :color: "#9DB7DB"
+- :files:
+  - :file: helsinki--helsinki_cathedral-s033-r3.jpg
+    :version: col-6
+    :color: "#C8C4CD"
+  - :file: helsinki--helsinki_cathedral-s038-r3.jpg
+    :version: col-6
+    :color: "#A5A9AF"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: helsinki--helsinki_cathedral-s039-r2.jpg
+    :version: col-6
+    :color: "#A3B4BE"
+    :alt: " (by Marilyn Torres)"
+  - :file: helsinki--helsinki_cathedral-s040-r2.jpg
+    :version: col-6
+    :color: "#909DAF"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: helsinki--helsinki_cathedral-s152-r3.jpg
+    :version: col-6
+    :color: "#7698B6"
+    :alt: " (by Marilyn Torres)"
+  - :file: helsinki--helsinki_cathedral-s057-r3.jpg
+    :version: col-6
+    :color: "#8AB0DC"
+    :alt: " (by Marilyn Torres)"

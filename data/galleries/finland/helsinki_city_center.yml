@@ -1,0 +1,40 @@
+---
+- :file: helsinki--helsinki_city_center-s028-r5.jpg
+  :version: full
+  :color: "#A693AB"
+- :files:
+  - :file: helsinki--helsinki_city_center-s029-r4.jpg
+    :version: col-12
+    :color: "#9FA0AC"
+- :files:
+  - :file: helsinki--helsinki_city_center-s034-r4.jpg
+    :version: col-12
+    :color: "#B5BDCA"
+- :files:
+  - :file: helsinki--helsinki_city_center-s056-r4.jpg
+    :version: col-12
+    :color: "#AAB4C4"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: helsinki--helsinki_city_center-s031-r3.jpg
+    :version: col-3
+    :color: "#C4CEE0"
+  - :file: helsinki--helsinki_city_center-s030-r3.jpg
+    :version: col-6
+    :color: "#B4B5BE"
+  - :file: helsinki--helsinki_city_center-s026-r2.jpg
+    :version: col-3
+    :color: "#AFB9C7"
+- :files:
+  - :file: helsinki--helsinki_city_center-s024-r2.jpg
+    :version: col-2
+    :color: "#ADB5C4"
+  - :file: helsinki--helsinki_city_center-s023-r3.jpg
+    :version: col-4
+    :color: "#94939F"
+  - :file: helsinki--helsinki_city_center-s027-r3.jpg
+    :version: col-3
+    :color: "#A4B2C9"
+  - :file: helsinki--helsinki_city_center-s025-r2.jpg
+    :version: col-3
+    :color: "#BFC3CA"

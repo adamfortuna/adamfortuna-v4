@@ -1,0 +1,36 @@
+---
+- :files:
+  - :file: helsinki--stores-s047-r4.jpg
+    :version: col-12
+    :color: "#996E61"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: helsinki--stores-s043-r2.jpg
+    :version: col-2
+    :color: "#9C6360"
+    :alt: " (by Marilyn Torres)"
+  - :file: helsinki--stores-s046-r2.jpg
+    :version: col-4
+    :color: "#6E5748"
+  - :file: helsinki--stores-s045-r3.jpg
+    :version: col-6
+    :color: "#906C5C"
+- :files:
+  - :file: helsinki--stores-s041-r3.jpg
+    :version: col-5
+    :color: "#867665"
+  - :file: helsinki--stores-s042-r2.jpg
+    :version: col-4
+    :color: "#907F77"
+  - :file: helsinki--stores-s044-r3.jpg
+    :version: col-3
+    :color: "#695766"
+- :files:
+  - :file: helsinki--stores-s020-r2.jpg
+    :version: col-6
+    :color: "#867A6E"
+  - :file: helsinki--stores-s037-r3.jpg
+    :version: col-6
+    :color: "#92786B"
+    :options:
+      :gravity: north

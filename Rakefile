@@ -74,7 +74,7 @@ namespace :gallery do
       galleries = args[:galleries].split(',')
     else
       galleries = []
-      Dir['data/galleries/**/*.yml'].each do |full_path|
+      Dir['data/galleries/finland/travel/**/*.yml'].each do |full_path|
         path = full_path.gsub(/(.*)(data\/galleries\/.*)/, '\2').gsub('data/galleries/', '').gsub('.yml', '')
         galleries << path
       end

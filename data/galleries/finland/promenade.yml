@@ -1,0 +1,25 @@
+---
+- :file: helsinki--promenade-s112-r5.jpg
+  :version: full
+  :color: "#8F8E96"
+- :files:
+  - :file: helsinki--promenade-s113-r4.jpg
+    :version: col-12
+    :color: "#908694"
+- :files:
+  - :file: helsinki--promenade-s162-r4.jpg
+    :version: col-12
+    :color: "#92A0B5"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: helsinki--promenade-s164-r3.jpg
+    :version: col-3
+    :color: "#838C90"
+    :alt: " (by Marilyn Torres)"
+  - :file: helsinki--promenade-s111-r3.jpg
+    :version: col-4
+    :color: "#A0A4AD"
+  - :file: helsinki--promenade-s131-r3.jpg
+    :version: col-5
+    :color: "#787F8F"
+    :alt: " (by Marilyn Torres)"
