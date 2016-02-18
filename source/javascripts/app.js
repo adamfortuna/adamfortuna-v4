@@ -12,14 +12,14 @@ $(function() {
   }
 });
 
-window.speaking = false;
-
+window.firstrun = true;
 function troll() {
-  console.log(window.speaking);
-  if(!window.speaking) {
-    window.speaking = true;
+  if(speechSynthesis.onvoiceschanged && speechSynthesis.onvoiceschanged.name === 'sayAdam') {
+    speechSynthesis.cancel()
+    speechSynthesis.onvoiceschanged = null;
+  } else {
     // paste in your console
-    speechSynthesis.onvoiceschanged = function() {
+    speechSynthesis.onvoiceschanged = function sayAdam() {
       var msg = new SpeechSynthesisUtterance();
       msg.voice = this.getVoices().filter(function(v) { return v.name == 'Cellos'; })[0];
       var content = document.getElementsByTagName('body')[0].textContent.replace(/^\n/mg, '').split(/\s\s/);
@@ -38,8 +38,8 @@ function troll() {
       msg.text = content;
       this.speak(msg);
     };
-  } else {
-    window.speaking = false;
-    speechSynthesis.pause();
+
+    if(!window.firstrun) { speechSynthesis.onvoiceschanged(); }
+    window.firstrun = false;
   }
 }
