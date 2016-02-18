@@ -14,12 +14,12 @@ $(function() {
 
 window.firstrun = true;
 function troll() {
-  if(speechSynthesis.onvoiceschanged && speechSynthesis.onvoiceschanged.name === 'sayAdam') {
+  if(speechSynthesis.speaking) {
     speechSynthesis.cancel()
     speechSynthesis.onvoiceschanged = null;
   } else {
     // paste in your console
-    speechSynthesis.onvoiceschanged = function sayAdam() {
+    speechSynthesis.onvoiceschanged = function() {
       var msg = new SpeechSynthesisUtterance();
       msg.voice = this.getVoices().filter(function(v) { return v.name == 'Cellos'; })[0];
       var content = document.getElementsByTagName('body')[0].textContent.replace(/^\n/mg, '').split(/\s\s/);
