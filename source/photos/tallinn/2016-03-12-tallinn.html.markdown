@@ -1,6 +1,6 @@
 ---
 title: Day Trip to Tallinn
-date: 2016-03-06
+date: 2016-03-12
 collection: tallinn
 permalink: estonia
 tags: Travel
@@ -8,7 +8,7 @@ poster: /images/galleries/tallinn/140_views_from_the_top/processed/tallinn--140_
 header: /images/galleries/tallinn/140_views_from_the_top/processed/tallinn--140_views_from_the_top-s030-r5-full.jpg
 description: A medieval city in the snow
 stats:
-  photos: 136
+  photos: 132
 ---
 
 As part of our trip to [Helsinki, Finland](/photos/finland/helsinki) and Europe in January 2016, we had the opportunity to take a day trip from there to Tallinn, Estonia. If you've never heard of [Tallinn](https://en.wikipedia.org/wiki/Tallinn), I don't blame you -- I hadn't either. What I soon learned was just how close Tallinn is to Helsinki! It's right across the Gulf of Finland, and a mere 2 hour day cruise there.
