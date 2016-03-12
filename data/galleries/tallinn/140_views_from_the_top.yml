@@ -1,0 +1,69 @@
+---
+- :file: tallinn--140_views_from_the_top-s030-r5.jpg
+  :version: full
+  :color: "#B1A8AC"
+  :alt: " (by Adam Fortuna)"
+- :file: tallinn--140_views_from_the_top-s031-r5.jpg
+  :version: full
+  :color: "#BCB5AF"
+  :alt: " (by Adam Fortuna)"
+- :file: tallinn--140_views_from_the_top-s037-r5.jpg
+  :version: full
+  :color: "#B4B4BB"
+  :alt: " (by Adam Fortuna)"
+- :file: tallinn--140_views_from_the_top-s038-r5.jpg
+  :version: full
+  :color: "#B2B4C0"
+  :alt: " (by Adam Fortuna)"
+- :files:
+  - :file: tallinn--140_views_from_the_top-s032-r4.jpg
+    :version: col-12
+    :color: "#B1A8AC"
+    :alt: " (by Adam Fortuna)"
+- :files:
+  - :file: tallinn--140_views_from_the_top-s033-r4.jpg
+    :version: col-12
+    :color: "#C0B5BA"
+    :alt: " (by Adam Fortuna)"
+- :files:
+  - :file: tallinn--140_views_from_the_top-s040-r4.jpg
+    :version: col-12
+    :color: "#BFB4B7"
+    :alt: " (by Adam Fortuna)"
+- :files:
+  - :file: tallinn--140_views_from_the_top-s110-r4.jpg
+    :version: col-12
+    :color: "#A09B97"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: tallinn--140_views_from_the_top-s111-r4.jpg
+    :version: col-12
+    :color: "#A6A09B"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: tallinn--140_views_from_the_top-s112-r4.jpg
+    :version: col-12
+    :color: "#C0B0A2"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: tallinn--140_views_from_the_top-s109-r2.jpg
+    :version: col-3
+    :color: "#CCC7BC"
+    :alt: " (by Marilyn Torres)"
+  - :file: tallinn--140_views_from_the_top-s113-r3.jpg
+    :version: col-3
+    :color: "#E8E5E3"
+    :alt: " (by Marilyn Torres)"
+  - :file: tallinn--140_views_from_the_top-s108-r3.jpg
+    :version: col-6
+    :color: "#D3CCC4"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: tallinn--140_views_from_the_top-s041-r3.jpg
+    :version: col-6
+    :color: "#C8BFC4"
+    :alt: " (by Adam Fortuna)"
+  - :file: tallinn--140_views_from_the_top-s039-r3.jpg
+    :version: col-6
+    :color: "#CEC5CA"
+    :alt: " (by Adam Fortuna)"

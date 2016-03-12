@@ -1,0 +1,42 @@
+---
+- :files:
+  - :file: tallinn--185_views_from_the_wall-s084-r4.mp4
+    :version: col-12
+    :video: true
+- :files:
+  - :file: tallinn--185_views_from_the_wall-s130-r4.jpg
+    :version: col-12
+    :color: "#B5ADA5"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: tallinn--185_views_from_the_wall-s132-r4.jpg
+    :version: col-12
+    :color: "#AC9D92"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: tallinn--185_views_from_the_wall-s134-r4.jpg
+    :version: col-12
+    :color: "#B1ABA2"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: tallinn--185_views_from_the_wall-s128-r3.jpg
+    :version: col-6
+    :color: "#9E938A"
+    :alt: " (by Marilyn Torres)"
+  - :file: tallinn--185_views_from_the_wall-s092-r3.jpg
+    :version: col-6
+    :color: "#9F9789"
+    :alt: " (by Adam Fortuna)"
+- :files:
+  - :file: tallinn--185_views_from_the_wall-s129-r3.jpg
+    :version: col-5
+    :color: "#A79588"
+    :alt: " (by Marilyn Torres)"
+  - :file: tallinn--185_views_from_the_wall-s131-r2.jpg
+    :version: col-4
+    :color: "#B0A399"
+    :alt: " (by Marilyn Torres)"
+  - :file: tallinn--185_views_from_the_wall-s133-r3.jpg
+    :version: col-3
+    :color: "#A99F95"
+    :alt: " (by Marilyn Torres)"

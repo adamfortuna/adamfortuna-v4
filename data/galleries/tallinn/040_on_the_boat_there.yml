@@ -1,0 +1,44 @@
+---
+- :file: tallinn--040_on_the_boat_there-s001-r5.jpg
+  :version: full
+  :color: "#B8BBB5"
+  :alt: " (by Adam Fortuna)"
+- :files:
+  - :file: tallinn--040_on_the_boat_there-s060-r4.jpg
+    :version: col-12
+    :color: "#81756F"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: tallinn--040_on_the_boat_there-s056-r2.jpg
+    :version: col-6
+    :color: "#908688"
+    :alt: " (by Adam Fortuna)"
+    :options:
+      :height: 332
+  - :file: tallinn--040_on_the_boat_there-s002-r3.mp4
+    :version: col-6
+    :video: true
+- :files:
+  - :file: tallinn--040_on_the_boat_there-s058-r2.jpg
+    :version: col-3
+    :color: "#7E7F87"
+    :alt: " (by Adam Fortuna)"
+  - :file: tallinn--040_on_the_boat_there-s061-r3.jpg
+    :version: col-4
+    :color: "#786E72"
+    :alt: " (by Marilyn Torres)"
+    :options:
+      :gravity: west
+  - :file: tallinn--040_on_the_boat_there-s062-r3.jpg
+    :version: col-5
+    :color: "#5A4A63"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: tallinn--040_on_the_boat_there-s057-r3.jpg
+    :version: col-6
+    :color: "#8F746F"
+    :alt: " (by Adam Fortuna)"
+  - :file: tallinn--040_on_the_boat_there-s059-r3.jpg
+    :version: col-6
+    :color: "#B3A697"
+    :alt: " (by Marilyn Torres)"

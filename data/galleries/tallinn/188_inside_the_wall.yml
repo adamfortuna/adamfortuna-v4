@@ -1,0 +1,19 @@
+---
+- :files:
+  - :file: tallinn--188_inside_the_wall-s085-r4.mp4
+    :version: col-12
+    :video: true
+- :files:
+  - :file: tallinn--188_inside_the_wall-s094-r4.jpg
+    :version: col-12
+    :color: "#CFCBC4"
+    :alt: " (by Adam Fortuna)"
+- :files:
+  - :file: tallinn--188_inside_the_wall-s135-r3.jpg
+    :version: col-6
+    :color: "#838794"
+    :alt: " (by Marilyn Torres)"
+  - :file: tallinn--188_inside_the_wall-s093-r3.jpg
+    :version: col-6
+    :color: "#8B8680"
+    :alt: " (by Adam Fortuna)"

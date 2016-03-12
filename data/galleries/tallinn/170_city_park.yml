@@ -1,0 +1,56 @@
+---
+- :files:
+  - :file: tallinn--170_city_park-s051-r4.jpg
+    :version: col-12
+    :color: "#A39694"
+    :alt: " (by Adam Fortuna)"
+- :files:
+  - :file: tallinn--170_city_park-s068-r4.mp4
+    :version: col-12
+    :video: true
+- :files:
+  - :file: tallinn--170_city_park-s073-r4.mp4
+    :version: col-12
+    :video: true
+- :files:
+  - :file: tallinn--170_city_park-s119-r4.jpg
+    :version: col-12
+    :color: "#B4ACA7"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: tallinn--170_city_park-s118-r3.jpg
+    :version: col-3
+    :color: "#C0B9AF"
+    :alt: " (by Marilyn Torres)"
+  - :file: tallinn--170_city_park-s117-r3.jpg
+    :version: col-6
+    :color: "#B3ABA1"
+    :alt: " (by Marilyn Torres)"
+  - :file: tallinn--170_city_park-s120-r2.jpg
+    :version: col-3
+    :color: "#ADA59B"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: tallinn--170_city_park-s052-r3.jpg
+    :version: col-6
+    :color: "#AAA39E"
+    :alt: " (by Adam Fortuna)"
+    :options:
+      :height: 332
+  - :file: tallinn--170_city_park-s071-r2.mp4
+    :version: col-6
+    :video: true
+- :files:
+  - :file: tallinn--170_city_park-s048-r3.jpg
+    :version: col-6
+    :color: "#E2DCDE"
+    :alt: " (by Adam Fortuna)"
+  - :file: tallinn--170_city_park-s049-r2.jpg
+    :version: col-6
+    :color: "#B5ABAB"
+    :alt: " (by Adam Fortuna)"
+- :files:
+  - :file: tallinn--170_city_park-s050-r3.jpg
+    :version: col-12
+    :color: "#D1B9BB"
+    :alt: " (by Adam Fortuna)"

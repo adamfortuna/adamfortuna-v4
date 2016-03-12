@@ -1,0 +1,50 @@
+---
+- :file: tallinn--100_drakon_pub-s013-r5.jpg
+  :version: full
+  :color: "#D0C6C4"
+  :alt: " (by Adam Fortuna)"
+- :files:
+  - :file: tallinn--100_drakon_pub-s016-r4.jpg
+    :version: col-12
+    :color: "#A89892"
+    :alt: " (by Adam Fortuna)"
+- :files:
+  - :file: tallinn--100_drakon_pub-s078-r4.jpg
+    :version: col-12
+    :color: "#3A3C2E"
+    :alt: " (by Adam Fortuna)"
+- :files:
+  - :file: tallinn--100_drakon_pub-s079-r3.jpg
+    :version: col-5
+    :color: "#8F8984"
+    :alt: " (by Adam Fortuna)"
+  - :file: tallinn--100_drakon_pub-s080-r3.jpg
+    :version: col-3
+    :color: "#444442"
+    :alt: " (by Adam Fortuna)"
+  - :file: tallinn--100_drakon_pub-s081-r2.jpg
+    :version: col-4
+    :color: "#7F735E"
+    :alt: " (by Adam Fortuna)"
+- :files:
+  - :file: tallinn--100_drakon_pub-s076-r3.jpg
+    :version: col-4
+    :color: "#757468"
+    :alt: " (by Adam Fortuna)"
+  - :file: tallinn--100_drakon_pub-s015-r2.jpg
+    :version: col-5
+    :color: "#7E676B"
+    :alt: " (by Adam Fortuna)"
+  - :file: tallinn--100_drakon_pub-s077-r2.jpg
+    :version: col-3
+    :color: "#6F7570"
+    :alt: " (by Adam Fortuna)"
+- :files:
+  - :file: tallinn--100_drakon_pub-s075-r3.jpg
+    :version: col-6
+    :color: "#A05B46"
+    :alt: " (by Marilyn Torres)"
+  - :file: tallinn--100_drakon_pub-s074-r3.jpg
+    :version: col-6
+    :color: "#5E5C55"
+    :alt: " (by Adam Fortuna)"

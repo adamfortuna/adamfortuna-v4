@@ -1,0 +1,14 @@
+---
+- :file: tallinn--160_russian_church-s115-r5.jpg
+  :version: full
+  :color: "#BFB7AE"
+  :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: tallinn--160_russian_church-s047-r3.jpg
+    :version: col-6
+    :color: "#BDB0B0"
+    :alt: " (by Adam Fortuna)"
+  - :file: tallinn--160_russian_church-s114-r3.jpg
+    :version: col-6
+    :color: "#C6BBAD"
+    :alt: " (by Marilyn Torres)"

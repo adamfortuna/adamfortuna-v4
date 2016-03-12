@@ -1,0 +1,19 @@
+---
+- :file: tallinn--195_waterfront-s099-r5.jpg
+  :version: full
+  :color: "#CCC9C4"
+  :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: tallinn--195_waterfront-s098-r4.jpg
+    :version: col-12
+    :color: "#BCB7B2"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: tallinn--195_waterfront-s097-r3.jpg
+    :version: col-6
+    :color: "#ECE9E3"
+    :alt: " (by Marilyn Torres)"
+  - :file: tallinn--195_waterfront-s007-r3.jpg
+    :version: col-6
+    :color: "#9EA5C5"
+    :alt: " (by Adam Fortuna)"
