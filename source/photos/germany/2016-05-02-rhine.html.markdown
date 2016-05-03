@@ -1,0 +1,41 @@
+---
+title: Rhine
+date: 2016-05-02
+collection: germany
+permalink: rhine
+tags: Travel
+poster: /images/galleries/rhine/010_train_ride/rhine--010_train_ride-s001-r4.jpg
+header: /images/galleries/rhine/010_train_ride/rhine--010_train_ride-s001-r4.jpg
+description: Tour down the Rhine River to Mainz
+series: true
+stats:
+  photos: 25
+parent: travel
+---
+
+Here's a post with some images.
+
+
+## 010 train ride
+
+@gallery germany/rhine/010_train_ride
+
+
+## 020 mainz cathedral
+
+@gallery germany/rhine/020_mainz_cathedral
+
+
+## 030 mainz streets
+
+@gallery germany/rhine/030_mainz_streets
+
+
+## 040 gutenberg museum
+
+@gallery germany/rhine/040_gutenberg_museum
+
+
+## 050 billys burger
+
+@gallery germany/rhine/050_billys_burger

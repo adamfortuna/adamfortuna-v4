@@ -1,0 +1,87 @@
+---
+title: Cologne
+date: 2016-05-02
+collection: germany
+permalink: cologne
+tags: Travel
+poster: /images/galleries/cologne/030_streets/dusseldorf--030_streets-s001-r4.jpg
+header: /images/galleries/cologne/030_streets/dusseldorf--030_streets-s001-r4.jpg
+description: Cathedral, Old Town and River
+series: true
+stats:
+  photos: 25
+parent: travel
+---
+
+
+Here's a post with some images.
+
+
+## 030 streets
+
+@gallery germany/cologne/030_streets
+
+
+## 210 cathedral outside
+
+@gallery germany/cologne/210_cathedral_outside
+
+
+## 020 first day lunch
+
+@gallery germany/cologne/020_first_day_lunch
+
+
+## 050 protest
+
+@gallery germany/cologne/050_protest
+
+
+## 070 river
+
+@gallery germany/cologne/070_river
+
+
+## 220 cathedral inside
+
+@gallery germany/cologne/220_cathedral_inside
+
+
+## 230 cathedral climb
+
+@gallery germany/cologne/230_cathedral_climb
+
+
+## 100 currywurst
+
+@gallery germany/cologne/100_currywurst
+
+
+## 110 superdry
+
+@gallery germany/cologne/110_superdry
+
+
+## 120 merzenich
+
+@gallery germany/cologne/120_merzenich
+
+
+## 130 farina
+
+@gallery germany/cologne/130_farina
+
+
+## 150 fruh brewery
+
+@gallery germany/cologne/150_fruh_brewery
+
+
+## Cologne
+
+@gallery germany/cologne/Cologne
+
+
+## 010 hotel
+
+@gallery germany/cologne/010_hotel

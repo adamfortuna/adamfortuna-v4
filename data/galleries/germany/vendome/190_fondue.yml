@@ -1,0 +1,12 @@
+---
+- :files:
+  - :file: vendome--190_fondue-s020-r4.jpg
+    :version: col-12
+    :color: "#BC8B71"
+- :files:
+  - :file: vendome--190_fondue-s022-r3.jpg
+    :version: col-6
+    :color: "#A28172"
+  - :file: vendome--190_fondue-s021-r3.jpg
+    :version: col-6
+    :color: "#AC9078"

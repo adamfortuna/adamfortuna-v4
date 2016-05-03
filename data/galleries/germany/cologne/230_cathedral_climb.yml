@@ -1,0 +1,52 @@
+---
+- :file: dusseldorf--230_cathedral_climb-s045-r5.jpg
+  :version: full
+  :color: "#503C26"
+- :file: dusseldorf--230_cathedral_climb-s049-r5.jpg
+  :version: full
+  :color: "#645C59"
+- :files:
+  - :file: dusseldorf--230_cathedral_climb-s046-r4.jpg
+    :version: col-12
+    :color: "#515D69"
+- :files:
+  - :file: dusseldorf--230_cathedral_climb-s048-r4.jpg
+    :version: col-12
+    :color: "#84909B"
+- :files:
+  - :file: dusseldorf--230_cathedral_climb-s050-r4.jpg
+    :version: col-12
+    :color: "#848E9F"
+- :files:
+  - :file: dusseldorf--230_cathedral_climb-s052-r4.jpg
+    :version: col-12
+    :color: "#8D8888"
+- :files:
+  - :file: dusseldorf--230_cathedral_climb-s058-r4.jpg
+    :version: col-12
+    :color: "#8F898A"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: dusseldorf--230_cathedral_climb-s051-r3.jpg
+    :version: col-6
+    :color: "#8C949F"
+  - :file: dusseldorf--230_cathedral_climb-s047-r2.jpg
+    :version: col-6
+    :color: "#7F8F9C"
+- :files:
+  - :file: dusseldorf--230_cathedral_climb-s056-r3.jpg
+    :version: col-5
+    :color: "#564E40"
+  - :file: dusseldorf--230_cathedral_climb-s055-r2.jpg
+    :version: col-4
+    :color: "#7F808D"
+  - :file: dusseldorf--230_cathedral_climb-s057-r3.jpg
+    :version: col-3
+    :color: "#746E65"
+- :files:
+  - :file: dusseldorf--230_cathedral_climb-s054-r3.jpg
+    :version: col-6
+    :color: "#8A8B8C"
+  - :file: dusseldorf--230_cathedral_climb-s053-r3.jpg
+    :version: col-6
+    :color: "#514D4C"

@@ -1,0 +1,15 @@
+---
+- :files:
+  - :file: rhine--040_gutenberg_museum-s019-r4.jpg
+    :version: col-12
+    :color: "#786B67"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: rhine--040_gutenberg_museum-s020-r4.jpg
+    :version: col-6
+    :color: "#A89E95"
+    :alt: " (by Marilyn Torres)"
+  - :file: rhine--040_gutenberg_museum-s023-r3.jpg
+    :version: col-6
+    :color: "#977D79"
+    :alt: " (by Marilyn Torres)"

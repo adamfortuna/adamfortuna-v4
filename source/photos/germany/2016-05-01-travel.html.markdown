@@ -1,0 +1,24 @@
+---
+title: Germany
+date: 2016-05-01
+collection: germany
+permalink: travel
+tags: Travel
+poster: /images/galleries/germany/dusseldorf/010_streets/dusseldorf--010_streets-s001-r5.jpg
+header: /images/galleries/germany/dusseldorf/010_streets/dusseldorf--010_streets-s001-r5.jpg
+description: 4 Nights in Germany
+series: true
+stats:
+  photos: 25
+children:
+  - dusseldorf
+  - cologne
+  - rhine
+  - vendome
+---
+
+- cologne
+- rhine_valley
+- vendome
+
+Here's a post with some images.

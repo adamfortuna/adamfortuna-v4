@@ -1,0 +1,31 @@
+---
+- :files:
+  - :file: dusseldorf--030_waterfront-s014-r4.jpg
+    :version: col-12
+    :color: "#828A8D"
+- :files:
+  - :file: dusseldorf--030_waterfront-s011-r2.jpg
+    :version: col-4
+    :color: "#ACA7A0"
+  - :file: dusseldorf--030_waterfront-s013-r3.jpg
+    :version: col-3
+    :color: "#797162"
+  - :file: dusseldorf--030_waterfront-s012-r3.jpg
+    :version: col-5
+    :color: "#9B9792"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: dusseldorf--030_waterfront-s007-r3.jpg
+    :version: col-6
+    :color: "#B7B5AB"
+    :alt: " (by Marilyn Torres)"
+  - :file: dusseldorf--030_waterfront-s008-r2.jpg
+    :version: col-6
+    :color: "#BFB6B2"
+- :files:
+  - :file: dusseldorf--030_waterfront-s010-r2.jpg
+    :version: col-6
+    :color: "#AEB2B3"
+  - :file: dusseldorf--030_waterfront-s009-r2.jpg
+    :version: col-6
+    :color: "#B4B4B4"

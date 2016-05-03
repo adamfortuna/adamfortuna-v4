@@ -1,0 +1,38 @@
+---
+- :files:
+  - :file: dusseldorf--150_fruh_brewery-s070-r4.jpg
+    :version: col-12
+    :color: "#9F6C53"
+- :files:
+  - :file: dusseldorf--150_fruh_brewery-s068-r2.jpg
+    :version: col-4
+    :color: "#AB7F69"
+  - :file: dusseldorf--150_fruh_brewery-s079-r3.jpg
+    :version: col-5
+    :color: "#957C60"
+    :alt: " (by Marilyn Torres)"
+  - :file: dusseldorf--150_fruh_brewery-s071-r2.jpg
+    :version: col-3
+    :color: "#AD8A71"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: dusseldorf--150_fruh_brewery-s069-r3.jpg
+    :version: col-5
+    :color: "#B3816D"
+  - :file: dusseldorf--150_fruh_brewery-s076-r3.jpg
+    :version: col-4
+    :color: "#896F4C"
+    :alt: " (by Marilyn Torres)"
+  - :file: dusseldorf--150_fruh_brewery-s067-r3.jpg
+    :version: col-3
+    :color: "#927057"
+    :alt: " (by Marilyn Torres)"
+- :files:
+  - :file: dusseldorf--150_fruh_brewery-s065-r3.jpg
+    :version: col-6
+    :color: "#927E75"
+    :alt: " (by Marilyn Torres)"
+  - :file: dusseldorf--150_fruh_brewery-s066-r3.jpg
+    :version: col-6
+    :color: "#A56C5C"
+    :alt: " (by Marilyn Torres)"

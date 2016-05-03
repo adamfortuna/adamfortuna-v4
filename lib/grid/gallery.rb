@@ -91,6 +91,18 @@ module Grid
         @last_full_width = item.columns
         row = [item]
 
+      elsif rank_remaining?(4)
+        puts "generate_row: high ranking 4 item"
+        # Find the item and make it big
+
+        high_rank_index = @remaining_items.collect(&:rating).index(4)
+        item = @remaining_items.slice!(high_rank_index)
+
+        item.columns = 12
+        item.full = false
+
+        row = [item]
+
       # If only 2 items, show them on the same row
       elsif @remaining_items.length == 2
         puts "generate_row: 2 items left"
@@ -105,18 +117,6 @@ module Grid
         item = @remaining_items.slice!(high_rank_index)
         item.columns = 12
         item.full = true
-        row = [item]
-
-      elsif @remaining_items.length > 2 && rank_remaining?(4)
-        puts "generate_row: high ranking 4 item"
-        # Find the item and make it big
-
-        high_rank_index = @remaining_items.collect(&:rating).index(4)
-        item = @remaining_items.slice!(high_rank_index)
-
-        item.columns = 12
-        item.full = false
-
         row = [item]
 
       # Otherwise there's more than 3 items, but none are high ranked

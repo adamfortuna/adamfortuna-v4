@@ -1,0 +1,18 @@
+---
+- :files:
+  - :file: rhine--020_mainz_cathedral-s016-r4.jpg
+    :version: col-12
+    :color: "#979198"
+- :files:
+  - :file: rhine--020_mainz_cathedral-s017-r4.jpg
+    :version: col-12
+    :color: "#807D78"
+- :files:
+  - :file: rhine--020_mainz_cathedral-s022-r3.jpg
+    :version: col-6
+    :color: "#9C9598"
+    :alt: " (by Marilyn Torres)"
+  - :file: rhine--020_mainz_cathedral-s021-r4.jpg
+    :version: col-6
+    :color: "#A79280"
+    :alt: " (by Marilyn Torres)"

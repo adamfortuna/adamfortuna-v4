@@ -1,0 +1,97 @@
+---
+title: Vendome
+date: 2016-05-03
+collection: germany
+permalink: vendome
+tags: Travel
+poster: /images/galleries/vendome/010_halls/vendome--010_halls-s001-r4.jpg
+header: /images/galleries/vendome/010_halls/vendome--010_halls-s001-r4.jpg
+description: 3 Michelin Star Dinner and Wine
+series: true
+stats:
+  photos: 33
+parent: travel
+---
+
+
+Here's a post with some images.
+
+
+## 010 halls
+
+@gallery germany/vendome/010_halls
+
+
+## 100 toffee
+
+@gallery germany/vendome/100_toffee
+
+
+## 020 menu
+
+@gallery germany/vendome/020_menu
+
+
+## 110 bread
+
+@gallery germany/vendome/110_bread
+
+
+## 120 white liason
+
+@gallery germany/vendome/120_white_liason
+
+
+## 130 tuna
+
+@gallery germany/vendome/130_tuna
+
+
+## 140 lechtal char
+
+@gallery germany/vendome/140_lechtal_char
+
+
+## 150 coquilles
+
+@gallery germany/vendome/150_coquilles
+
+
+## 160 langostines
+
+@gallery germany/vendome/160_langostines
+
+
+## 170 saddle of hare
+
+@gallery germany/vendome/170_saddle_of_hare
+
+
+## 180 duck
+
+@gallery germany/vendome/180_duck
+
+
+## 190 fondue
+
+@gallery germany/vendome/190_fondue
+
+
+## 200 pumpkin curry
+
+@gallery germany/vendome/200_pumpkin_curry
+
+
+## 210 sweet fusion
+
+@gallery germany/vendome/210_sweet_fusion
+
+
+## 220 desserts2
+
+@gallery germany/vendome/220_desserts2
+
+
+## 230 done
+
+@gallery germany/vendome/230_done
