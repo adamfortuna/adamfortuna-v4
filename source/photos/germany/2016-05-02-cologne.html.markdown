@@ -8,6 +8,7 @@ poster: /images/galleries/cologne/030_streets/dusseldorf--030_streets-s001-r4.jp
 header: /images/galleries/cologne/030_streets/dusseldorf--030_streets-s001-r4.jpg
 description: Cathedral, Old Town and River
 series: true
+published: false
 stats:
   photos: 25
 parent: travel

@@ -4,7 +4,7 @@ date: 2016-05-01
 tags: Personal
 permalink: growing-up-with-computers
 description: Personal
-description: How using them from an early age helped
+description: How using them from an early age helped me learn
 ---
 
 I was lucky enough to grow up with computers being a part of my life from a very early age. My dad was working at a company with a Mac heavy environment in the early 80s -- the time before Microsoft when Apple was the brightest star in the personal computer market. It's hard to explain how critical this early exposure to computers shaped my confidence and understanding of computers throughout the years.
@@ -41,7 +41,7 @@ Fast forward to sophomore year of high school and I finally bought my own comput
 
 The high school curriculum at CAT was amazing. I can honestly say I learned more programming in high school than I did at UCF -- but that might also be because I switched majors 3 times. Over 3 years, we focused on the following languages:
 
-* Karol on the Robot
+* Karol the Robot
 * Chipmunk Basic
 * Pascal
 * Fortran
@@ -49,6 +49,8 @@ The high school curriculum at CAT was amazing. I can honestly say I learned more
 * HTML
 
 This high school exposure to programming, and multiple system types was an amazing way to get an introduction to core concepts. It's funny how simple exercises stick with you when you make breakthroughs too. Making my first tic-tac-toe program, and creating my first binary search tree are some of the most memorable experiences during high school.
+
+Senior year in robotics class, back in 2000, we even did a crazy project. There were 2 classes during the day, and they were setup to compete with each other. In one class, they were tasked with creating a vehicle that would be gyro stabilized on a ball and move around avoiding a predator form above. In the other class (which I was in) we were tasked with creating a blimp which would need to fly around and try to dump flour on the ball vehicle. Did I mention that both of these needed to be autonomous vehicles without user control? It should be noted neither class got a working vehicle, but we did learn a ton about autonomous vehicles, blimps, movement and programming for a 486 motherboard.
 
 Today, kids who are able to build their first Minecraft or Super Mario Maker levels while in elementary school are getting this same feeling of creation at an amazingly young age. It's an addictive feeling, and with more time to build on it, I'm curious to see what'll happen.
 

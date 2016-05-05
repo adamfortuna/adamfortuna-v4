@@ -8,6 +8,7 @@ poster: /images/galleries/germany/dusseldorf/010_streets/dusseldorf--010_streets
 header: /images/galleries/germany/dusseldorf/010_streets/dusseldorf--010_streets-s001-r5.jpg
 description: A quick tour of Oldtown
 series: true
+published: false
 stats:
   photos: 25
 parent: travel

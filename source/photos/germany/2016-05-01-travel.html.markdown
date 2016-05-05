@@ -8,6 +8,7 @@ poster: /images/galleries/germany/dusseldorf/010_streets/dusseldorf--010_streets
 header: /images/galleries/germany/dusseldorf/010_streets/dusseldorf--010_streets-s001-r5.jpg
 description: 4 Nights in Germany
 series: true
+published: false
 stats:
   photos: 25
 children:
