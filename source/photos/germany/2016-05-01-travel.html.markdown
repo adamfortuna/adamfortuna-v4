@@ -4,8 +4,8 @@ date: 2016-05-01
 collection: germany
 permalink: travel
 tags: Travel
-poster: /images/galleries/germany/dusseldorf/010_streets/dusseldorf--010_streets-s001-r5.jpg
-header: /images/galleries/germany/dusseldorf/010_streets/dusseldorf--010_streets-s001-r5.jpg
+poster: /images/galleries/germany/rhine/010_train_ride/processed/rhine--010_train_ride-s027-r4-col-12.jpg
+header: /images/galleries/germany/cologne/150_fruh_brewery/processed/dusseldorf--150_fruh_brewery-s070-r4-col-12.jpg
 description: 4 Nights in Germany
 series: true
 published: false
@@ -18,8 +18,12 @@ children:
   - vendome
 ---
 
-- cologne
-- rhine_valley
-- vendome
+After a week in [Helsinki, Finland](/photos/finland/helsinki) and [Tallinn, Estonia](/photos/tallinn/estonia) in January of 2016, we jumped on a flight to Germany to spend a few days in Germany. To our delight, we were able to use Starwood points for the Finair flight, and grab a some reasonable hotels in Dusseldorf and Cologne on [Booking.com](http://booking.com).
 
-Here's a post with some images.
+## Why Dusseldorf and Cologne?
+
+This trip was planned around Marilyn's work trip, which meant we would need to end up in Amsterdam eventually. Last year we went to [Rome](/photos/rome/a-week-in-rome) then Amsterdam, but we were really wanting to stay close and take a train into down. Germany stood out as somewhere on my [Goals](/about/goals) list that I'd always wanted to check out.
+
+We considered heading south to Bavaria to tour castles and the foot of the Alps, but December isn't the most picturesque time for that kind of trip. Berlin was close, but being such a huge city, we realized we could see more if we headed to a small city.
+
+It didn't hurt that Dusseldorf is famous as the home of [Altbeir](https://en.wikipedia.org/wiki/Altbier), while Cologne is the hometown of [Kölsch](https://en.wikipedia.org/wiki/K%C3%B6lsch_(beer)).
