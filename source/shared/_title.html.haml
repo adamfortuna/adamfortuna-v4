@@ -7,10 +7,10 @@
   %header.title--image.title{ style: "background-image: url(#{image}); min-height: #{height}px;" }
     .title--wrap{ style: "min-height: #{height}px;" }
       .row
-        .columns.small-12.text-center.title--content{ style: "margin-top:#{height*2/7}px;" }
+        .col-sm-12.text-center.title--content{ style: "margin-top:#{height*2/7}px;" }
           = yield
 - else
   %header.title
     .row
-      .columns{ class: classes_from_offset(offset, medium_offset) }
+      %div{ class: classes_from_offset(offset, medium_offset) }
         = yield

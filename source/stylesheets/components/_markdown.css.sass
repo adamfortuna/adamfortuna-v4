@@ -1,37 +1,37 @@
 .wrap
-  @include grid-row
+  @include make-row
 
 @media only screen and (max-width: $small-breakpoint)
   .wrap--inner
     // Articles take up 7 columns
     .article &
-      @include grid-column($columns: 12, $offset: 0, $last-column: true, $collapse: true)
+      @include make-grid-columns($columns: 12, $gutter: 0)
 
     // Photo posts take up 8
     .photo &
-      @include grid-column($columns: 12, $offset: 0, $last-column: true, $collapse: true)
+      @include make-grid-columns($columns: 12, $gutter: 0)
 
 @media only screen and (min-width: $small-breakpoint) and (max-width: $medium-breakpoint)
   .wrap--inner
     // Articles take up 7 columns
     .article &
-      @include grid-column($columns: 10, $offset: 1, $last-column: true, $collapse: true)
+      @include make-grid-columns($columns: 10, $gutter: 1)
 
     // Photo posts take up 8
     .photo &
-      @include grid-column($columns: 10, $offset: 1, $last-column: true, $collapse: true)
+      @include make-grid-columns($columns: 10, $gutter: 1)
 
 @media only screen and (min-width: $medium-breakpoint)
   .wrap--inner
     // Articles take up 7 columns
     .article &
-      @include grid-column($columns: 7, $offset: 2, $last-column: true, $collapse: true)
+      @include make-grid-columns($columns: 7, $gutter: 2)
 
     // Photo posts take up 8
     .photo &
-      @include grid-column($columns: 8, $offset: 2, $last-column: true, $collapse: true)
+      @include make-grid-columns($columns: 8, $gutter: 2)
 
   .wrap--wide
     // Articles take up 7 columns
     .article &
-      @include grid-column($columns: 10, $offset: 1, $last-column: true, $collapse: true)
+      @include make-grid-columns($columns: 10, $gutter: 1)

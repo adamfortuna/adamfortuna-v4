@@ -60,7 +60,7 @@ module ArticleHelpers
     medium_offset = 0 if medium_offset < 0
     medium_columns = 12 - medium_offset
 
-    "large-#{large_columns} large-offset-#{large_offset} medium-offset-#{medium_offset} medium-#{medium_columns}"
+    "col-lg-#{large_columns} offset-lg-#{large_offset} offset-md-#{medium_offset} col-md-#{medium_columns}"
   end
 
   def article_classes article

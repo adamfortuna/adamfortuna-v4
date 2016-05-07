@@ -20,11 +20,11 @@ article table
 
 .highlight
   font-size: 16px
-  @include grid-row
+  @include make-row
   margin-bottom: 2em
 
   table
-    @include grid-column($columns: 9, $offset: 1, $last-column: true, $collapse: true)
+    @include make-grid-columns($columns: 9, $gutter: 1)
     background: none
     border-collapse: separate
     border: 1px solid #eee

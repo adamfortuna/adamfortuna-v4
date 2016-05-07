@@ -25,6 +25,6 @@
       = yield
 
     .row.comments
-      .medium-10.medium-offset-1.large-7.large-offset-2.columns.comments--divider
+      .col-md-10.col-md-offset-1.col-lg-7.offset-lg-2.comments--divider
         %h2 Comments
         = partial 'shared/comments', locals: { commentable: current_article }

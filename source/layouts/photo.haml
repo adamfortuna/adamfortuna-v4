@@ -26,7 +26,7 @@
     - if current_article.data['series'] && parent.data['series']
       - if parent
         .row
-          .medium-10.medium-offset-1.large-8.large-offset-2.columns.c
+          .col-md-10.offset-md-1.col-lg-8.offset-lg-2.c
             %p.photo-collection--warning
               This post is part of the
               = parent.data['children'].length + 1
@@ -39,7 +39,7 @@
       = partial 'photos/series', locals: { article: current_article, parent: parent }
 
     .row.comments
-      .medium-10.medium-offset-1.large-8.large-offset-2.columns.comments--divider
+      .col-md-10.offset-md-1.col-lg-8.offset-lg-2.comments--divider
         %h2 Comments
         = partial 'shared/comments', locals: { commentable: parent || current_article }
 

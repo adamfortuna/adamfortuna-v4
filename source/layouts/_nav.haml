@@ -1,27 +1,24 @@
-.nav-wrapper
-  %nav.top-bar{'data-topbar' => '', :role => 'navigation'}
-    %ul.title-area
-      %li.name
-        %h1
-          %a.nav--title{href: '/'}= data.config.title
-    - if data.config.social.twitter
-      %ul.left.twitter
-        %li
-          %a.twitter{href: "http://twitter.com/#{data.config.social.twitter}", target: '_blank'}
-            %i.fi-social-twitter
-            %span @adamfortuna
+%nav.navbar.navbar-full
+  %button.navbar-toggler.hidden-md-up.pull-right{ type: 'button', 'data-toggle': 'collapse', 'data-target': '#collapsingNavbar' }
 
-    %section.top-bar-section
-      %ul.right.links.nav--links
-        %li
-          %a.nav--link{href: '/about'}
-            %i.fi-torso.nav--link-icon
-            %span.nav--link-text About
-        %li
-          %a.nav--link{href: '/articles'}
-            %i.fi-pencil.nav--link-icon
-            %span.nav--link-text Articles
-        %li
-          %a.nav--link{href: '/photos'}
-            %i.fi-camera.nav--link-icon
-            %span.nav--link-text Photos
+  .navbar--title
+    %a.navbar-brand{ href: '.' }= data.config.title
+    - if data.config.social.twitter
+      %a.pull-xs-left.navbar--twitter{href: "http://twitter.com/#{data.config.social.twitter}", target: '_blank'}
+        %i.fa.fa-twitter
+        %span @adamfortuna
+
+  .collapse.navbar-toggleable-sm{ id: 'collapsingNavbar' }
+    %ul.nav.nav-pills.navbar-nav.pull-xs-right{ role: 'navigation' }
+      %li.nav-item
+        %a.nav-link{ href: '/about' }
+          %i.fa.fa-user{ 'aria-hidden': 'true' }
+          About
+      %li.nav-item
+        %a.nav-link{ href: '/articles' }
+          %i.fa.fa-pencil{ 'aria-hidden': 'true' }
+          Articles
+      %li.nav-item
+        %a.nav-link{ href: '/photos' }
+          %i.fa.fa-camera{ 'aria-hidden': 'true' }
+          Photos
