@@ -16,6 +16,7 @@
   "dependencies": {
     "photoswipe": "~4.1.0",
     "animate.css": "~3.4.0",
-    "bootstrap": "git@github.com:twbs/bootstrap.git#v4-dev"
+    "bootstrap": "git@github.com:twbs/bootstrap.git#v4-dev",
+    "components-font-awesome": "^4.6.1"
   }
 }

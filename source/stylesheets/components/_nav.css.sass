@@ -1,57 +1,28 @@
-.nav-wrapper
-  border-top: 5px solid $darker-blue
+/* Navbar */
 
-  .title-area
-    h1
-      a
-        transition: color 0.4s
-        &:hover
-          color: $white
-  .twitter
-    left: -15px
+.navbar
+  background-color: $primary-color
+  border-top: 5px solid $text-color-personal-medium
+  a
+    text-decoration: none
+    transition: all 0.4s
+
+.navbar--twitter
+  color: $navbar-dark-color
+  top: -10px
+  position: relative
+  font-size: 22px
+  span
     position: relative
-    font-size: 22px
-
-    a
-      color: $lighter-blue
-      position: relative
-      &:hover
-        color: $white
-        span
-          visibility: visible
-          opacity: 1
-          left: 0px
-      span
-        position: relative
-        font-size: rem-calc(14)
-        visibility: hidden
-        opacity: 0
-        transition: 0.3s
-        top: -3px
-        left: -8px
-  .links
-    a
-      position: relative
-      transition: color 0.4s, background-color 0.4s
-      &:hover
-        i
-          animation: shimmy 1.6s ease-in-out infinite
-      i
-        padding-right: 3px
-
-
-@media only screen and (max-width: $small-breakpoint)
-  .nav--title
-    padding-left: 0.833333rem !important
-  .top-bar
-    position: relative
-  .nav--link-icon
-    font-size: 1.6em
-  .nav--link-text
-    display: none
-  .nav--link
-    padding: 0 1em !important
-
-@media only screen and (min-width: $small-breakpoint) and (max-width: $medium-breakpoint)
-  .nav--link
-    padding: 0 1em !important
+    font-size: .75rem
+    visibility: hidden
+    opacity: 0
+    transition: 0.3s
+    top: -3px
+    left: -8px
+  &:hover
+    // color: $white
+    span
+      visibility: visible
+      opacity: 1
+      left: 0px

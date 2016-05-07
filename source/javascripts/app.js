@@ -1,4 +1,5 @@
 //= require modernizr/modernizr
+//= require fastclick/lib/fastclick
 //= require jquery/dist/jquery
 //= require photoswipe/dist/photoswipe.js
 //= require photoswipe/dist/photoswipe-ui-default.js
@@ -6,6 +7,7 @@
 
 $(function() {
   $('body').addClass('is-loaded');
+  FastClick.attach(document.body);
 
   if(!window.chrome) {
     $('.troll').hide();
