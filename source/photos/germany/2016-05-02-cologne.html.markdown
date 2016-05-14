@@ -4,8 +4,8 @@ date: 2016-05-02
 collection: germany
 permalink: cologne
 tags: Travel
-poster: /images/galleries/cologne/030_streets/dusseldorf--030_streets-s001-r4.jpg
-header: /images/galleries/cologne/030_streets/dusseldorf--030_streets-s001-r4.jpg
+poster: /images/galleries/germany/cologne/Cologne/resized/dusseldorf--Cologne-s077-r4.jpg
+header: /images/galleries/germany/cologne/Cologne/resized/dusseldorf--Cologne-s077-r4.jpg
 description: Cathedral, Old Town and River
 series: true
 published: false
@@ -15,74 +15,102 @@ parent: travel
 ---
 
 
-Here's a post with some images.
+The core of our Germany trip was 3 nights in [Cologne](https://en.wikipedia.org/wiki/Cologne). If you're wondering what caused us to choose Cologne over the other cities in Germany, it was a combination of proximity to Amsterdam and the season. We knew we didn't want to tour mountains or castles of Bavaria in January where the focus would be natural beauty. Instead, we turned our focus to food, history and beer.
 
+The [Wikitravel article on Cologne](http://wikitravel.org/en/Cologne) has a great overview of the cities highlights -- the [Cologne Cathedral](https://en.wikipedia.org/wiki/Cologne_Cathedral), the old city, Kölsch beer, Cologne (the fragrance), and proximity to the Rhine River valley.
 
-## 030 streets
+## Hotel
+
+After arriving by train, we stayed at a hotel right across from the train station with a view of the cathedral. Marilyn was more than a little happy to see this guy in our room. After dropping off our bags, we started checking out the city!
+
+@gallery germany/cologne/010_hotel
+
+## Streets
+
+Similar to Düsseldorf, there's a string a modern shops (basically a mall) right outside of the old center of the city. Aside from a few stores we tend to hit wherever we go (::cough Superdry) we stuck to the older side of the city.
 
 @gallery germany/cologne/030_streets
 
+## Cologne Cathedral
 
-## 210 cathedral outside
+It's hard to explain how much the Cologne Cathedral dominates the skyline and city structure. There's a running joke (well, more of a truth) that's it's impossible to get a photo that includes the entire cathedral. Unless you're taking the photo from the air, or have a fisheye lens, this appears to be true. That didn't stop us from trying as we explored the outside. We looked around and planned a tour for later.
 
 @gallery germany/cologne/210_cathedral_outside
 
+## Protest
 
-## 020 first day lunch
-
-@gallery germany/cologne/020_first_day_lunch
-
-
-## 050 protest
+The courtyard outside of the cathedral is a huge gathering place during new years. 2 weeks before our visit, there was a [series of sexual assaults](https://en.wikipedia.org/wiki/New_Year%27s_Eve_sexual_assaults_in_Germany) in this area during that time. Seeing the space firsthand, it's massive. Not as large as Time Square, but close. There was a protest against women's harassment which was taking place in response to recent events.
 
 @gallery germany/cologne/050_protest
 
 
-## 070 river
+## Lunch Out
+
+By the time we settled down for lunch we were starving. We usually research every meal, but at this point anything in the old town that looked like it'd been around a few years was seeming like a safe bet. We grabbed our first Kölsch and Pig knuckle and went to town.
+
+On a side note, we asked for some mayonnaise on the side and were pleasantly surprised with the result.
+
+@gallery germany/cologne/020_first_day_lunch
+
+## Rhine River Bridge
+
+Like Düsseldorf, Cologne is right on the Rhine River. The waterfront area is beautiful, right next to the train station, cathedral and a pair of museums. When we arrived by train, we didn't even realize that there were locks on the bridge due to their overwhelming volume that blacked out all light.
 
 @gallery germany/cologne/070_river
 
 
-## 220 cathedral inside
+## Inside the Cathedral
+
+Like most churches, you can just walk right into the Cologne Cathedral -- no entrance fee is required. There are number of online guides available, but for only $5 you can join an official guide (in English!) take a tour twice a day. Just show up at any of the posted times, pay your $5 each in cash, and enjoy a 30 minute tour! Hearing the stories firsthand is great, but also being able to ask questions made this stand out as a very informative tour.
+
+The difference between restored stained glass windows, and the unrestored ones is amazing -- as was the incredible amount of work needed which keeps more than a dozen people employed fulltime.
 
 @gallery germany/cologne/220_cathedral_inside
-
-
-## 230 cathedral climb
-
-@gallery germany/cologne/230_cathedral_climb
-
-
-## 100 currywurst
-
-@gallery germany/cologne/100_currywurst
-
-
-## 110 superdry
-
-@gallery germany/cologne/110_superdry
-
-
-## 120 merzenich
-
-@gallery germany/cologne/120_merzenich
-
-
-## 130 farina
-
-@gallery germany/cologne/130_farina
-
-
-## 150 fruh brewery
-
-@gallery germany/cologne/150_fruh_brewery
-
-
-## Cologne
 
 @gallery germany/cologne/Cologne
 
 
-## 010 hotel
+## Climbing the Cathedral
 
-@gallery germany/cologne/010_hotel
+While it's free to tour the inside, the two tall spires tower the highest of any church in the world -- and can be climbed if you're looking for a challenge. The climb shouldn't be underestimated though. It's a tight single file spiral stone stairway, which had me fearing for Marilyn's life more than once. Coming down was even more scary, since that was on the inside track -- which didn't have a hand railing.
+
+It was well worth it for the amazing views from the top!
+
+@gallery germany/cologne/230_cathedral_climb
+
+
+## Currywurst
+
+One thing we couldn't escape trying was [Currywurst](https://en.wikipedia.org/wiki/Currywurst), a sausage dish with curry ketchup, curry powder and (in our case) some fries. The cheap food stand we got it from surely wasn't the most authentic, but I'm a fan of the flavors. Curry and Sausage -- what's not to love?
+
+@gallery germany/cologne/100_currywurst
+
+
+## Superdry
+
+Superdry is a weird British, Japanese and American store, and the 3 story one in Cologne is the 2nd largest in the world. Our finds here are usually for Marilyn, but it's a fun place to look around for outwear.
+
+@gallery germany/cologne/110_superdry
+
+
+## Merzenich
+
+One thing we don't do enough of when we travel is just stopping to grab a coffee and a bite at a cafe. After walking all day, putting our feet up at a local place for a berliner and a coffee was a welcomed relief.
+
+@gallery germany/cologne/120_merzenich
+
+
+## Farina Cologne Tour
+
+When we were looking for museums and other cultural things to do, we were having trouble finding something that sounded both fun and culturally significant. Through Trip Advisor we found the [Fragrance Museum Tour](https://www.tripadvisor.com/Attraction_Review-g187371-d2587899-Reviews-Fragrance_Museum_Farina_House-Cologne_North_Rhine_Westphalia.html), which also had a tour component.
+
+We settled down upstairs, unsure of what to expect from the tour, when a man wearing 17th century French clothing came out. He would be our tour guide, and not break character for the duration. It was interesting learning about the history of [Farina](https://en.wikipedia.org/wiki/Johann_Maria_Farina_gegen%C3%BCber_dem_J%C3%BClichs-Platz), eu de cologne, [4711](https://en.wikipedia.org/wiki/4711) and the differences between perfume and cologne. The tour was complete with a number of old bottles, books, smells, knock offs and other artifacts from the inception of cologne.
+
+@gallery germany/cologne/130_farina
+
+
+## Fruh Brewery
+
+Our last night in town, we found Fruh Brewery, a cavernous place that served Kolch near the city center. We ended up grabbing what was probably the smallest table in the entire place. We explored later on, only to find room after room filled with boisterous Germans drinking the night away. What we thought was a small restaurant turned out to be a 3 floor mega-restaurant and brewery.
+
+@gallery germany/cologne/150_fruh_brewery
