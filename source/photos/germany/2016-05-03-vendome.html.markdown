@@ -1,11 +1,11 @@
 ---
-title: Vendome
+title: Vendôme
 date: 2016-05-03
 collection: germany
 permalink: vendome
 tags: Travel
 poster: /images/galleries/vendome/010_halls/vendome--010_halls-s001-r4.jpg
-header: /images/galleries/vendome/010_halls/vendome--010_halls-s001-r4.jpg
+header: /images/galleries/germany/vendome/170_saddle_of_hare/resized/vendome--170_saddle_of_hare-s017-r5.jpg
 description: 3 Michelin Star Dinner and Wine
 series: true
 published: false
@@ -14,24 +14,27 @@ stats:
 parent: travel
 ---
 
+Before we scheduled our dates or flight to Germany we reserved our dinner at Vendôme. We'd never been to a 3 Michelin Star restaurant before, so we weren't sure what to expect. We'd read that it was the highest rated restaurant in Germany -- the [30th best in the world](http://www.theworlds50best.com/list/1-50-winners/Vendome). We'd read that for the price it was one of the best values for the money, one of of only 20 restaurants with a perfect rating by a [a guy who went to every 3 Michelin Start Restaurant](http://www.andyhayler.com/restaurant/vendome). Still though, who knows what we'd think of it.
 
-Here's a post with some images.
+We dressed up in our finest and called a cab over to the [Althoff Grandhotel Schloss Bensberg](http://www.schlossbensberg.com/en), a beautiful baroque style castle on the outskirts of Cologne. It's such a picturesque place, that if I hadn't already asked Marilyn to marry me, this type of fairy tale castle would've been right on cue.
+
+We got into our cab at our hotel and began describing our destination. When the driver fully realized where we were going he fully turned around and looked us up and down. That was our first clue as to how special this place was.
 
 
-## 010 halls
+## Althoff Grandhotel Schloss Bensberg
+
+We arrived after sunset and began exploring the relatively empty halls. This being Germany in January, most hotels are nowhere near capacity, and we had the place mostly to ourselves. We found the elevator to the restaurant and headed up. Immediately upon arriving on the floor, we were greeted by someone who already could guess our names. This level of service was welcomed and put me at ease in an otherwise unfamiliar setting.
 
 @gallery germany/vendome/010_halls
+
+## Menu
+
+@gallery germany/vendome/020_menu
 
 
 ## 100 toffee
 
 @gallery germany/vendome/100_toffee
-
-
-## 020 menu
-
-@gallery germany/vendome/020_menu
-
 
 ## 110 bread
 
@@ -86,6 +89,7 @@ Here's a post with some images.
 ## 210 sweet fusion
 
 @gallery germany/vendome/210_sweet_fusion
+
 
 
 ## 220 desserts2
