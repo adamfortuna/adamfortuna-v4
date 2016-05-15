@@ -10,7 +10,7 @@ description: 4 Nights in Germany
 series: true
 published: false
 stats:
-  photos: 25
+  photos: 171
 children:
   - dusseldorf
   - cologne

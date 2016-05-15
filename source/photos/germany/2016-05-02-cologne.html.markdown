@@ -10,7 +10,7 @@ description: Cathedral, Old Town and River
 series: true
 published: false
 stats:
-  photos: 25
+  photos: 84
 parent: travel
 ---
 

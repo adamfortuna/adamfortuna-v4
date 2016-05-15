@@ -4,39 +4,56 @@ date: 2016-05-02
 collection: germany
 permalink: rhine
 tags: Travel
-poster: /images/galleries/rhine/010_train_ride/rhine--010_train_ride-s001-r4.jpg
-header: /images/galleries/rhine/010_train_ride/rhine--010_train_ride-s001-r4.jpg
+poster: /images/galleries/germany/rhine/010_train_ride/processed/rhine--010_train_ride-s012-r4-col-12.jpg
+header: /images/galleries/germany/rhine/010_train_ride/resized/rhine--010_train_ride-s012-r4.jpg
 description: Tour down the Rhine River to Mainz
 series: true
 published: false
 stats:
-  photos: 25
+  photos: 29
 parent: travel
 ---
 
-Here's a post with some images.
+When looking over the [UNESCO World Heritage Sites](http://whc.unesco.org/en/list) near Cologne, the entire [Upper Middle Rhine Valley](http://whc.unesco.org/en/list/1066) stood out an amazing day trip. We did a little research and found the best way to see the area is by jumping on a local train on the east bank of the Rhine. This took quite a bit of research to find the right one, since a number of other trains go a very similar route -- and but are less scenic and much faster.
 
 
-## 010 train ride
+## Rhine Train Ride
+
+The ride left from the Cologne Train Station near our hotel, and followed the river closely heading south. This area of the Rhine is famous for its castles and winding turns. Some of the most amazing visuals for me were when the river was changing course in the distance, letting us get a full view of the upcoming city, castles and the hillside.
+
+Doing this trip in January is probably much less scenic than attempting it in spring -- which we expected. This same area would have been vibrant with riesling vineyards covering the landscape.
 
 @gallery germany/rhine/010_train_ride
 
 
-## 020 mainz cathedral
+## Mainz Cathedral
+
+When we were planning our trip, we randomly selected a town which we would go to, look around in, then head back. We ended up choosing Mainz, since it was the last minor city before Frankfurt, and we wanted to visit somewhere on the small side.
+
+Mainz isn't a small city by any measure. It actually has about the same population as Orlando (but Orlando has bordering cities which increase the overall population). We picked up a few tips on places to check out and started walking.
 
 @gallery germany/rhine/020_mainz_cathedral
 
+## Mainz Streets
 
-## 030 mainz streets
+Mainz is an extremely walkable city. Roads head in a fan of directions from the train station, making it less than a mile walk to most of the top recommended sites.
 
 @gallery germany/rhine/030_mainz_streets
 
 
-## 040 gutenberg museum
+## Gutenberg Museum
+
+When we learned that Mainz was the home of Gutenberg, the creator of the printing press, and that there was a museum dedicated to the innocation of movably type, we were more than a little excited. It's effectively a history of typography museum! The museum itself was more impressive than I imagined -- spanning 3 floors, and the rise of movable type across the globe. I'd never know about the similar advancements in China and Korea.
+
+The end of the museum ended with a demonstration of how movable type was created, using liquid tin and a mold. The separate parts were then used in a press with different color ink to create a multi-color page from a book.
 
 @gallery germany/rhine/040_gutenberg_museum
 
 
-## 050 billys burger
+## Billys Burger
+
+After a day of wandering, we were starving. The highest rated place in the area happened to be a burger place in a median. Why go against Yelp?
 
 @gallery germany/rhine/050_billys_burger
+
+After we jumped on an express train back to Cologne and were home before we knew it.
