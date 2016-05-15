@@ -3,6 +3,26 @@ article
     text-decoration: underline
     transition: color .3s
 
+  .wrap
+    a
+      text-decoration: none
+
+      text-shadow: 0 0 #333, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff
+
+      /*  gradient background allows us to use css only & re-position it  */
+      background: -webkit-linear-gradient(#999, #999) center 1.09em no-repeat
+      background: linear-gradient(#999, #999) center 1.09em no-repeat
+
+      /*  can precisely control size in relation to the text  */
+      background-size: 85% 1px
+
+      /*  now the underline supports transitions  */
+      -webkit-transition: .2s ease
+      transition: .2s ease
+
+      &:hover
+        background-size: 102% 1px
+
   // Green links for technical articles
   .article--technical &
     a
