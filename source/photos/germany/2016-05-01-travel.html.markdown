@@ -4,7 +4,7 @@ date: 2016-05-01
 collection: germany
 permalink: travel
 tags: Travel
-poster: /images/galleries/germany/rhine/010_train_ride/processed/rhine--010_train_ride-s027-r4-col-12.jpg
+poster: /images/galleries/germany/cologne/150_fruh_brewery/processed/dusseldorf--150_fruh_brewery-s070-r4-col-12.jpg
 header: /images/galleries/germany/cologne/150_fruh_brewery/processed/dusseldorf--150_fruh_brewery-s070-r4-col-12.jpg
 description: 4 Nights in Germany
 series: true

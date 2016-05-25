@@ -14,9 +14,9 @@ stats:
 parent: travel
 ---
 
-Before we scheduled our dates or flight to Germany we reserved our dinner at Vendôme. We'd never been to a 3 Michelin Star restaurant before, so we weren't sure what to expect. We'd read that it was the highest rated restaurant in Germany -- the [30th best in the world](http://www.theworlds50best.com/list/1-50-winners/Vendome). We'd read that for the price it was one of the best values for the money, one of of only 20 restaurants with a perfect rating by a [a guy who went to every 3 Michelin Start Restaurant](http://www.andyhayler.com/restaurant/vendome). Still though, who knows what we'd think of it.
+Before we scheduled our dates or flight to Germany we reserved our dinner at Vendôme. We'd never been to a 3 Michelin Star restaurant before, so we weren't sure what to expect. We'd read that it was the highest rated restaurant in Germany -- the [30th best in the world](http://www.theworlds50best.com/list/1-50-winners/Vendome). We'd read that for the price it was one of the best values for the money, one of of only 20 restaurants with a perfect rating by a [a guy who went to every 3 Michelin Start Restaurant](http://www.andyhayler.com/restaurant/vendome). Still though, who knows what we'd think of it, right?
 
-We dressed up in our finest and called a cab over to the [Althoff Grandhotel Schloss Bensberg](http://www.schlossbensberg.com/en), a beautiful baroque style castle on the outskirts of Cologne. It's such a picturesque place, that if I hadn't already asked Marilyn to marry me, this type of fairy tale castle would've been right on cue.
+We dressed up in our finest and called a cab over to the [Althoff Grandhotel Schloss Bensberg](http://www.schlossbensberg.com/en), a beautiful baroque style castle on the outskirts of Cologne. It's such a picturesque place, that if I hadn't already asked Marilyn to marry me, this type of fairy tale castle would've been designed for it.
 
 We got into our cab at our hotel and began describing our destination. When the driver fully realized where we were going he fully turned around and looked us up and down. That was our first clue as to how special this place was.
 
@@ -29,74 +29,108 @@ We arrived after sunset and began exploring the relatively empty halls. This bei
 
 ## Menu
 
+The menu consists of only few choices up front. How many courses do you want -- 5, 8 or 10? Well, obviously we both went with 10. Secondly, do we want wine pairings or buying drinks separately. We don't always get wine pairings, but it's hard to refuse an amazing selection of German wines mostly produced within a few hours of the restaurant.
+
 @gallery germany/vendome/020_menu
 
 
-## 100 toffee
+## Foie Gras Toffee
+
+Toffee as an opening course? Well, if it's foie gras, hazelnut toffee then of course. Then these melted in our mouths, we started to realize the sweet and savory meal we would be in for.
 
 @gallery germany/vendome/100_toffee
 
-## 110 bread
+## Truffle Bread
+
+Similar to our meal at [Olo](/photos/finland/meals), our bread was brought out prior to being cooked in order to rise at our table. It would eventually come out later in the meal, teasing us until then.
 
 @gallery germany/vendome/110_bread
 
 
-## 120 white liason
+## White Liason
+
+Possibly the most memorable dish of the entire evening was the "White Liason" starter. What looks like a forest, is actually a plate with a glass top and a layer of moss underneath -- with the presentation set to match. Exploring this dish was like walking through a forest sampling whatever we encountered. There were sweet berries, savory mushrooms not to mention earthy and salty sauces. The egg in the middle added a nice coating to the dish.
 
 @gallery germany/vendome/120_white_liason
 
 
-## 130 tuna
+## Grilled Tuna Belly, Lemongrass Mint Vinaigrette
+
+Tuna 3 ways with an amazing minty wasabi sauce. Unlike a Japanese dish, the darker sauce added a savory layer to a dish that could otherwise have been light.
 
 @gallery germany/vendome/130_tuna
 
 
-## 140 lechtal char
+## Lechtal Char
+
+The fish course included a healthy heaping of lechtal char with an artichoke butter and a horseradish emulsion. The red cabbage added an earthy and sweet flavor to cut the fat content of the rest of the dish.
 
 @gallery germany/vendome/140_lechtal_char
 
 
-## 150 coquilles
+## Coquilles Saint Jacques & Cauliflower
+
+When I saw this on the menu, I was imagining something more like an oyster. A [Cockle](https://en.wikipedia.org/wiki/Cockle_(bivalve)) is quite a bit different from a [Coquille](http://www.dictionary.com/browse/coquilles) -- with the later being more similar to a scallop. This seared Coquille was in a potato and cinnamon broth with cauliflower and caviar. The broth stood out for its smoothness, while the cauliflower broke apart at the lightest touch.
 
 @gallery germany/vendome/150_coquilles
 
 
-## 160 langostines
+## Langoustines & Sea Urchin
+
+Langoustines may look like shrimp, but they are actually a small lobster generally from the north Atlantic. These were soft, but still had a crispness to them. The chestnut couscous with cucumber-shiso cress infusion matched the softness. Like most dishes, this was laid out with the waiters pouring in the sauce in unison. I can't say I remember a strong taste of sea urchin in this dish. I imagine it was in the sauce moreso than anything else.
 
 @gallery germany/vendome/160_langostines
 
 
-## 170 saddle of hare
+## Saddle of Hare
+
+One of the most interesting additions during the dinner was a small flask of hare essence to add to hare dish. The sauce was delicious, but rich to the point where anymore than a small touch of it would overwhelm the plate. Imagine the richness of a sauce made with Foie Gras, and warmed up and you might have a picture of what to expect.
+
+The dish itself was an amazing way to try hare. Rather than a single method of preparation, or even a single sauce, this dish had hare 4 ways with 4 separate sauces. Each could have been its own dish, but allowing exploration between them we were able to enjoy each one much more.
 
 @gallery germany/vendome/170_saddle_of_hare
 
 
-## 180 duck
+## Challans Duck & Chinese Cabbage a L'Orange
+
+A delicious, savory duck. After the rich hare dish, we weren't expecting to enjoy another rich course, but luckily this was toned down in richness from the previous dish. The citrus as well as the parsley moss and ginger were a welcomed relief. The peanut was a bit of a mystery -- how would it fit in with the rest of the dish? It turns out the sweetness of peanut matches extremely well with the duck. Even Marilyn, a peanut hater, was enjoying this pairing.
 
 @gallery germany/vendome/180_duck
 
 
-## 190 fondue
+## Fondue and Truffle Focaccia
+
+The bread we saw at the beginning was finally cooked and ready for us to enjoy!
 
 @gallery germany/vendome/190_fondue
 
+The wine pairings were worth every penny. The choices were complex and interesting flavors that I was not familiar with, but thoroughly enjoyed! I realized after that we left that I didn't get a copy of the wine list. Since most of the wines were very closeby, they shouldn't be too difficult to find. Some ranged to Spain if I remember right.
 
-## 200 pumpkin curry
+
+## Hokkaido Pumpkin & Curry
+
+When I saw the menu, this was the dish I was most interested in. In Orlando, one of my favorite dishes at Thai restaurants is pumpkin curry and I imagined this to be an amazing interpretation. It wasn't until it came out did I realize it was going to be a dessert! The jasmine rice wasn't in it's typical form -- but as ice cream. The curry was a much more subdued flavor while the rice was the big winner in the dish.
 
 @gallery germany/vendome/200_pumpkin_curry
 
 
-## 210 sweet fusion
+## Sweet Fusion
+
+Two delicious desserts came out at once -- a warm umeboshi bun with jasmin and apple sauce as well as a sancho pepper and lime ice cream. Being a huge proponents of spicy lime cocktails, the ice cream was delicious. I could have enjoyed even more pepper flavor to it, but perhaps it was only subdued after the series of rich courses we had enjoyed.
 
 @gallery germany/vendome/210_sweet_fusion
 
+## Desserts
 
-
-## 220 desserts2
+After 2 dessert courses we expected things to level out. We weren't expecting 6 more treats to come out! A strawberry liquorice macaroon, a champagne ice cream bar, lychee popcorn, 2 more chocolates that we selected from an entire library of flavors. The final, and fitting end was a pink marshmallow shaped like a pig snout with the quippy description "enough already".
 
 @gallery germany/vendome/220_desserts2
 
 
-## 230 done
+## Tea
+
+After this meal we were done. The amount of food was serious business, leaving us completely full and even having trouble finishing. We didn't realize at the time, but this is one of the largest portions of any 3 Michelin start restaurant in the world. Having enjoyed every bite, I wouldn't change a thing.
 
 @gallery germany/vendome/230_done
+
+We arranged for a taxi back to our hotel and promptly entered a food comma along the way back.

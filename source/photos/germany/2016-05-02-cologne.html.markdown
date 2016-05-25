@@ -6,7 +6,7 @@ permalink: cologne
 tags: Travel
 poster: /images/galleries/germany/cologne/Cologne/resized/dusseldorf--Cologne-s077-r4.jpg
 header: /images/galleries/germany/cologne/Cologne/resized/dusseldorf--Cologne-s077-r4.jpg
-description: Cathedral, Old Town and River
+description: Cathedral, Old Town and the Rhine
 series: true
 published: false
 stats:

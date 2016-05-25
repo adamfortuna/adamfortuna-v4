@@ -7,6 +7,10 @@
   - :file: vendome--190_fondue-s022-r3.jpg
     :version: col-6
     :color: "#A28172"
+    :options:
+      height: 900
   - :file: vendome--190_fondue-s021-r3.jpg
     :version: col-6
     :color: "#AC9078"
+    :options:
+      height: 900
