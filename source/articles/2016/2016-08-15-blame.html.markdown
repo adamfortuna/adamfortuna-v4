@@ -1,0 +1,8 @@
+---
+title: Blame
+date: 2016-08-15
+tags: Personal
+description: (Minafi blog) How do you handle blame?
+url: http://minafi.com/articles/blame
+external: true
+---
