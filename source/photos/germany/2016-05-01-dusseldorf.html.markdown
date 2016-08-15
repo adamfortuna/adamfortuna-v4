@@ -8,7 +8,7 @@ poster: /images/galleries/germany/dusseldorf/020_slussel_lunch/resized/dusseldor
 header: /images/galleries/germany/dusseldorf/020_slussel_lunch/resized/dusseldorf--020_slussel_lunch-s005-r4.jpg
 description: A quick tour of Oldtown
 series: true
-published: false
+published: true
 stats:
   photos: 25
 parent: travel

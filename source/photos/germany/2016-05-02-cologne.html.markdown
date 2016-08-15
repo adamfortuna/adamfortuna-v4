@@ -8,7 +8,7 @@ poster: /images/galleries/germany/cologne/Cologne/resized/dusseldorf--Cologne-s0
 header: /images/galleries/germany/cologne/Cologne/resized/dusseldorf--Cologne-s077-r4.jpg
 description: Cathedral, Old Town and the Rhine
 series: true
-published: false
+published: true
 stats:
   photos: 84
 parent: travel

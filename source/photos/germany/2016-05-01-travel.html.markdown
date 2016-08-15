@@ -8,7 +8,7 @@ poster: /images/galleries/germany/cologne/150_fruh_brewery/processed/dusseldorf-
 header: /images/galleries/germany/cologne/150_fruh_brewery/processed/dusseldorf--150_fruh_brewery-s070-r4-col-12.jpg
 description: 4 Nights in Germany
 series: true
-published: false
+published: true
 stats:
   photos: 171
 children:

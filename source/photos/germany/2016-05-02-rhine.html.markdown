@@ -8,7 +8,7 @@ poster: /images/galleries/germany/rhine/010_train_ride/processed/rhine--010_trai
 header: /images/galleries/germany/rhine/010_train_ride/resized/rhine--010_train_ride-s012-r4.jpg
 description: Tour down the Rhine River to Mainz
 series: true
-published: false
+published: true
 stats:
   photos: 29
 parent: travel

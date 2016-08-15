@@ -4,11 +4,11 @@ date: 2016-05-03
 collection: germany
 permalink: vendome
 tags: Travel
-poster: /images/galleries/vendome/010_halls/vendome--010_halls-s001-r4.jpg
+poster: /images/galleries/germany/vendome/170_saddle_of_hare/resized/vendome--170_saddle_of_hare-s017-r5.jpg
 header: /images/galleries/germany/vendome/170_saddle_of_hare/resized/vendome--170_saddle_of_hare-s017-r5.jpg
 description: 3 Michelin Star Dinner and Wine
 series: true
-published: false
+published: true
 stats:
   photos: 33
 parent: travel
@@ -36,7 +36,7 @@ The menu consists of only few choices up front. How many courses do you want -- 
 
 ## Foie Gras Toffee
 
-Toffee as an opening course? Well, if it's foie gras, hazelnut toffee then of course. Then these melted in our mouths, we started to realize the sweet and savory meal we would be in for.
+Toffee as an opening course? Well, if it's foie gras, hazelnut toffee then of course. When these melted in our mouths, we started to realize the sweet and savory meal we would be in for.
 
 @gallery germany/vendome/100_toffee
 
@@ -86,7 +86,7 @@ Langoustines may look like shrimp, but they are actually a small lobster general
 
 One of the most interesting additions during the dinner was a small flask of hare essence to add to hare dish. The sauce was delicious, but rich to the point where anymore than a small touch of it would overwhelm the plate. Imagine the richness of a sauce made with Foie Gras, and warmed up and you might have a picture of what to expect.
 
-The dish itself was an amazing way to try hare. Rather than a single method of preparation, or even a single sauce, this dish had hare 4 ways with 4 separate sauces. Each could have been its own dish, but allowing exploration between them we were able to enjoy each one much more.
+The dish itself was an amazing way to try hare. Rather than a single method of preparation, or even a single sauce, this dish had hare 4 ways with 4 separate sauces. Each could have been its own dish, but allowing exploration between them meant we were able to enjoy each one much more.
 
 @gallery germany/vendome/170_saddle_of_hare
 
