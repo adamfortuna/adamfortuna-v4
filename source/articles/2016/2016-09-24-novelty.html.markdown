@@ -1,0 +1,8 @@
+---
+title: Novelty
+date: 2016-09-24
+tags: Personal
+description: (Minafi) What you can do to reset and be more mindful of your own happiness.
+url: http://minafi.com/articles/novelty
+external: true
+---
