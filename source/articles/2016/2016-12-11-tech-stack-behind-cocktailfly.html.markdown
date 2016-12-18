@@ -1,6 +1,6 @@
 ---
 title: Tech Stack Behind CocktailFly
-date: 2016-12-12
+date: 2016-12-11
 tags: Technical
 description: Why I used Rails 5, Bootstrap 4, jQuery and dependable favorites to create something new.
 permalink: tech-stack-behind-cocktailfly
